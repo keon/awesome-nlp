@@ -123,4 +123,7 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 
 
 ## Credits
-part of the lists are from [ai-reading-list](https://github.com/m0nologuer/AI-reading-list) and [nlp-reading-group](https://github.com/clulab/nlp-reading-group/wiki/Fall-2015-Reading-Schedule/_edit)
+part of the lists are from 
+* [ai-reading-list](https://github.com/m0nologuer/AI-reading-list) 
+* [nlp-reading-group](https://github.com/clulab/nlp-reading-group/wiki/Fall-2015-Reading-Schedule/_edit)
+* [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp)
