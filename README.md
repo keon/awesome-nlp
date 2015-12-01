@@ -100,6 +100,7 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 ## Blogs
 * Blog Post on [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 * Blog Post on [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
+* [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
 
 ## Multilingual
 
