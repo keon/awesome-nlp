@@ -20,7 +20,8 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
    - [Speech Recognition](#natural-langauge)
    - [Supplementary Materials](#supplementary-materials)
  - [Blogs](#blogs)
- - [Online Demos](#online-demos)
+ - [Multilingual](#multillingual)
+   - [Spanish](#spanish)
  - [Credits](#credits)
 
 
@@ -50,7 +51,6 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 * **C++** - C++ Libraries
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
-  * 
   
 ## Articles
 
@@ -95,6 +95,30 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 ## Blogs
 * Blog Post on [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 * Blog Post on [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
+
+## Multilingual
+
+### Spanish
+
+
+#### POS TAGGERS
+- [TreeTagger - POSTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/)
+- [Stanford - POSTagger](http://nlp.stanford.edu/software/tagger.shtml)
+- [Freeling](http://nlp.lsi.upc.edu/freeling/)
+- [ixa-pipe-pos](https://github.com/ixa-ehu/ixa-pipe-pos)
+- [Ruby Snowball Implementation](https://github.com/MaG21/estem)
+- [Spaguetti POSTagger(Based on NLTK +  CESS corpus](https://code.google.com/p/spaghetti-tagger/)
+
+#### NER
+- [OpenNLP - Person/Place/Organization models](http://opennlp.sourceforge.net/models-1.5/)
+- [DBPedia Spotlight](https://github.com/dbpedia-spotlight/dbpedia-spotlight/)
+- [CitiusTagger - Spanish NER and  POSTagger](http://gramatica.usc.es/pln/tools/CitiusTools.html)
+
+#### ETC
+- [Word2Vec vectors for Wikipedia Spanish Articles](https://github.com/idio/wiki2vec)
+- [DBpedia Spanish Entities Titles](http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/es/labels_es.nt.bz2)
+- [DBpedia Spanish Abstracts](http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/es/short_abstracts_es.nt.bz2)
+- [Conshuga - Galician Verb conjugator](http://gramatica.usc.es/pln/tools/conjugador/download.html)
 
 
 ## Credits
