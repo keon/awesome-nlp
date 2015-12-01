@@ -6,27 +6,39 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 
 ## Table of Contents
 
+ - [Tutorials and Courses](#tutorials-and-courses)
  - [Codes](#codes)
- - [Libraries](#libraries)
-   - [Node.js](#node.js)
-   - [Java](#java)
-   - [Python](#python)
-   - [C++](#c++)
+   - [Implemendations](#implementations)
+   - [Online Demo](#online-demo)
+   - [Libraries](#libraries)
+     - [Node.js](#node.js)
+     - [Java](#java)
+     - [Python](#python)
+     - [C++](#c++)
  - [Articles](#articles)
    - [Word Vectors](#word-vectors)
    - [Speech Recognition](#natural-langauge)
    - [Supplementary Materials](#supplementary-materials)
- - [Tutorials](#tutorials)
  - [Blogs](#blogs)
  - [Online Demos](#online-demos)
  - [Credits](#credits)
 
+
+## Tutorials and Courses
+* [Stanford's Coursera Course](https://www.coursera.org/course/nlp) on NLP from basics
+* [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
+* [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
+
 ## Codes
 
-## Libraries
-* [Node.js](http://deeplearning.net/software/theano/) - Node.js Libaries for NLP
-  * [natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
+### Implementations
 
+### Online Demo
+
+### Libraries
+* **Node.js** - Node.js Libaries for NLP
+  * [natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
+* **Python** - Python NLP Libraries
 
 ## Articles
 ### Word Vectors
@@ -67,6 +79,9 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 * [Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations](https://homes.cs.washington.edu/~clzhang/paper/acl2011.pdf)
 
 
+## Blogs
+* Blog Post on [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+* Blog Post on [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
 
 
 ## Credits
