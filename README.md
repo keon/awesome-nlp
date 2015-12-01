@@ -27,6 +27,8 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 
 ## Tutorials and Courses
 
+* Tensor Flow Tutorial on [Seq2Seq](http://www.tensorflow.org/tutorials/seq2seq/index.html) Models
+
 ### videos
 * [Stanford's Coursera Course](https://www.coursera.org/course/nlp) on NLP from basics
 * [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
