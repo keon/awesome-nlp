@@ -7,6 +7,7 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 ## Table of Contents
 
  - [Tutorials and Courses](#tutorials-and-courses)
+   - [videos](#videos)
  - [Codes](#codes)
    - [Implemendations](#implementations)
    - [Online Demo](#online-demo)
@@ -25,6 +26,8 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 
 
 ## Tutorials and Courses
+
+### videos
 * [Stanford's Coursera Course](https://www.coursera.org/course/nlp) on NLP from basics
 * [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
 * [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
@@ -32,14 +35,22 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 ## Codes
 
 ### Implementations
-
-### Online Demo
+* [Pre-trained word embeddings for WSJ corpus](https://github.com/ai-ku/wvec) by Koc AI-Lab
+* [Word2vec](https://code.google.com/p/word2vec/) by Mikolov
+* [HLBL language model](http://metaoptimize.com/projects/wordreprs/) by Turian
+* [Real-valued vector "embeddings"](http://www.cis.upenn.edu/~ungar/eigenwords/) by Dhillon
+* [Improving Word Representations Via Global Context And Multiple Word Prototypes](http://www.socher.org/index.php/Main/ImprovingWordRepresentationsViaGlobalContextAndMultipleWordPrototypes) by Huang
+* [Dependency based word embeddings](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/)
+* [Global Vectors for Word Representations](http://nlp.stanford.edu/projects/glove/)
 
 ### Libraries
 * **Node.js** - Node.js Libaries for NLP
-  * [natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
+  * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 * **Python** - Python NLP Libraries
-
+  * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
+* **C++** - C++ Libraries
+  * [Mecab (Japanese)](http://taku910.github.io/mecab/)
+  * [Mecab (Korean)](http://eunjeon.blogspot.com/)
 ## Articles
 ### Word Vectors
 * [word2vec](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) - on creating vectors to represent language, useful for RNN inputs
