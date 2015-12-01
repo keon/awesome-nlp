@@ -17,7 +17,7 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
      - [C++](#c++)
  - [Articles](#articles)
    - [Word Vectors](#word-vectors)
-   - [Speech Recognition](#natural-langauge)
+   - [General Natural Language Processing](#general-natural-langauge-processing)
    - [Supplementary Materials](#supplementary-materials)
  - [Blogs](#blogs)
  - [Multilingual](#multillingual)
@@ -64,7 +64,7 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 * [Skip Thought Vectors](http://arxiv.org/abs/1506.06726) - word representation method
 * [Adaptive skip-gram](http://arxiv.org/abs/1502.07257) - similar approach, with adaptive properties
 
-### General Natural Language
+### General Natural Language Processing
 * [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LTSM representation
 * [LTSM over tree structures](http://arxiv.org/abs/1503.04881)
 * [Sequence to Sequence Learning](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - word vectors for machine translation
@@ -104,24 +104,22 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 ### Spanish
 
 
-#### POS TAGGERS
-- [TreeTagger - POSTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/)
-- [Stanford - POSTagger](http://nlp.stanford.edu/software/tagger.shtml)
-- [Freeling](http://nlp.lsi.upc.edu/freeling/)
-- [ixa-pipe-pos](https://github.com/ixa-ehu/ixa-pipe-pos)
-- [Ruby Snowball Implementation](https://github.com/MaG21/estem)
-- [Spaguetti POSTagger(Based on NLTK +  CESS corpus](https://code.google.com/p/spaghetti-tagger/)
-
-#### NER
-- [OpenNLP - Person/Place/Organization models](http://opennlp.sourceforge.net/models-1.5/)
-- [DBPedia Spotlight](https://github.com/dbpedia-spotlight/dbpedia-spotlight/)
-- [CitiusTagger - Spanish NER and  POSTagger](http://gramatica.usc.es/pln/tools/CitiusTools.html)
-
-#### ETC
-- [Word2Vec vectors for Wikipedia Spanish Articles](https://github.com/idio/wiki2vec)
-- [DBpedia Spanish Entities Titles](http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/es/labels_es.nt.bz2)
-- [DBpedia Spanish Abstracts](http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/es/short_abstracts_es.nt.bz2)
-- [Conshuga - Galician Verb conjugator](http://gramatica.usc.es/pln/tools/conjugador/download.html)
+- POS TAGGERS
+   - [TreeTagger - POSTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/)
+   - [Stanford - POSTagger](http://nlp.stanford.edu/software/tagger.shtml)
+   - [Freeling](http://nlp.lsi.upc.edu/freeling/)
+   - [ixa-pipe-pos](https://github.com/ixa-ehu/ixa-pipe-pos)
+   - [Ruby Snowball Implementation](https://github.com/MaG21/estem)
+   - [Spaguetti POSTagger(Based on NLTK +  CESS corpus](https://code.google.com/p/spaghetti-tagger/)
+- NER
+   - [OpenNLP - Person/Place/Organization models](http://opennlp.sourceforge.net/models-1.5/)
+   - [DBPedia Spotlight](https://github.com/dbpedia-spotlight/dbpedia-spotlight/)
+   - [CitiusTagger - Spanish NER and  POSTagger](http://gramatica.usc.es/pln/tools/CitiusTools.html)
+- ETC
+   - [Word2Vec vectors for Wikipedia Spanish Articles](https://github.com/idio/wiki2vec)
+   - [DBpedia Spanish Entities Titles](http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/es/labels_es.nt.bz2)
+   - [DBpedia Spanish Abstracts](http://data.dws.informatik.uni-mannheim.de/dbpedia/2014/es/short_abstracts_es.nt.bz2)
+   - [Conshuga - Galician Verb conjugator](http://gramatica.usc.es/pln/tools/conjugador/download.html)
 
 
 ## Credits
