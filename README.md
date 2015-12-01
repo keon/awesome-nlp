@@ -4,6 +4,10 @@ A curated list of resources dedicated to Natural Language Processing
 
 Maintainers - [Keon Kim](http://github.com/keonkim)
 
+## Contributing
+Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), email Keon Kim (keon.kim@nyu.edu) to add links.
+
+
 ## Table of Contents
 
  - [Tutorials and Courses](#tutorials-and-courses)
