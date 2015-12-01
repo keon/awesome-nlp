@@ -51,6 +51,9 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 * **C++** - C++ Libraries
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
+* **Java** - Java NLP Libraries
+  * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
+  * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
   
 ## Articles
 
