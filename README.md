@@ -50,7 +50,10 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 * **C++** - C++ Libraries
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
+  * 
+  
 ## Articles
+
 ### Word Vectors
 * [word2vec](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) - on creating vectors to represent language, useful for RNN inputs
 * [sense2vec](http://arxiv.org/abs/1511.06388) - on word sense disambiguation
