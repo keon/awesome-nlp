@@ -21,8 +21,12 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
      - [Java](#user-content-java)
      - [Clojure](#user-content-clojure)
  - [Articles](#articles)
+   - [Review Articles](#review-articles)
    - [Word Vectors](#word-vectors)
    - [General Natural Language Processing](#general-natural-langauge-processing)
+   - [Named Entity Recognition](#name-entity-recognition)
+   - [Machine Translation](#machine-translation)
+   - [Neural Network](#neural-network)
    - [Supplementary Materials](#supplementary-materials)
  - [Blogs](#blogs)
  - [Multilingual](#multilingual)
@@ -55,10 +59,8 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
 * <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a>
   * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
-  * [NLP.js](https://github.com/nicktesla/nlpjs) - NLP utilities in javascript and coffeescript
   * [Knwl.js](https://github.com/loadfive/Knwl.js) - A Natural Language Processor in JS
   * [Retext](https://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
-  * [TextProcessing](https://www.mashape.com/japerk/text-processing/support) - Sentiment analysis, stemming and lemmatization, part-of-speech tagging and chunking, phrase extraction and named entity recognition.
   * [NLP Compromise](https://github.com/spencermountain/nlp_compromise) - Natural Language processing in the browser
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
