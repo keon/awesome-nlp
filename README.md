@@ -15,16 +15,17 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
  - [Codes](#codes)
    - [Implemendations](#implementations)
    - [Libraries](#libraries)
-     - [Node.js](#node.js)
-     - [Java](#java)
-     - [Python](#python)
-     - [C++](#c++)
+     - [Node.js](#user-content-node-js)
+     - [Python](#user-content-python)
+     - [C++](#user-content-c++)
+     - [Java](#user-content-java)
+     - [Clojure](#user-content-clojure)
  - [Articles](#articles)
    - [Word Vectors](#word-vectors)
    - [General Natural Language Processing](#general-natural-langauge-processing)
    - [Supplementary Materials](#supplementary-materials)
  - [Blogs](#blogs)
- - [Multilingual](#multillingual)
+ - [Multilingual](#multilingual)
    - [Spanish](#spanish)
  - [Credits](#credits)
 
@@ -52,7 +53,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 ### Libraries
 * [TwitIE: An Open-Source Information Extraction Pipeline for Microblog Text](http://www.anthology.aclweb.org/R/R13/R13-1011.pdf)
 
-* **Node.js and Javascript** - Node.js Libaries for NLP
+* <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a>
   * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
   * [NLP.js](https://github.com/nicktesla/nlpjs) - NLP utilities in javascript and coffeescript
   * [Knwl.js](https://github.com/loadfive/Knwl.js) - A Natural Language Processor in JS
@@ -61,7 +62,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
   * [NLP Compromise](https://github.com/spencermountain/nlp_compromise) - Natural Language processing in the browser
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
-* **Python** - Python NLP Libraries
+* <a id="python">**Python** - Python NLP Libraries</a>
   * [Scikit-learn: Machine learning in Python](http://arxiv.org/pdf/1201.0490.pdf)
   * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
   * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
@@ -84,7 +85,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
   * [spaCy](https://github.com/honnibal/spaCy/) - Industrial strength NLP with Python and Cython.
   * [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
 
-* **C++** - C++ Libraries
+* <a id="c++">**C++** - C++ Libraries</a>
   * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
   * [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) for segmenting/labeling sequential data & other Natural Language Processing tasks.
   * [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs) for labeling sequential data.
@@ -97,11 +98,11 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
 
-* **Java** - Java NLP Libraries
+* <a id="java">**Java** - Java NLP Libraries</a>
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
   
-* **Closure**
+* <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
   * [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
 
