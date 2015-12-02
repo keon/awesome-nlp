@@ -16,9 +16,10 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
    - [Implemendations](#implementations)
    - [Libraries](#libraries)
      - [Node.js](#user-content-node-js)
-     - [Java](#user-content-java)
      - [Python](#user-content-python)
      - [C++](#user-content-c++)
+     - [Java](#user-content-java)
+     - [Clojure](#user-content-clojure)
  - [Articles](#articles)
    - [Word Vectors](#word-vectors)
    - [General Natural Language Processing](#general-natural-langauge-processing)
@@ -101,7 +102,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
   
-* <a id="clojure">**Closure**</a>
+* <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
   * [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
 
