@@ -102,7 +102,11 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
 * <a id="java">**Java** - Java NLP Libraries</a>
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
+  * [OpenNLP](http://opennlp.apache.org/)
+  * [ClearNLP](https://github.com/clir/clearnlp)
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
+  * [ReVerb](https://github.com/knowitall/reverb/) Web-Scale Open Information Extraction
+  * [OpenRegex](https://github.com/knowitall/openregex) An efficient and flexible token-based regular expression language and engine.  
   
 * <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
