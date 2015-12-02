@@ -50,18 +50,50 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * [Global Vectors for Word Representations](http://nlp.stanford.edu/projects/glove/)
 
 ### Libraries
-* **Node.js** - Node.js Libaries for NLP
+* [TwitIE: An Open-Source Information Extraction Pipeline for Microblog Text](http://www.anthology.aclweb.org/R/R13/R13-1011.pdf)
+
+* **Node.js and Javascript** - Node.js Libaries for NLP
+  * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
+  * [NLP.js](https://github.com/nicktesla/nlpjs) - NLP utilities in javascript and coffeescript
+  * [Knwl.js](https://github.com/loadfive/Knwl.js) - A Natural Language Processor in JS
+  * [Retext](https://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
+  * [TextProcessing](https://www.mashape.com/japerk/text-processing/support) - Sentiment analysis, stemming and lemmatization, part-of-speech tagging and chunking, phrase extraction and named entity recognition.
+  * [NLP Compromise](https://github.com/spencermountain/nlp_compromise) - Natural Language processing in the browser
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 * **Python** - Python NLP Libraries
+  * [Scikit-learn: Machine learning in Python](http://arxiv.org/pdf/1201.0490.pdf)
   * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
 * **C++** - C++ Libraries
+  * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
+  * [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) for segmenting/labeling sequential data & other Natural Language Processing tasks.
+  * [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs) for labeling sequential data.
+  * [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
+  * [colibri-core](https://github.com/proycon/colibri-core) - C++ library, command line tools, and Python binding for extracting and working with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
+  * [ucto](https://github.com/proycon/ucto) - Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format.
+  * [libfolia](https://github.com/proycon/libfolia) - C++ library for the [FoLiA format](http://proycon.github.io/folia/)
+  * [frog](https://github.com/proycon/frog) - Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer.
+  * [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) is a C++ Data Sciences Toolkit that facilitates mining big text data.
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
 * **Java** - Java NLP Libraries
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
   
+* **Closure**
+  * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
+  * [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
+
 ## Articles
+
+### Review Articles
+* [Deep Learning for Web Search and Natural Language Processing](http://research.microsoft.com:8082/en-us/um/people/jfgao/paper/2015/wsdm2015.v3.pdf)
+* [Probabilistic topic models](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)
+* [Natural language processing: an introduction](http://jamia.oxfordjournals.org/content/18/5/544.short)
+* [A unified architecture for natural language processing: Deep neural networks with multitask learning](http://arxiv.org/pdf/1201.0490.pdf)
+* [A Critical Review of Recurrent Neural Networksfor Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf)
+* [Deep parsing in Watson](http://nlp.cs.rpi.edu/course/spring14/deepparsing.pdf)
+* [Online named entity recognition method for microtexts in social networking services: A case study of twitter](http://arxiv.org/pdf/1301.2857.pdf)
+
 
 ### Word Vectors
 * [word2vec](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) - on creating vectors to represent language, useful for RNN inputs
@@ -90,6 +122,22 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * [Computational Grounded Cognition: a new alliance between grounded cognition and computational modelling](http://journal.frontiersin.org/article/10.3389/fpsyg.2012.00612/full)
 * [Learning the Structure of Biomedical Relation Extractions](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004216)
 * [Relation extraction with matrix factorization and universal schemas](http://www.anthology.aclweb.org/N/N13/N13-1008.pdf)
+
+### Named Entity Recognition
+* [A survey of named entity recognition and classification](http://nlp.cs.nyu.edu/sekine/papers/li07.pdf)
+* [Benchmarking the extraction and disambiguation of named entities on the semantic web](http://www.lrec-conf.org/proceedings/lrec2014/pdf/176_Paper.pdf)
+* [Knowledge base population: Successful approaches and challenges](http://www.aclweb.org/anthology/P11-1115)
+* [SpeedRead: A fast named entity recognition Pipeline](http://arxiv.org/pdf/1301.2857.pdf)
+
+### Machine Translation
+* [Cross-lingual Pseudo-Projected Expectation Regularization for Weakly Supervised Learning](http://arxiv.org/pdf/1310.1597v1.pdf)
+* [Generating Chinese Named Entity Data from a Parallel Corpus](http://www.mt-archive.info/IJCNLP-2011-Fu.pdf)
+* [IXA pipeline: Efficient and Ready to Use Multilingual NLP tools](http://www.lrec-conf.org/proceedings/lrec2014/pdf/775_Paper.pdf)
+
+### Neural Network
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
+* [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf)
+* [Slides from Google Talk](http://www.fit.vutbr.cz/~imikolov/rnnlm/google.pdf)
 
 ### Supplementary Materials
 * [Word2Vec](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
@@ -134,3 +182,4 @@ part of the lists are from
 * [ai-reading-list](https://github.com/m0nologuer/AI-reading-list) 
 * [nlp-reading-group](https://github.com/clulab/nlp-reading-group/wiki/Fall-2015-Reading-Schedule/_edit)
 * [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp)
+* [jjangsangy's awesome-nlp](https://gist.github.com/jjangsangy/8759f163bc3558779c46)
