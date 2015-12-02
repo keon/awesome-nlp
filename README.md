@@ -68,15 +68,11 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
   * [Scikit-learn: Machine learning in Python](http://arxiv.org/pdf/1201.0490.pdf)
   * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
   * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
-  * [Quepy](https://github.com/machinalis/quepy) - A python framework to transform natural language questions to queries in a database query language
   * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of NLTK and Pattern, and plays nicely with both.
   * [YAlign](https://github.com/machinalis/yalign) - A sentence aligner, a friendly tool for extracting parallel sentences from comparable corpora.
   * [jieba](https://github.com/fxsjy/jieba#jieba-1) - Chinese Words Segmentation Utilities.
   * [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text.
-  * [loso](https://github.com/victorlin/loso) - Another Chinese segmentation library.
-  * [genius](https://github.com/duanhongyi/genius) - A Chinese segment base on Conditional Random Field.
   * [KoNLPy](http://konlpy.org) - A Python package for Korean natural language processing.
-  * [nut](https://github.com/pprett/nut) - Natural language Understanding Toolkit
   * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
   * [BLLIP Parser](https://pypi.python.org/pypi/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
   * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
