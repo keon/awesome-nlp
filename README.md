@@ -183,3 +183,4 @@ part of the lists are from
 * [nlp-reading-group](https://github.com/clulab/nlp-reading-group/wiki/Fall-2015-Reading-Schedule/_edit)
 * [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp)
 * [jjangsangy's awesome-nlp](https://gist.github.com/jjangsangy/8759f163bc3558779c46)
+* [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning/edit/master/README.md)
