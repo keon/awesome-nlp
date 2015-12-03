@@ -2,7 +2,7 @@
 A curated list of resources dedicated to Natural Language Processing
 
 
-Maintainers - [Keon Kim](http://github.com/keonkim)
+Maintainers - [Keon Kim](http://github.com/keonkim), [Martin Park](https://github.com/outpark)
 
 ## Contributing
 Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), email Keon Kim (keon.kim@nyu.edu) to add links.
@@ -178,6 +178,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * Blog Post on [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 * Blog Post on [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
 * [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
+* [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
 
 ## Multilingual
 
