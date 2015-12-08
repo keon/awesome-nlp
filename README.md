@@ -38,7 +38,9 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
 * Tensor Flow Tutorial on [Seq2Seq](http://www.tensorflow.org/tutorials/seq2seq/index.html) Models
 * Natural Language Understanding with Distributed Representation [Lecture Note](https://github.com/nyu-dl/NLP_DL_Lecture_Note) by Cho
+
 ### videos
+
 * [Stanford's Coursera Course](https://www.coursera.org/course/nlp) on NLP from basics
 * [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
 * [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
