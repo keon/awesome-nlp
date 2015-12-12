@@ -20,6 +20,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
      - [C++](#user-content-c++)
      - [Java](#user-content-java)
      - [Clojure](#user-content-clojure)
+     - [Ruby](#user-content-ruby)
  - [Articles](#articles)
    - [Review Articles](#review-articles)
    - [Word Vectors](#word-vectors)
@@ -110,6 +111,9 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
   * [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
+
+* <a id="ruby">**Ruby**</a>
+  * Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
 
 ## Articles
 
