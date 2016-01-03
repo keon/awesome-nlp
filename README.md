@@ -31,6 +31,9 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 * [Stanford's Coursera Course](https://www.coursera.org/course/nlp) on NLP from basics
 * [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
 * [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
+* [Natural Language Processing](https://class.coursera.org/nlangp-001) - course on Coursera that was only done in 2013 but the videos are still up. Also Mike Collins is a great professor and his notes and lectures are very good. 
+* [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides. 
+* [Natural Language Processing SFU](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM. 
 
 ## Codes
 
@@ -51,6 +54,7 @@ Maintainers - [Keon Kim](http://github.com/keonkim)
 * **C++** - C++ Libraries
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
+  * [Moses](http://statmt.org/moses/)
 * **Java** - Java NLP Libraries
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
