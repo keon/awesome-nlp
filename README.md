@@ -5,7 +5,7 @@ A curated list of resources dedicated to Natural Language Processing
 Maintainers - [Keon Kim](http://github.com/keonkim), [Martin Park](https://github.com/outpark)
 
 ## Contributing
-Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), email Keon Kim (keon.kim@nyu.edu) to add links.
+Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
 
 
 ## Table of Contents
@@ -46,6 +46,10 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
 * [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
 * [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/) by Richard Socher
+* [Natural Language Processing](https://class.coursera.org/nlangp-001) - course on Coursera that was only done in 2013 but the videos are still up. Also Mike Collins is a great professor and his notes and lectures are very good. 
+* [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides. 
+* [Natural Language Processing SFU](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM. 
+
 
 ## Codes
 
@@ -99,6 +103,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
   * [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) is a C++ Data Sciences Toolkit that facilitates mining big text data.
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
+  * [Moses](http://statmt.org/moses/)
 
 * <a id="java">**Java** - Java NLP Libraries</a>
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
