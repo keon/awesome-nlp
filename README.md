@@ -183,8 +183,8 @@ Tai et al. 2015  Introduces Tree LSTM. Uses a parse tree.
 [Semi-supervised Sequence Learning](http://arxiv.org/pdf/1511.01432.pdf)  
 Dai, Le 2015 "With pretraining, we are able to train long short term memory recurrent networks up to a few hundred
 timesteps, thereby achieving strong performance in many text classification tasks, such as IMDB, DBpedia and 20 Newsgroups."  
-##Machine Translation
-[Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)  
+### Machine Translation
+[Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)
 Bahdanau, Cho 2014.  "comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation."  Implements attention mechanism.  
 [English to French Demo](http://104.131.78.120/)  
 
