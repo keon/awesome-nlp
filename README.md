@@ -120,6 +120,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
   * [ReVerb](https://github.com/knowitall/reverb/) Web-Scale Open Information Extraction
   * [OpenRegex](https://github.com/knowitall/openregex) An efficient and flexible token-based regular expression language and engine.  
+  * [CogcompNLP](https://github.com/IllinoisCogComp/illinois-cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group. 
   
 * <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
