@@ -72,6 +72,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 ### Libraries
 * [TwitIE: An Open-Source Information Extraction Pipeline for Microblog Text](http://www.anthology.aclweb.org/R/R13/R13-1011.pdf)
+* [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
 
 * <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a>
   * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
