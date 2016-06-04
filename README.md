@@ -21,6 +21,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
      - [Java](#user-content-java)
      - [Clojure](#user-content-clojure)
      - [Ruby](#user-content-ruby)
+   - [Services or APIs](#service-or-api)
  - [Articles](#articles)
    - [Review Articles](#review-articles)
    - [Word Vectors](#word-vectors)
@@ -128,6 +129,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 * <a id="ruby">**Ruby**</a>
   * Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
+  
+### Services or APIs
+* [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices.
 
 ## Articles
 
