@@ -2,7 +2,7 @@
 A curated list of resources dedicated to Natural Language Processing
 
 
-Maintainers - [Keon Kim](http://github.com/keonkim), [Martin Park](https://github.com/outpark)
+Maintainers - [Keon Kim](https://github.com/keonkim), [Martin Park](https://github.com/outpark)
 
 ## Contributing
 Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
@@ -36,7 +36,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
 ## Tutorials and Courses
 
-* Tensor Flow Tutorial on [Seq2Seq](http://www.tensorflow.org/tutorials/seq2seq/index.html) Models
+* Tensor Flow Tutorial on [Seq2Seq](https://www.tensorflow.org/tutorials/seq2seq/index.html) Models
 * Natural Language Understanding with Distributed Representation [Lecture Note](https://github.com/nyu-dl/NLP_DL_Lecture_Note) by Cho
 
 ### videos
@@ -64,7 +64,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 ### Implementations
 * [Pre-trained word embeddings for WSJ corpus](https://github.com/ai-ku/wvec) by Koc AI-Lab
-* [Word2vec](https://code.google.com/p/word2vec/) by Mikolov
+* [Word2vec](https://code.google.com/archive/p/word2vec) by Mikolov
 * [HLBL language model](http://metaoptimize.com/projects/wordreprs/) by Turian
 * [Real-valued vector "embeddings"](http://www.cis.upenn.edu/~ungar/eigenwords/) by Dhillon
 * [Improving Word Representations Via Global Context And Multiple Word Prototypes](http://www.socher.org/index.php/Main/ImprovingWordRepresentationsViaGlobalContextAndMultipleWordPrototypes) by Huang
@@ -78,7 +78,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
   * [Knwl.js](https://github.com/loadfive/Knwl.js) - A Natural Language Processor in JS
   * [Retext](https://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
-  * [NLP Compromise](https://github.com/spencermountain/nlp_compromise) - Natural Language processing in the browser
+  * [NLP Compromise](https://github.com/nlp-compromise/nlp_compromise) - Natural Language processing in the browser
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
 * <a id="python">**Python** - Python NLP Libraries</a>
@@ -97,7 +97,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
   * [python-zpar](https://github.com/EducationalTestingService/python-zpar) - Python bindings for [ZPar](https://github.com/frcchang/zpar), a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English.
   * [colibri-core](https://github.com/proycon/colibri-core) - Python binding to C++ library for extracting and working with with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
-  * [spaCy](https://github.com/honnibal/spaCy/) - Industrial strength NLP with Python and Cython.
+  * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython.
   * [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
 
 * <a id="c++">**C++** - C++ Libraries</a>
@@ -106,9 +106,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs) for labeling sequential data.
   * [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
   * [colibri-core](https://github.com/proycon/colibri-core) - C++ library, command line tools, and Python binding for extracting and working with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
-  * [ucto](https://github.com/proycon/ucto) - Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format.
-  * [libfolia](https://github.com/proycon/libfolia) - C++ library for the [FoLiA format](http://proycon.github.io/folia/)
-  * [frog](https://github.com/proycon/frog) - Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer.
+  * [ucto](https://github.com/LanguageMachines/ucto) - Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format.
+  * [libfolia](https://github.com/LanguageMachines/libfolia) - C++ library for the [FoLiA format](http://proycon.github.io/folia/)
+  * [frog](https://github.com/LanguageMachines/frog) - Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer.
   * [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) is a C++ Data Sciences Toolkit that facilitates mining big text data.
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
