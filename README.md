@@ -1,18 +1,18 @@
-# awesome-nlp
-A curated list of resources dedicated to Natural Language Processing
+# awesome-nlp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+> A curated list of resources dedicated to Natural Language Processing
+> Maintainers - [Keon Kim](https://github.com/keonkim), [Martin Park](https://github.com/outpark)
 
-Maintainers - [Keon Kim](https://github.com/keonkim), [Martin Park](https://github.com/outpark)
+*Please read the [contribution guidelines](contributing.md) before contributing.*
 
-## Contributing
-Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
+Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), or email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
 
 
 ## Table of Contents
 
  - [Tutorials and Courses](#tutorials-and-courses)
    - [videos](#videos)
- - [Codes](#codes)
+ - [Packages](#packages)
    - [Implemendations](#implementations)
    - [Libraries](#libraries)
      - [Node.js](#user-content-node-js)
@@ -21,13 +21,18 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
      - [Java](#user-content-java)
      - [Clojure](#user-content-clojure)
      - [Ruby](#user-content-ruby)
-   - [Services or APIs](#service-or-api)
+   - [Services](#services)
  - [Articles](#articles)
    - [Review Articles](#review-articles)
    - [Word Vectors](#word-vectors)
+   - [Thought Vectors](#thought-vectors)
+   - [Machine Translation](#machine-translation)
    - [General Natural Language Processing](#general-natural-langauge-processing)
    - [Named Entity Recognition](#name-entity-recognition)
-   - [Machine Translation](#machine-translation)
+   - [Single Exchange Dialogs](#single-exchange-dialogs)
+   - [Memory and Attention Models](#memory-and-attention-models)
+   - [General Natural Language Processing](#general-natural-language-processing)
+   - [Named Entity Recognition](#named-entity-recognition)
    - [Neural Network](#neural-network)
    - [Supplementary Materials](#supplementary-materials)
  - [Blogs](#blogs)
@@ -60,7 +65,7 @@ Intro NLP course with videos. This has no deep learning. But it is a good primer
 Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.  
 
 
-## Codes
+## Packages
 
 ### Implementations
 * [Pre-trained word embeddings for WSJ corpus](https://github.com/ai-ku/wvec) by Koc AI-Lab
@@ -130,7 +135,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 * <a id="ruby">**Ruby**</a>
   * Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
   
-### Services or APIs
+### Services
 * [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices.
 
 ## Articles
@@ -145,7 +150,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 * [Online named entity recognition method for microtexts in social networking services: A case study of twitter](http://arxiv.org/pdf/1301.2857.pdf)
 
 
-### Word Vectors (part of it from [DL4NLP](https://github.com/andrewt3000/DL4NLP))
+### Word Vectors
 Resources about word vectors, aka word embeddings, and distributed representations for words.  
 Word vectors are numeric representations of words that are often used as input to deep learning systems. This process is sometimes called pretraining.  
 
@@ -169,7 +174,7 @@ Pennington, Socher, Manning. 2014. Creates word vectors and relates word2vec to 
 * [Skip Thought Vectors](http://arxiv.org/abs/1506.06726) - word representation method
 * [Adaptive skip-gram](http://arxiv.org/abs/1502.07257) - similar approach, with adaptive properties
 
-### Thought Vectors (from [DL4NLP](https://github.com/andrewt3000/DL4NLP))
+### Thought Vectors
 Thought vectors are numeric representations for sentences, paragraphs, and documents.  The following papers are listed in order of date published, each one replaces the last as the state of the art in sentiment analysis.  
 
 [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.1327&rep=rep1&type=pdf)  
@@ -202,7 +207,7 @@ Sutskever, Vinyals, Le 2014.  ([nips presentation](http://research.microsoft.com
 * [IXA pipeline: Efficient and Ready to Use Multilingual NLP tools](http://www.lrec-conf.org/proceedings/lrec2014/pdf/775_Paper.pdf)
 
 
-### Single Exchange Dialogs (from [DL4NLP](https://github.com/andrewt3000/DL4NLP))
+### Single Exchange Dialogs
 [A Neural Network Approach toContext-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)  
 Sordoni 2015.  Generates responses to tweets.   
 Uses [Recurrent Neural Network Language Model (RLM) architecture
