@@ -13,6 +13,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
  - [Tutorials and Courses](#tutorials-and-courses)
    - [videos](#videos)
+ - [Deep Learning for NLP](#deep-learning-for-nlp)
  - [Packages](#packages)
    - [Implemendations](#implementations)
    - [Libraries](#libraries)
