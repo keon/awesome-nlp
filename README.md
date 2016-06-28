@@ -54,6 +54,7 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * [Natural Language Processing](https://class.coursera.org/nlangp-001) - course on Coursera that was only done in 2013 but the videos are still up. Also Mike Collins is a great professor and his notes and lectures are very good. 
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides. 
 * [Natural Language Processing SFU](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM. 
+* [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs).
 
 ## Deep Learning for NLP 
 [Stanford Natural Language Processing](https://class.coursera.org/nlp/lecture/preview)  
