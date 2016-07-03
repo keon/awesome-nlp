@@ -59,8 +59,6 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs).
 
 ## Deep Learning for NLP 
-[Stanford Natural Language Processing](https://www.coursera.org/learn/nlp)  
-Intro NLP course with videos. This has no deep learning. But it is a good primer for traditional nlp.  
 
 [Stanford CS 224D: Deep Learning for NLP class](http://cs224d.stanford.edu/syllabus.html)  
 Class by [Richard Socher](https://scholar.google.com/citations?user=FaOcyfMAAAAJ&hl=en). 2016 content was updated to make use of Tensorflow. Lecture slides and reading materials for 2016 class [here](http://cs224d.stanford.edu/syllabus.html). Videos for 2016 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam). Note that there are some lecture videos missing for 2016 (lecture 9, and lectures 12 onwards). All videos for 2015 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q)
