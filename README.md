@@ -243,8 +243,8 @@ Graves et al. 2014.
 Joulin, Mikolov 2015. [Stack RNN source code](https://github.com/facebook/Stack-RNN) and [blog post](https://research.facebook.com/blog/1642778845966521/inferring-algorithmic-patterns-with-stack/)  
 
 ### General Natural Language Processing
-* [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LTSM representation
-* [LTSM over tree structures](http://arxiv.org/abs/1503.04881)
+* [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LSTM representation
+* [LSTM over tree structures](http://arxiv.org/abs/1503.04881)
 * [Sequence to Sequence Learning](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - word vectors for machine translation
 * [Teaching Machines to Read and Comprehend](http://arxiv.org/abs/1506.03340) - DeepMind paper
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
