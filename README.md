@@ -48,7 +48,6 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
 ### videos
 
-* [Stanford's Coursera Course](https://www.coursera.org/learn/nlp) on NLP from basics
 * [Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) on Coursera by U of Michigan
 * [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
 * [Deep Learning for Natural Language Processing (2015 classes)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
