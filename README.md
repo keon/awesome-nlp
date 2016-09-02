@@ -1,18 +1,20 @@
-# awesome-nlp
-A curated list of resources dedicated to Natural Language Processing
+# awesome-nlp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+> A curated list of resources dedicated to Natural Language Processing
+>
+> Maintainers - [Keon Kim](https://github.com/keonkim), [Martin Park](https://github.com/outpark)
 
-Maintainers - [Keon Kim](http://github.com/keonkim), [Martin Park](https://github.com/outpark)
+*Please read the [contribution guidelines](contributing.md) before contributing.*
 
-## Contributing
-Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
+Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), or email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
 
 
 ## Table of Contents
 
  - [Tutorials and Courses](#tutorials-and-courses)
    - [videos](#videos)
- - [Codes](#codes)
+ - [Deep Learning for NLP](#deep-learning-for-nlp)
+ - [Packages](#packages)
    - [Implemendations](#implementations)
    - [Libraries](#libraries)
      - [Node.js](#user-content-node-js)
@@ -21,12 +23,18 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
      - [Java](#user-content-java)
      - [Clojure](#user-content-clojure)
      - [Ruby](#user-content-ruby)
+   - [Services](#services)
  - [Articles](#articles)
    - [Review Articles](#review-articles)
    - [Word Vectors](#word-vectors)
+   - [Thought Vectors](#thought-vectors)
+   - [Machine Translation](#machine-translation)
    - [General Natural Language Processing](#general-natural-langauge-processing)
    - [Named Entity Recognition](#name-entity-recognition)
-   - [Machine Translation](#machine-translation)
+   - [Single Exchange Dialogs](#single-exchange-dialogs)
+   - [Memory and Attention Models](#memory-and-attention-models)
+   - [General Natural Language Processing](#general-natural-language-processing)
+   - [Named Entity Recognition](#named-entity-recognition)
    - [Neural Network](#neural-network)
    - [Supplementary Materials](#supplementary-materials)
  - [Blogs](#blogs)
@@ -35,35 +43,39 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 
 ## Tutorials and Courses
 
-* Tensor Flow Tutorial on [Seq2Seq](http://www.tensorflow.org/tutorials/seq2seq/index.html) Models
+* Tensor Flow Tutorial on [Seq2Seq](https://www.tensorflow.org/tutorials/seq2seq/index.html) Models
 * Natural Language Understanding with Distributed Representation [Lecture Note](https://github.com/nyu-dl/NLP_DL_Lecture_Note) by Cho
+* [Michael Collins](http://www.cs.columbia.edu/~mcollins/) - one of the best NLP teachers. Check out the material on the courses he is teaching.
 
 ### videos
 
-* [Stanford's Coursera Course](https://www.coursera.org/course/nlp) on NLP from basics
-* [Intro to Natural Language Processing](https://www.coursera.org/course/nlpintro) on Coursera by U of Michigan
+* [Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) on Coursera by U of Michigan
 * [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which also covers NLP
-* [Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/) by Richard Socher
-* [Natural Language Processing](https://class.coursera.org/nlangp-001) - course on Coursera that was only done in 2013 but the videos are still up. Also Mike Collins is a great professor and his notes and lectures are very good. 
+* [Deep Learning for Natural Language Processing (2015 classes)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
+* [Deep Learning for Natural Language Processing (2016 classes)](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam) by Richard Socher. Updated to make use of Tensorflow. Note that there are some lectures missing (lecture 9, and lectures 12 onwards). 
+* [Natural Language Processing](https://www.coursera.org/learn/nlangp) - course on Coursera that was only done in 2013. The videos are not available at the moment. Also Mike Collins is a great professor and his notes and lectures are very good. 
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides. 
 * [Natural Language Processing SFU](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM. 
+* [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs).
+* [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation.
 
 ## Deep Learning for NLP 
-[Stanford Natural Language Processing](https://class.coursera.org/nlp/lecture/preview)  
-Intro NLP course with videos. This has no deep learning. But it is a good primer for traditional nlp.  
 
 [Stanford CS 224D: Deep Learning for NLP class](http://cs224d.stanford.edu/syllabus.html)  
-[Richard Socher](https://scholar.google.com/citations?user=FaOcyfMAAAAJ&hl=en). (2015)  Class with videos, and slides.
+Class by [Richard Socher](https://scholar.google.com/citations?user=FaOcyfMAAAAJ&hl=en). 2016 content was updated to make use of Tensorflow. Lecture slides and reading materials for 2016 class [here](http://cs224d.stanford.edu/syllabus.html). Videos for 2016 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam). Note that there are some lecture videos missing for 2016 (lecture 9, and lectures 12 onwards). All videos for 2015 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q)
+
+[Udacity Deep Learning](https://classroom.udacity.com/courses/ud730)
+Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks. This section covers how to implement Word2Vec, RNN's and LSTMs.
 
 [A Primer on Neural Network Models for Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)  
 Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.  
 
 
-## Codes
+## Packages
 
 ### Implementations
 * [Pre-trained word embeddings for WSJ corpus](https://github.com/ai-ku/wvec) by Koc AI-Lab
-* [Word2vec](https://code.google.com/p/word2vec/) by Mikolov
+* [Word2vec](https://code.google.com/archive/p/word2vec) by Mikolov
 * [HLBL language model](http://metaoptimize.com/projects/wordreprs/) by Turian
 * [Real-valued vector "embeddings"](http://www.cis.upenn.edu/~ungar/eigenwords/) by Dhillon
 * [Improving Word Representations Via Global Context And Multiple Word Prototypes](http://www.socher.org/index.php/Main/ImprovingWordRepresentationsViaGlobalContextAndMultipleWordPrototypes) by Huang
@@ -77,7 +89,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
   * [Knwl.js](https://github.com/loadfive/Knwl.js) - A Natural Language Processor in JS
   * [Retext](https://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
-  * [NLP Compromise](https://github.com/spencermountain/nlp_compromise) - Natural Language processing in the browser
+  * [NLP Compromise](https://github.com/nlp-compromise/nlp_compromise) - Natural Language processing in the browser
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
 * <a id="python">**Python** - Python NLP Libraries</a>
@@ -96,7 +108,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
   * [python-zpar](https://github.com/EducationalTestingService/python-zpar) - Python bindings for [ZPar](https://github.com/frcchang/zpar), a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English.
   * [colibri-core](https://github.com/proycon/colibri-core) - Python binding to C++ library for extracting and working with with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
-  * [spaCy](https://github.com/honnibal/spaCy/) - Industrial strength NLP with Python and Cython.
+  * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython.
   * [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
 
 * <a id="c++">**C++** - C++ Libraries</a>
@@ -105,9 +117,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs) for labeling sequential data.
   * [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
   * [colibri-core](https://github.com/proycon/colibri-core) - C++ library, command line tools, and Python binding for extracting and working with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
-  * [ucto](https://github.com/proycon/ucto) - Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format.
-  * [libfolia](https://github.com/proycon/libfolia) - C++ library for the [FoLiA format](http://proycon.github.io/folia/)
-  * [frog](https://github.com/proycon/frog) - Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer.
+  * [ucto](https://github.com/LanguageMachines/ucto) - Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format.
+  * [libfolia](https://github.com/LanguageMachines/libfolia) - C++ library for the [FoLiA format](http://proycon.github.io/folia/)
+  * [frog](https://github.com/LanguageMachines/frog) - Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer.
   * [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) is a C++ Data Sciences Toolkit that facilitates mining big text data.
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
@@ -128,6 +140,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 * <a id="ruby">**Ruby**</a>
   * Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
+  
+### Services
+* [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices.
 
 ## Articles
 
@@ -141,7 +156,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 * [Online named entity recognition method for microtexts in social networking services: A case study of twitter](http://arxiv.org/pdf/1301.2857.pdf)
 
 
-### Word Vectors (part of it from [DL4NLP](https://github.com/andrewt3000/DL4NLP))
+### Word Vectors
 Resources about word vectors, aka word embeddings, and distributed representations for words.  
 Word vectors are numeric representations of words that are often used as input to deep learning systems. This process is sometimes called pretraining.  
 
@@ -165,7 +180,7 @@ Pennington, Socher, Manning. 2014. Creates word vectors and relates word2vec to 
 * [Skip Thought Vectors](http://arxiv.org/abs/1506.06726) - word representation method
 * [Adaptive skip-gram](http://arxiv.org/abs/1502.07257) - similar approach, with adaptive properties
 
-### Thought Vectors (from [DL4NLP](https://github.com/andrewt3000/DL4NLP))
+### Thought Vectors
 Thought vectors are numeric representations for sentences, paragraphs, and documents.  The following papers are listed in order of date published, each one replaces the last as the state of the art in sentiment analysis.  
 
 [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.1327&rep=rep1&type=pdf)  
@@ -198,7 +213,7 @@ Sutskever, Vinyals, Le 2014.  ([nips presentation](http://research.microsoft.com
 * [IXA pipeline: Efficient and Ready to Use Multilingual NLP tools](http://www.lrec-conf.org/proceedings/lrec2014/pdf/775_Paper.pdf)
 
 
-### Single Exchange Dialogs (from [DL4NLP](https://github.com/andrewt3000/DL4NLP))
+### Single Exchange Dialogs
 [A Neural Network Approach toContext-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)  
 Sordoni 2015.  Generates responses to tweets.   
 Uses [Recurrent Neural Network Language Model (RLM) architecture
@@ -229,8 +244,8 @@ Graves et al. 2014.
 Joulin, Mikolov 2015. [Stack RNN source code](https://github.com/facebook/Stack-RNN) and [blog post](https://research.facebook.com/blog/1642778845966521/inferring-algorithmic-patterns-with-stack/)  
 
 ### General Natural Language Processing
-* [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LTSM representation
-* [LTSM over tree structures](http://arxiv.org/abs/1503.04881)
+* [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LSTM representation
+* [LSTM over tree structures](http://arxiv.org/abs/1503.04881)
 * [Sequence to Sequence Learning](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - word vectors for machine translation
 * [Teaching Machines to Read and Comprehend](http://arxiv.org/abs/1506.03340) - DeepMind paper
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781.pdf)
