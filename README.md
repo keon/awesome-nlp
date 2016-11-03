@@ -150,7 +150,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 ## Articles
 
 ### Review Articles
-* [Deep Learning for Web Search and Natural Language Processing](http://research.microsoft.com:8082/en-us/um/people/jfgao/paper/2015/wsdm2015.v3.pdf)
+* [Deep Learning for Web Search and Natural Language Processing](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/wsdm2015.v3.pdf)
 * [Probabilistic topic models](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)
 * [Natural language processing: an introduction](http://jamia.oxfordjournals.org/content/18/5/544.short)
 * [A unified architecture for natural language processing: Deep neural networks with multitask learning](http://arxiv.org/pdf/1201.0490.pdf)
