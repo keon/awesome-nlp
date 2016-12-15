@@ -21,6 +21,8 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
      - [Python](#user-content-python)
      - [C++](#user-content-c++)
      - [Java](#user-content-java)
+     - [Scala](#user-content-scala)
+     - [R](#user-content-R)
      - [Clojure](#user-content-clojure)
      - [Ruby](#user-content-ruby)
    - [Services](#services)
@@ -136,6 +138,10 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   
 * <a id="scala">**Scala** - Scala NLP Libraries</a>
   * [Saul](https://github.com/IllinoisCogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc. 
+
+* <a id="R">**R** - R NLP Libraries</a>
+  * [text2vec](https://github.com/dselivanov/text2vec) - Fast vectorization, topic modeling, distances and GloVe word embeddings in R. 
+  * [wordVectors](https://github.com/bmschmidt/wordVectors) - An R package for creating and exploring word2vec and other word embedding models
 
 * <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
