@@ -135,6 +135,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [ReVerb](https://github.com/knowitall/reverb/) Web-Scale Open Information Extraction
   * [OpenRegex](https://github.com/knowitall/openregex) An efficient and flexible token-based regular expression language and engine.  
   * [CogcompNLP](https://github.com/IllinoisCogComp/illinois-cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group. 
+  * [MALLET](http://mallet.cs.umass.edu/) - MAchine Learning for LanguagE Toolkit - package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text. 
   
 * <a id="scala">**Scala** - Scala NLP Libraries</a>
   * [Saul](https://github.com/IllinoisCogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc. 
@@ -142,6 +143,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 * <a id="R">**R** - R NLP Libraries</a>
   * [text2vec](https://github.com/dselivanov/text2vec) - Fast vectorization, topic modeling, distances and GloVe word embeddings in R. 
   * [wordVectors](https://github.com/bmschmidt/wordVectors) - An R package for creating and exploring word2vec and other word embedding models
+  * [RMallet](https://github.com/mimno/RMallet) - R package to interface with the Java machine learning tool MALLET
+  * [dfr-browser](https://github.com/agoldst/dfr-browser) - Creates d3 visualizations for browsing topic models of text in a web browser.
+  * [dfrtopics](https://github.com/agoldst/dfrtopics) - R package for exploring topic models of text.
 
 * <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
