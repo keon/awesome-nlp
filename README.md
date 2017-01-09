@@ -139,6 +139,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   
 * <a id="scala">**Scala** - Scala NLP Libraries</a>
   * [Saul](https://github.com/IllinoisCogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc. 
+  * [ATR4S](https://github.com/ispras/atr4s) - Toolkit with state-of-the-art [automatic term recognition](https://en.wikipedia.org/wiki/Terminology_extraction) methods.
+  * [tm](https://github.com/ispras/tm) - Implementation of topic modeling based on regularized multilingual [PLSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis).
+  * [word2vec-scala](https://github.com/Refefer/word2vec-scala) - Scala interface to word2vec model; includes operations on vectors like word-distance and word-analogy.
 
 * <a id="R">**R** - R NLP Libraries</a>
   * [text2vec](https://github.com/dselivanov/text2vec) - Fast vectorization, topic modeling, distances and GloVe word embeddings in R. 
