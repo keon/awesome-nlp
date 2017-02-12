@@ -62,7 +62,8 @@ Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation.
 
 ## Deep Learning for NLP
-
+[Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures)
+ +lecture slides and course description for the Deep Natural Language Processing course offered in Hilary Term 2017 at the University of Oxford.
 [Stanford CS 224D: Deep Learning for NLP class](http://cs224d.stanford.edu/syllabus.html)
 Class by [Richard Socher](https://scholar.google.com/citations?user=FaOcyfMAAAAJ&hl=en). 2016 content was updated to make use of Tensorflow. Lecture slides and reading materials for 2016 class [here](http://cs224d.stanford.edu/syllabus.html). Videos for 2016 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam). Note that there are some lecture videos missing for 2016 (lecture 9, and lectures 12 onwards). All videos for 2015 class [here](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q)
 
