@@ -116,6 +116,8 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython.
   * [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text
+  * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora.
+
   
 * <a id="c++">**C++** - C++ Libraries</a>
   * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
