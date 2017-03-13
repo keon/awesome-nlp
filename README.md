@@ -140,11 +140,11 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
   * [ReVerb](https://github.com/knowitall/reverb/) Web-Scale Open Information Extraction
   * [OpenRegex](https://github.com/knowitall/openregex) An efficient and flexible token-based regular expression language and engine.
-  * [CogcompNLP](https://github.com/IllinoisCogComp/illinois-cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group.
+  * [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group.
   * [MALLET](http://mallet.cs.umass.edu/) - MAchine Learning for LanguagE Toolkit - package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.
 
 * <a id="scala">**Scala** - Scala NLP Libraries</a>
-  * [Saul](https://github.com/IllinoisCogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc.
+  * [Saul](https://github.com/CogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc.
   * [ATR4S](https://github.com/ispras/atr4s) - Toolkit with state-of-the-art [automatic term recognition](https://en.wikipedia.org/wiki/Terminology_extraction) methods.
   * [tm](https://github.com/ispras/tm) - Implementation of topic modeling based on regularized multilingual [PLSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis).
   * [word2vec-scala](https://github.com/Refefer/word2vec-scala) - Scala interface to word2vec model; includes operations on vectors like word-distance and word-analogy.
