@@ -114,9 +114,10 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [python-zpar](https://github.com/EducationalTestingService/python-zpar) - Python bindings for [ZPar](https://github.com/frcchang/zpar), a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English.
   * [colibri-core](https://github.com/proycon/colibri-core) - Python binding to C++ library for extracting and working with with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
   * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython.
+  * [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy
   * [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
-  * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text
-  * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora.
+  * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text
+  * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora.
 
   
 * <a id="c++">**C++** - C++ Libraries</a>
