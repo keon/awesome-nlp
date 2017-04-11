@@ -6,7 +6,7 @@
 
 *Please read the [contribution guidelines](contributing.md) before contributing.*
 
-Please feel free to [pull requests](https://github.com/keonkim/awesome-nlp/pulls), or email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
+Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls), or email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
 
 
 ## Table of Contents
