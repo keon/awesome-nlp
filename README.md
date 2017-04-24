@@ -318,6 +318,8 @@ Joulin, Mikolov 2015. [Stack RNN source code](https://github.com/facebook/Stack-
 * [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
 * [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
 * Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
+*[Introduction to NLP]
+(https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386)
 
 ## Credits
 part of the lists are from
