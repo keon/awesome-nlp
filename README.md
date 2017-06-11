@@ -159,6 +159,8 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [RMallet](https://github.com/mimno/RMallet) - R package to interface with the Java machine learning tool MALLET
   * [dfr-browser](https://github.com/agoldst/dfr-browser) - Creates d3 visualizations for browsing topic models of text in a web browser.
   * [dfrtopics](https://github.com/agoldst/dfrtopics) - R package for exploring topic models of text.
+  * [sentiment_classifier](https://github.com/kevincobain2000/sentiment_classifier) - Sentiment Classification using Word Sense Disambiguation and WordNet Reader
+  * [jProcessing](https://github.com/kevincobain2000/jProcessing) - Japanese Natural Langauge Processing Libraries, with Japanese sentiment classification
 
 * <a id="clojure">**Clojure**</a>
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
