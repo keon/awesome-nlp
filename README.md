@@ -119,7 +119,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text
   * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora.
-  * [sioux](https://github.com/CogComp/sioux) - Light-weight Python NLP annotators.
+  * [CogComp-NlPy](https://github.com/CogComp/cogcomp-nlpy) - Light-weight Python NLP annotators.
 
   
 * <a id="c++">**C++** - C++ Libraries</a>
