@@ -120,6 +120,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text
   * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora.
   * [CogComp-NlPy](https://github.com/CogComp/cogcomp-nlpy) - Light-weight Python NLP annotators.
+  * [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package. 
 
   
 * <a id="c++">**C++** - C++ Libraries</a>
