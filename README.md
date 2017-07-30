@@ -25,6 +25,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
      - [R](#user-content-R)
      - [Clojure](#user-content-clojure)
      - [Ruby](#user-content-ruby)
+     - [Rust](#user-content-rust)
    - [Services](#services)
  - [Articles](#articles)
    - [Review Articles](#review-articles)
@@ -120,9 +121,9 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text
   * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora.
   * [CogComp-NlPy](https://github.com/CogComp/cogcomp-nlpy) - Light-weight Python NLP annotators.
-  * [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package. 
-  * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages. 
-  
+  * [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package.
+  * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
+
 * <a id="c++">**C++** - C++ Libraries</a>
   * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
   * [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) for segmenting/labeling sequential data & other Natural Language Processing tasks.
@@ -146,14 +147,14 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [OpenRegex](https://github.com/knowitall/openregex) An efficient and flexible token-based regular expression language and engine.
   * [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group.
   * [MALLET](http://mallet.cs.umass.edu/) - MAchine Learning for LanguagE Toolkit - package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.
-  * [RDRPOSTagger](https://github.com/datquocnguyen/RDRPOSTagger) - A robust POS tagging toolkit available  (in both Java & Python) together with pre-trained models for 40+ languages. 
+  * [RDRPOSTagger](https://github.com/datquocnguyen/RDRPOSTagger) - A robust POS tagging toolkit available  (in both Java & Python) together with pre-trained models for 40+ languages.
 
 * <a id="scala">**Scala** - Scala NLP Libraries</a>
   * [Saul](https://github.com/CogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc.
   * [ATR4S](https://github.com/ispras/atr4s) - Toolkit with state-of-the-art [automatic term recognition](https://en.wikipedia.org/wiki/Terminology_extraction) methods.
   * [tm](https://github.com/ispras/tm) - Implementation of topic modeling based on regularized multilingual [PLSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis).
   * [word2vec-scala](https://github.com/Refefer/word2vec-scala) - Scala interface to word2vec model; includes operations on vectors like word-distance and word-analogy.
-  * [Epic](https://github.com/dlwh/epic) - Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models. 
+  * [Epic](https://github.com/dlwh/epic) - Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models.
 
 * <a id="R">**R** - R NLP Libraries</a>
   * [text2vec](https://github.com/dselivanov/text2vec) - Fast vectorization, topic modeling, distances and GloVe word embeddings in R.
@@ -171,6 +172,8 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 * <a id="ruby">**Ruby**</a>
   * Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
   * [Practical Natural Language Processing done in Ruby](https://github.com/arbox/nlp-with-ruby)
+* <a id="rust">**Rust**</a>
+  * [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
 
 ### Services
 * [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices.
