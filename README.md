@@ -33,7 +33,6 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Thought Vectors](#thought-vectors)
    - [Machine Translation](#machine-translation)
    - [General Natural Language Processing](#general-natural-language-processing)
-   - [Named Entity Recognition](#name-entity-recognition)
    - [Single Exchange Dialogs](#single-exchange-dialogs)
    - [Memory and Attention Models](#memory-and-attention-models)
    - [General Natural Language Processing](#general-natural-language-processing)
