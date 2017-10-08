@@ -49,6 +49,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 * Natural Language Understanding with Distributed Representation [Lecture Note](https://github.com/nyu-dl/NLP_DL_Lecture_Note) by Cho
 * [Michael Collins](http://www.cs.columbia.edu/~mcollins/) - one of the best NLP teachers. Check out the material on the courses he is teaching.
 * Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process corpora and conduct Latent Semantic Analysis and Latent Dirichlet Allocation experiments.
+* [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) - A guide to creating machines that understand human language. 
 
 
 ### videos
