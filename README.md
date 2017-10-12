@@ -178,7 +178,6 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 ### Services
 * [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices.
-* [Iris](http://iris.lore.ai) - Free text search API over large public document collections.
 
 ## Articles
 
