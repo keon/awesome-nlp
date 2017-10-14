@@ -180,7 +180,8 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
 
 ### Services
-* [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices.
+* [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
+* IBM Watson's [Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
 
 ## Articles
 
