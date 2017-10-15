@@ -127,6 +127,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package.
   * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
   * [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages.
+  * [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
   * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling 
 
 * <a id="c++">**C++** - C++ Libraries</a>
