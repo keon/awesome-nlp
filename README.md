@@ -63,6 +63,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 * [Natural Language Processing SFU - Link is broken](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM.
 * [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs).
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation.
+* [Natural Language Processing - Stanford](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Dan Jurafsky & Chris Manning. Previously on coursera. [Lecture Notes](http://www.mohamedaly.info/teaching/cmp-462-spring-2013)
 
 ## Deep Learning for NLP
 [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures)
