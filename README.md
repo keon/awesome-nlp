@@ -63,6 +63,8 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 * [Natural Language Processing SFU - Link is broken](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM.
 * [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs).
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation.
+* [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber . Lectures from University of Maryland.
+* [Natural Language Processing - Stanford](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Dan Jurafsky & Chris Manning. Previously on coursera. [Lecture Notes](http://www.mohamedaly.info/teaching/cmp-462-spring-2013)
 
 ## Deep Learning for NLP
 [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures)
@@ -99,6 +101,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
 * <a id="python">**Python** - Python NLP Libraries</a>
+  * [fastText by Facebook](https://github.com/facebookresearch/fastText) - for efficient learning of word representations and sentence classification
   * [Scikit-learn: Machine learning in Python](http://arxiv.org/pdf/1201.0490.pdf)
   * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
   * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
@@ -124,7 +127,8 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package.
   * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
   * [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages.
-   * [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
+  * [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
+  * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling 
 
 * <a id="c++">**C++** - C++ Libraries</a>
   * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
@@ -139,6 +143,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
   * [Moses](http://statmt.org/moses/)
+  * [StarSpace](https://github.com/facebookresearch/StarSpace) - a library from Facebook for creating embeddings of word-level, paragraph-level, document-level and for text classification 
 
 * <a id="java">**Java** - Java NLP Libraries</a>
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
@@ -178,7 +183,8 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
 
 ### Services
-* [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices.
+* [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
+* IBM Watson's [Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
 
 ## Articles
 
@@ -312,6 +318,7 @@ Joulin, Mikolov 2015. [Stack RNN source code](https://github.com/facebook/Stack-
 * [Slides from Google Talk](http://www.fit.vutbr.cz/~imikolov/rnnlm/google.pdf)
 
 ### Supplementary Materials
+* [DrQA: Open Domain Question Answering](https://github.com/facebookresearch/DrQA) by facebook on Wikipedia data
 * [Word2Vec](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
 * [Relation Extraction with Matrix Factorization and Universal Schemas](http://www.riedelcastro.org//publications/papers/riedel13relation.pdf)
 * [Towards a Formal Distributional Semantics: Simulating Logical Calculi with Tensors](http://www.aclweb.org/anthology/S13-1001)
