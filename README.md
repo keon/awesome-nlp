@@ -64,7 +64,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 * [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs).
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation.
 * [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber . Lectures from University of Maryland.
-* [Natural Language Processing - Stanford](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Dan Jurafsky & Chris Manning. Previously on coursera. [Lecture Notes](http://www.mohamedaly.info/teaching/cmp-462-spring-2013)
+* [Natural Language Processing - Stanford](https://www.youtube.com/playlist?list=PL6397E4B26D00A269) by Dan Jurafsky & Chris Manning. Previously on coursera. [Lecture Notes](http://www.mohamedaly.info/teaching/cmp-462-spring-2013)
 
 ## Deep Learning for NLP
 [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures)
