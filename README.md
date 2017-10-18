@@ -49,7 +49,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 * Natural Language Understanding with Distributed Representation [Lecture Note](https://github.com/nyu-dl/NLP_DL_Lecture_Note) by Cho
 * [Michael Collins](http://www.cs.columbia.edu/~mcollins/) - one of the best NLP teachers. Check out the material on the courses he is teaching.
 * Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process corpora and conduct Latent Semantic Analysis and Latent Dirichlet Allocation experiments.
-* [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) - A guide to creating machines that understand human language. 
+* [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) - A guide to creating machines that understand human language.
 
 
 ### videos
@@ -128,7 +128,8 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
   * [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages.
   * [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
-  * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling 
+  * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
+  * [AllenNLP](https://github.com/allenai/allennlp) - An NLP research library, built on PyTorch, for developing state-of-the-art deep learning models on a wide variety of linguistic tasks.
 
 * <a id="c++">**C++** - C++ Libraries</a>
   * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
@@ -143,7 +144,7 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
   * [Mecab (Korean)](http://eunjeon.blogspot.com/)
   * [Moses](http://statmt.org/moses/)
-  * [StarSpace](https://github.com/facebookresearch/StarSpace) - a library from Facebook for creating embeddings of word-level, paragraph-level, document-level and for text classification 
+  * [StarSpace](https://github.com/facebookresearch/StarSpace) - a library from Facebook for creating embeddings of word-level, paragraph-level, document-level and for text classification
 
 * <a id="java">**Java** - Java NLP Libraries</a>
   * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
