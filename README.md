@@ -336,8 +336,8 @@ Joulin, Mikolov 2015. [Stack RNN source code](https://github.com/facebook/Stack-
 * [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
 * Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
 * [AI Playbook](http://aiplaybook.a16z.com/): An easily understandable introductory website.
-*[Introduction to NLP]
-(https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386)
+* [Introduction to NLP](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386)
+* [A Guide to Natural Language Processing](https://tomassetti.me/guide-natural-language-processing/): it explains the most common algorithms for many NLP tasks, from stemming to the automatic creation of summaries.
 
 
 ## Credits
