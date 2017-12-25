@@ -55,19 +55,23 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 ### Videos and Online Courses
 
+#### Deep Learning and NLP
+Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing
 * [Coursera Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) on Coursera by U of Michigan
-* [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which touches upon NLP as well.
+* [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which touches upon NLP as well
 * [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
+* [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) videos + lecture slides and course description
 * [Deep Learning for Natural Language Processing (cs224*d* 2015)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
-* [Deep Learning for Natural Language Processing (cs224*d* 2016)](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam) by Richard Socher. Updated to make use of Tensorflow. Note that there are some lectures missing (lecture 9, and lectures 12 onwards). Lecture slides and reading materials are [here](http://cs224d.stanford.edu/syllabus.html)
-* [Deep Learning for Natural Language Processing (cs224*n* Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6). Find the Lecture Slides and Reading Material [here](http://web.stanford.edu/class/cs224n/)
-* [Natural Language Processing](https://www.coursera.org/learn/nlangp) - course on Coursera that was only done in 2013. The videos are not available at the moment. Also Mike Collins is a great professor and his notes and lectures are very good
+* [Deep Learning for Natural Language Processing (cs224*d* 2016)](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam) by Richard Socher. Updated to make use of Tensorflow. Some lectures missing. [Lecture Slides + Reading Materials](http://cs224d.stanford.edu/syllabus.html)
+* [Deep Learning for Natural Language Processing (cs224*n* Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) by Richard Socher and Christopher Manning at Stanford. 
+[Lecture Slides and Reading Material](http://web.stanford.edu/class/cs224n/)
+
+#### Classical NLP
+Bayesian, statistics and Linguistics approaches for Natural Language Processing
+* [Natural Language Processing by Prof. Mike Collins at Columbia](https://www.youtube.com/watch?v=mieV29RVpuQ&list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC)
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
-* [Natural Language Processing SFU - Link is broken](http://www.cs.sfu.ca/~anoop/teaching/CMPT-413-Spring-2014/) - course by [Prof Anoop Sarkar](https://www.cs.sfu.ca/~anoop/) on Natural Language Processing. Good notes and some good lectures on youtube about HMM
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
-* [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber . Lectures from University of Maryland
-* [Natural Language Processing - Stanford](https://www.youtube.com/playlist?list=PL6397E4B26D00A269) by Dan Jurafsky & Chris Manning. Previously on coursera. [Lecture Notes](http://www.mohamedaly.info/teaching/cmp-462-spring-2013)
-* [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) videos + lecture slides and course description for the Deep Natural Language Processing course offered in Hilary Term 2017 at the University of Oxford
+* [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber, Lectures from University of Maryland
 
 ## Packages
 
