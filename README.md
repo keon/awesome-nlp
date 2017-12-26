@@ -38,6 +38,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Neural Network](#neural-network)
    - [Supplementary Materials](#supplementary-materials)
  - [Blogs](#blogs)
+ - [Datasets](#datasets)
  - [Credits](#credits)
 
 
@@ -330,6 +331,9 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf)
 * [Deep parsing in Watson](http://nlp.cs.rpi.edu/course/spring14/deepparsing.pdf)
 * [Online named entity recognition method for microtexts in social networking services: A case study of twitter](http://arxiv.org/pdf/1301.2857.pdf)
+
+## Datasets
+* [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
 
 ## Credits
 part of the lists are from
