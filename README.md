@@ -85,9 +85,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
 * <a id="python">**Python** - Python NLP Libraries</a>
-  * [fastText by Facebook](https://github.com/facebookresearch/fastText) - for efficient learning of word representations and sentence classification
-  * [Word2vec](https://code.google.com/archive/p/word2vec) by Mikolov
-  * [Global Vectors for Word Representations](http://nlp.stanford.edu/projects/glove/)
   * [Scikit-learn: Machine learning in Python](http://arxiv.org/pdf/1201.0490.pdf)
   * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
   * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
@@ -183,15 +180,14 @@ Text embeddings allow deep learning to be effective on smaller datasets. These a
 The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings. 
 
 #### word2vec
-word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. in 2013.
+word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. when he was with Google. 
 Performs well on word similarity and analogy tasks
 
 * [Word2Vec Official Implementation](https://code.google.com/p/word2vec/)
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 Chris Olah (2014), Beginner friendly blog explaining word2vec
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781v3.pdf)
-* [Distributed Representations of Words and Phrases and their Compositionality]
-(http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
+* [Distributed Representations of Words and Phrases and their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 * [Word2Vec tutorial](http://tensorflow.org/tutorials/word2vec/index.html) in [TensorFlow](http://tensorflow.org/)
 * [gensim's Review of word2vec](http://rare-technologies.com/making-sense-of-word2vec/)
 * [Word2Vec Resources on Github](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
@@ -201,6 +197,17 @@ GloVe was introduced by Pennington, Socher, Manning from Stanford in 2014 as a s
 
 * [GloVe: Global vectors for word representation](http://nlp.stanford.edu/projects/glove/glove.pdf). Creates word vectors and relates word2vec to matrix factorizations 
 * [Glove source code and training data](http://nlp.stanford.edu/projects/glove/)
+
+#### fastText
+fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 200 languages. This allows it to work with out of vocabulary words as well. It captures language morphology well. It also supports a supervised classification mechanism. 
+
+  * [fastText on Github](https://github.com/facebookresearch/fastText) - for efficient learning of word representations and sentence classification
+  * [Pre-trained Vectors](https://fasttext.cc/docs/en/pretrained-vectors.html) in several languages
+  * [Paper: Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606)
+  * [Paper: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759)
+  * [Paper: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651)
+  * [Unofficial Python Wrapper for fastText on Github](https://github.com/vrasneur/pyfasttext/)
+
 
 #### Other Text Embeddings
 * [Pre-trained word embeddings for WSJ corpus](https://github.com/ai-ku/wvec) by Koc AI-Lab
