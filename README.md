@@ -56,14 +56,14 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 #### Deep Learning and NLP
 Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing
-* [Coursera Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) on Coursera by U of Michigan
-* [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which touches upon NLP as well
-* [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
-* [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) videos + lecture slides and course description
-* [Deep Learning for Natural Language Processing (cs224*d* 2015)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
+* [Coursera Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) by U of Michigan
+* [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course which touches upon NLP as well
+* [Udacity's Deep Learning](https://classroom.udacity.com/courses/ud730) using Tensorflow which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
+* [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) has videos, lecture slides and reading material
+* [Deep Learning for Natural Language Processing (cs224*n* Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) by Richard Socher and Christopher Manning at Stanford. Tensorflow. 
+[Lecture Slides and Reading Material here](http://web.stanford.edu/class/cs224n/)
 * [Deep Learning for Natural Language Processing (cs224*d* 2016)](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam) by Richard Socher. Updated to make use of Tensorflow. Some lectures missing. [Lecture Slides + Reading Materials](http://cs224d.stanford.edu/syllabus.html)
-* [Deep Learning for Natural Language Processing (cs224*n* Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) by Richard Socher and Christopher Manning at Stanford. 
-[Lecture Slides and Reading Material](http://web.stanford.edu/class/cs224n/)
+* [Deep Learning for Natural Language Processing (cs224*d* 2015)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
 
 #### Classical NLP
 Bayesian, statistics and Linguistics approaches for Natural Language Processing
@@ -171,7 +171,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing
 
 ### Services
 * [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
-* IBM Watson's [Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
+* [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
 
 ## Techniques
 
