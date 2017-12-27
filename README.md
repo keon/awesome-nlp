@@ -6,7 +6,7 @@
 
 *Please read the [contribution guidelines](contributing.md) before contributing.*
 
-Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls), or email Martin Park (sp3005@nyu.edu)/Keon Kim (keon.kim@nyu.edu) to add links.
+Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls), or email Martin Park(sp3005@nyu.edu) / Keon Kim (keon.kim@nyu.edu) to add links.
 
 
 ## Table of Contents
@@ -56,14 +56,14 @@ Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
 
 #### Deep Learning and NLP
 Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing
-* [Coursera Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) on Coursera by U of Michigan
-* [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course on Udacity which touches upon NLP as well
-* [Udacity Deep Learning](https://classroom.udacity.com/courses/ud730) Deep Learning course on Udacity (using Tensorflow) which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
-* [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) videos + lecture slides and course description
-* [Deep Learning for Natural Language Processing (cs224*d* 2015)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
+* [Coursera Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) by U of Michigan
+* [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course which touches upon NLP as well
+* [Udacity's Deep Learning](https://classroom.udacity.com/courses/ud730) using Tensorflow which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
+* [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) has videos, lecture slides and reading material
+* [Deep Learning for Natural Language Processing (cs224*n* Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) by Richard Socher and Christopher Manning at Stanford. Tensorflow. 
+[Lecture Slides and Reading Material here](http://web.stanford.edu/class/cs224n/)
 * [Deep Learning for Natural Language Processing (cs224*d* 2016)](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam) by Richard Socher. Updated to make use of Tensorflow. Some lectures missing. [Lecture Slides + Reading Materials](http://cs224d.stanford.edu/syllabus.html)
-* [Deep Learning for Natural Language Processing (cs224*n* Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6) by Richard Socher and Christopher Manning at Stanford. 
-[Lecture Slides and Reading Material](http://web.stanford.edu/class/cs224n/)
+* [Deep Learning for Natural Language Processing (cs224*d* 2015)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
 
 #### Classical NLP
 Bayesian, statistics and Linguistics approaches for Natural Language Processing
@@ -85,9 +85,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
 * <a id="python">**Python** - Python NLP Libraries</a>
-  * [fastText by Facebook](https://github.com/facebookresearch/fastText) - for efficient learning of word representations and sentence classification
-  * [Word2vec](https://code.google.com/archive/p/word2vec) by Mikolov
-  * [Global Vectors for Word Representations](http://nlp.stanford.edu/projects/glove/)
   * [Scikit-learn: Machine learning in Python](http://arxiv.org/pdf/1201.0490.pdf)
   * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
   * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
@@ -171,7 +168,9 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing
 
 ### Services
 * [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
-* IBM Watson's [Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
+* [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
+* [Amazon Comprehend](https://aws.amazon.com/comprehend/) is NLP and ML suite from Amazon, covering most common tasks like NER, tagging, and sentiment analysis
+* [Google Cloud Natural Language](https://cloud.google.com/natural-language/) API suite provides Syntax Analysis, NER, Sentiment Analysis, and Content tagging in atleast 9 languages include English and Chinese (Simplified and Traditional).
 
 ## Techniques
 
@@ -181,15 +180,14 @@ Text embeddings allow deep learning to be effective on smaller datasets. These a
 The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings. 
 
 #### word2vec
-word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. in 2013.
+word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. when he was with Google. 
 Performs well on word similarity and analogy tasks
 
 * [Word2Vec Official Implementation](https://code.google.com/p/word2vec/)
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 Chris Olah (2014), Beginner friendly blog explaining word2vec
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781v3.pdf)
-* [Distributed Representations of Words and Phrases and their Compositionality]
-(http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
+* [Distributed Representations of Words and Phrases and their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
 * [Word2Vec tutorial](http://tensorflow.org/tutorials/word2vec/index.html) in [TensorFlow](http://tensorflow.org/)
 * [gensim's Review of word2vec](http://rare-technologies.com/making-sense-of-word2vec/)
 * [Word2Vec Resources on Github](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
@@ -199,6 +197,17 @@ GloVe was introduced by Pennington, Socher, Manning from Stanford in 2014 as a s
 
 * [GloVe: Global vectors for word representation](http://nlp.stanford.edu/projects/glove/glove.pdf). Creates word vectors and relates word2vec to matrix factorizations 
 * [Glove source code and training data](http://nlp.stanford.edu/projects/glove/)
+
+#### fastText
+fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 200 languages. This allows it to work with out of vocabulary words as well. It captures language morphology well. It also supports a supervised classification mechanism. 
+
+  * [fastText on Github](https://github.com/facebookresearch/fastText) - for efficient learning of word representations and sentence classification
+  * [Pre-trained Vectors](https://fasttext.cc/docs/en/pretrained-vectors.html) in several languages
+  * [Paper: Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606)
+  * [Paper: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759)
+  * [Paper: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651)
+  * [Unofficial Python Wrapper for fastText on Github](https://github.com/vrasneur/pyfasttext/)
+
 
 #### Other Text Embeddings
 * [Pre-trained word embeddings for WSJ corpus](https://github.com/ai-ku/wvec) by Koc AI-Lab
@@ -217,32 +226,24 @@ GloVe was introduced by Pennington, Socher, Manning from Stanford in 2014 as a s
 ### Thought Vectors
 Thought vectors are numeric representations for sentences, paragraphs, and documents.  The following papers are listed in order of date published, each one replaces the last as the state of the art in sentiment analysis.
 
-[Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.1327&rep=rep1&type=pdf)
+* [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.1327&rep=rep1&type=pdf)
 Socher et al. 2013.  Introduces Recursive Neural Tensor Network.  Uses a parse tree.
-
-[Distributed Representations of Sentences and Documents](http://cs.stanford.edu/~quocle/paragraph_vector.pdf)
-[Le](https://scholar.google.com/citations?user=vfT6-XIAAAAJ), Mikolov. 2014.  Introduces Paragraph Vector. Concatenates and averages pretrained, fixed word vectors to create vectors for sentences, paragraphs and documents. Also known as paragraph2vec.  Doesn't use a parse tree.
-Implemented in [gensim](https://github.com/piskvorky/gensim/).  See [doc2vec tutorial](http://rare-technologies.com/doc2vec-tutorial/)
-
-[Deep Recursive Neural Networks for Compositionality in Language](http://www.cs.cornell.edu/~oirsoy/files/nips14drsv.pdf)
+* [Distributed Representations of Sentences and Documents](http://cs.stanford.edu/~quocle/paragraph_vector.pdf)
+[Le](https://scholar.google.com/citations?user=vfT6-XIAAAAJ), Mikolov. 2014.  Introduces Paragraph Vector. Concatenates and averages pretrained, fixed word vectors to create vectors for sentences, paragraphs and documents. Also known as paragraph2vec.  Doesn't use a parse tree. Implemented in [gensim](https://github.com/piskvorky/gensim/).  See [doc2vec tutorial](http://rare-technologies.com/doc2vec-tutorial/)
+* [Deep Recursive Neural Networks for Compositionality in Language](http://www.cs.cornell.edu/~oirsoy/files/nips14drsv.pdf)
 Irsoy & Cardie. 2014.  Uses Deep Recursive Neural Networks. Uses a parse tree.
-
-[Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks](https://aclweb.org/anthology/P/P15/P15-1150.pdf)
+* [Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks](https://aclweb.org/anthology/P/P15/P15-1150.pdf)
 Tai et al. 2015  Introduces Tree LSTM. Uses a parse tree.
-
-[Semi-supervised Sequence Learning](http://arxiv.org/pdf/1511.01432.pdf)
+* [Semi-supervised Sequence Learning](http://arxiv.org/pdf/1511.01432.pdf)
 Dai, Le 2015 "With pretraining, we are able to train long short term memory recurrent networks up to a few hundred
 timesteps, thereby achieving strong performance in many text classification tasks, such as IMDB, DBpedia and 20 Newsgroups."
 
 ### Machine Translation
-[Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)
-Bahdanau, Cho 2014.  "comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation."  Implements attention mechanism.
-[English to French Demo](http://104.131.78.120/)
-
-[Sequence to Sequence Learning with Neural Networks](http://arxiv.org/pdf/1409.3215v3.pdf)
-Sutskever, Vinyals, Le 2014.  ([nips presentation](http://research.microsoft.com/apps/video/?id=239083)). Uses LSTM RNNs to generate translations. " Our main result is that on an English to French translation task from the WMT’14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8"
-[seq2seq tutorial](http://tensorflow.org/tutorials/seq2seq/index.html) in
-
+* [Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)
+Bahdanau, Cho 2014.  "comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation."  Implements attention mechanism. [English to French Demo](http://104.131.78.120/)
+* [Sequence to Sequence Learning with Neural Networks](http://arxiv.org/pdf/1409.3215v3.pdf) Sutskever, Vinyals, Le 2014.  ([nips presentation](http://research.microsoft.com/apps/video/?id=239083)). 
+Uses LSTM RNNs to generate translations. " Our main result is that on an English to French translation task from the WMT’14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8"
+* [seq2seq tutorial](http://tensorflow.org/tutorials/seq2seq/index.html)
 * [Cross-lingual Pseudo-Projected Expectation Regularization for Weakly Supervised Learning](http://arxiv.org/pdf/1310.1597v1.pdf)
 * [Generating Chinese Named Entity Data from a Parallel Corpus](http://www.mt-archive.info/IJCNLP-2011-Fu.pdf)
 * [IXA pipeline: Efficient and Ready to Use Multilingual NLP tools](http://www.lrec-conf.org/proceedings/lrec2014/pdf/775_Paper.pdf)
