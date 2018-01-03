@@ -43,14 +43,20 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 
 
 ## Tutorials
+General Machine Learning
+* [AI Playbook](http://aiplaybook.a16z.com/) is a brief set of pieces to introduce machine learning and other advancements to technical as well as non-technical audience. Written by the amazing people over at [a16z - Andreessen Horowitz](https://a16z.com/) this is a great link to forward to your managers or content for your presentations 
+* [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
 
+Introductions and Guides to NLP
+* Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
+* [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
+* [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
+
+Specialized Blogs
+* [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+* [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
 * Tensor Flow Tutorial on [Seq2Seq](https://www.tensorflow.org/tutorials/seq2seq/index.html) Models
-* Natural Language Understanding with Distributed Representation [Lecture Note](https://github.com/nyu-dl/NLP_DL_Lecture_Note) by Cho
-* [Michael Collins](http://www.cs.columbia.edu/~mcollins/) - one of the best NLP teachers. Check out the material on the courses he is teaching.
-* Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process corpora and conduct Latent Semantic Analysis and Latent Dirichlet Allocation experiments.
-* [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action) - A guide to creating machines that understand human language.
-* [A Primer on Neural Network Models for Natural Language Processing](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)
-Yoav Goldberg. October 2015. No new info, 75 page summary of state of the art.
+* Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora 
 
 ### Videos and Online Courses
 
@@ -75,7 +81,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing
 ## Packages
 
 ### Libraries
-* [TwitIE: An Open-Source Information Extraction Pipeline for Microblog Text](http://www.anthology.aclweb.org/R/R13/R13-1011.pdf)
+
 
 * <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a>
   * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
@@ -314,15 +320,6 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Presentation slides for QA applications of MLNs](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
 * [Presentation slides](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
 * [Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations](https://homes.cs.washington.edu/~clzhang/paper/acl2011.pdf)
-
-## Blogs
-* Blog Post on [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
-* Blog Post on [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
-* [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
-* [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
-* Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
-* [AI Playbook](http://aiplaybook.a16z.com/) is a brief set of pieces to introduce machine learning and other advancements to technical as well as non-technical audience. Written by the amazing people over at [a16z - Andreessen Horowitz](https://a16z.com/) this is a great link to forward to your managers or content for your presentations 
-* [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
 
 ### Review Articles
 * [Deep Learning for Web Search and Natural Language Processing](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/wsdm2015.v3.pdf)
