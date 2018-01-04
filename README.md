@@ -9,35 +9,32 @@
 Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls).
 
 
-## Table of Contents
+## Contents
 
  - [Tutorials](#tutorials)
    - [Videos and Courses](#videos-and-online-courses)
  - [Deep Learning for NLP](#deep-learning-for-nlp)
- - [Packages](#packages)
-   - [Libraries](#libraries)
-     - [Node.js](#user-content-node-js)
-     - [Python](#user-content-python)
-     - [C++](#user-content-c++)
-     - [Java](#user-content-java)
-     - [Scala](#user-content-scala)
-     - [R](#user-content-R)
-     - [Clojure](#user-content-clojure)
-     - [Ruby](#user-content-ruby)
-     - [Rust](#user-content-rust)
-   - [Services](#services)
+ - [Libraries](#libraries)
+   - [Node.js](#user-content-node-js)
+   - [Python](#user-content-python)
+   - [C++](#user-content-c++)
+   - [Java](#user-content-java)
+   - [Scala](#user-content-scala)
+   - [R](#user-content-R)
+   - [Clojure](#user-content-clojure)
+   - [Ruby](#user-content-ruby)
+   - [Rust](#user-content-rust)
+ - [Services](#services)
  - [Techniques](#techniques)
    - [Word Vectors](#word-vectors)
    - [Thought Vectors](#thought-vectors)
    - [Machine Translation](#machine-translation)
-   - [General Natural Language Processing](#general-natural-language-processing)
    - [Single Exchange Dialogs](#single-exchange-dialogs)
    - [Memory and Attention Models](#memory-and-attention-models)
-   - [General Natural Language Processing](#general-natural-language-processing)
    - [Named Entity Recognition](#named-entity-recognition)
    - [Neural Network](#neural-network)
-   - [Supplementary Materials](#supplementary-materials)
- - [Blogs](#blogs)
+   - [Language Modeling](#language-modeling)
+   - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
  - [Datasets](#datasets)
  - [Credits](#credits)
 
@@ -57,6 +54,7 @@ Specialized Blogs
 * [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
 * Tensor Flow Tutorial on [Seq2Seq](https://www.tensorflow.org/tutorials/seq2seq/index.html) Models
 * Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora 
+* [arXiv: Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 
 ### Videos and Online Courses
 
@@ -283,23 +281,17 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets](http://arxiv.org/pdf/1503.01007v4.pdf), Joulin, Mikolov 2015 
 * [Stack RNN source code](https://github.com/facebook/Stack-RNN) and [blog post](https://research.facebook.com/blog/1642778845966521/inferring-algorithmic-patterns-with-stack/)
 
-### General Natural Language Processing
+### Language Modeling
 * [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LSTM representation
 * [LSTM over tree structures](http://arxiv.org/abs/1503.04881)
-* [Teaching Machines to Read and Comprehend](http://arxiv.org/abs/1506.03340) - DeepMind paper
 * [Low-Dimensional Embeddings of Logic](http://www.aclweb.org/anthology/W/W14/W14-2409.pdf)
 * Tutorial on Markov Logic Networks ([based on this paper](http://homes.cs.washington.edu/~pedrod/papers/mlj05.pdf))
-* [Markov Logic Networks for Natural Language Question Answering](http://arxiv.org/pdf/1507.03045v1.pdf)
 * [Distant Supervision for Cancer Pathway Extraction From Text](http://research.microsoft.com/en-us/um/people/hoifung/papers/psb15.pdf)
-* [Privee: An Architecture for Automatically Analyzing Web Privacy Policies](http://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf)
 * [A Neural Probabilistic Language Model](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
-* [Template-Based Information Extraction without the Templates](http://www.usna.edu/Users/cs/nchamber/pubs/acl2011-chambers-templates.pdf)
 * [Retrofitting word vectors to semantic lexicons](http://www.cs.cmu.edu/~mfaruqui/papers/naacl15-retrofitting.pdf)
 * [Unsupervised Learning of the Morphology of a Natural Language](http://www.mitpressjournals.org/doi/pdfplus/10.1162/089120101750300490)
-* [Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 * [Computational Grounded Cognition: a new alliance between grounded cognition and computational modelling](http://journal.frontiersin.org/article/10.3389/fpsyg.2012.00612/full)
 * [Learning the Structure of Biomedical Relation Extractions](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004216)
-* [Relation extraction with matrix factorization and universal schemas](http://www.anthology.aclweb.org/N/N13/N13-1008.pdf)
 
 ### Named Entity Recognition
 * [A survey of named entity recognition and classification](http://nlp.cs.nyu.edu/sekine/papers/li07.pdf)
@@ -312,16 +304,20 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf)
 * [Slides from Google Talk](http://www.fit.vutbr.cz/~imikolov/rnnlm/google.pdf)
 
-### Supplementary Materials
+### Question Answering and Knowledge Extraction
+* [Markov Logic Networks for Natural Language Question Answering](http://arxiv.org/pdf/1507.03045v1.pdf)
+* [Template-Based Information Extraction without the Templates](http://www.usna.edu/Users/cs/nchamber/pubs/acl2011-chambers-templates.pdf)
+* [Relation extraction with matrix factorization and universal schemas](http://www.anthology.aclweb.org/N/N13/N13-1008.pdf)
+* [Privee: An Architecture for Automatically Analyzing Web Privacy Policies](http://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf)
+* [Teaching Machines to Read and Comprehend](http://arxiv.org/abs/1506.03340) - DeepMind paper
 * [DrQA: Open Domain Question Answering](https://github.com/facebookresearch/DrQA) by facebook on Wikipedia data
 * [Relation Extraction with Matrix Factorization and Universal Schemas](http://www.riedelcastro.org//publications/papers/riedel13relation.pdf)
 * [Towards a Formal Distributional Semantics: Simulating Logical Calculi with Tensors](http://www.aclweb.org/anthology/S13-1001)
 * [Presentation slides for MLN tutorial](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/mln-summary-20150918.ppt)
 * [Presentation slides for QA applications of MLNs](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
 * [Presentation slides](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
-* [Knowledge-Based Weak Supervision for Information Extraction of Overlapping Relations](https://homes.cs.washington.edu/~clzhang/paper/acl2011.pdf)
 
-### Review Articles
+### Research and Review Articles
 * [Deep Learning for Web Search and Natural Language Processing](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/wsdm2015.v3.pdf)
 * [Probabilistic topic models](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)
 * [Natural language processing: an introduction](http://jamia.oxfordjournals.org/content/18/5/544.short)
