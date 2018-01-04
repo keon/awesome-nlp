@@ -33,7 +33,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Memory and Attention Models](#memory-and-attention-models)
    - [Named Entity Recognition](#named-entity-recognition)
    - [Neural Network](#neural-network)
-   - [Language Modeling](#language-modeling)
+   - [Natural Language Understanding](#natural-language-understanding)
    - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
  - [Datasets](#datasets)
  - [Credits](#credits)
@@ -281,7 +281,7 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets](http://arxiv.org/pdf/1503.01007v4.pdf), Joulin, Mikolov 2015 
 * [Stack RNN source code](https://github.com/facebook/Stack-RNN) and [blog post](https://research.facebook.com/blog/1642778845966521/inferring-algorithmic-patterns-with-stack/)
 
-### Language Modeling
+### Natural Language Understanding
 * [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LSTM representation
 * [LSTM over tree structures](http://arxiv.org/abs/1503.04881)
 * [Low-Dimensional Embeddings of Logic](http://www.aclweb.org/anthology/W/W14/W14-2409.pdf)
