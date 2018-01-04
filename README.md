@@ -2,11 +2,11 @@
 
 > A curated list of resources dedicated to Natural Language Processing
 >
-> Maintainers - [Keon Kim](https://github.com/keonkim), [Martin Park](https://github.com/outpark)
+> Maintainers - [Keon](https://github.com/keonkim), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK)
 
 *Please read the [contribution guidelines](contributing.md) before contributing.*
 
-Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls), or email Martin Park(sp3005@nyu.edu) / Keon Kim (keon.kim@nyu.edu) to add links.
+Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls).
 
 
 ## Table of Contents
