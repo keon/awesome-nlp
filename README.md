@@ -49,10 +49,6 @@ Introductions and Guides to NLP
 * [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
 * [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
 
-Machine Translation
-* A [blog post](https://research.googleblog.com/2017/07/building-your-own-neural-machine.html) for a neural machine translation using TensorFlow by Google Research. The [code](https://github.com/tensorflow/nmt) can be seen here.
-* A tutorial about neural machine translation by Prof Graham Neubig can be found [here](https://github.com/neubig/nmt-tips). The tutorial is in Perl.
-
 Specialized Blogs
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 * [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
@@ -247,15 +243,13 @@ Dai, Le 2015 "With pretraining, we are able to train long short term memory recu
 timesteps, thereby achieving strong performance in many text classification tasks, such as IMDB, DBpedia and 20 Newsgroups."
 
 ### Machine Translation
-* [Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)
-Bahdanau, Cho 2014.  "comparable to the existing state-of-the-art phrase-based system on the task of English-to-French translation."  Implements attention mechanism. [English to French Demo](http://104.131.78.120/)
-* [Sequence to Sequence Learning with Neural Networks](http://arxiv.org/pdf/1409.3215v3.pdf) Sutskever, Vinyals, Le 2014.  ([nips presentation](http://research.microsoft.com/apps/video/?id=239083)). 
-Uses LSTM RNNs to generate translations. " Our main result is that on an English to French translation task from the WMT’14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8"
-* [seq2seq tutorial](http://tensorflow.org/tutorials/seq2seq/index.html)
-* [Cross-lingual Pseudo-Projected Expectation Regularization for Weakly Supervised Learning](http://arxiv.org/pdf/1310.1597v1.pdf)
-* [Generating Chinese Named Entity Data from a Parallel Corpus](http://www.mt-archive.info/IJCNLP-2011-Fu.pdf)
-* [IXA pipeline: Efficient and Ready to Use Multilingual NLP tools](http://www.lrec-conf.org/proceedings/lrec2014/pdf/775_Paper.pdf)
-
+* Google Research's [blog post](https://research.googleblog.com/2017/07/building-your-own-neural-machine.html) for neural machine translation using encoder-decoder architecture with seq2seq models. [Tensorflow Code here](https://github.com/tensorflow/nmt)
+  * [seq2seq tensorflow tutorial](http://tensorflow.org/tutorials/seq2seq/index.html)
+* Prof Graham Neubig's Neural Machine Translation [tutorial in Perl](https://github.com/neubig/nmt-tips)
+* [arXiv: Sequence to Sequence Learning with Neural Networks](http://arxiv.org/pdf/1409.3215v3.pdf) Sutskever, Vinyals, Le 2014 proved the effectiivenss of **LSTM** for Machine Translation. Check their ([nips presentation](http://research.microsoft.com/apps/video/?id=239083))
+* [arXiv: Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)
+Bahdanau, Cho 2014 introduced the **attention mechanism** in NLP
+* Open Source code: [OpenNMT](http://opennmt.net/) is an open source initiative for neural machine translation and neural sequence modeling. It has a [PyTorch](https://github.com/OpenNMT/OpenNMT-py), [Tensorflow](https://github.com/OpenNMT/OpenNMT-tf) and the original [LuaTorch](https://github.com/OpenNMT/OpenNMT) implementation. 
 
 ### Single Exchange Dialogs
 [A Neural Network Approach toContext-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)
