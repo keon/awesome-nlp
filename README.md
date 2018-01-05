@@ -49,6 +49,10 @@ Introductions and Guides to NLP
 * [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
 * [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
 
+Machine Translation
+* A [blog post](https://research.googleblog.com/2017/07/building-your-own-neural-machine.html) for a neural machine translation using TensorFlow by Google Research. The [code](https://github.com/tensorflow/nmt) can be seen here.
+* A tutorial about neural machine translation by Prof Graham Neubig can be found [here](https://github.com/neubig/nmt-tips). The tutorial is in Perl.
+
 Specialized Blogs
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 * [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
