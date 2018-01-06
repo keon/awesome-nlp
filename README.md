@@ -324,8 +324,20 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Deep parsing in Watson](http://nlp.cs.rpi.edu/course/spring14/deepparsing.pdf)
 * [Online named entity recognition method for microtexts in social networking services: A case study of twitter](http://arxiv.org/pdf/1301.2857.pdf)
 
+## Blogs
+* Blog Post on [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+* Blog Post on [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
+* [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
+* [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
+* Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
+* [AI Playbook](http://aiplaybook.a16z.com/): An easily understandable introductory website.
+* [Introduction to NLP](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386)
+* [A Guide to Natural Language Processing](https://tomassetti.me/guide-natural-language-processing/): it explains the most common algorithms for many NLP tasks, from stemming to the automatic creation of summaries.
+
+
 ## Datasets
 * [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
+
 
 ## Credits
 part of the lists are from
