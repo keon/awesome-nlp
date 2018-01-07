@@ -28,7 +28,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Rust](#user-content-rust)
  - [Services](#services)
  - [Techniques](#techniques)
-   - [Word Vectors](#word-vectors)
+   - [Text Embeddings](#text-embeddings)
    - [Thought Vectors](#thought-vectors)
    - [Machine Translation](#machine-translation)
    - [Single Exchange Dialogs](#single-exchange-dialogs)
@@ -267,23 +267,21 @@ Bahdanau, Cho 2014 introduced the **attention mechanism** in NLP
 
 [Back to Top](#contents)
 
-[A Neural Network Approach toContext-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)
-Sordoni 2015.  Generates responses to tweets.
-Uses [Recurrent Neural Network Language Model (RLM) architecture
+* [A Neural Network Approach to Context-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)
+Sordoni 2015.  Generates responses to tweets. Uses [Recurrent Neural Network Language Model (RLM) architecture
 of (Mikolov et al., 2010).](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)  source code: [RNNLM Toolkit](http://www.rnnlm.org/)
 
-[Neural Responding Machine for Short-Text Conversation](http://arxiv.org/pdf/1503.02364v2.pdf)
+* [Neural Responding Machine for Short-Text Conversation](http://arxiv.org/pdf/1503.02364v2.pdf)
 Shang et al. 2015  Uses Neural Responding Machine.  Trained on Weibo dataset.  Achieves one round conversations with 75% appropriate responses.
 
-[A Neural Conversation Model](http://arxiv.org/pdf/1506.05869v3.pdf)
-Vinyals, [Le](https://scholar.google.com/citations?user=vfT6-XIAAAAJ) 2015.  Uses LSTM RNNs to generate conversational responses. Uses [seq2seq framework](http://tensorflow.org/tutorials/seq2seq/index.html).  Seq2Seq was originally designed for machine transation and it "translates" a single sentence, up to around 79 words, to a single sentence response, and has no memory of previous dialog exchanges.  Used in Google [Smart Reply feature for Inbox](http://googleresearch.blogspot.co.uk/2015/11/computer-respond-to-this-email.html)
+* [arXiv: A Neural Conversation Model](http://arxiv.org/pdf/1506.05869v3.pdf) Vinyals, [Le](https://scholar.google.com/citations?user=vfT6-XIAAAAJ) 2015.  Uses LSTM RNNs to generate conversational responses
 
 ### Memory and Attention Models 
 
 [Back to Top](#contents)
 
 Most are courtesy [andrewt3000/DL4NLP](https://github.com/andrewt3000/DL4NLP)
-* [Augmented RNNs](www.distill.pub/2016/augmented-rnns/) is an amazing interactive Tutorial on Attention and Memory networks
+* Interactive tutorial on [Augmented RNNs](www.distill.pub/2016/augmented-rnns/) including Attention and Memory networks
 * [Reasoning, Attention and Memory RAM workshop at NIPS 2015. slides included](http://www.thespermwhale.com/jaseweston/ram/)
 * [Memory Networks](http://arxiv.org/pdf/1410.3916v10.pdf) Weston et. al 2014
 * [End-To-End Memory Networks](http://arxiv.org/pdf/1503.08895v4.pdf) Sukhbaatar et. al 2015
