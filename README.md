@@ -34,7 +34,6 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Single Exchange Dialogs](#single-exchange-dialogs)
    - [Memory and Attention Models](#memory-and-attention-models)
    - [Named Entity Recognition](#named-entity-recognition)
-   - [Neural Network](#neural-network)
    - [Natural Language Understanding](#natural-language-understanding)
    - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
  - [Datasets](#datasets)
@@ -309,20 +308,16 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Unsupervised Learning of the Morphology of a Natural Language](http://www.mitpressjournals.org/doi/pdfplus/10.1162/089120101750300490)
 * [Computational Grounded Cognition: a new alliance between grounded cognition and computational modelling](http://journal.frontiersin.org/article/10.3389/fpsyg.2012.00612/full)
 * [Learning the Structure of Biomedical Relation Extractions](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004216)
+* [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf) by T. Mikolov, 2012. * [Slides on the same here](http://www.fit.vutbr.cz/~imikolov/rnnlm/google.pdf)
 
 ### Named Entity Recognition
 
-
+[Back to Top](#contents)
 
 * [A survey of named entity recognition and classification](http://nlp.cs.nyu.edu/sekine/papers/li07.pdf)
 * [Benchmarking the extraction and disambiguation of named entities on the semantic web](http://www.lrec-conf.org/proceedings/lrec2014/pdf/176_Paper.pdf)
 * [Knowledge base population: Successful approaches and challenges](http://www.aclweb.org/anthology/P11-1115)
 * [SpeedRead: A fast named entity recognition Pipeline](http://arxiv.org/pdf/1301.2857.pdf)
-
-### Neural Network
-
-* [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf)
-* [Slides from Google Talk](http://www.fit.vutbr.cz/~imikolov/rnnlm/google.pdf)
 
 ### Question Answering and Knowledge Extraction
 
