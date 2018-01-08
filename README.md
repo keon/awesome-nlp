@@ -36,6 +36,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Named Entity Recognition](#named-entity-recognition)
    - [Natural Language Understanding](#natural-language-understanding)
    - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
+   - [Text Summarization](#text-summarization)
  - [Datasets](#datasets)
  - [Credits](#credits)
 
@@ -341,6 +342,17 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Presentation slides for MLN tutorial](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/mln-summary-20150918.ppt)
 * [Presentation slides for QA applications of MLNs](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
 * [Presentation slides](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
+
+### Text Summarization
+* [TextRank- bringing order into text](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) by Mihalcea and Tarau is regarded as the first paper on text summarization. The code is available [here](https://github.com/ceteri/pytextrank)
+* [Modelling compressions with Discourse constraints](http://jamesclarke.net/media/papers/clarke-lapata-emnlp07.pdf) by Clarke and Zapata provides a discourse informed model for summarization and subtitle generation.
+* [Deep Recurrent Generative decoder model for abstractive text summarization](https://arxiv.org/pdf/1708.00625v1.pdf) by Li et al, 2017 uses a sequence-to-sequence oriented encoder-decoder model equipped with a deep recurrent generative decoder.
+* [A Semantic Relevance Based Neural Network for Text Summarization and Text Simplification](https://arxiv.org/pdf/1710.02318v1.pdf) by Ma and Sun, 2017 uses a gated attention enocder-decoder for text summarization.
+* [Beyond Stemming and Lemmatization: Ultra-stemming to Improve Automatic Text Summarization](https://arxiv.org/pdf/1209.3126v1.pdf) by Moreno, 2012 proposes a new method of normalization called ultra-stemming that basically means reducing words to its initial letters.
+* [This mini-awesome list](https://github.com/mathsyouth/awesome-text-summarization) provides a wider view of the research papers in text summarization.
+* [This blogpost](https://medium.com/@Currie32/text-summarization-with-amazon-reviews-41801c2210b) uses Amazon food reviews for text summarization. the code implementation is [here](https://github.com/Currie32/Text-Summarization-with-Amazon-Reviews).
+* [This TextSum model](https://github.com/tensorflow/models/tree/master/research/textsum) is from the official TensorFlow repository.
+* [TextTeaser](https://github.com/DataTeaser/textteaser) is a automatic text summarization algorithm. The algorithm is ported in Python and Scala.  
 
 ### Research and Review Articles
 
