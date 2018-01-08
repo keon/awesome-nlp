@@ -14,8 +14,8 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 ## Contents
 
  - [Tutorials](#tutorials)
+   - [Reading Content](#reading-content)
    - [Videos and Courses](#videos-and-online-courses)
- - [Deep Learning for NLP](#deep-learning-for-nlp)
  - [Libraries](#libraries)
    - [Node.js](#user-content-node-js)
    - [Python](#user-content-python)
@@ -42,6 +42,8 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 
 ## Tutorials
 [Back to Top](#contents)
+
+### Reading Content
 
 General Machine Learning
 * [AI Playbook](http://aiplaybook.a16z.com/) is a brief set of pieces to introduce machine learning and other advancements to technical as well as non-technical audience. Written by the amazing people over at [a16z - Andreessen Horowitz](https://a16z.com/) this is a great link to forward to your managers or content for your presentations 
@@ -84,7 +86,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 
 [Back to Top](#contents)
 
-* <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a>
+* <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a> | [Back to Top](#contents)
   * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
   * [Knwl.js](https://github.com/loadfive/Knwl.js) - A Natural Language Processor in JS
   * [Retext](https://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
@@ -175,8 +177,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
 
 ### Services
-
-[Back to Top](#contents)
+APIs with higher level functionality such as NER, Topic tagging and so on | [Back to Top](#contents)
 
 * [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
 * [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
@@ -186,15 +187,17 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 ## Techniques
 
 ### Text Embeddings
+
+[Back to Top](#contents)
+
 Text embeddings allow deep learning to be effective on smaller datasets. These are often first inputs to a deep learning archiectures and most popular way of transfer learning in NLP. Embeddings are simply vectors or a more generically, real valued representations of strings. Word embeddings are considered a great starting point for most deep NLP tasks. 
 
 The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings. 
 
-[Back to Top](#contents)
 
 #### word2vec
 word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. when he was with Google. 
-Performs well on word similarity and analogy tasks
+Performs well on word similarity and analogy tasks | [Back to Top](#contents)
 
 * [Word2Vec Official Implementation](https://code.google.com/p/word2vec/)
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
@@ -206,22 +209,23 @@ Chris Olah (2014), Beginner friendly blog explaining word2vec
 * [Word2Vec Resources on Github](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
 
 #### GloVe
-GloVe was introduced by Pennington, Socher, Manning from Stanford in 2014 as a statistical approximation to word embeddings. The word vectors are created by matrix factorizations of word-word co-occurence matrices here. 
+GloVe was introduced by Pennington, Socher, Manning from Stanford in 2014 as a statistical approximation to word embeddings. The word vectors are created by matrix factorizations of word-word co-occurence matrices here  | [Back to Top](#contents)
 
 * [GloVe: Global vectors for word representation](http://nlp.stanford.edu/projects/glove/glove.pdf). Creates word vectors and relates word2vec to matrix factorizations 
 * [Glove source code and training data](http://nlp.stanford.edu/projects/glove/)
 
 #### fastText
-fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 200 languages. This allows it to work with out of vocabulary words as well. It captures language morphology well. It also supports a supervised classification mechanism. 
+fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 200 languages. This allows it to work with out of vocabulary words as well. It captures language morphology well. It also supports a supervised classification mechanism | [Back to Top](#contents)
 
   * [fastText on Github](https://github.com/facebookresearch/fastText) - for efficient learning of word representations and sentence classification
   * [Pre-trained Vectors](https://fasttext.cc/docs/en/pretrained-vectors.html) in several languages
-  * [Paper: Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606)
-  * [Paper: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759)
-  * [Paper: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651)
+  * [arXiv: Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606), [arXiv: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759), and [arXiv: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651) were released as part of this project
   * [Unofficial Python Wrapper for fastText on Github](https://github.com/vrasneur/pyfasttext/)
 
 #### Other Text Embeddings
+
+[Back to Top](#contents)
+
 * [Pre-trained word embeddings for WSJ corpus](https://github.com/ai-ku/wvec) by Koc AI-Lab
 * [HLBL language model](http://metaoptimize.com/projects/wordreprs/) by Turian
 * [Real-valued vector "embeddings"](http://www.cis.upenn.edu/~ungar/eigenwords/) by Dhillon
@@ -236,7 +240,7 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
 
 
 ### Thought Vectors
-Thought vectors are numeric representations for sentences, paragraphs, and documents.  The following papers are listed in order of date published, each one replaces the last as the state of the art in sentiment analysis.
+Thought vectors are numeric representations for sentences, paragraphs, and documents.  The following papers are listed in order of date published, each one replaces the last as the state of the art in sentiment analysis | [Back to Top](#contents)
 
 * [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.1327&rep=rep1&type=pdf)
 Socher et al. 2013.  Introduces Recursive Neural Tensor Network.  Uses a parse tree.
@@ -348,11 +352,14 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Online named entity recognition method for microtexts in social networking services: A case study of twitter](http://arxiv.org/pdf/1301.2857.pdf)
 
 ## Datasets
+
+[Back to Top](#contents)
+
 * [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
 
 
 ## Credits
-part of the lists are from
+Awesome NLP was seeded with curated content from the lot of repositories, some of which are listed below | [Back to Top](#contents)
 * [ai-reading-list](https://github.com/m0nologuer/AI-reading-list)
 * [nlp-reading-group](https://github.com/clulab/nlp-reading-group/wiki/Fall-2015-Reading-Schedule/_edit)
 * [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp)
