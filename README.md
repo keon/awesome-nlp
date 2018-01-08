@@ -35,6 +35,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Neural Network](#neural-network)
    - [Natural Language Understanding](#natural-language-understanding)
    - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
+   - [Text Summarization](#text-summarization)
  - [Datasets](#datasets)
  - [Credits](#credits)
 
@@ -317,6 +318,10 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Presentation slides for MLN tutorial](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/mln-summary-20150918.ppt)
 * [Presentation slides for QA applications of MLNs](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
 * [Presentation slides](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
+
+### Text Summarization
+* [TextRank- bringing order into text](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) by Mihalcea and Tarau is regarded as the first paper on text summarization. The code is available [here](https://github.com/ceteri/pytextrank)
+* [Modelling compressions with Discourse constraints](http://jamesclarke.net/media/papers/clarke-lapata-emnlp07.pdf) by Clarke and Zapata provides a discourse informed model for summarization and subtitle generation.
 
 ### Research and Review Articles
 * [Deep Learning for Web Search and Natural Language Processing](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/wsdm2015.v3.pdf)
