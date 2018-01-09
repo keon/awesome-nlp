@@ -62,6 +62,7 @@ Specialized Blogs
 * Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora 
 * [arXiv: Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 * [karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
+* [dsindex's blog](http://dsindex.github.io/) is an NLP blog written in Korean. 
 
 ### Videos and Online Courses
 
@@ -82,6 +83,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
 * [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber, Lectures from University of Maryland
+* [Kangwon University's NLP course in Korean](http://cs.kangwon.ac.kr/~leeck/NLP/)
 
 ## Libraries
 
@@ -156,6 +158,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [tm](https://github.com/ispras/tm) - Implementation of topic modeling based on regularized multilingual [PLSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis).
   * [word2vec-scala](https://github.com/Refefer/word2vec-scala) - Scala interface to word2vec model; includes operations on vectors like word-distance and word-analogy.
   * [Epic](https://github.com/dlwh/epic) - Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models.
+  * [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - A Scala library for Korean Natural Language Processing.
 
 * <a id="R">**R** - R NLP Libraries</a> | [Back to Top](#contents)
   * [text2vec](https://github.com/dselivanov/text2vec) - Fast vectorization, topic modeling, distances and GloVe word embeddings in R.
@@ -165,6 +168,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [dfrtopics](https://github.com/agoldst/dfrtopics) - R package for exploring topic models of text.
   * [sentiment_classifier](https://github.com/kevincobain2000/sentiment_classifier) - Sentiment Classification using Word Sense Disambiguation and WordNet Reader
   * [jProcessing](https://github.com/kevincobain2000/jProcessing) - Japanese Natural Langauge Processing Libraries, with Japanese sentiment classification
+  * [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) - Korean Natural language processing package
 
 * <a id="clojure">**Clojure**</a> | [Back to Top](#contents)
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
@@ -371,7 +375,9 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 [Back to Top](#contents)
 
 * [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
-
+* [KAIST Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)- A corpus from the Korea Advanced Institute of Science and Technology in Korean.
+* [Naver Sentiment Movie Corpus in Korean](https://github.com/e9t/nsmc/)
+* [Chosun Ilbo archive](http://srchdb1.chosun.com/pdf/i_archive/) - dataset in Korean from one of the major newspapers in South Korea, the Chosun Ilbo.
 
 ## Credits
 Awesome NLP was seeded with curated content from the lot of repositories, some of which are listed below | [Back to Top](#contents)
