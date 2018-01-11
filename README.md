@@ -38,6 +38,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
    - [Text Summarization](#text-summarization)
  - [Datasets](#datasets)
+ - [NLP in Korean](#nlp-in-korean)
  - [Credits](#credits)
 
 
@@ -62,7 +63,6 @@ Specialized Blogs
 * Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora 
 * [arXiv: Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 * [karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
-* [dsindex's blog](http://dsindex.github.io/) is an NLP blog written in Korean. 
 
 ### Videos and Online Courses
 
@@ -83,7 +83,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
 * [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber, Lectures from University of Maryland
-* [Kangwon University's NLP course in Korean](http://cs.kangwon.ac.kr/~leeck/NLP/)
 
 ## Libraries
 
@@ -104,7 +103,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [YAlign](https://github.com/machinalis/yalign) - A sentence aligner, a friendly tool for extracting parallel sentences from comparable corpora.
   * [jieba](https://github.com/fxsjy/jieba#jieba-1) - Chinese Words Segmentation Utilities.
   * [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text.
-  * [KoNLPy](http://konlpy.org) - A Python package for Korean natural language processing.
   * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
   * [BLLIP Parser](https://pypi.python.org/pypi/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
   * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
@@ -137,7 +135,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [frog](https://github.com/LanguageMachines/frog) - Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer.
   * [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) is a C++ Data Sciences Toolkit that facilitates mining big text data.
   * [Mecab (Japanese)](http://taku910.github.io/mecab/)
-  * [Mecab (Korean)](http://eunjeon.blogspot.com/)
   * [Moses](http://statmt.org/moses/)
   * [StarSpace](https://github.com/facebookresearch/StarSpace) - a library from Facebook for creating embeddings of word-level, paragraph-level, document-level and for text classification
 
@@ -160,6 +157,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [Epic](https://github.com/dlwh/epic) - Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models.
   * [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - A Scala library for Natural Language Processing in Korean
 
+
 * <a id="R">**R** - R NLP Libraries</a> | [Back to Top](#contents)
   * [text2vec](https://github.com/dselivanov/text2vec) - Fast vectorization, topic modeling, distances and GloVe word embeddings in R.
   * [wordVectors](https://github.com/bmschmidt/wordVectors) - An R package for creating and exploring word2vec and other word embedding models
@@ -168,7 +166,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [dfrtopics](https://github.com/agoldst/dfrtopics) - R package for exploring topic models of text.
   * [sentiment_classifier](https://github.com/kevincobain2000/sentiment_classifier) - Sentiment Classification using Word Sense Disambiguation and WordNet Reader
   * [jProcessing](https://github.com/kevincobain2000/jProcessing) - Japanese Natural Langauge Processing Libraries, with Japanese sentiment classification
-  * [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) - Korean Natural language processing package
 
 * <a id="clojure">**Clojure**</a> | [Back to Top](#contents)
   * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
@@ -375,6 +372,25 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 [Back to Top](#contents)
 
 * [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
+
+## NLP in Korean
+
+[Back to Top](#contents)
+
+### Libraries
+
+  * [KoNLPy](http://konlpy.org) - A Python package for Korean natural language processing.
+  * [Mecab (Korean)](http://eunjeon.blogspot.com/) - A C++ library for NLP in Korean.
+  * [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - A Scala library for Korean Natural Language Processing.
+  * [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) -A Korean Natural language processing package in R.
+  
+### Blogs and Tutorials 
+
+* [dsindex's blog](http://dsindex.github.io/)
+* [Kangwon University's NLP course in Korean](http://cs.kangwon.ac.kr/~leeck/NLP/)
+
+### Datasets
+
 * [KAIST Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)- A corpus from the Korea Advanced Institute of Science and Technology in Korean.
 * [Naver Sentiment Movie Corpus in Korean](https://github.com/e9t/nsmc/)
 * [Chosun Ilbo archive](http://srchdb1.chosun.com/pdf/i_archive/) - dataset in Korean from one of the major newspapers in South Korea, the Chosun Ilbo.
