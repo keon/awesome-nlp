@@ -88,6 +88,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 ### Books
 
 * [Text Mining in R](https://www.tidytextmining.com)
+* [Natural Language Processing with Python](http://www.nltk.org/book/)
 
 ## Libraries
 
