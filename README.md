@@ -16,6 +16,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
  - [Tutorials](#tutorials)
    - [Reading Content](#reading-content)
    - [Videos and Courses](#videos-and-online-courses)
+   - [Books](#books)
  - [Libraries](#libraries)
    - [Node.js](#user-content-node-js)
    - [Python](#user-content-python)
@@ -83,6 +84,10 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
 * [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber, Lectures from University of Maryland
+
+### Books
+
+* [Text Mining in R](https://www.tidytextmining.com)
 
 ## Libraries
 
