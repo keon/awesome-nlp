@@ -16,6 +16,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
  - [Tutorials](#tutorials)
    - [Reading Content](#reading-content)
    - [Videos and Courses](#videos-and-online-courses)
+   - [Books](#books)
  - [Libraries](#libraries)
    - [Node.js](#user-content-node-js)
    - [Python](#user-content-python)
@@ -55,6 +56,7 @@ Introductions and Guides to NLP
 * Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
 * [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
 * [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
+* [Deep Learning for NLP with Pytorch](http://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 
 Specialized Blogs
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
@@ -83,6 +85,11 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
 * [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber, Lectures from University of Maryland
+
+### Books
+
+* [Text Mining in R](https://www.tidytextmining.com)
+* [Natural Language Processing with Python](http://www.nltk.org/book/)
 
 ## Libraries
 
@@ -276,8 +283,10 @@ Bahdanau, Cho 2014 introduced the **attention mechanism** in NLP
 [Back to Top](#contents)
 
 * [A Neural Network Approach to Context-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)
-Sordoni 2015.  Generates responses to tweets. Uses [Recurrent Neural Network Language Model (RLM) architecture
-of (Mikolov et al., 2010).](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)  source code: [RNNLM Toolkit](http://www.rnnlm.org/)
+Sordoni 2015.  Generates responses to tweets. 
+  * Uses [Recurrent Neural Network Language Model (RLM) architecture
+of (Mikolov et al., 2010).](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf). Source code: [RNNLM Toolkit](http://www.fit.vutbr.cz/~imikolov/rnnlm/index.html)
+  * RNNLM Tutorial: [Implementing RNN Language Models by Denny Britz](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)
 
 * [Neural Responding Machine for Short-Text Conversation](http://arxiv.org/pdf/1503.02364v2.pdf)
 Shang et al. 2015  Uses Neural Responding Machine.  Trained on Weibo dataset.  Achieves one round conversations with 75% appropriate responses.
