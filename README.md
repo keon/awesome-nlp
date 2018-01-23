@@ -38,6 +38,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Natural Language Understanding](#natural-language-understanding)
    - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
    - [Text Summarization](#text-summarization)
+   - [Text Classification](#text-classification)
  - [Datasets](#datasets)
  - [NLP in Korean](#nlp-in-korean)
  - [Credits](#credits)
@@ -162,8 +163,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [tm](https://github.com/ispras/tm) - Implementation of topic modeling based on regularized multilingual [PLSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis).
   * [word2vec-scala](https://github.com/Refefer/word2vec-scala) - Scala interface to word2vec model; includes operations on vectors like word-distance and word-analogy.
   * [Epic](https://github.com/dlwh/epic) - Epic is a high performance statistical parser written in Scala, along with a framework for building complex structured prediction models.
-  * [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - A Scala library for Natural Language Processing in Korean
-
 
 * <a id="R">**R** - R NLP Libraries</a> | [Back to Top](#contents)
   * [text2vec](https://github.com/dselivanov/text2vec) - Fast vectorization, topic modeling, distances and GloVe word embeddings in R.
@@ -354,6 +353,9 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Presentation slides](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
 
 ### Text Summarization
+
+[Back to Top](#contents)
+
 * [TextRank- bringing order into text](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) by Mihalcea and Tarau is regarded as the first paper on text summarization. The code is available [here](https://github.com/ceteri/pytextrank)
 * [Modelling compressions with Discourse constraints](http://jamesclarke.net/media/papers/clarke-lapata-emnlp07.pdf) by Clarke and Zapata provides a discourse informed model for summarization and subtitle generation.
 * [Deep Recurrent Generative decoder model for abstractive text summarization](https://arxiv.org/pdf/1708.00625v1.pdf) by Li et al, 2017 uses a sequence-to-sequence oriented encoder-decoder model equipped with a deep recurrent generative decoder.
@@ -363,6 +365,16 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [This blogpost](https://medium.com/@Currie32/text-summarization-with-amazon-reviews-41801c2210b) uses Amazon food reviews for text summarization. the code implementation is [here](https://github.com/Currie32/Text-Summarization-with-Amazon-Reviews).
 * [This TextSum model](https://github.com/tensorflow/models/tree/master/research/textsum) is from the official TensorFlow repository.
 * [TextTeaser](https://github.com/DataTeaser/textteaser) is a automatic text summarization algorithm. The algorithm is ported in Python and Scala.  
+
+### Text Classification
+
+[Back to Top](#contents)
+
+* [Convolutional Neural Networks for sentence classfication](https://arxiv.org/pdf/1408.5882v2.pdf) by Kim Yoon is now regarded as the standard baseline for text classification architecture. 
+* [Using a CNN for text classification in TensorFlow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) by Denny Britz uses the same dataset as Kim Yoon's paper(mentioned above). The code implementation can be found [here](https://github.com/dennybritz/cnn-text-classification-tf).
+* [Facebook's fasttext](https://github.com/facebookresearch/fastText) is a library for fast text representation and text classification
+* [Brightmart's repo](https://github.com/brightmart/text_classification) has a list of all text classification models with their respective scores, trainings,explanations and their Python implementations.
+* [Character-level Convolutional Networks for Text Classification](https://arxiv.org/pdf/1509.01626v3.pdf) by Zhang et al uses CNN and compares them with the traditional text classification models. Its Lua implementation can be found [here](https://github.com/zhangxiangxiao/Crepe).
 
 ### Research and Review Articles
 
@@ -392,7 +404,7 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
   * [Mecab (Korean)](http://eunjeon.blogspot.com/) - A C++ library for NLP in Korean.
   * [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - A Scala library for Korean Natural Language Processing.
   * [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) -A Korean Natural language processing package in R.
-  
+
 ### Blogs and Tutorials 
 
 * [dsindex's blog](http://dsindex.github.io/)
