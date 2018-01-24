@@ -372,7 +372,7 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 
 * [Convolutional Neural Networks for sentence classfication](https://arxiv.org/pdf/1408.5882v2.pdf) by Kim Yoon is now regarded as the standard baseline for text classification architecture. 
 * [Using a CNN for text classification in TensorFlow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) by Denny Britz uses the same dataset as Kim Yoon's paper(mentioned above). The code implementation can be found [here](https://github.com/dennybritz/cnn-text-classification-tf).
-* [Facebook's fasttext](https://github.com/facebookresearch/fastText) is a library for fast text representation and text classification
+* [Facebook's fasttext](https://github.com/facebookresearch/fastText) is a library for text embeddings and text classification
 * [Brightmart's repo](https://github.com/brightmart/text_classification) has a list of all text classification models with their respective scores, trainings,explanations and their Python implementations.
 * [Character-level Convolutional Networks for Text Classification](https://arxiv.org/pdf/1509.01626v3.pdf) by Zhang et al uses CNN and compares them with the traditional text classification models. Its Lua implementation can be found [here](https://github.com/zhangxiangxiao/Crepe).
 
