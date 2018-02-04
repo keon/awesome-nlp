@@ -104,33 +104,31 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
 
 * <a id="python">**Python** - Python NLP Libraries</a> | [Back to Top](#contents)
-  * [Scikit-learn: Machine learning in Python](http://arxiv.org/pdf/1201.0490.pdf)
-  * [Natural Language Toolkit (NLTK)](http://www.nltk.org/)
-  * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
-  * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of NLTK and Pattern, and plays nicely with both.
-  * [YAlign](https://github.com/machinalis/yalign) - A sentence aligner, a friendly tool for extracting parallel sentences from comparable corpora.
-  * [jieba](https://github.com/fxsjy/jieba#jieba-1) - Chinese Words Segmentation Utilities.
-  * [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text.
-  * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
-  * [BLLIP Parser](https://pypi.python.org/pypi/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
-  * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
-  * [python-ucto](https://github.com/proycon/python-ucto) - Python binding to ucto (a unicode-aware rule-based tokenizer for various languages)
-  * [Parserator](https://github.com/datamade/parserator) - A toolkit for making domain-specific probabilistic parsers
-  * [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
-  * [python-zpar](https://github.com/EducationalTestingService/python-zpar) - Python bindings for [ZPar](https://github.com/frcchang/zpar), a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English.
-  * [colibri-core](https://github.com/proycon/colibri-core) - Python binding to C++ library for extracting and working with with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
-  * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython.
-  * [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy
-  * [PyStanfordDependencies](https://github.com/dmcc/PyStanfordDependencies) - Python interface for converting Penn Treebank trees to Stanford Dependencies.
-  * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text
-  * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora.
-  * [CogComp-NlPy](https://github.com/CogComp/cogcomp-nlpy) - Light-weight Python NLP annotators.
-  * [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package.
-  * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
-  * [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages.
-  * [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
-  * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
+
+Note: :v: Recommended packages 
+
+Packages marked by :v: are popular and used in production grade systems by atleast one maintainer of this repository or people  they respect
+
+  * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](http://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :v:
+  * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython :v:
+    * [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy :v:
+  * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text :v:
+  * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora :v:
   * [AllenNLP](https://github.com/allenai/allennlp) - An NLP research library, built on PyTorch, for developing state-of-the-art deep learning models on a wide variety of linguistic tasks.
+  * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
+  * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
+  * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
+  * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
+
+  * Language Specific Tools 
+    * Chinese: [YAlign](https://github.com/machinalis/yalign) - A sentence aligner, a friendly tool for extracting parallel sentences from comparable corpora
+    * Chinese: [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text
+    * Chinese: [jieba](https://github.com/fxsjy/jieba#jieba-1) - Chinese Words Segmentation Utilities.
+    * Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
+    * Thai: [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package
+    * Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
+    * Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
+    
 
 * <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
