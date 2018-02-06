@@ -42,6 +42,8 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
  - [Datasets](#datasets)
  - [NLP in Korean](#nlp-in-korean)
  - [NLP in Arabic](#nlp-in-arabic)
+ - [NLP in Chinese](#nlp-in-chinese)
+ - [NLP in Spanish](#nlp-in-spanish)
  - [Credits](#credits)
 
 
@@ -110,8 +112,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [Pattern](http://www.clips.ua.ac.be/pattern) - A web mining module for the Python programming language. It has tools for natural language processing, machine learning, among others.
   * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of NLTK and Pattern, and plays nicely with both.
   * [YAlign](https://github.com/machinalis/yalign) - A sentence aligner, a friendly tool for extracting parallel sentences from comparable corpora.
-  * [jieba](https://github.com/fxsjy/jieba#jieba-1) - Chinese Words Segmentation Utilities.
-  * [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text.
   * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
   * [BLLIP Parser](https://pypi.python.org/pypi/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
   * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
@@ -431,6 +431,27 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 
 * [LABR](https://github.com/mohamedadaly/labr) - LArge Arabic Book Reviews dataset
 * [Arabic Stopwords](https://github.com/mohataher/arabic-stop-words) - A list of Arabic stopwords from various resources
+
+## NLP in Chinese
+
+[Back to Top](#contents)
+
+### Libraries
+
+ * [jieba](https://github.com/fxsjy/jieba#jieba-1) - A Chinese Words Segmentation Utilities library in Python 
+ * [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text in Python
+ * [FudanNLP](https://github.com/FudanNLP/fnlp)- A Java library for Chinese text processing.
+ 
+## NLP in Spanish
+
+[Back to Top](#contents)
+
+## Corpora
+
+* [Columbian Political Speeches](https://github.com/dav009/LatinamericanTextResources)
+* [Copenhagen Treebank](http://code.google.com/p/copenhagen-dependency-treebank/)
+* [Reuters Corpora RCV2](http://trec.nist.gov/data/reuters/reuters.html)
+* [Spanish Billion words corpus with Word2Vec embeddings](http://crscardellino.me/SBWCE/)
 
 ## Credits
 Awesome NLP was seeded with curated content from the lot of repositories, some of which are listed below | [Back to Top](#contents)
