@@ -401,10 +401,10 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 
 ### Libraries
 
-  * [KoNLPy](http://konlpy.org) - A Python package for Korean natural language processing.
-  * [Mecab (Korean)](http://eunjeon.blogspot.com/) - A C++ library for NLP in Korean.
-  * [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - A Scala library for Korean Natural Language Processing.
-  * [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) -A Korean Natural language processing package in R.
+  * [KoNLPy](http://konlpy.org) - Python package for Korean natural language processing.
+  * [Mecab (Korean)](http://eunjeon.blogspot.com/) - C++ library for Korean NLP
+  * [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - Scala library for Korean Natural Language Processing.
+  * [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) - R package for Korean Natural language processing
 
 ### Blogs and Tutorials 
 
@@ -423,9 +423,9 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 
 ### Libraries
 
-* [goarabic](https://github.com/01walid/goarabic)-  A Go package for dealing with Arabic text.
-* [jsastem](https://github.com/ejtaal/jsastem) - An Arabic stemmer package in Javascript
-* [PyArabic](https://pypi.python.org/pypi/PyArabic/0.4) - Arabic text tools for Python
+* [goarabic](https://github.com/01walid/goarabic)-  Go package for Arabic text processing
+* [jsastem](https://github.com/ejtaal/jsastem) - Javascript for Arabic stemming
+* [PyArabic](https://pypi.python.org/pypi/PyArabic/0.4) - Python libraries for Arabic
 
 ### Datasets
 
@@ -438,15 +438,15 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 
 ### Libraries
 
- * [jieba](https://github.com/fxsjy/jieba#jieba-1) - A Chinese Words Segmentation Utilities library in Python 
- * [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text in Python
- * [FudanNLP](https://github.com/FudanNLP/fnlp)- A Java library for Chinese text processing.
+ * [jieba](https://github.com/fxsjy/jieba#jieba-1) - Python package for Words Segmentation Utilities in Chinese
+ * [SnowNLP](https://github.com/isnowfy/snownlp) - Python package for Chinese NLP
+ * [FudanNLP](https://github.com/FudanNLP/fnlp)- Java library for Chinese text processing
  
 ## NLP in Spanish
 
 [Back to Top](#contents)
 
-## Corpora
+### Corpora
 
 * [Columbian Political Speeches](https://github.com/dav009/LatinamericanTextResources)
 * [Copenhagen Treebank](http://code.google.com/p/copenhagen-dependency-treebank/)
