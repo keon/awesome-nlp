@@ -41,6 +41,9 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Text Classification](#text-classification)
  - [Datasets](#datasets)
  - [NLP in Korean](#nlp-in-korean)
+ - [NLP in Arabic](#nlp-in-arabic)
+ - [NLP in Chinese](#nlp-in-chinese)
+ - [NLP in Spanish](#nlp-in-spanish)
  - [Credits](#credits)
 
 
@@ -413,6 +416,42 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [KAIST Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)- A corpus from the Korea Advanced Institute of Science and Technology in Korean.
 * [Naver Sentiment Movie Corpus in Korean](https://github.com/e9t/nsmc/)
 * [Chosun Ilbo archive](http://srchdb1.chosun.com/pdf/i_archive/) - dataset in Korean from one of the major newspapers in South Korea, the Chosun Ilbo.
+
+## NLP in Arabic
+
+[Back to Top](#contents)
+
+### Libraries
+
+* [goarabic](https://github.com/01walid/goarabic)-  A Go package for dealing with Arabic text.
+* [jsastem](https://github.com/ejtaal/jsastem) - An Arabic stemmer package in Javascript
+* [PyArabic](https://pypi.python.org/pypi/PyArabic/0.4) - Arabic text tools for Python
+
+### Datasets
+
+* [LABR](https://github.com/mohamedadaly/labr) - LArge Arabic Book Reviews dataset
+* [Arabic Stopwords](https://github.com/mohataher/arabic-stop-words) - A list of Arabic stopwords from various resources
+
+## NLP in Chinese
+
+[Back to Top](#contents)
+
+### Libraries
+
+ * [jieba](https://github.com/fxsjy/jieba#jieba-1) - A Chinese Words Segmentation Utilities library in Python 
+ * [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text in Python
+ * [FudanNLP](https://github.com/FudanNLP/fnlp)- A Java library for Chinese text processing.
+ 
+## NLP in Spanish
+
+[Back to Top](#contents)
+
+## Corpora
+
+* [Columbian Political Speeches](https://github.com/dav009/LatinamericanTextResources)
+* [Copenhagen Treebank](http://code.google.com/p/copenhagen-dependency-treebank/)
+* [Reuters Corpora RCV2](http://trec.nist.gov/data/reuters/reuters.html)
+* [Spanish Billion words corpus with Word2Vec embeddings](http://crscardellino.me/SBWCE/)
 
 ## Credits
 Awesome NLP was seeded with curated content from the lot of repositories, some of which are listed below | [Back to Top](#contents)
