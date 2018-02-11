@@ -44,6 +44,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
  - [NLP in Arabic](#nlp-in-arabic)
  - [NLP in Chinese](#nlp-in-chinese)
  - [NLP in Spanish](#nlp-in-spanish)
+ - [Other Languages](#other-languages)
  - [Credits](#credits)
 
 
@@ -112,26 +113,17 @@ Note: :v: Recommended packages
 
 Packages marked by :v: are popular and used in production grade systems by atleast one maintainer of this repository or people  they respect
 
-  * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](http://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :v:
-  * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython :v:
-    * [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy :v:
-  * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text :v:
-  * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora :v:
-  * [AllenNLP](https://github.com/allenai/allennlp) - An NLP research library, built on PyTorch, for developing state-of-the-art deep learning models on a wide variety of linguistic tasks.
-  * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
-  * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
-  * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
-  * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
-
-  * Language Specific Tools 
-    * Chinese: [YAlign](https://github.com/machinalis/yalign) - A sentence aligner, a friendly tool for extracting parallel sentences from comparable corpora
-    * Chinese: [SnowNLP](https://github.com/isnowfy/snownlp) - A library for processing Chinese text
-    * Chinese: [jieba](https://github.com/fxsjy/jieba#jieba-1) - Chinese Words Segmentation Utilities.
-    * Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
-    * Thai: [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package
-    * Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
-    * Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
-    
+   * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](http://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :v:
+   * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython :v:
+     * [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy :v:
+   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text :v:
+   * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora :v:
+   * [AllenNLP](https://github.com/allenai/allennlp) - An NLP research library, built on PyTorch, for developing state-of-the-art deep learning models on a wide variety of linguistic tasks.
+   * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
+   * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
+   * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
+   * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
+   
 
 * <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
@@ -452,6 +444,12 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Copenhagen Treebank](http://code.google.com/p/copenhagen-dependency-treebank/)
 * [Reuters Corpora RCV2](http://trec.nist.gov/data/reuters/reuters.html)
 * [Spanish Billion words corpus with Word2Vec embeddings](http://crscardellino.me/SBWCE/)
+
+### Other Languages 
+   * Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
+   * Thai: [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package
+   * Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
+   * Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 
 ## Credits
 Awesome NLP was seeded with curated content from the lot of repositories, some of which are listed below | [Back to Top](#contents)
