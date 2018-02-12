@@ -109,15 +109,11 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 
 * <a id="python">**Python** - Python NLP Libraries</a> | [Back to Top](#contents)
 
-Note: :v: Recommended packages 
-
-Packages marked by :v: are popular and used in production grade systems by atleast one maintainer of this repository or people  they respect
-
-   * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](http://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :v:
-   * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython :v:
-     * [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy :v:
-   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text :v:
-   * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora :v:
+   * [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](http://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :+1:
+   * [spaCy](https://github.com/spacy-io/spaCy) - Industrial strength NLP with Python and Cython :+1:
+     * [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy
+   * [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text :+1:
+   * [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora
    * [AllenNLP](https://github.com/allenai/allennlp) - An NLP research library, built on PyTorch, for developing state-of-the-art deep learning models on a wide variety of linguistic tasks.
    * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
    * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
