@@ -177,9 +177,13 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 APIs with higher level functionality such as NER, Topic tagging and so on | [Back to Top](#contents)
 
 * [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
-* [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs), [Natural Language Classifier](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs) and [Machine Translation](https://github.com/watson-developer-cloud/language-translator-nodejs) API Demos
-* [Amazon Comprehend](https://aws.amazon.com/comprehend/) is NLP and ML suite from Amazon, covering most common tasks like NER, tagging, and sentiment analysis
-* [Google Cloud Natural Language](https://cloud.google.com/natural-language/) API suite provides Syntax Analysis, NER, Sentiment Analysis, and Content tagging in atleast 9 languages include English and Chinese (Simplified and Traditional).
+* [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API and Github demo 
+* [Amazon Comprehend](https://aws.amazon.com/comprehend/) - NLP and ML suite covers most common tasks like NER, tagging, and sentiment analysis
+* [Google Cloud Natural Language API](https://cloud.google.com/natural-language/) - Syntax Analysis, NER, Sentiment Analysis, and Content tagging in atleast 9 languages include English and Chinese (Simplified and Traditional).
+* [ParallelDots](https://www.paralleldots.com/text-analysis-apis) - State of the art Text Analysis API Service ranging from Sentiment Analysis to Intent Analysis
+* [Microsoft Cognitive Service](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
+* [TextRazor](https://www.textrazor.com/)
+* [Rosette](https://www.rosette.com/)
 
 ## Techniques
 
