@@ -4,7 +4,7 @@
 
 > A curated list of resources dedicated to Natural Language Processing
 >
-> Maintainers - [Keon](https://github.com/keonkim), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK)
+> Maintainers - [Keon](https://github.com/keonkim), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK), [Dhruv](https://github.com/the-ethan-hunt)
 
 *Please read the [contribution guidelines](contributing.md) before contributing.*
 
