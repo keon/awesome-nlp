@@ -454,11 +454,9 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 
 ### Corpora and Treebanks
 
-* [Hindi Dependency Treebank](http://ltrc.iiit.ac.in/treebank_H2014/) - made by collaborative effort by five universities is multi-
-representational and multi-layered treebank for Hindi and Urdu.
+* [Hindi Dependency Treebank](http://ltrc.iiit.ac.in/treebank_H2014/) - A multi-representational multi-layered treebank for Hindi and Urdu
 * [Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi/index.html)
-* [Parallel Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi_pud/index.html) - A smaller part of 
-the above-mentioned treebank.
+     * [Parallel Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi_pud/index.html) - A smaller part of the above-mentioned treebank.
 
 ### Other Languages 
    * Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
