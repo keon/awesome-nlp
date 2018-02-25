@@ -461,6 +461,8 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 ### Other Languages 
    * Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
    * Thai: [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package
+   * Vietnamese Treebank: [arXiv: BKTreeBank](https://arxiv.org/pdf/1710.05519.pdf)
+   * Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
    * Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
    * Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 
