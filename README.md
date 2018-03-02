@@ -76,7 +76,6 @@ Specialized Blogs
 
 #### Deep Learning and NLP
 Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing | [Back to Top](#contents)
-* [Coursera Intro to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing) by U of Michigan
 * [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course which touches upon NLP as well
 * [Udacity's Deep Learning](https://classroom.udacity.com/courses/ud730) using Tensorflow which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
 * [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) has videos, lecture slides and reading material
