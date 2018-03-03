@@ -45,6 +45,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
  - [NLP in Chinese](#nlp-in-chinese)
  - [NLP in Spanish](#nlp-in-spanish)
  - [NLP in Indic Languages](#nlp-in-indic-languages)
+ - [NLP in Thai](#nlp-in-thai)
  - [Other Languages](#other-languages)
  - [Credits](#credits)
 
@@ -456,10 +457,26 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 * [Hindi Dependency Treebank](http://ltrc.iiit.ac.in/treebank_H2014/) - A multi-representational multi-layered treebank for Hindi and Urdu
 * [Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi/index.html)
      * [Parallel Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi_pud/index.html) - A smaller part of the above-mentioned treebank.
+     
+## NLP in Thai
+
+[Back to Top](#contents)
+
+### Libraries
+
+* [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package
+* [JTCC](https://github.com/wittawatj/jtcc)- A character cluster library in Java
+* [CutKum](https://github.com/pucktada/cutkum) - Word segmentation with deep learning in TensorFlow
+* [Thai Language Toolkit](https://pypi.python.org/pypi/tltk/) - Based on a paper by Wirote Aroonmanakun in 2002 with included dataset
+* [SynThai](https://github.com/KenjiroAI/SynThai)- Word segmentation and POS tagging using deep learning in Python
+
+### Corpora
+
+* [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm) - A text corpus with 5 million words with word segmentation
+* [Prime Minister 29](https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029)- Dataset containing speeches of the current Prime Minister of Thailand
 
 ### Other Languages 
    * Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
-   * Thai: [PyThaiNLP](https://github.com/wannaphongcom/pythainlp) - Thai NLP in Python Package
    * Vietnamese Treebank: [arXiv: BKTreeBank](https://arxiv.org/pdf/1710.05519.pdf)
    * Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
    * Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
