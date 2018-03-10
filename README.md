@@ -120,6 +120,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
    * [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
    * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
    * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
+   * [Snips NLU](https://github.com/snipsco/snips-nlu) - A production ready library for intent parsing
    
 
 * <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
