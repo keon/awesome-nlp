@@ -174,6 +174,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [Practical Natural Language Processing done in Ruby](https://github.com/arbox/nlp-with-ruby)
 * <a id="rust">**Rust**</a>
   * [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
+  * [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
 
 ### Services
 APIs with higher level functionality such as NER, Topic tagging and so on | [Back to Top](#contents)
