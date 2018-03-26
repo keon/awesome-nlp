@@ -64,6 +64,7 @@ Introductions and Guides to NLP
 * [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
 * [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
 * [Deep Learning for NLP with Pytorch](http://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
+* [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - The hands-on NLTK tutorial in the form of Jupyter notebooks
 
 Specialized Blogs
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
@@ -90,7 +91,6 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 * [Natural Language Processing by Prof. Mike Collins at Columbia](https://www.youtube.com/watch?v=mieV29RVpuQ&list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC)
 * [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
 * [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
-* [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - The hands-on NLTK tutorial in the form of Jupyter notebooks
 * [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber, Lectures from University of Maryland
 
 ### Books
