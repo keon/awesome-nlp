@@ -353,24 +353,21 @@ Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
 
 [Back to Top](#contents)
 
-* [TextRank- bringing order into text](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) by Mihalcea and Tarau is regarded as the first paper on text summarization. The code is available [here](https://github.com/ceteri/pytextrank)
+* [awesome-text-summarization](https://github.com/mathsyouth/awesome-text-summarization) - curated list of resources in text summarization.
+* [Example blogpost](https://medium.com/@Currie32/text-summarization-with-amazon-reviews-41801c2210b) uses Amazon food reviews for text summarization. Code on [Github here](https://github.com/Currie32/Text-Summarization-with-Amazon-Reviews).
+* [TextRank- bringing order into text](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) by Mihalcea and Tarau. Code on [Github here](https://github.com/ceteri/pytextrank)
 * [Modelling compressions with Discourse constraints](http://jamesclarke.net/media/papers/clarke-lapata-emnlp07.pdf) by Clarke and Zapata provides a discourse informed model for summarization and subtitle generation.
-* [Deep Recurrent Generative decoder model for abstractive text summarization](https://arxiv.org/pdf/1708.00625v1.pdf) by Li et al, 2017 uses a sequence-to-sequence oriented encoder-decoder model equipped with a deep recurrent generative decoder.
+* [Deep Recurrent Generative Decoder model for Abstractive Text Summarization](https://arxiv.org/pdf/1708.00625v1.pdf) by Li et al, 2017 uses a sequence-to-sequence oriented encoder-decoder model equipped with a deep recurrent generative decoder.
 * [A Semantic Relevance Based Neural Network for Text Summarization and Text Simplification](https://arxiv.org/pdf/1710.02318v1.pdf) by Ma and Sun, 2017 uses a gated attention enocder-decoder for text summarization.
-* [Beyond Stemming and Lemmatization: Ultra-stemming to Improve Automatic Text Summarization](https://arxiv.org/pdf/1209.3126v1.pdf) by Moreno, 2012 proposes a new method of normalization called ultra-stemming that basically means reducing words to its initial letters.
-* [This mini-awesome list](https://github.com/mathsyouth/awesome-text-summarization) provides a wider view of the research papers in text summarization.
-* [This blogpost](https://medium.com/@Currie32/text-summarization-with-amazon-reviews-41801c2210b) uses Amazon food reviews for text summarization. the code implementation is [here](https://github.com/Currie32/Text-Summarization-with-Amazon-Reviews).
-* [This TextSum model](https://github.com/tensorflow/models/tree/master/research/textsum) is from the official TensorFlow repository.
-* [TextTeaser](https://github.com/DataTeaser/textteaser) is a automatic text summarization algorithm. The algorithm is ported in Python and Scala.  
+* [TextSum](https://github.com/tensorflow/models/tree/master/research/textsum) implementation from Tensorflow
 
 ### Text Classification
 
 [Back to Top](#contents)
-
-* [Convolutional Neural Networks for sentence classfication](https://arxiv.org/pdf/1408.5882v2.pdf) by Kim Yoon is now regarded as the standard baseline for text classification architecture. 
-* [Using a CNN for text classification in TensorFlow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) by Denny Britz uses the same dataset as Kim Yoon's paper(mentioned above). The code implementation can be found [here](https://github.com/dennybritz/cnn-text-classification-tf).
+* [Brightmart/text_classification](https://github.com/brightmart/text_classification) has a list of all text classification models with their respective scores, trainings,explanations and their Python implementations.
 * [Facebook's fasttext](https://github.com/facebookresearch/fastText) is a library for text embeddings and text classification
-* [Brightmart's repo](https://github.com/brightmart/text_classification) has a list of all text classification models with their respective scores, trainings,explanations and their Python implementations.
+* [Convolutional Neural Networks for Sentence Classfication](https://arxiv.org/pdf/1408.5882v2.pdf) by Kim Yoon is now regarded as the standard baseline for text classification architecture. 
+* [Using a CNN for text classification in TensorFlow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) by Denny Britz uses the same dataset as Kim Yoon's paper(mentioned above). The code implementation can be found [here](https://github.com/dennybritz/cnn-text-classification-tf).
 * [Character-level Convolutional Networks for Text Classification](https://arxiv.org/pdf/1509.01626v3.pdf) by Zhang et al uses CNN and compares them with the traditional text classification models. Its Lua implementation can be found [here](https://github.com/zhangxiangxiao/Crepe).
 
 ### Research and Review Articles
