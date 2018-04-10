@@ -32,7 +32,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Text Embeddings](#text-embeddings)
    - [Thought Vectors](#thought-vectors)
    - [Machine Translation](#machine-translation)
-   - [Single Exchange Dialogs](#single-exchange-dialogs)
+   - [Dialogs and Conversational](#dialogs-and-conversational)
    - [Memory and Attention Models](#memory-and-attention-models)
    - [Named Entity Recognition](#named-entity-recognition)
    - [Natural Language Understanding](#natural-language-understanding)
@@ -269,44 +269,37 @@ timesteps, thereby achieving strong performance in many text classification task
 * [arXiv: Sequence to Sequence Learning with Neural Networks](http://arxiv.org/pdf/1409.3215v3.pdf) Sutskever, Vinyals, Le 2014 proved the effectiivenss of **LSTM** for Machine Translation. Check their ([nips presentation](http://research.microsoft.com/apps/video/?id=239083))
 * [arXiv: Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)
 Bahdanau, Cho 2014 introduced the **attention mechanism** in NLP
-* [arXiv: A Convolutional encoder model for neural machine translation](https://arxiv.org/pdf/1611.02344.pdf) by Gehring et al, 2017. The paper is from Facebook AI research and its code is available [here](https://github.com/facebookresearch/fairseq).
-* [Convolutional Sequence to Sequence learning](https://arxiv.org/pdf/1705.03122.pdf) by Gehring et al, 2017. The paper is from Facebook AI research and its code is available [here](https://github.com/facebookresearch/fairseq).
-* [Convolutional over Recurrent Encoder for neural machine translation](https://ufal.mff.cuni.cz/pbml/108/art-dakwale-monz.pdf) by Dakwale and Monz from University of Amsterdam compare the CNNs with a recurrent neural network with additional convolutonal layers.
-* Open Source code: [OpenNMT](http://opennmt.net/) is an open source initiative for neural machine translation and neural sequence modeling. It has a [PyTorch](https://github.com/OpenNMT/OpenNMT-py), [Tensorflow](https://github.com/OpenNMT/OpenNMT-tf) and the original [LuaTorch](https://github.com/OpenNMT/OpenNMT) implementation. 
+* [arXiv: A Convolutional encoder model for neural machine translation](https://arxiv.org/pdf/1611.02344.pdf) by Gehring et al, 2017. The paper is from Facebook AI research and its code is available [here](https://github.com/facebookresearch/fairseq)
+* [Convolutional Sequence to Sequence learning](https://arxiv.org/pdf/1705.03122.pdf) by Gehring et al, 2017. The paper is from Facebook AI research and its code is available [here](https://github.com/facebookresearch/fairseq)
+* [Convolutional over Recurrent Encoder for neural machine translation](https://ufal.mff.cuni.cz/pbml/108/art-dakwale-monz.pdf) by Dakwale and Monz from University of Amsterdam compare the CNNs with a recurrent neural network with additional convolutonal layers
+* Open Source code: [OpenNMT](http://opennmt.net/) is an open source initiative for neural machine translation and neural sequence modeling. [PyTorch](https://github.com/OpenNMT/OpenNMT-py), [Tensorflow](https://github.com/OpenNMT/OpenNMT-tf) and the original [LuaTorch](https://github.com/OpenNMT/OpenNMT) implementation 
 
-### Single Exchange Dialogs
+### Dialogs and Conversational 
 
 [Back to Top](#contents)
-
 * [A Neural Network Approach to Context-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)
-Sordoni 2015.  Generates responses to tweets. 
-  * Uses [Recurrent Neural Network Language Model (RLM) architecture
-of (Mikolov et al., 2010).](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf). Source code: [RNNLM Toolkit](http://www.fit.vutbr.cz/~imikolov/rnnlm/index.html)
+Sordoni 2015. Generates responses to tweets. 
+  * Uses [Recurrent Neural Network Language Model (RLM) architecture of (Mikolov et al., 2010).](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf). [Code of RNNLM Toolkit](http://www.fit.vutbr.cz/~imikolov/rnnlm/index.html)
   * RNNLM Tutorial: [Implementing RNN Language Models by Denny Britz](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)
-
 * [Neural Responding Machine for Short-Text Conversation](http://arxiv.org/pdf/1503.02364v2.pdf)
 Shang et al. 2015  Uses Neural Responding Machine.  Trained on Weibo dataset.  Achieves one round conversations with 75% appropriate responses.
-
 * [arXiv: A Neural Conversation Model](http://arxiv.org/pdf/1506.05869v3.pdf) Vinyals, [Le](https://scholar.google.com/citations?user=vfT6-XIAAAAJ) 2015.  Uses LSTM RNNs to generate conversational responses
 
 ### Memory and Attention Models 
 
 [Back to Top](#contents)
+Some are courtesy [andrewt3000/DL4NLP](https://github.com/andrewt3000/DL4NLP)
 
-Most are courtesy [andrewt3000/DL4NLP](https://github.com/andrewt3000/DL4NLP)
 * Interactive tutorial on [Augmented RNNs](www.distill.pub/2016/augmented-rnns/) including Attention and Memory networks
-* [Reasoning, Attention and Memory RAM workshop at NIPS 2015. slides included](http://www.thespermwhale.com/jaseweston/ram/)
+* [Annotated Transformer](http://nlp.seas.harvard.edu//2018/04/03/attention.html) from the [Attention is All You Need](https://arxiv.org/abs/1706.03762) work explains Tranformer implementation in line by line detail. Both links highly recommended.  
 * [Memory Networks](http://arxiv.org/pdf/1410.3916v10.pdf) Weston et. al 2014
 * [End-To-End Memory Networks](http://arxiv.org/pdf/1503.08895v4.pdf) Sukhbaatar et. al 2015
 Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  Attempts to solve task of reason attention and memory
-* [Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks](http://arxiv.org/pdf/1502.05698v7.pdf)
-Weston 2015. Classifies QA tasks like single factoid, yes/no etc. Extends memory networks
-* [Evaluating prerequisite qualities for learning end to end dialog systems](http://arxiv.org/pdf/1511.06931.pdf)
-Dodge et. al 2015. Tests Memory Networks on 4 tasks including reddit dialog task
-* [Jason Weston lecture on MemNN](https://www.youtube.com/watch?v=Xumy3Yjq4zk)
+* [Reasoning, Attention and Memory RAM workshop at NIPS 2015. slides included](http://www.thespermwhale.com/jaseweston/ram/)
 * [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf), Graves et al. 2014
 * [Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets](http://arxiv.org/pdf/1503.01007v4.pdf), Joulin, Mikolov 2015 
 * [Stack RNN source code](https://github.com/facebook/Stack-RNN) and [blog post](https://research.facebook.com/blog/1642778845966521/inferring-algorithmic-patterns-with-stack/)
+
 
 ### Natural Language Understanding
 
