@@ -63,9 +63,10 @@ General Machine Learning
 Introductions and Guides to NLP
 * Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
 * [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
-* [NLP Tutorial](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
+* [NLP Tutorial by Vik Paruchari](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/), [Natural Language Processing: An Introduction](http://jamia.oxfordjournals.org/content/18/5/544.short) by Oxford
 * [Deep Learning for NLP with Pytorch](http://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 * [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - The hands-on NLTK tutorial in the form of Jupyter notebooks
+
 
 Specialized Blogs
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
@@ -74,6 +75,7 @@ Specialized Blogs
 * Several [tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora 
 * [arXiv: Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 * [karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
+
 
 ### Videos and Online Courses
 
@@ -202,20 +204,17 @@ Text embeddings allow deep learning to be effective on smaller datasets. These a
 The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings. 
 
 
-#### word2vec
-word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. when he was with Google. 
-Performs well on word similarity and analogy tasks | [Back to Top](#contents)
+#### word2vec and GloVe
+**Don't use word2vec, don't use GloVe**. Use fastText vectors, which are much better from the same authors. word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. when he was with Google. 
+Performs well on word similarity and analogy tasks. | [Back to Top](#contents)
 
 * [Word2Vec Official Implementation](https://code.google.com/p/word2vec/)
 * [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 Chris Olah (2014), Beginner friendly blog explaining word2vec
 * [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781v3.pdf)
-* [Distributed Representations of Words and Phrases and their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)
-* [Word2Vec tutorial](http://tensorflow.org/tutorials/word2vec/index.html) in [TensorFlow](http://tensorflow.org/)
-* [gensim's Review of word2vec](http://rare-technologies.com/making-sense-of-word2vec/)
+* [Distributed Representations of Words and Phrases and their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), [Word2Vec tutorial](http://tensorflow.org/tutorials/word2vec/index.html) in [TensorFlow](http://tensorflow.org/), [gensim's Review of word2vec](http://rare-technologies.com/making-sense-of-word2vec/)
 * [Word2Vec Resources on Github](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
 
-#### GloVe
 GloVe was introduced by Pennington, Socher, Manning from Stanford in 2014 as a statistical approximation to word embeddings. The word vectors are created by matrix factorizations of word-word co-occurence matrices here  | [Back to Top](#contents)
 
 * [GloVe: Global vectors for word representation](http://nlp.stanford.edu/projects/glove/glove.pdf). Creates word vectors and relates word2vec to matrix factorizations 
@@ -244,6 +243,7 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
 * [Adaptive skip-gram](http://arxiv.org/abs/1502.07257) - similar approach, with adaptive properties
 * [Sequence to Sequence Learning](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - word vectors for machine translation
 * [Improving distributional similarity with lessons learned from word embeddings](https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/viewFile/570/124)
+* [Deep Contextualized Word Represenations](https://arxiv.org/abs/1802.05365) - [PyTorch](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) - [TF Implementation](https://github.com/allenai/bilm-tf)
 
 
 ### Thought Vectors
@@ -364,18 +364,6 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
 * [Convolutional Neural Networks for Sentence Classfication](https://arxiv.org/pdf/1408.5882v2.pdf) by Kim Yoon is now regarded as the standard baseline for text classification architecture. 
 * [Using a CNN for text classification in TensorFlow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) by Denny Britz uses the same dataset as Kim Yoon's paper(mentioned above). The code implementation can be found [here](https://github.com/dennybritz/cnn-text-classification-tf).
 * [Character-level Convolutional Networks for Text Classification](https://arxiv.org/pdf/1509.01626v3.pdf) by Zhang et al uses CNN and compares them with the traditional text classification models. Its Lua implementation can be found [here](https://github.com/zhangxiangxiao/Crepe).
-
-### Research and Review Articles
-
-[Back to Top](#contents)
-
-* [Deep Learning for Web Search and Natural Language Processing](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/wsdm2015.v3.pdf)
-* [Probabilistic topic models](https://www.cs.princeton.edu/~blei/papers/Blei2012.pdf)
-* [Natural language processing: an introduction](http://jamia.oxfordjournals.org/content/18/5/544.short)
-* [A unified architecture for natural language processing: Deep neural networks with multitask learning](http://arxiv.org/pdf/1201.0490.pdf)
-* [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf)
-* [Deep parsing in Watson](http://nlp.cs.rpi.edu/course/spring14/deepparsing.pdf)
-* [Online named entity recognition method for microtexts in social networking services: A case study of twitter](http://arxiv.org/pdf/1301.2857.pdf)
 
 ## Datasets
 
