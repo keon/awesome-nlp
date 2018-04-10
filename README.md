@@ -58,6 +58,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 General Machine Learning
 * [AI Playbook](http://aiplaybook.a16z.com/) is a brief set of pieces to introduce machine learning and other advancements to technical as well as non-technical audience. Written by the amazing people over at [a16z - Andreessen Horowitz](https://a16z.com/) this is a great link to forward to your managers or content for your presentations 
 * [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
+* [Ruder's Blog](http://ruder.io/#open) by [Sebastian Ruder](https://twitter.com/seb_ruder) for commentary on the best of NLP Research
 
 Introductions and Guides to NLP
 * Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
