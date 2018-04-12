@@ -40,6 +40,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Text Summarization](#text-summarization)
    - [Text Classification](#text-classification)
  - [Datasets](#datasets)
+ - [Implementations of various models](#implementations-of-various-models)
  - [NLP in Korean](#nlp-in-korean)
  - [NLP in Arabic](#nlp-in-arabic)
  - [NLP in Chinese](#nlp-in-chinese)
@@ -370,6 +371,12 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
 [Back to Top](#contents)
 
 * [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
+
+## Implementation of various models
+
+[Back to Top](#contents)
+
+* [DeepNLP-models-Pytorch](https://github.com/DSKSD/DeepNLP-models-Pytorch) has Pytorch implementations of various deep NLP models used in CS224n(Stanford) in the form of Jupyter notebooks.The models are aimed for those who are acquainted with Pytorch.
 
 ## NLP in Korean
 
