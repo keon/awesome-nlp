@@ -372,7 +372,7 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
 
 * [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
 
-## Implementation of various models
+## Implementations of various models
 
 [Back to Top](#contents)
 
