@@ -411,7 +411,7 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
 * [PyArabic](https://pypi.python.org/pypi/PyArabic/0.4) - Python libraries for Arabic
 
 ### Datasets
-
+* [Multidomain Datasets](https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces) - Largest Available Multi-Domain Resources for Arabic Sentiment Analysis
 * [LABR](https://github.com/mohamedadaly/labr) - LArge Arabic Book Reviews dataset
 * [Arabic Stopwords](https://github.com/mohataher/arabic-stop-words) - A list of Arabic stopwords from various resources
 
