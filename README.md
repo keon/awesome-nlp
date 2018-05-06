@@ -47,6 +47,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
  - [NLP in Spanish](#nlp-in-spanish)
  - [NLP in Indic Languages](#nlp-in-indic-languages)
  - [NLP in Thai](#nlp-in-thai)
+ - [NLP in Vietnamese](#nlp-in-vietnamese)
  - [Other Languages](#other-languages)
  - [Credits](#credits)
 
@@ -465,9 +466,26 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
 * [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm) - A text corpus with 5 million words with word segmentation
 * [Prime Minister 29](https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029)- Dataset containing speeches of the current Prime Minister of Thailand
 
+## NLP in Vietnamese
+
+[Back to Top](#contents)
+
+### Libraries
+
+* [underthesea](https://github.com/magizbox/underthesea) - Vietnamese NLP Toolkit
+* [vn.vitk](https://github.com/phuonglh/vn.vitk) - A Vietnamese Text Processing Toolkit
+* [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) - A Vietnamese natural language processing toolkit
+
+### Corpora
+
+* [Vietnamese treebank](https://vlsp.hpda.vn/demo/?page=resources&lang=en) - 10,000 sentences for the constituency parsing task
+* [BKTreeBank](https://arxiv.org/pdf/1710.05519.pdf) - a Vietnamese Dependency Treebank
+* [UD_Vietnamese](https://github.com/UniversalDependencies/UD_Vietnamese-VTB) - Vietnamese Universal Dependency Treebank
+* [VIVOS](https://ailab.hcmus.edu.vn/vivos/) - a free Vietnamese speech corpus consisting of 15 hours of recording speech by AILab
+* [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
+
 ### Other Languages 
    * Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
-   * Vietnamese Treebank: [arXiv: BKTreeBank](https://arxiv.org/pdf/1710.05519.pdf)
    * Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
    * Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
    * Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
