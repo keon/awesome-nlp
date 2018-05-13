@@ -90,6 +90,7 @@ Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing | [Back to
 [Lecture Slides and Reading Material here](http://web.stanford.edu/class/cs224n/)
 * [Deep Learning for Natural Language Processing (cs224*d* 2016)](https://www.youtube.com/playlist?list=PLmImxx8Char9Ig0ZHSyTqGsdhb9weEGam) by Richard Socher. Updated to make use of Tensorflow. Some lectures missing. [Lecture Slides + Reading Materials](http://cs224d.stanford.edu/syllabus.html)
 * [Deep Learning for Natural Language Processing (cs224*d* 2015)](https://www.youtube.com/playlist?list=PLmImxx8Char8dxWB9LRqdpCTmewaml96q) by Richard Socher
+* [Coursera's Natural Language Processing](https://www.coursera.org/learn/language-processing) by National Research University Higher School of Economics
 
 #### Classical NLP
 Bayesian, statistics and Linguistics approaches for Natural Language Processing | [Back to Top](#contents)
@@ -102,6 +103,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 
 * [Text Mining in R](https://www.tidytextmining.com)
 * [Natural Language Processing with Python](http://www.nltk.org/book/)
+* [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
 
 ## Libraries
 
