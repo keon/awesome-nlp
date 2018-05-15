@@ -296,7 +296,7 @@ Shang et al. 2015  Uses Neural Responding Machine.  Trained on Weibo dataset.  A
 [Back to Top](#contents)
 Some are courtesy [andrewt3000/DL4NLP](https://github.com/andrewt3000/DL4NLP)
 
-* Interactive tutorial on [Augmented RNNs](www.distill.pub/2016/augmented-rnns/) including Attention and Memory networks
+* Interactive tutorial on [Augmented RNNs](http://www.distill.pub/2016/augmented-rnns/) including Attention and Memory networks
 * [Annotated Transformer](http://nlp.seas.harvard.edu//2018/04/03/attention.html) from the [Attention is All You Need](https://arxiv.org/abs/1706.03762) work explains Tranformer implementation in line by line detail. Both links highly recommended.  
 * [Memory Networks](http://arxiv.org/pdf/1410.3916v10.pdf) Weston et. al 2014
 * [End-To-End Memory Networks](http://arxiv.org/pdf/1503.08895v4.pdf) Sukhbaatar et. al 2015
