@@ -381,6 +381,12 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
 
 * [DeepNLP-models-Pytorch](https://github.com/DSKSD/DeepNLP-models-Pytorch) has Pytorch implementations of various deep NLP models used in CS224n(Stanford) in the form of Jupyter notebooks.The models are aimed for those who are acquainted with Pytorch.
 
+## Multilingual NLP Frameworks
+
+[Back to Top](#contents)
+* [UDPipe](https://github.com/ufal/udpipe) : Trainable pipeline for tokenizing, tagging, lemmatizing and parsing Universal Treebanks and other CoNLL-U file
+* [NLP-Cube](https://github.com/adobe/NLP-Cube) : Natural Language Processing Pipeline - Sentence Splitting, Tokenization, Lemmatization, Part-of-speech Tagging and Dependency Parsing 
+
 ## NLP in Korean
 
 [Back to Top](#contents)
