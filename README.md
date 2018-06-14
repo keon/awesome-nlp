@@ -44,6 +44,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
  - [NLP in Korean](#nlp-in-korean)
  - [NLP in Arabic](#nlp-in-arabic)
  - [NLP in Chinese](#nlp-in-chinese)
+ - [NLP in German](#nlp-in-german)
  - [NLP in Spanish](#nlp-in-spanish)
  - [NLP in Indic Languages](#nlp-in-indic-languages)
  - [NLP in Thai](#nlp-in-thai)
@@ -431,6 +432,10 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
  * [jieba](https://github.com/fxsjy/jieba#jieba-1) - Python package for Words Segmentation Utilities in Chinese
  * [SnowNLP](https://github.com/isnowfy/snownlp) - Python package for Chinese NLP
  * [FudanNLP](https://github.com/FudanNLP/fnlp)- Java library for Chinese text processing
+
+## NLP in German
+
+ * [German-NLP](https://github.com/adbar/German-NLP) - Curated list of open-access/open-source/off-the-shelf resources and tools developed with a particular focus on German
  
 ## NLP in Spanish
 
