@@ -129,6 +129,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
    * [jPTDP](https://github.com/datquocnguyen/jPTDP) - A toolkit for joint part-of-speech (POS) tagging and dependency parsing. jPTDP provides pre-trained models for 40+ languages.
    * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
    * [Snips NLU](https://github.com/snipsco/snips-nlu) - A production ready library for intent parsing
+   * [Chazutsu](https://github.com/chakki-works/chazutsu) - A library for downloading&parsing standard NLP research datasets
    
 
 * <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
