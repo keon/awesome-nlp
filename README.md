@@ -59,7 +59,7 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
 * [Four deep learning trends from ACL 2017. Part Two: Interpretability and Attention](http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
 * [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
 * [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
-
+* [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
 
 ## Tutorials
 [Back to Top](#contents)
