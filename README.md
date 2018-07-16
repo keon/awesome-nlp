@@ -236,16 +236,16 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
   * [Pre-trained Vectors](https://fasttext.cc/docs/en/pretrained-vectors.html) in several languages
   * [arXiv: Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606), [arXiv: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759), and [arXiv: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651) were released as part of this project
 
-### Sentence and Language Model Based Word Embeddings | [Back to Top](#contents)
+#### Sentence and Language Model Based Word Embeddings 
+
+[Back to Top](#contents)
 
 * **ElMo** [Deep Contextualized Word Represenations](https://arxiv.org/abs/1802.05365) - [PyTorch](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) - [TF Implementation](https://github.com/allenai/bilm-tf)
 * **ULimFit** [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146)
 * **CoVe** [https://arxiv.org/abs/1708.00107](https://arxiv.org/abs/1708.00107)
 * **InferSent** [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364)
-
 * [Distributed Representations of Sentences and Documents](http://cs.stanford.edu/~quocle/paragraph_vector.pdf)
 [Le](https://scholar.google.com/citations?user=vfT6-XIAAAAJ), Mikolov. 2014.  Introduces Paragraph Vector. Concatenates and averages pretrained, fixed word vectors to create vectors for sentences, paragraphs and documents. Also known as paragraph2vec.  Doesn't use a parse tree. Implemented in [gensim](https://github.com/piskvorky/gensim/).  See [doc2vec tutorial](http://rare-technologies.com/doc2vec-tutorial/)
-
 * [sense2vec](http://arxiv.org/abs/1511.06388) - on word sense disambiguation
 * [Infinite Dimensional Word Embeddings](http://arxiv.org/abs/1511.05392)
 * [Skip Thought Vectors](http://arxiv.org/abs/1506.06726) - word representation method
