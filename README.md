@@ -204,6 +204,7 @@ APIs with higher level functionality such as NER, Topic tagging and so on | [Bac
 * [Microsoft Cognitive Service](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
 * [TextRazor](https://www.textrazor.com/)
 * [Rosette](https://www.rosette.com/)
+* [LightTag](https://lighttag.io) - Software/Service for in house labeling projects
 
 ## Techniques
 
