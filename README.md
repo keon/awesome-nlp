@@ -122,6 +122,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [Retext](https://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
   * [NLP Compromise](https://github.com/nlp-compromise/nlp_compromise) - Natural Language processing in the browser
   * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
+  * [Poplar](https://github.com/synyi/poplar) - A web-based annotation tool for natural language processing (NLP)
 
 * <a id="python">**Python** - Python NLP Libraries</a> | [Back to Top](#contents)
 
