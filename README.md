@@ -29,17 +29,6 @@ Please feel free to create [pull requests](https://github.com/keonkim/awesome-nl
    - [Ruby](#user-content-ruby)
    - [Rust](#user-content-rust)
  - [Services](#services)
- - [Techniques](#techniques)
-   - [Text Embeddings](#text-embeddings)
-   - [Thought Vectors](#thought-vectors)
-   - [Machine Translation](#machine-translation)
-   - [Dialogs and Conversational](#dialogs-and-conversational)
-   - [Memory and Attention Models](#memory-and-attention-models)
-   - [Named Entity Recognition](#named-entity-recognition)
-   - [Natural Language Understanding](#natural-language-understanding)
-   - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
-   - [Text Summarization](#text-summarization)
-   - [Text Classification](#text-classification)
  - [Datasets](#datasets)
  - [Implementations of various models](#implementations-of-various-models)
  - [NLP in Korean](#nlp-in-korean)
@@ -254,86 +243,6 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
 * [Sequence to Sequence Learning](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - word vectors for machine translation
 
 
-### Thought Vectors
-Thought vectors are numeric representations for sentences, paragraphs, and documents.  The following papers are listed in order of date published, each one replaces the last as the state of the art in sentiment analysis | [Back to Top](#contents)
-
-* [Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.383.1327&rep=rep1&type=pdf)
-Socher et al. 2013.  Introduces Recursive Neural Tensor Network.  Uses a parse tree.
-* [Deep Recursive Neural Networks for Compositionality in Language](http://www.cs.cornell.edu/~oirsoy/files/nips14drsv.pdf)
-Irsoy & Cardie. 2014.  Uses Deep Recursive Neural Networks. Uses a parse tree.
-* [Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks](https://aclweb.org/anthology/P/P15/P15-1150.pdf)
-Tai et al. 2015  Introduces Tree LSTM. Uses a parse tree.
-* [Semi-supervised Sequence Learning](http://arxiv.org/pdf/1511.01432.pdf)
-Dai, Le 2015 "With pretraining, we are able to train long short term memory recurrent networks up to a few hundred
-timesteps, thereby achieving strong performance in many text classification tasks, such as IMDB, DBpedia and 20 Newsgroups."
-
-### Machine Translation
-
-[Back to Top](#contents)
-
-* Google Research's [blog post](https://research.googleblog.com/2017/07/building-your-own-neural-machine.html) for neural machine translation using encoder-decoder architecture with seq2seq models. [Tensorflow Code here](https://github.com/tensorflow/nmt)
-  * [seq2seq tensorflow tutorial](http://tensorflow.org/tutorials/seq2seq/index.html)
-* Prof Graham Neubig's Neural Machine Translation [tutorial in Perl](https://github.com/neubig/nmt-tips)
-* [arXiv: Sequence to Sequence Learning with Neural Networks](http://arxiv.org/pdf/1409.3215v3.pdf) Sutskever, Vinyals, Le 2014 proved the effectiivenss of **LSTM** for Machine Translation. Check their ([nips presentation](http://research.microsoft.com/apps/video/?id=239083))
-* [arXiv: Neural Machine Translation by jointly learning to align and translate](http://arxiv.org/pdf/1409.0473v6.pdf)
-Bahdanau, Cho 2014 introduced the **attention mechanism** in NLP
-* [arXiv: A Convolutional encoder model for neural machine translation](https://arxiv.org/pdf/1611.02344.pdf) by Gehring et al, 2017. The paper is from Facebook AI research and its code is available [here](https://github.com/facebookresearch/fairseq)
-* [Convolutional Sequence to Sequence learning](https://arxiv.org/pdf/1705.03122.pdf) by Gehring et al, 2017. The paper is from Facebook AI research and its code is available [here](https://github.com/facebookresearch/fairseq)
-* [Convolutional over Recurrent Encoder for neural machine translation](https://ufal.mff.cuni.cz/pbml/108/art-dakwale-monz.pdf) by Dakwale and Monz from University of Amsterdam compare the CNNs with a recurrent neural network with additional convolutonal layers
-* Open Source code: [OpenNMT](http://opennmt.net/) is an open source initiative for neural machine translation and neural sequence modeling. [PyTorch](https://github.com/OpenNMT/OpenNMT-py), [Tensorflow](https://github.com/OpenNMT/OpenNMT-tf) and the original [LuaTorch](https://github.com/OpenNMT/OpenNMT) implementation 
-
-### Dialogs and Conversational 
-
-[Back to Top](#contents)
-* [A Neural Network Approach to Context-Sensitive Generation of Conversational Responses](http://arxiv.org/pdf/1506.06714v1.pdf)
-Sordoni 2015. Generates responses to tweets. 
-  * Uses [Recurrent Neural Network Language Model (RLM) architecture of (Mikolov et al., 2010).](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf). [Code of RNNLM Toolkit](http://www.fit.vutbr.cz/~imikolov/rnnlm/index.html)
-  * RNNLM Tutorial: [Implementing RNN Language Models by Denny Britz](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)
-* [Neural Responding Machine for Short-Text Conversation](http://arxiv.org/pdf/1503.02364v2.pdf)
-Shang et al. 2015  Uses Neural Responding Machine.  Trained on Weibo dataset.  Achieves one round conversations with 75% appropriate responses.
-* [arXiv: A Neural Conversation Model](http://arxiv.org/pdf/1506.05869v3.pdf) Vinyals, [Le](https://scholar.google.com/citations?user=vfT6-XIAAAAJ) 2015.  Uses LSTM RNNs to generate conversational responses
-
-### Memory and Attention Models 
-
-[Back to Top](#contents)
-Some are courtesy [andrewt3000/DL4NLP](https://github.com/andrewt3000/DL4NLP)
-
-* Interactive tutorial on [Augmented RNNs](http://www.distill.pub/2016/augmented-rnns/) including Attention and Memory networks
-* [Annotated Transformer](http://nlp.seas.harvard.edu//2018/04/03/attention.html) from the [Attention is All You Need](https://arxiv.org/abs/1706.03762) work explains Tranformer implementation in line by line detail. Both links highly recommended.  
-* [Memory Networks](http://arxiv.org/pdf/1410.3916v10.pdf) Weston et. al 2014
-* [End-To-End Memory Networks](http://arxiv.org/pdf/1503.08895v4.pdf) Sukhbaatar et. al 2015
-Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  Attempts to solve task of reason attention and memory
-* [Reasoning, Attention and Memory RAM workshop at NIPS 2015. slides included](http://www.thespermwhale.com/jaseweston/ram/)
-* [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf), Graves et al. 2014
-* [Inferring Algorithmic Patterns with Stack-Augmented Recurrent Nets](http://arxiv.org/pdf/1503.01007v4.pdf), Joulin, Mikolov 2015 
-* [Stack RNN source code](https://github.com/facebook/Stack-RNN) and [blog post](https://research.facebook.com/blog/1642778845966521/inferring-algorithmic-patterns-with-stack/)
-
-
-### Natural Language Understanding
-
-[Back to Top](#contents)
-
-* [Neural autocoder for paragraphs and documents](http://arxiv.org/abs/1506.01057) - LSTM representation
-* [LSTM over tree structures](http://arxiv.org/abs/1503.04881)
-* [Low-Dimensional Embeddings of Logic](http://www.aclweb.org/anthology/W/W14/W14-2409.pdf)
-* Tutorial on Markov Logic Networks ([based on this paper](http://homes.cs.washington.edu/~pedrod/papers/mlj05.pdf))
-* [Distant Supervision for Cancer Pathway Extraction From Text](http://research.microsoft.com/en-us/um/people/hoifung/papers/psb15.pdf)
-* [A Neural Probabilistic Language Model](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
-* [Retrofitting word vectors to semantic lexicons](http://www.cs.cmu.edu/~mfaruqui/papers/naacl15-retrofitting.pdf)
-* [Unsupervised Learning of the Morphology of a Natural Language](http://www.mitpressjournals.org/doi/pdfplus/10.1162/089120101750300490)
-* [Computational Grounded Cognition: a new alliance between grounded cognition and computational modelling](http://journal.frontiersin.org/article/10.3389/fpsyg.2012.00612/full)
-* [Learning the Structure of Biomedical Relation Extractions](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004216)
-* [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf) by T. Mikolov, 2012. * [Slides on the same here](http://www.fit.vutbr.cz/~imikolov/rnnlm/google.pdf)
-
-### Named Entity Recognition
-
-[Back to Top](#contents)
-
-* [A survey of named entity recognition and classification](http://nlp.cs.nyu.edu/sekine/papers/li07.pdf)
-* [Benchmarking the extraction and disambiguation of named entities on the semantic web](http://www.lrec-conf.org/proceedings/lrec2014/pdf/176_Paper.pdf)
-* [Knowledge base population: Successful approaches and challenges](http://www.aclweb.org/anthology/P11-1115)
-* [SpeedRead: A fast named entity recognition Pipeline](http://arxiv.org/pdf/1301.2857.pdf)
-
 ### Question Answering and Knowledge Extraction
 
 [Back to Top](#contents)
@@ -350,38 +259,11 @@ Memory networks are implemented in [MemNN](https://github.com/facebook/MemNN).  
 * [Presentation slides for QA applications of MLNs](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
 * [Presentation slides](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
 
-### Text Summarization
-
-[Back to Top](#contents)
-
-* [awesome-text-summarization](https://github.com/mathsyouth/awesome-text-summarization) - curated list of resources in text summarization.
-* [Example blogpost](https://medium.com/@Currie32/text-summarization-with-amazon-reviews-41801c2210b) uses Amazon food reviews for text summarization. Code on [Github here](https://github.com/Currie32/Text-Summarization-with-Amazon-Reviews).
-* [TextRank- bringing order into text](http://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf) by Mihalcea and Tarau. Code on [Github here](https://github.com/ceteri/pytextrank)
-* [Modelling compressions with Discourse constraints](http://jamesclarke.net/media/papers/clarke-lapata-emnlp07.pdf) by Clarke and Zapata provides a discourse informed model for summarization and subtitle generation.
-* [Deep Recurrent Generative Decoder model for Abstractive Text Summarization](https://arxiv.org/pdf/1708.00625v1.pdf) by Li et al, 2017 uses a sequence-to-sequence oriented encoder-decoder model equipped with a deep recurrent generative decoder.
-* [A Semantic Relevance Based Neural Network for Text Summarization and Text Simplification](https://arxiv.org/pdf/1710.02318v1.pdf) by Ma and Sun, 2017 uses a gated attention enocder-decoder for text summarization.
-* [TextSum](https://github.com/tensorflow/models/tree/master/research/textsum) implementation from Tensorflow
-
-### Text Classification
-
-[Back to Top](#contents)
-* [Brightmart/text_classification](https://github.com/brightmart/text_classification) has a list of all text classification models with their respective scores, trainings,explanations and their Python implementations.
-* [Facebook's fasttext](https://github.com/facebookresearch/fastText) is a library for text embeddings and text classification
-* [Convolutional Neural Networks for Sentence Classfication](https://arxiv.org/pdf/1408.5882v2.pdf) by Kim Yoon is now regarded as the standard baseline for text classification architecture. 
-* [Using a CNN for text classification in TensorFlow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/) by Denny Britz uses the same dataset as Kim Yoon's paper(mentioned above). The code implementation can be found [here](https://github.com/dennybritz/cnn-text-classification-tf).
-* [Character-level Convolutional Networks for Text Classification](https://arxiv.org/pdf/1509.01626v3.pdf) by Zhang et al uses CNN and compares them with the traditional text classification models. Its Lua implementation can be found [here](https://github.com/zhangxiangxiao/Crepe).
-
 ## Datasets
 
 [Back to Top](#contents)
 
 * [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
-
-## Implementations of various models
-
-[Back to Top](#contents)
-
-* [DeepNLP-models-Pytorch](https://github.com/DSKSD/DeepNLP-models-Pytorch) has Pytorch implementations of various deep NLP models used in CS224n(Stanford) in the form of Jupyter notebooks.The models are aimed for those who are acquainted with Pytorch.
 
 ## Multilingual NLP Frameworks
 
