@@ -88,6 +88,7 @@ Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing | [Back to
 * [Deep Learning for Natural Language Processing (cs224*n*)](web.stanford.edu/class/cs224n/) by Richard Socher and Christopher Manning at Stanford. Includes Videos, Assignments, Syllabus and other detailed material
 [Lecture Slides and Reading Material here](http://web.stanford.edu/class/cs224n/)
 * [Coursera's Natural Language Processing](https://www.coursera.org/learn/language-processing) by National Research University Higher School of Economics
+* [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) by Language Technology Institute at Carnegie Mellon University. Includes Videos, References, Reading References and other detailed material
 
 #### Classical NLP
 Bayesian, statistics and Linguistics approaches for Natural Language Processing | [Back to Top](#contents)
