@@ -128,6 +128,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
    * [BigARTM](https://github.com/bigartm/bigartm) - a fast library for topic modelling
    * [Snips NLU](https://github.com/snipsco/snips-nlu) - A production ready library for intent parsing
    * [Chazutsu](https://github.com/chakki-works/chazutsu) - A library for downloading&parsing standard NLP research datasets
+   * [Word Forms](https://github.com/gutfeeling/word_forms) - Word forms can accurately generate all possible forms of an English word
    
 
 * <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
