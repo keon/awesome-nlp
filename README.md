@@ -197,6 +197,7 @@ APIs with higher level functionality such as NER, Topic tagging and so on | [Bac
 * [Microsoft Cognitive Service](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
 * [TextRazor](https://www.textrazor.com/)
 * [Rosette](https://www.rosette.com/)
+* [LightTag Annotation Tool](https://lighttag.io) - Hosted and managed text annotation tool for teams. Supports NER, classification and relationship annotations including phrase structure annotations. 
 
 ## Techniques
 
