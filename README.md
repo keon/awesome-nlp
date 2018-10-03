@@ -2,7 +2,7 @@
 
 > A curated list of resources dedicated to Natural Language Processing
 
-![](/images/logo.jpg)
+![Awesome NLP Logo](/images/logo.jpg)
 
 Maintainers - [Keon](https://github.com/keon), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK), [Dhruv](https://github.com/the-ethan-hunt)
 
@@ -26,6 +26,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
   - [Ruby](#user-content-ruby)
   - [Rust](#user-content-rust)
 - [Services](#services)
+- [Annotation Tools](#annotation-tools)
 - [Datasets](#datasets)
 - [Implementations of various models](#implementations-of-various-models)
 - [NLP in Korean](#nlp-in-korean)
@@ -41,6 +42,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Research Summaries and Trends
 
+- [NLP-Progress](https://nlpprogress.com/) tracks the progress in Natural Language Processing, including the datasets and the current state-of-the-art for the most common NLP tasks
 - [Four deep learning trends from ACL 2017. Part One: Linguistic Structure and Word Embeddings](http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html)
 - [Four deep learning trends from ACL 2017. Part Two: Interpretability and Attention](http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
 - [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
@@ -208,7 +210,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Anafora](https://github.com/weitechen/anafora) is free and open source, web-based raw text annotation tool
 - [brat](http://brat.nlplab.org/) - brat rapid annotation tool is an online environment for collaborative text annotation
 - [tagotag](https://www.tagtog.net/), costs $
-- [prodigy](https://prodi.gy/) is an annotation tool powered by active learning, :$:
+- [prodigy](https://prodi.gy/) is an annotation tool powered by active learning, costs $
 - [LightTag](https://lighttag.io) - Hosted and managed text annotation tool for teams, costs $
 
 ## Techniques
@@ -217,48 +219,40 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 [Back to Top](#contents)
 
-Text embeddings allow deep learning to be effective on smaller datasets. These are often first inputs to a deep learning archiectures and most popular way of transfer learning in NLP. Embeddings are simply vectors or a more generically, real valued representations of strings. Word embeddings are considered a great starting point for most deep NLP tasks. 
+Text embeddings allow deep learning to be effective on smaller datasets. These are often first inputs to a deep learning archiectures and most popular way of transfer learning in NLP. Embeddings are simply vectors or a more generically, real valued representations of strings. Word embeddings are considered a great starting point for most deep NLP tasks.
 
 The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings. 
 
 #### Word Embeddings
 
-##### word2vec and GloVe
+[Back to Top](#contents)
 
-**Don't use word2vec, don't use GloVe**. Use fastText vectors, which are much better from the same authors. word2vec was introduced by [T. Mikolov](https://scholar.google.com/citations?user=oBu8kMMAAAAJ&hl=en) et al. when he was with Google. 
-Performs well on word similarity and analogy tasks. 
+|Embedding |Paper| Organisation| gensim- Training Support |Blogs|
+|---|---|---|---|---|
+|word2vec|[Official Implementation](https://code.google.com/p/word2vec/), T.Mikolove et al. 2013. Distributed Representations of Words and Phrases and their Compositionality. [pdf](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) |Google|Yes :heavy_check_mark:| Visual explanations by colah at [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/); gensim's [Making Sense of word2vec](http://rare-technologies.com/making-sense-of-word2vec) |
+|GloVe|Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation. [pdf](https://nlp.stanford.edu/pubs/glove.pdf)|Stanford|No :negative_squared_cross_mark:|[Morning Paper on GloVe](https://blog.acolyer.org/2016/04/22/glove-global-vectors-for-word-representation/) by acoyler|
+|fastText|[Official Implementation](https://github.com/facebookresearch/fastText), T. Mikolov et al. 2017. Enriching Word Vectors with Subword Information. [pdf](https://arxiv.org/abs/1607.04606)|Facebook|Yes :heavy_check_mark:|[Fasttext: Under the Hood](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)|
 
-GloVe was introduced by Pennington, Socher, Manning from Stanford in 2014 as a statistical approximation to word embeddings. The word vectors are created by matrix factorizations of word-word co-occurence matrices here. [Back to Top](#contents)
+Notes for Beginners:
 
-- [word2vec Official Implementation](https://code.google.com/p/word2vec/) , Explainer Blog: [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/), [word2vec tutorial](http://tensorflow.org/tutorials/word2vec/index.html), gensim's [making sense of word2vec](http://rare-technologies.com/making-sense-of-word2vec/), [Word2Vec Resources on Github](https://github.com/clulab/nlp-reading-group/wiki/Word2Vec-Resources)
+- Thumb Rule: **fastText >> GloVe > word2vec**
+- You can find [pre-trained fasttext Vectors](https://fasttext.cc/docs/en/pretrained-vectors.html) in several languages
+- If you are interested in the logic and intuition behind word2vec and GloVe: [The Amazing Power of Word Vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/) and  introduce the topics well
+- [arXiv: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759), and [arXiv: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651) were released as part of fasttext
 
-Papers:
-
-- [Efficient Estimation of Word Representations in Vector Space](http://arxiv.org/pdf/1301.3781v3.pdf), [Distributed Representations of Words and Phrases and their Compositionality](http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf), 
-- [GloVe: Global vectors for word representation](http://nlp.stanford.edu/projects/glove/glove.pdf). Creates word vectors and relates word2vec to matrix factorizations. [Glove source code and training data](http://nlp.stanford.edu/projects/glove/)
-
-##### fastText
-
-fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 200 languages. This allows it to work with out of vocabulary words as well. It captures language morphology well. It also supports a supervised classification mechanism | [Back to Top](#contents)
-
-- [fastText on Github](https://github.com/facebookresearch/fastText) - for efficient learning of word representations and sentence classification
-- [Pre-trained Vectors](https://fasttext.cc/docs/en/pretrained-vectors.html) in several languages
-- [arXiv: Enriching Word Vectors with Subword Information](https://arxiv.org/abs/1607.04606), [arXiv: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759), and [arXiv: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651) were released as part of this project
-
-#### Sentence and Language Model Based Word Embeddings 
+#### Sentence and Language Model Based Word Embeddings
 
 [Back to Top](#contents)
 
 - _ElMo_ from [Deep Contextualized Word Represenations](https://arxiv.org/abs/1802.05365) - [PyTorch implmentation](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) - [TF Implementation](https://github.com/allenai/bilm-tf)
-- _ULimFit_ aka [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146) by fastAI
-- _CoVe_ [https://arxiv.org/abs/1708.00107](https://arxiv.org/abs/1708.00107)
+- _ULimFit_ aka [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146) by Jeremy Howard and Sebastian Ruder
 - _InferSent_ from [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364) by facebook
+- _CoVe_ from [Learned in Translation: Contextualized Word Vectors](https://arxiv.org/abs/1708.00107)
 - _Pargraph vectors_ from [Distributed Representations of Sentences and Documents](http://cs.stanford.edu/~quocle/paragraph_vector.pdf). See [doc2vec tutorial at gensim](http://rare-technologies.com/doc2vec-tutorial/)
 - [sense2vec](http://arxiv.org/abs/1511.06388) - on word sense disambiguation
 - [Skip Thought Vectors](http://arxiv.org/abs/1506.06726) - word representation method
 - [Adaptive skip-gram](http://arxiv.org/abs/1502.07257) - similar approach, with adaptive properties
 - [Sequence to Sequence Learning](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - word vectors for machine translation
-- [Infinite Dimensional Word Embeddings](http://arxiv.org/abs/1511.05392)
 
 ### Question Answering and Knowledge Extraction
 
@@ -300,7 +294,7 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
 - [KoalaNLP](https://nearbydelta.github.io/KoalaNLP/) - Scala library for Korean Natural Language Processing.
 - [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) - R package for Korean Natural language processing
 
-### Blogs and Tutorials 
+### Blogs and Tutorials
 
 - [dsindex's blog](http://dsindex.github.io/)
 - [Kangwon University's NLP course in Korean](http://cs.kangwon.ac.kr/~leeck/NLP/)
@@ -322,6 +316,7 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
 - [PyArabic](https://pypi.python.org/pypi/PyArabic/0.4) - Python libraries for Arabic
 
 ### Datasets
+
 - [Multidomain Datasets](https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces) - Largest Available Multi-Domain Resources for Arabic Sentiment Analysis
 - [LABR](https://github.com/mohamedadaly/labr) - LArge Arabic Book Reviews dataset
 - [Arabic Stopwords](https://github.com/mohataher/arabic-stop-words) - A list of Arabic stopwords from various resources
@@ -361,8 +356,8 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
 
 - [Hindi Dependency Treebank](http://ltrc.iiit.ac.in/treebank_H2014/) - A multi-representational multi-layered treebank for Hindi and Urdu
 - [Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi/index.html)
-    - [Parallel Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi_pud/index.html) - A smaller part of the above-mentioned treebank.
-     
+  - [Parallel Universal Dependencies Treebank in Hindi](http://universaldependencies.org/treebanks/hi_pud/index.html) - A smaller part of the above-mentioned treebank.
+
 ## NLP in Thai
 
 [Back to Top](#contents)
@@ -399,14 +394,17 @@ fastText by Mikolov (from Facebook) supports sub-word embeddings in more than 20
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
 
 ### Other Languages 
-  - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
-  - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
-  - Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
-  - Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
-  - Hebrew: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - A collection of papers, corpora and linguistic resources for NLP in Hebrew
+
+- Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
+- Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
+- Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
+- Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
+- Hebrew: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - A collection of papers, corpora and linguistic resources for NLP in Hebrew
 
 ## Credits
+
 Awesome NLP was seeded with curated content from the lot of repositories, some of which are listed below | [Back to Top](#contents)
+
 - [ai-reading-list](https://github.com/m0nologuer/AI-reading-list)
 - [nlp-reading-group](https://github.com/clulab/nlp-reading-group/wiki/Fall-2015-Reading-Schedule/_edit)
 - [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp)
