@@ -55,7 +55,8 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 General Machine Learning
 
-- [AI Playbook](http://aiplaybook.a16z.com/) is a brief set of pieces to introduce machine learning and other advancements to technical as well as non-technical audience. Written by the amazing people over at [a16z - Andreessen Horowitz](https://a16z.com/) this is a great link to forward to your managers or content for your presentations 
+- Jason's [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) from Google's Senior Creative Engineer explains Machine Learning for engineer's and executives alike
+- a16z [AI Playbook](http://aiplaybook.a16z.com/) is a great link to forward to your managers or content for your presentations
 - [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
 - [Ruder's Blog](http://ruder.io/#open) by [Sebastian Ruder](https://twitter.com/seb_ruder) for commentary on the best of NLP Research
 
@@ -68,12 +69,11 @@ Introductions and Guides to NLP
 - [Deep Learning for NLP with Pytorch](http://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 - [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - The hands-on NLTK tutorial in the form of Jupyter notebooks
 
-
 Blogs and Newsletters
 
 - [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 - [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
-- [Tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora 
+- [Tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora
 - [arXiv: Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 - [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 - [Sebastian Ruder](http://ruder.io/#open)'s blog is focused on NLP Research
@@ -84,12 +84,12 @@ Blogs and Newsletters
 
 Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing | [Back to Top](#contents)
 
-- [Udacity's Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course which touches upon NLP as well
-- [Udacity's Deep Learning](https://classroom.udacity.com/courses/ud730) using Tensorflow which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
-- [Deep Natural Language Processing at Oxford](https://github.com/oxford-cs-deepnlp-2017/lectures) has videos, lecture slides and reading material
-- [Deep Learning for Natural Language Processing (cs224-n-)](web.stanford.edu/class/cs224n/) by Richard Socher and Christopher Manning at Stanford. [Lecture Slides and Reading Material here](http://web.stanford.edu/class/cs224n/)
-- [Coursera's Natural Language Processing](https://www.coursera.org/learn/language-processing) by National Research University Higher School of Economics
-- [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) by Language Technology Institute at Carnegie Mellon University. Includes Videos, References, Reading References and other detailed material
+- Udacity's [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course which touches upon NLP as well
+- Udacity's [Deep Learning](https://classroom.udacity.com/courses/ud730) using Tensorflow which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
+- Oxford's [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) has videos, lecture slides and reading material
+- Stanford's [Deep Learning for Natural Language Processing (cs224-n)](web.stanford.edu/class/cs224n/) by Richard Socher and Christopher Manning
+- Coursera's [Natural Language Processing](https://www.coursera.org/learn/language-processing) by National Research University Higher School of Economics
+- Carnegie Mellon University's [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) by Language Technology Institute there
 
 #### Classical NLP
 
@@ -184,7 +184,8 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 - <a id="ruby">**Ruby**</a> | [Back to Top](#contents)
   - Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
   - [Practical Natural Language Processing done in Ruby](https://github.com/arbox/nlp-with-ruby)
-  * <a id="rust">**Rust**</a>
+
+- <a id="rust">**Rust**</a>
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
 
@@ -196,10 +197,19 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API and Github demo 
 - [Amazon Comprehend](https://aws.amazon.com/comprehend/) - NLP and ML suite covers most common tasks like NER, tagging, and sentiment analysis
 - [Google Cloud Natural Language API](https://cloud.google.com/natural-language/) - Syntax Analysis, NER, Sentiment Analysis, and Content tagging in atleast 9 languages include English and Chinese (Simplified and Traditional).
-- [ParallelDots](https://www.paralleldots.com/text-analysis-apis) - State of the art Text Analysis API Service ranging from Sentiment Analysis to Intent Analysis
+- [ParallelDots](https://www.paralleldots.com/text-analysis-apis) - High level Text Analysis API Service ranging from Sentiment Analysis to Intent Analysis
 - [Microsoft Cognitive Service](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api)
 - [TextRazor](https://www.textrazor.com/)
 - [Rosette](https://www.rosette.com/)
+
+### Annotation Tools
+
+- [GATE](https://gate.ac.uk/overview.html) - General Architecture and Text Engineering is 15+ years old, free and open source
+- [Anafora](https://github.com/weitechen/anafora) is free and open source, web-based raw text annotation tool
+- [brat](http://brat.nlplab.org/) - brat rapid annotation tool is an online environment for collaborative text annotation
+- [tagotag](https://www.tagtog.net/), costs $
+- [prodigy](https://prodi.gy/) is an annotation tool powered by active learning, :$:
+- [LightTag](https://lighttag.io) - Hosted and managed text annotation tool for teams, costs $
 
 ## Techniques
 
