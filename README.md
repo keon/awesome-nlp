@@ -49,6 +49,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
 - [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
 - [ACL 2018 Highlights: Understanding Representation and Evaluation in More Challenging Settings](http://ruder.io/acl-2018-highlights/)
+- [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
 
 ## Tutorials
 [Back to Top](#contents)
