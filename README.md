@@ -66,6 +66,7 @@ General Machine Learning
 Introductions and Guides to NLP
 
 - Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
+[Codes for Top 10 Basic ideas using NLP](https://www.analyticsvidhya.com/blog/2017/10/essential-nlp-guide-data-scientists-top-10-nlp-tasks/)
 - [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
 - [NLP Tutorial by Vik Paruchari](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
 - [Natural Language Processing: An Introduction](http://jamia.oxfordjournals.org/content/18/5/544.short) by Oxford
