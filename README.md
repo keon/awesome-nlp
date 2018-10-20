@@ -80,6 +80,7 @@ Blogs and Newsletters
 - [arXiv: Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 - [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 - [Sebastian Ruder](http://ruder.io/#open)'s blog is focused on NLP Research
+- [wildml.com](http://www.wildml.com/) by [Denny Britz](https://github.com/dennybritz) is a fantastic resource to learn new concepts in AI, deep learning and NLP. Many models have been implemented from scratch in python!
 
 ### Videos and Online Courses
 
@@ -198,7 +199,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 NLP as API with higher level functionality such as NER, Topic tagging and so on | [Back to Top](#contents)
 
 - [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
-- [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API and Github demo 
+- [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API and Github demo
 - [Amazon Comprehend](https://aws.amazon.com/comprehend/) - NLP and ML suite covers most common tasks like NER, tagging, and sentiment analysis
 - [Google Cloud Natural Language API](https://cloud.google.com/natural-language/) - Syntax Analysis, NER, Sentiment Analysis, and Content tagging in atleast 9 languages include English and Chinese (Simplified and Traditional).
 - [ParallelDots](https://www.paralleldots.com/text-analysis-apis) - High level Text Analysis API Service ranging from Sentiment Analysis to Intent Analysis
@@ -223,7 +224,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 Text embeddings allow deep learning to be effective on smaller datasets. These are often first inputs to a deep learning archiectures and most popular way of transfer learning in NLP. Embeddings are simply vectors or a more generically, real valued representations of strings. Word embeddings are considered a great starting point for most deep NLP tasks.
 
-The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings. 
+The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings.
 
 #### Word Embeddings
 
@@ -336,7 +337,7 @@ Notes for Beginners:
 ## NLP in German
 
 - [German-NLP](https://github.com/adbar/German-NLP) - Curated list of open-access/open-source/off-the-shelf resources and tools developed with a particular focus on German
- 
+
 ## NLP in Spanish
 
 [Back to Top](#contents)
@@ -395,7 +396,7 @@ Notes for Beginners:
 - [VIVOS](https://ailab.hcmus.edu.vn/vivos/) - a free Vietnamese speech corpus consisting of 15 hours of recording speech by AILab
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
 
-### Other Languages 
+### Other Languages
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
 - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
