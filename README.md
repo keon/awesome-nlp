@@ -4,7 +4,7 @@
 
 ![Awesome NLP Logo](/images/logo.jpg)
 
-Maintainers - [Keon](https://github.com/keon), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK), [Dhruv](https://github.com/the-ethan-hunt)
+**Maintainers** - [Keon](https://github.com/keon), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK), [Dhruv](https://github.com/the-ethan-hunt)
 
 _Please read the [contribution guidelines](contributing.md) before contributing. Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls)._
 
