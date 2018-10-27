@@ -89,7 +89,7 @@ Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing | [Back to
 - Udacity's [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course which touches upon NLP as well
 - Udacity's [Deep Learning](https://classroom.udacity.com/courses/ud730) using Tensorflow which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
 - Oxford's [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) has videos, lecture slides and reading material
-- Stanford's [Deep Learning for Natural Language Processing (cs224-n)](web.stanford.edu/class/cs224n/) by Richard Socher and Christopher Manning
+- Stanford's [Deep Learning for Natural Language Processing (cs224-n)](https://web.stanford.edu/class/cs224n/) by Richard Socher and Christopher Manning
 - Coursera's [Natural Language Processing](https://www.coursera.org/learn/language-processing) by National Research University Higher School of Economics
 - Carnegie Mellon University's [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) by Language Technology Institute there
 
