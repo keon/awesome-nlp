@@ -42,7 +42,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Research Summaries and Trends
 
-- [NLP-Overview](https://nlpoverview.com/) provides an up-to-date overview of modern deep learning techniques applied to NLP, including theory, algorithms, applications, and state-of-the-art results
+- [NLP-Overview](https://nlpoverview.com/) is an up-to-date overview of deep learning techniques applied to NLP, including theory, implementations, applications, and state-of-the-art results. This is a great Deep NLP Introduction for researchers. 
 - [NLP-Progress](https://nlpprogress.com/) tracks the progress in Natural Language Processing, including the datasets and the current state-of-the-art for the most common NLP tasks
 - [Four deep learning trends from ACL 2017. Part One: Linguistic Structure and Word Embeddings](http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html)
 - [Four deep learning trends from ACL 2017. Part Two: Interpretability and Attention](http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
