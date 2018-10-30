@@ -102,7 +102,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
 - [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
 - [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
 - [Computational Linguistics I](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Jordan Boyd-Graber, Lectures from University of Maryland
-- [Yandex School of Data Analysis' NLP Course](https://github.com/yandexdataschool/nlp_course)
+- [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on. 
 
 ### Books
 
