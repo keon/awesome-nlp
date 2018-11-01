@@ -382,6 +382,10 @@ Notes for Beginners:
 
 [Back to Top](#contents)
 
+## NLP in Danish 
+
+- [Named Entity Recognition for Danish](https://github.com/ITUnlp/daner)
+
 ### Libraries
 
 - [underthesea](https://github.com/magizbox/underthesea) - Vietnamese NLP Toolkit
