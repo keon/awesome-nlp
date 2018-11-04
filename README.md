@@ -145,7 +145,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   * [StarSpace](https://github.com/facebookresearch/StarSpace) - a library from Facebook for creating embeddings of word-level, paragraph-level, document-level and for text classification
 
 * <a id="java">**Java** - Java NLP Libraries</a> | [Back to Top](#contents)
-  * [Stanford NLP](http://nlp.stanford.edu/software/index.shtml)
+  * [Stanford CoreNLP](http://nlp.stanford.edu/software/index.shtml)
   * [OpenNLP](http://opennlp.apache.org/)
   * [ClearNLP](https://github.com/clir/clearnlp)
   * [Word2vec in Java](http://deeplearning4j.org/word2vec.html)
