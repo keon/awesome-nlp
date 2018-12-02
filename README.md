@@ -72,6 +72,7 @@ Introductions and Guides to NLP
 - [Natural Language Processing: An Introduction](http://jamia.oxfordjournals.org/content/18/5/544.short) by Oxford
 - [Deep Learning for NLP with Pytorch](http://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 - [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - The hands-on NLTK tutorial in the form of Jupyter notebooks
+-[Introduction to NLP](https://dev.to/jaydeepborkar/introduction-to-natural-language-processing-part-1--59gd) - An Introductory article on Natural Language Processing, describing various steps of NLP pipeline. 
 
 Blogs and Newsletters
 
