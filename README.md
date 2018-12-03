@@ -43,12 +43,12 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 - [NLP-Overview](https://nlpoverview.com/) is an up-to-date overview of deep learning techniques applied to NLP, including theory, implementations, applications, and state-of-the-art results. This is a great Deep NLP Introduction for researchers. 
 - [NLP-Progress](https://nlpprogress.com/) tracks the progress in Natural Language Processing, including the datasets and the current state-of-the-art for the most common NLP tasks
+- [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
+- [ACL 2018 Highlights: Understanding Representation and Evaluation in More Challenging Settings](http://ruder.io/acl-2018-highlights/)
 - [Four deep learning trends from ACL 2017. Part One: Linguistic Structure and Word Embeddings](http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html)
 - [Four deep learning trends from ACL 2017. Part Two: Interpretability and Attention](http://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
 - [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
 - [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
-- [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
-- [ACL 2018 Highlights: Understanding Representation and Evaluation in More Challenging Settings](http://ruder.io/acl-2018-highlights/)
 - [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
 
 ## Tutorials
@@ -74,8 +74,9 @@ Introductions and Guides to NLP
 
 Blogs and Newsletters
 
-- [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
-- [Natural Language Processing Blog](http://nlpers.blogspot.ch/) by Hal Daumé III
+- Blog: [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+- Blog: [The Illustrated BERT, ELMo, and co.  (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/) and [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+- Blog: [Natural Language Processing](http://nlpers.blogspot.ch/) by Hal Daumé III
 - [Tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora
 - [arXiv: Natural Language Processing (Almost) from Scratch](http://arxiv.org/pdf/1103.0398.pdf)
 - [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
