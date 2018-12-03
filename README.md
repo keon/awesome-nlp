@@ -28,7 +28,6 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Services](#services)
 - [Annotation Tools](#annotation-tools)
 - [Datasets](#datasets)
-- [Implementations of various models](#implementations-of-various-models)
 - [NLP in Korean](#nlp-in-korean)
 - [NLP in Arabic](#nlp-in-arabic)
 - [NLP in Chinese](#nlp-in-chinese)
@@ -261,12 +260,13 @@ Notes for Beginners:
 
 [Back to Top](#contents)
 
+- [DrQA: Open Domain Question Answering](https://github.com/facebookresearch/DrQA) by facebook on Wikipedia data
+- DocQA: [Simple and Effective Multi-Paragraph Reading Comprehension](https://github.com/allenai/document-qa) by AllenAI
 - [Markov Logic Networks for Natural Language Question Answering](http://arxiv.org/pdf/1507.03045v1.pdf)
 - [Template-Based Information Extraction without the Templates](http://www.usna.edu/Users/cs/nchamber/pubs/acl2011-chambers-templates.pdf)
 - [Relation extraction with matrix factorization and universal schemas](http://www.anthology.aclweb.org/N/N13/N13-1008.pdf)
 - [Privee: An Architecture for Automatically Analyzing Web Privacy Policies](http://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf)
 - [Teaching Machines to Read and Comprehend](http://arxiv.org/abs/1506.03340) - DeepMind paper
-- [DrQA: Open Domain Question Answering](https://github.com/facebookresearch/DrQA) by facebook on Wikipedia data
 - [Relation Extraction with Matrix Factorization and Universal Schemas](http://www.riedelcastro.org//publications/papers/riedel13relation.pdf)
 - [Towards a Formal Distributional Semantics: Simulating Logical Calculi with Tensors](http://www.aclweb.org/anthology/S13-1001)
 - [Presentation slides for MLN tutorial](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/mln-summary-20150918.ppt)
