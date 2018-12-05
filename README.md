@@ -279,6 +279,7 @@ Notes for Beginners:
 [Back to Top](#contents)
 
 - [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
+- [kotidgy](https://github.com/meiblorn/kotidgy) — an index-based text data generator written in Kotlin.
 
 ## Multilingual NLP Frameworks
 
