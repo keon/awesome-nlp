@@ -20,6 +20,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
   - [Python](#user-content-python)
   - [C++](#user-content-c++)
   - [Java](#user-content-java)
+  - [Kotlin](#user-content-kotlin)
   - [Scala](#user-content-scala)
   - [R](#user-content-R)
   - [Clojure](#user-content-clojure)
@@ -164,6 +165,9 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   - [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group.
   - [MALLET](http://mallet.cs.umass.edu/) - MAchine Learning for LanguagE Toolkit - package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.
   - [RDRPOSTagger](https://github.com/datquocnguyen/RDRPOSTagger) - A robust POS tagging toolkit available  (in both Java & Python) together with pre-trained models for 40+ languages.
+  
+- <a id="kotlin">**Kotlin** - Kotlin NLP Libraries</a> | [Back to Top](#contents)
+  - [Lingua](https://github.com/pemistahl/lingua/) A language detection library for Kotlin and Java, suitable for long and short text alike
 
 - <a id="scala">**Scala** - Scala NLP Libraries</a> | [Back to Top](#contents)
   - [Saul](https://github.com/CogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc.
