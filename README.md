@@ -51,6 +51,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
 - [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
 - [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
+- [Character Level NLP](https://www.lighttag.io/blog/character-level-NLP/) 
 
 ## Tutorials
 [Back to Top](#contents)
