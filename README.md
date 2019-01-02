@@ -169,7 +169,8 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   
 - <a id="kotlin">**Kotlin** - Kotlin NLP Libraries</a> | [Back to Top](#contents)
   - [Lingua](https://github.com/pemistahl/lingua/) A language detection library for Kotlin and Java, suitable for long and short text alike
-
+  - [Kotidgy](https://github.com/meiblorn/kotidgy) — an index-based text data generator written in Kotlin
+  
 - <a id="scala">**Scala** - Scala NLP Libraries</a> | [Back to Top](#contents)
   - [Saul](https://github.com/CogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc.
   - [ATR4S](https://github.com/ispras/atr4s) - Toolkit with state-of-the-art [automatic term recognition](https://en.wikipedia.org/wiki/Terminology_extraction) methods.
