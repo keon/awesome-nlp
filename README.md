@@ -36,6 +36,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [NLP in Spanish](#nlp-in-spanish)
 - [NLP in Indic Languages](#nlp-in-indic-languages)
 - [NLP in Thai](#nlp-in-thai)
+- [NLP in Vietnamese](#nlp-in-vietnamese)
 - [NLP in Danish](#nlp-in-danish)
 - [NLP in Indonesian](#nlp-in-indonesian)
 - [Other Languages](#other-languages)
@@ -425,15 +426,6 @@ Notes for Beginners:
 - Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 - Hebrew: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - A collection of papers, corpora and linguistic resources for NLP in Hebrew
 
-## Credits
-
-Awesome NLP was seeded with curated content from the lot of repositories, some of which are listed below | [Back to Top](#contents)
-
-- [ai-reading-list](https://github.com/m0nologuer/AI-reading-list)
-- [nlp-reading-group](https://github.com/clulab/nlp-reading-group/wiki/Fall-2015-Reading-Schedule)
-- [awesome-spanish-nlp](https://github.com/dav009/awesome-spanish-nlp)
-- [jjangsangy's awesome-nlp](https://gist.github.com/jjangsangy/8759f163bc3558779c46)
-- [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning/blob/master/README.md)
-- [DL4NLP](https://github.com/andrewt3000/DL4NLP)
-
 [Back to Top](#contents)
+
+[Credits](./CREDITS.md) for initial curators and sources
