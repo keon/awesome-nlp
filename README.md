@@ -417,6 +417,12 @@ Notes for Beginners:
 - [IDN for PoS tagging](https://github.com/famrashel/idn-tagged-corpus): This corpus contains 10K sentences and 250K word tokens
 - [Indonesian Treebank](https://github.com/famrashel/idn-treebank) and [Universal Dependencies-Indonesian](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
 - [IndoSum](https://github.com/kata-ai/indosum) for text summarization and classification both
+- [Wordnet-Bahasa](http://wn-msa.sourceforge.net/) - large, free, semantic dictionary
+
+### Libraries & Embedding
+- Natural language toolkit [bahasa](https://github.com/kangfend/bahasa)
+- [Indonesian Word Embedding](https://github.com/galuhsahid/indonesian-word-embedding)
+- Pretrained [Indonesian fastText Text Embedding](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.id.zip) trained on Wikipedia
 
 ### Other Languages 
 
