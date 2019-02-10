@@ -36,7 +36,8 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [NLP in Spanish](#nlp-in-spanish)
 - [NLP in Indic Languages](#nlp-in-indic-languages)
 - [NLP in Thai](#nlp-in-thai)
-- [NLP in Vietnamese](#nlp-in-vietnamese)
+- [NLP in Danish](#nlp-in-danish)
+- [NLP in Indonesian](#nlp-in-indonesian)
 - [Other Languages](#other-languages)
 - [Credits](#credits)
 
@@ -351,7 +352,7 @@ Notes for Beginners:
 
 [Back to Top](#contents)
 
-### Corpora
+### Data
 
 - [Columbian Political Speeches](https://github.com/dav009/LatinamericanTextResources)
 - [Copenhagen Treebank](https://mbkromann.github.io/copenhagen-dependency-treebank/)
@@ -363,7 +364,7 @@ Notes for Beginners:
 
 ### Hindi
 
-### Corpora and Treebanks
+### Data, Corpora and Treebanks
 
 - [Hindi Dependency Treebank](https://ltrc.iiit.ac.in/treebank_H2014/) - A multi-representational multi-layered treebank for Hindi and Urdu
 - [Universal Dependencies Treebank in Hindi](https://universaldependencies.org/treebanks/hi_hdtb/index.html)
@@ -381,18 +382,17 @@ Notes for Beginners:
 - [Thai Language Toolkit](https://pypi.python.org/pypi/tltk/) - Based on a paper by Wirote Aroonmanakun in 2002 with included dataset
 - [SynThai](https://github.com/KenjiroAI/SynThai) - Word segmentation and POS tagging using deep learning in Python
 
-### Corpora
+### Data
 
 - [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm) - A text corpus with 5 million words with word segmentation
 - [Prime Minister 29](https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029) - Dataset containing speeches of the current Prime Minister of Thailand
 
-## NLP in Vietnamese
-
-[Back to Top](#contents)
 
 ## NLP in Danish 
 
 - [Named Entity Recognition for Danish](https://github.com/ITUnlp/daner)
+
+## NLP in Vietnamese 
 
 ### Libraries
 
@@ -400,13 +400,22 @@ Notes for Beginners:
 - [vn.vitk](https://github.com/phuonglh/vn.vitk) - A Vietnamese Text Processing Toolkit
 - [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) - A Vietnamese natural language processing toolkit
 
-### Corpora
+### Data
 
 - [Vietnamese treebank](https://vlsp.hpda.vn/demo/?page=resources&lang=en) - 10,000 sentences for the constituency parsing task
 - [BKTreeBank](https://arxiv.org/pdf/1710.05519.pdf) - a Vietnamese Dependency Treebank
 - [UD_Vietnamese](https://github.com/UniversalDependencies/UD_Vietnamese-VTB) - Vietnamese Universal Dependency Treebank
 - [VIVOS](https://ailab.hcmus.edu.vn/vivos/) - a free Vietnamese speech corpus consisting of 15 hours of recording speech by AILab
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
+
+## NLP in Indonesian 
+
+### Datasets
+- Kompas and Tempo collections at [ILPS](http://ilps.science.uva.nl/resources/bahasa/)
+- [PANL10N for PoS tagging](http://www.panl10n.net/english/outputs/Indonesia/UI/0802/UI-1M-tagged.zip): 39K sentences and 900K word tokens
+- [IDN for PoS tagging](https://github.com/famrashel/idn-tagged-corpus): This corpus contains 10K sentences and 250K word tokens
+- [Indonesian Treebank](https://github.com/famrashel/idn-treebank) and [Universal Dependencies-Indonesian](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
+- [IndoSum](https://github.com/kata-ai/indosum) for text summarization and classification both
 
 ### Other Languages 
 
