@@ -279,7 +279,6 @@ Notes for Beginners:
 - [Relation extraction with matrix factorization and universal schemas](https://www.anthology.aclweb.org/N/N13/N13-1008.pdf)
 - [Privee: An Architecture for Automatically Analyzing Web Privacy Policies](https://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf)
 - [Teaching Machines to Read and Comprehend](https://arxiv.org/abs/1506.03340) - DeepMind paper
-- [Relation Extraction with Matrix Factorization and Universal Schemas](https://www.riedelcastro.org//publications/papers/riedel13relation.pdf)
 - [Towards a Formal Distributional Semantics: Simulating Logical Calculi with Tensors](https://www.aclweb.org/anthology/S13-1001)
 - [Presentation slides for MLN tutorial](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/mln-summary-20150918.ppt)
 - [Presentation slides for QA applications of MLNs](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
