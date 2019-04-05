@@ -125,6 +125,7 @@ Bayesian, statistics and Linguistics approaches for Natural Language Processing 
   - [NLP Compromise](https://github.com/spencermountain/compromise) - Natural Language processing in the browser
   - [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
   - [Poplar](https://github.com/synyi/poplar) - A web-based annotation tool for natural language processing (NLP)
+  - [NLP.js](https://github.com/axa-group/nlp.js) - An NLP library for building bots
 
 - <a id="python"> **Python** - Python NLP Libraries</a> | [Back to Top](#contents)
 
