@@ -1,14 +1,14 @@
-# awesome-nlp [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# awesome-nlp 
 
-> A curated list of resources dedicated to Natural Language Processing
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+A curated list of resources dedicated to Natural Language Processing
 
 ![Awesome NLP Logo](/images/logo.jpg)
 
-> **Maintainers** - [Keon](https://github.com/keon), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK), [Dhruv](https://github.com/the-ethan-hunt)
->
-> **[Chinese Translation](./README-zh-TW.md)**: [NeuroCube](https://github.com/NeroCube)
+Read this in [English](./README.md), [Traditional Chinese](./README-ZH-TW.md) 
 
-_Please read the [contribution guidelines](contributing.md) before contributing. Please feel free to create [pull requests](https://github.com/keonkim/awesome-nlp/pulls)._
+_Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls)_
 
 ## Contents
 
