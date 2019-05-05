@@ -63,54 +63,40 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 General Machine Learning
 
-- Jason's [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) from Google's Senior Creative Engineer explains Machine Learning for engineer's and executives alike
-- a16z [AI Playbook](https://aiplaybook.a16z.com/) is a great link to forward to your managers or content for your presentations
-- [Machine Learning Blog](https://bmcfee.github.io/#home) by Brian McFee
+- [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) from Google's Senior Creative Engineer explains Machine Learning for engineer's and executives alike
+- [AI Playbook](https://aiplaybook.a16z.com/) - a16z AI playbook is a great link to forward to your managers or content for your presentations
 - [Ruder's Blog](http://ruder.io/#open) by [Sebastian Ruder](https://twitter.com/seb_ruder) for commentary on the best of NLP Research
 
 Introductions and Guides to NLP
 
-- Ultimate Guide to [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
-- [Introduction to NLP at Hackernoon](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) is for people who suck at math - in their own words
-- [NLP Tutorial by Vik Paruchari](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
-- [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) by Oxford
+- [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
+- [NLP in Python](http://github.com/NirantK/nlp-python-deep-learning) - Collection of Github notebooks 
+- [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - Oxford
 - [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
-- [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - The hands-on NLTK tutorial in the form of Jupyter notebooks
+- [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks 
 
 Blogs and Newsletters
 
-- Blog: [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
-- Blog: [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/) and [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-- Blog: [Natural Language Processing](https://nlpers.blogspot.com/) by Hal Daumé III
-- [Tutorials by Radim Řehůřek](https://radimrehurek.com/gensim/tutorial.html) on using Python and [gensim](https://radimrehurek.com/gensim/index.html) to process language corpora
+- [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+- [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/) and [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+- [Natural Language Processing](https://nlpers.blogspot.com/) by Hal Daumé III
 - [arXiv: Natural Language Processing (Almost) from Scratch](https://arxiv.org/pdf/1103.0398.pdf)
 - [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 
 ### Videos and Online Courses
+[Back to Top](#contents)
 
-#### Deep Learning and NLP
-
-Word embeddings, RNNs, LSTMs and CNNs for Natural Language Processing | [Back to Top](#contents)
-
-- Udacity's [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) course which touches upon NLP as well
-- Udacity's [Deep Learning](https://udacity.com/course/deep-learning--ud730) using Tensorflow which covers a section on using deep learning for NLP tasks (covering Word2Vec, RNN's and LSTMs)
-- Oxford's [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) has videos, lecture slides and reading material
-- Stanford's [Deep Learning for Natural Language Processing (cs224-n)](https://web.stanford.edu/class/cs224n/) by Richard Socher and Christopher Manning
-- Coursera's [Natural Language Processing](https://www.coursera.org/learn/language-processing) by National Research University Higher School of Economics
-- Carnegie Mellon University's [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) by Language Technology Institute there
-
-#### Classical NLP
-
-Bayesian, statistics and Linguistics approaches for Natural Language Processing | [Back to Top](#contents)
-
-- [Statistical Machine Translation](http://mt-class.org) - a Machine Translation course with great assignments and slides
-- [NLTK with Python 3 for Natural Language Processing](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) by Harrison Kinsley(sentdex). Good tutorials with NLTK code implementation
-- [Computational Linguistics I](https://www.youtube.com/playlist?list=PLegWUnz91WfuPebLI97-WueAP90JO-15i) by Jordan Boyd-Graber, Lectures from University of Maryland
+- [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) - Udacity course which touches upon NLP as well
+- [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) - Lectures series from Oxford
+- [Deep Learning for Natural Language Processing (cs224-n)](https://web.stanford.edu/class/cs224n/) - Richard Socher and Christopher Manning's Stanford Course
+- [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) - Carnegie Mellon Language Technology Institute there
 - [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on. 
 
 ### Books
 
-- [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Prof. Dan Jurafsy
+- [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) - free, by Prof. Dan Jurafsy
+- [Natural Language Processing] - free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech 
+- [NLP with PyTorch] - Brian & Delip Rao 
 - [Text Mining in R](https://www.tidytextmining.com)
 - [Natural Language Processing with Python](https://www.nltk.org/book/)
 
@@ -219,7 +205,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Microsoft Cognitive Service](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)
 - [TextRazor](https://www.textrazor.com/)
 - [Rosette](https://www.rosette.com/)
-- [Textalytic](https://www.textalytic.com) - Natural Language Processing in the Browser with sentiment analysis, named entity extraction, POS tagging, word frequencies, topic modeling, word clouds, and more.
+- [Textalytic](https://www.textalytic.com) - Natural Language Processing in the Browser with sentiment analysis, named entity extraction, POS tagging, word frequencies, topic modeling, word clouds, and more
 
 ### Annotation Tools
 
@@ -234,38 +220,23 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 ### Text Embeddings
 
-[Back to Top](#contents)
-
-Text embeddings allow deep learning to be effective on smaller datasets. These are often first inputs to a deep learning archiectures and most popular way of transfer learning in NLP. Embeddings are simply vectors or a more generically, real valued representations of strings. Word embeddings are considered a great starting point for most deep NLP tasks.
-
-The most popular names in word embeddings are word2vec by Google (Mikolov) and GloVe by Stanford (Pennington, Socher and Manning). fastText seems to be a fairly popular for multi-lingual sub-word embeddings. 
-
 #### Word Embeddings
 
-[Back to Top](#contents)
-
-|Embedding |Paper| Organisation| gensim- Training Support |Blogs|
-|---|---|---|---|---|
-|word2vec|[Official Implementation](https://code.google.com/archive/p/word2vec/), T.Mikolove et al. 2013. Distributed Representations of Words and Phrases and their Compositionality. [pdf](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) |Google|Yes :heavy_check_mark:| Visual explanations by colah at [Deep Learning, NLP, and Representations](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/); gensim's [Making Sense of word2vec](https://rare-technologies.com/making-sense-of-word2vec) |
-|GloVe|Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for Word Representation. [pdf](https://nlp.stanford.edu/pubs/glove.pdf)|Stanford|No :negative_squared_cross_mark:|[Morning Paper on GloVe](https://blog.acolyer.org/2016/04/22/glove-global-vectors-for-word-representation/) by acoyler|
-|fastText|[Official Implementation](https://github.com/facebookresearch/fastText), T. Mikolov et al. 2017. Enriching Word Vectors with Subword Information. [pdf](https://arxiv.org/abs/1607.04606)|Facebook|Yes :heavy_check_mark:|[Fasttext: Under the Hood](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)|
-
-Notes for Beginners:
-
 - Thumb Rule: **fastText >> GloVe > word2vec**
-- You can find [pre-trained fasttext Vectors](https://fasttext.cc/docs/en/pretrained-vectors.html) in several languages
-- If you are interested in the logic and intuition behind word2vec and GloVe: [The Amazing Power of Word Vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/) and introduce the topics well
-- [arXiv: Bag of Tricks for Efficient Text Classification](https://arxiv.org/abs/1607.01759), and [arXiv: FastText.zip: Compressing text classification models](https://arxiv.org/abs/1612.03651) were released as part of fasttext
+
+- [word2vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) - [implementation](https://code.google.com/archive/p/word2vec/) - [explainer blog](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+- [glove](https://nlp.stanford.edu/pubs/glove.pdf) - [explainer blog](https://blog.acolyer.org/2016/04/22/glove-global-vectors-for-word-representation/)
+- fasttext - [implementation](https://github.com/facebookresearch/fastText) - [paper](https://arxiv.org/abs/1607.04606) - [explainer blog](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)
 
 #### Sentence and Language Model Based Word Embeddings
 
 [Back to Top](#contents)
 
-- _ElMo_ from [Deep Contextualized Word Represenations](https://arxiv.org/abs/1802.05365) - [PyTorch implmentation](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) - [TF Implementation](https://github.com/allenai/bilm-tf)
-- _ULimFit_ aka [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146) by Jeremy Howard and Sebastian Ruder
-- _InferSent_ from [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364) by facebook
-- _CoVe_ from [Learned in Translation: Contextualized Word Vectors](https://arxiv.org/abs/1708.00107)
-- _Pargraph vectors_ from [Distributed Representations of Sentences and Documents](https://cs.stanford.edu/~quocle/paragraph_vector.pdf). See [doc2vec tutorial at gensim](https://rare-technologies.com/doc2vec-tutorial/)
+- ElMo - [Deep Contextualized Word Represenations](https://arxiv.org/abs/1802.05365) - [PyTorch implmentation](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) - [TF Implementation](https://github.com/allenai/bilm-tf)
+- ULimFit - [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146) by Jeremy Howard and Sebastian Ruder
+- InferSent - [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://arxiv.org/abs/1705.02364) by facebook
+- CoVe - [Learned in Translation: Contextualized Word Vectors](https://arxiv.org/abs/1708.00107)
+- Pargraph vectors - from [Distributed Representations of Sentences and Documents](https://cs.stanford.edu/~quocle/paragraph_vector.pdf). See [doc2vec tutorial at gensim](https://rare-technologies.com/doc2vec-tutorial/)
 - [sense2vec](https://arxiv.org/abs/1511.06388) - on word sense disambiguation
 - [Skip Thought Vectors](https://arxiv.org/abs/1506.06726) - word representation method
 - [Adaptive skip-gram](https://arxiv.org/abs/1502.07257) - similar approach, with adaptive properties
@@ -275,17 +246,10 @@ Notes for Beginners:
 
 [Back to Top](#contents)
 
-- [DrQA: Open Domain Question Answering](https://github.com/facebookresearch/DrQA) by facebook on Wikipedia data
-- DocQA: [Simple and Effective Multi-Paragraph Reading Comprehension](https://github.com/allenai/document-qa) by AllenAI
-- [Markov Logic Networks for Natural Language Question Answering](https://arxiv.org/pdf/1507.03045v1.pdf)
+- [DrQA](https://github.com/facebookresearch/DrQA) - Open Domain Question Answering work by Facebook Research on Wikipedia data
+- [Document-QA](https://github.com/allenai/document-qa) - Simple and Effective Multi-Paragraph Reading Comprehension by AllenAI
 - [Template-Based Information Extraction without the Templates](https://www.usna.edu/Users/cs/nchamber/pubs/acl2011-chambers-templates.pdf)
-- [Relation extraction with matrix factorization and universal schemas](https://www.anthology.aclweb.org/N/N13/N13-1008.pdf)
 - [Privee: An Architecture for Automatically Analyzing Web Privacy Policies](https://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf)
-- [Teaching Machines to Read and Comprehend](https://arxiv.org/abs/1506.03340) - DeepMind paper
-- [Towards a Formal Distributional Semantics: Simulating Logical Calculi with Tensors](https://www.aclweb.org/anthology/S13-1001)
-- [Presentation slides for MLN tutorial](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/mln-summary-20150918.ppt)
-- [Presentation slides for QA applications of MLNs](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
-- [Presentation slides](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
 
 ## Datasets
 
