@@ -12,49 +12,49 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Contents
 
-- [Research Summaries and Trends](#research-summaries-and-trends)
-- [Tutorials](#tutorials)
-  - [Reading Content](#reading-content)
-  - [Videos and Courses](#videos-and-online-courses)
-  - [Books](#books)
-- [Libraries](#libraries)
-  - [Node.js](#user-content-node-js)
-  - [Python](#user-content-python)
-  - [C++](#user-content-c++)
-  - [Java](#user-content-java)
-  - [Kotlin](#user-content-kotlin)
-  - [Scala](#user-content-scala)
-  - [R](#user-content-R)
-  - [Clojure](#user-content-clojure)
-  - [Ruby](#user-content-ruby)
-  - [Rust](#user-content-rust)
-- [Services](#services)
-- [Annotation Tools](#annotation-tools)
-- [Datasets](#datasets)
-- [NLP in Korean](#nlp-in-korean)
-- [NLP in Arabic](#nlp-in-arabic)
-- [NLP in Chinese](#nlp-in-chinese)
-- [NLP in German](#nlp-in-german)
-- [NLP in Spanish](#nlp-in-spanish)
-- [NLP in Indic Languages](#nlp-in-indic-languages)
-- [NLP in Thai](#nlp-in-thai)
-- [NLP in Vietnamese](#nlp-in-vietnamese)
-- [NLP in Danish](#nlp-in-danish)
-- [NLP in Indonesian](#nlp-in-indonesian)
-- [Other Languages](#other-languages)
-- [Credits](#credits)
+* [Research Summaries and Trends](#research-summaries-and-trends)
+* [Tutorials](#tutorials)
+  * [Reading Content](#reading-content)
+  * [Videos and Courses](#videos-and-online-courses)
+  * [Books](#books)
+* [Libraries](#libraries)
+  * [Node.js](#user-content-node-js)
+  * [Python](#user-content-python)
+  * [C++](#user-content-c++)
+  * [Java](#user-content-java)
+  * [Kotlin](#user-content-kotlin)
+  * [Scala](#user-content-scala)
+  * [R](#user-content-R)
+  * [Clojure](#user-content-clojure)
+  * [Ruby](#user-content-ruby)
+  * [Rust](#user-content-rust)
+* [Services](#services)
+* [Annotation Tools](#annotation-tools)
+* [Datasets](#datasets)
+* [NLP in Korean](#nlp-in-korean)
+* [NLP in Arabic](#nlp-in-arabic)
+* [NLP in Chinese](#nlp-in-chinese)
+* [NLP in German](#nlp-in-german)
+* [NLP in Spanish](#nlp-in-spanish)
+* [NLP in Indic Languages](#nlp-in-indic-languages)
+* [NLP in Thai](#nlp-in-thai)
+* [NLP in Vietnamese](#nlp-in-vietnamese)
+* [NLP in Danish](#nlp-in-danish)
+* [NLP in Indonesian](#nlp-in-indonesian)
+* [Other Languages](#other-languages)
+* [Credits](#credits)
 
 ## Research Summaries and Trends
 
-- [NLP-Overview](https://nlpoverview.com/) is an up-to-date overview of deep learning techniques applied to NLP, including theory, implementations, applications, and state-of-the-art results. This is a great Deep NLP Introduction for researchers. 
-- [NLP-Progress](https://nlpprogress.com/) tracks the progress in Natural Language Processing, including the datasets and the current state-of-the-art for the most common NLP tasks
-- [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
-- [ACL 2018 Highlights: Understanding Representation and Evaluation in More Challenging Settings](http://ruder.io/acl-2018-highlights/)
-- [Four deep learning trends from ACL 2017. Part One: Linguistic Structure and Word Embeddings](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html)
-- [Four deep learning trends from ACL 2017. Part Two: Interpretability and Attention](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
-- [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
-- [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
-- [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
+* [NLP-Overview](https://nlpoverview.com/) is an up-to-date overview of deep learning techniques applied to NLP, including theory, implementations, applications, and state-of-the-art results. This is a great Deep NLP Introduction for researchers. 
+* [NLP-Progress](https://nlpprogress.com/) tracks the progress in Natural Language Processing, including the datasets and the current state-of-the-art for the most common NLP tasks
+* [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
+* [ACL 2018 Highlights: Understanding Representation and Evaluation in More Challenging Settings](http://ruder.io/acl-2018-highlights/)
+* [Four deep learning trends from ACL 2017. Part One: Linguistic Structure and Word Embeddings](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html)
+* [Four deep learning trends from ACL 2017. Part Two: Interpretability and Attention](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
+* [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
+* [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
+* [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
 
 ## Tutorials
 [Back to Top](#contents)
@@ -63,57 +63,57 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 General Machine Learning
 
-- [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) from Google's Senior Creative Engineer explains Machine Learning for engineer's and executives alike
-- [AI Playbook](https://aiplaybook.a16z.com/) - a16z AI playbook is a great link to forward to your managers or content for your presentations
-- [Ruder's Blog](http://ruder.io/#open) by [Sebastian Ruder](https://twitter.com/seb_ruder) for commentary on the best of NLP Research
+* [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) from Google's Senior Creative Engineer explains Machine Learning for engineer's and executives alike
+* [AI Playbook](https://aiplaybook.a16z.com/) - a16z AI playbook is a great link to forward to your managers or content for your presentations
+* [Ruder's Blog](http://ruder.io/#open) by [Sebastian Ruder](https://twitter.com/seb_ruder) for commentary on the best of NLP Research
 
 Introductions and Guides to NLP
 
-- [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
-- [NLP in Python](http://github.com/NirantK/nlp-python-deep-learning) - Collection of Github notebooks 
-- [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - Oxford
-- [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
-- [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks 
+* [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
+* [NLP in Python](http://github.com/NirantK/nlp-python-deep-learning) - Collection of Github notebooks 
+* [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - Oxford
+* [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
+* [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks 
 
 Blogs and Newsletters
 
-- [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
-- [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/) and [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-- [Natural Language Processing](https://nlpers.blogspot.com/) by Hal Daumé III
-- [arXiv: Natural Language Processing (Almost) from Scratch](https://arxiv.org/pdf/1103.0398.pdf)
-- [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
+* [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+* [The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning)](https://jalammar.github.io/illustrated-bert/) and [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+* [Natural Language Processing](https://nlpers.blogspot.com/) by Hal Daumé III
+* [arXiv: Natural Language Processing (Almost) from Scratch](https://arxiv.org/pdf/1103.0398.pdf)
+* [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 
 ### Videos and Online Courses
 [Back to Top](#contents)
 
-- [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) - Udacity course which touches upon NLP as well
-- [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) - Lectures series from Oxford
-- [Deep Learning for Natural Language Processing (cs224-n)](https://web.stanford.edu/class/cs224n/) - Richard Socher and Christopher Manning's Stanford Course
-- [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) - Carnegie Mellon Language Technology Institute there
-- [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on. 
+* [Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) - Udacity course which touches upon NLP as well
+* [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) - Lectures series from Oxford
+* [Deep Learning for Natural Language Processing (cs224-n)](https://web.stanford.edu/class/cs224n/) - Richard Socher and Christopher Manning's Stanford Course
+* [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) - Carnegie Mellon Language Technology Institute there
+* [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on. 
 
 ### Books
 
-- [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) - free, by Prof. Dan Jurafsy
-- [Natural Language Processing] - free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech 
-- [NLP with PyTorch] - Brian & Delip Rao 
-- [Text Mining in R](https://www.tidytextmining.com)
-- [Natural Language Processing with Python](https://www.nltk.org/book/)
+* [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) - free, by Prof. Dan Jurafsy
+* [Natural Language Processing] - free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech 
+* [NLP with PyTorch] - Brian & Delip Rao 
+* [Text Mining in R](https://www.tidytextmining.com)
+* [Natural Language Processing with Python](https://www.nltk.org/book/)
 
 ## Libraries
 
 [Back to Top](#contents)
 
-- <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a> | [Back to Top](#contents)
-  - [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
-  - [Knwl.js](https://github.com/benhmoore/Knwl.js) - A Natural Language Processor in JS
-  - [Retext](https://github.com/retextjs/retext) - Extensible system for analyzing and manipulating natural language
-  - [NLP Compromise](https://github.com/spencermountain/compromise) - Natural Language processing in the browser
-  - [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
-  - [Poplar](https://github.com/synyi/poplar) - A web-based annotation tool for natural language processing (NLP)
-  - [NLP.js](https://github.com/axa-group/nlp.js) - An NLP library for building bots
+* <a id="node-js">**Node.js and Javascript** - Node.js Libaries for NLP</a> | [Back to Top](#contents)
+  * [Twitter-text](https://github.com/twitter/twitter-text) - A JavaScript implementation of Twitter's text processing library
+  * [Knwl.js](https://github.com/benhmoore/Knwl.js) - A Natural Language Processor in JS
+  * [Retext](https://github.com/retextjs/retext) - Extensible system for analyzing and manipulating natural language
+  * [NLP Compromise](https://github.com/spencermountain/compromise) - Natural Language processing in the browser
+  * [Natural](https://github.com/NaturalNode/natural) - general natural language facilities for node
+  * [Poplar](https://github.com/synyi/poplar) - A web-based annotation tool for natural language processing (NLP)
+  * [NLP.js](https://github.com/axa-group/nlp.js) - An NLP library for building bots
 
-- <a id="python"> **Python** - Python NLP Libraries</a> | [Back to Top](#contents)
+* <a id="python"> **Python** - Python NLP Libraries</a> | [Back to Top](#contents)
 
   - [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](https://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :+1:
   - [spaCy](https://github.com/explosion/spaCy) - Industrial strength NLP with Python and Cython :+1:
@@ -402,3 +402,6 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 [Back to Top](#contents)
 
 [Credits](./CREDITS.md) for initial curators and sources
+
+## License
+[License](./LICENSE) - CC0
