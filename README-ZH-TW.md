@@ -310,7 +310,7 @@ _請在提交之前閱讀 [貢獻指南](contributing.md) 。請隨時創建 [�
 - [KoNLPy](http://konlpy.org) - 用於韓語自然語言處理的Python包。
 - [Mecab (Korean)](https://eunjeon.blogspot.com/) - 韓文的自然語言處理 C++ 函式庫
 - [KoalaNLP](https://koalanlp.github.io/koalanlp/) - 韓國自然語言處理的 Scala 函式庫。
-- [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) - 韓文的自然語言處理 R 包。
+- [KoNLP](https://cran.r-project.org/package=KoNLP) - 韓文的自然語言處理 R 包。
 
 ### 部落格與教學
 

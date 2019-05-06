@@ -273,7 +273,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [KoNLPy](http://konlpy.org) - Python package for Korean natural language processing.
 - [Mecab (Korean)](https://eunjeon.blogspot.com/) - C++ library for Korean NLP
 - [KoalaNLP](https://koalanlp.github.io/koalanlp/) - Scala library for Korean Natural Language Processing.
-- [KoNLP](https://cran.r-project.org/web/packages/KoNLP/index.html) - R package for Korean Natural language processing
+- [KoNLP](https://cran.r-project.org/package=KoNLP) - R package for Korean Natural language processing
 
 ### Blogs and Tutorials
 
