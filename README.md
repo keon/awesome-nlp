@@ -13,6 +13,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 ## Contents
 
 * [Research Summaries and Trends](#research-summaries-and-trends)
+* [Prominent NLP Research Labs](#prominent-nlp-research-labs)
 * [Tutorials](#tutorials)
   * [Reading Content](#reading-content)
   * [Videos and Courses](#videos-and-online-courses)
@@ -55,6 +56,17 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
 * [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
 * [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
+
+## Prominent NLP Research Labs
+[Back to Top](#contents)
+
+* [The Berkeley NLP Group](http://nlp.cs.berkeley.edu/index.shtml) - Notable contributions include a tool to reconstruct long dead languages, referenced [here](https://www.bbc.com/news/science-environment-21427896) and by taking corpora from 637 languages currently spoken in Asia and the Pacific and recreating their descendant.
+
+
+
+
+
+
 
 ## Tutorials
 [Back to Top](#contents)
