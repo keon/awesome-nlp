@@ -1,8 +1,0 @@
-{
-	"scripts": {
-		"test": ""
-	},
-	"devDependencies": {
-		"awesome-lint": "*"
-	}
-}
