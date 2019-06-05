@@ -340,12 +340,12 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Columbian Political Speeches](https://github.com/dav009/LatinamericanTextResources)
 - [Copenhagen Treebank](https://mbkromann.github.io/copenhagen-dependency-treebank/)
 - [Spanish Billion words corpus with Word2Vec embeddings](https://github.com/crscardellino/sbwce)
-- [Compilation of Spanish Unannotated Corpora] (https://github.com/josecannete/spanish-unannotated-corpora)
+- [Compilation of Spanish Unannotated Corpora](https://github.com/josecannete/spanish-unannotated-corpora)
 
 ### Word and Sentence Embeddings
-- [Spanish Word Embeddings Computed with Different Methods and from Different Corpora] (https://github.com/dccuchile/spanish-word-embeddings)
-	- [Spanish Word Embeddings Computed from Large Corpora and Different Sizes Using fastText] (https://github.com/BotCenter/spanishWordEmbeddings)
-	- [Spanish Sentence Embeddings Computed from Large Corpora Using sent2vec] (https://github.com/BotCenter/spanishSent2Vec)
+- [Spanish Word Embeddings Computed with Different Methods and from Different Corpora](https://github.com/dccuchile/spanish-word-embeddings)
+- [Spanish Word Embeddings Computed from Large Corpora and Different Sizes Using fastText](https://github.com/BotCenter/spanishWordEmbeddings)
+- [Spanish Sentence Embeddings Computed from Large Corpora Using sent2vec](https://github.com/BotCenter/spanishSent2Vec)
 
 
 ## NLP in Indic languages
