@@ -148,7 +148,6 @@ Blogs and Newsletters
   - [Flair](https://github.com/zalandoresearch/flair) - A very simple framework for state-of-the-art multilingual NLP built on PyTorch. Includes BERT, ELMo and Flair embeddings.
   - [Kashgari](https://github.com/BrikerMan/Kashgari) - Simple, Keras-powered multilingual NLP framework, allows you to build your models in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.
 
-
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
   - [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) for segmenting/labeling sequential data & other Natural Language Processing tasks.
@@ -385,6 +384,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Multi-Task Deep Morphological Analyzer](https://github.com/Saurav0074/mt-dma) Deep Network based Morphological Parser for Hindi and Urdu
 - [Anoop Kunchukuttan](https://github.com/anoopkunchukuttan/indic_nlp_library) 18 Languages, whole host of features from tokenization to translation
 - [SivaReddy's Dependency Parser](http://sivareddy.in/downloads) Dependency Parser and Pos Tagger for Kannada, Hindi and Telugu. [Python3 Port](https://github.com/CalmDownKarm/sivareddydependencyparser)
+- [iNLTK](https://github.com/goru001/inltk) - A Natural Language Toolkit for Indic Languages (Indian subcontinent languages) built on top of Pytorch/Fastai, which aims to provide out of the box support for common NLP tasks.
 
 ## NLP in Thai
 
