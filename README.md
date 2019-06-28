@@ -407,6 +407,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 ## NLP in Danish 
 
 - [Named Entity Recognition for Danish](https://github.com/ITUnlp/daner)
+- [DaNLP](https://github.com/alexandrainst/danlp) - NLP resources in Danish
 
 ## NLP in Vietnamese 
 
