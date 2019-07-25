@@ -112,6 +112,7 @@ Blogs and Newsletters
 * [NLP with PyTorch] - Brian & Delip Rao 
 * [Text Mining in R](https://www.tidytextmining.com)
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
+* [Real-World Natural Language Processing](https://www.manning.com/books/real-world-natural-language-processing) - paid, early-access book on creating practical NLP applications using Python, by Masato Hagiwara.
 
 ## Libraries
 
