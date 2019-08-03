@@ -311,6 +311,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [goarabic](https://github.com/01walid/goarabic) - Go package for Arabic text processing
 - [jsastem](https://github.com/ejtaal/jsastem) - Javascript for Arabic stemming
 - [PyArabic](https://pypi.org/project/PyArabic/) - Python libraries for Arabic
+- [RFTokenizer](https://github.com/amir-zeldes/RFTokenizer) - trainable Python segmenter for Arabic, Hebrew and Coptic
 
 ### Datasets
 
