@@ -230,6 +230,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [prodigy](https://prodi.gy/) is an annotation tool powered by active learning, costs $
 - [LightTag](https://lighttag.io) - Hosted and managed text annotation tool for teams, costs $
 - [rstWeb](https://corpling.uis.georgetown.edu/rstweb/info/) - open source local or online tool for discourse tree annotations
+- [GitDox](https://corpling.uis.georgetown.edu/gitdox/) - open source server annotation tool with GitHub version control and validation for XML data and collaborative spreadsheet grids
 
 ## Techniques
 
