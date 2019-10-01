@@ -87,6 +87,7 @@ Introductions and Guides to NLP
 * [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - Oxford
 * [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 * [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks 
+* [Introduction to Word Vectors](https://medium.com/@jayeshbahire/introduction-to-word-vectors-ea1d4e4b84bf)- Jayesh Bapu Ahire
 
 Blogs and Newsletters
 
