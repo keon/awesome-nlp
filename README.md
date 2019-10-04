@@ -104,6 +104,7 @@ Blogs and Newsletters
 * [Deep Learning for Natural Language Processing (cs224-n)](https://web.stanford.edu/class/cs224n/) - Richard Socher and Christopher Manning's Stanford Course
 * [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) - Carnegie Mellon Language Technology Institute there
 * [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on. 
+* [Natural Language Processing](https://www.coursera.org/learn/language-processing) - A nice coursera course covering the very basics of Natural Language Processing.
 
 ### Books
 
