@@ -227,7 +227,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Anafora](https://github.com/weitechen/anafora) is free and open source, web-based raw text annotation tool
 - [brat](https://brat.nlplab.org/) - brat rapid annotation tool is an online environment for collaborative text annotation
 - [doccano](https://github.com/chakki-works/doccano) - doccano is free, open-source, and provides annotation features for text classification, sequence labeling and sequence to sequence
-- [tagtog](https://www.tagtog.net/), costs $
+- [tagtog](https://www.tagtog.net/), team-first web tool to find, create, maintain, and share datasets - costs $
 - [prodigy](https://prodi.gy/) is an annotation tool powered by active learning, costs $
 - [LightTag](https://lighttag.io) - Hosted and managed text annotation tool for teams, costs $
 - [rstWeb](https://corpling.uis.georgetown.edu/rstweb/info/) - open source local or online tool for discourse tree annotations
