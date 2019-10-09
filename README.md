@@ -112,6 +112,7 @@ Blogs and Newsletters
 * [NLP with PyTorch] - Brian & Delip Rao 
 * [Text Mining in R](https://www.tidytextmining.com)
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
+* [Deep Learning for Natural Language Processing](http://ling.snu.ac.kr/class/AI_Agent/deep_learning_for_nlp.pdf)
 
 ## Libraries
 
