@@ -95,6 +95,7 @@ Blogs and Newsletters
 * [Natural Language Processing](https://nlpers.blogspot.com/) by Hal Daumé III
 * [arXiv: Natural Language Processing (Almost) from Scratch](https://arxiv.org/pdf/1103.0398.pdf)
 * [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
+* [Machine Learning Mastery: Deep Learning for Natural Language Processing](https://machinelearningmastery.com/category/natural-language-processing)
 
 ### Videos and Online Courses
 [Back to Top](#contents)
