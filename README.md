@@ -393,12 +393,16 @@ Notes for Beginners:
 - [VIVOS](https://ailab.hcmus.edu.vn/vivos/) - a free Vietnamese speech corpus consisting of 15 hours of recording speech by AILab
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
 
+## NLP for Dutch
+
+- [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
+- [SimpleNLG_NL](https://github.com/rfdj/SimpleNLG-NL) - Dutch surface realiser used for Natural Language Generation in Dutch, based on the SimpleNLG implementation for English and French.
+
 ### Other Languages 
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
 - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
 - Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
-- Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 - Hebrew: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - A collection of papers, corpora and linguistic resources for NLP in Hebrew
 
 ## Credits
