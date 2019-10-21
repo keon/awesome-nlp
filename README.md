@@ -37,6 +37,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 - [NLP in Indic Languages](#nlp-in-indic-languages)
 - [NLP in Thai](#nlp-in-thai)
 - [NLP in Vietnamese](#nlp-in-vietnamese)
+- [NLP for Dutch](#nlp-for-dutch)
 - [Other Languages](#other-languages)
 - [Credits](#credits)
 
@@ -394,6 +395,8 @@ Notes for Beginners:
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
 
 ## NLP for Dutch
+
+[Back to Top](#contents)
 
 - [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 - [SimpleNLG_NL](https://github.com/rfdj/SimpleNLG-NL) - Dutch surface realiser used for Natural Language Generation in Dutch, based on the SimpleNLG implementation for English and French.
