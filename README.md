@@ -445,6 +445,14 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Indonesian Word Embedding](https://github.com/galuhsahid/indonesian-word-embedding)
 - Pretrained [Indonesian fastText Text Embedding](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.id.zip) trained on Wikipedia
 
+## NLP in Urdu
+
+### Datasets
+- [Collection of Urdu datasets](https://github.com/mirfan899/Urdu) for POS, NER and NLP tasks
+
+### Libraries
+- [Natural Language Processing library](https://github.com/urduhack/urduhack) for ( 🇵🇰)Urdu language
+
 ### Other Languages 
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
