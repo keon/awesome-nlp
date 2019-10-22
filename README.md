@@ -39,8 +39,9 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [NLP in Spanish](#nlp-in-spanish)
 * [NLP in Indic Languages](#nlp-in-indic-languages)
 * [NLP in Thai](#nlp-in-thai)
-* [NLP in Vietnamese](#nlp-in-vietnamese)
 * [NLP in Danish](#nlp-in-danish)
+* [NLP in Vietnamese](#nlp-in-vietnamese)
+* [NLP for Dutch](#nlp-for-dutch)
 * [NLP in Indonesian](#nlp-in-indonesian)
 * [Other Languages](#other-languages)
 * [Credits](#credits)
@@ -409,7 +410,6 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm) - A text corpus with 5 million words with word segmentation
 - [Prime Minister 29](https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029) - Dataset containing speeches of the current Prime Minister of Thailand
 
-
 ## NLP in Danish 
 
 - [Named Entity Recognition for Danish](https://github.com/ITUnlp/daner)
@@ -430,6 +430,13 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [UD_Vietnamese](https://github.com/UniversalDependencies/UD_Vietnamese-VTB) - Vietnamese Universal Dependency Treebank
 - [VIVOS](https://ailab.hcmus.edu.vn/vivos/) - a free Vietnamese speech corpus consisting of 15 hours of recording speech by AILab
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
+
+## NLP for Dutch
+
+[Back to Top](#contents)
+
+- [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
+- [SimpleNLG_NL](https://github.com/rfdj/SimpleNLG-NL) - Dutch surface realiser used for Natural Language Generation in Dutch, based on the SimpleNLG implementation for English and French.
 
 ## NLP in Indonesian 
 
@@ -454,12 +461,11 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 ### Libraries
 - [Natural Language Processing library](https://github.com/urduhack/urduhack) for ( 🇵🇰)Urdu language
 
-### Other Languages 
+## Other Languages 
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
 - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
 - Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
-- Dutch: [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 - Hebrew: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - A collection of papers, corpora and linguistic resources for NLP in Hebrew
 
 [Back to Top](#contents)
