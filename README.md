@@ -25,7 +25,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
   * [Java](#user-content-java)
   * [Kotlin](#user-content-kotlin)
   * [Scala](#user-content-scala)
-  * [R](#user-content-R)
+  * [R](#user-content-r)
   * [Clojure](#user-content-clojure)
   * [Ruby](#user-content-ruby)
   * [Rust](#user-content-rust)
