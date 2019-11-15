@@ -115,6 +115,7 @@ Blogs and Newsletters
 * [NLP with PyTorch] - Brian & Delip Rao 
 * [Text Mining in R](https://www.tidytextmining.com)
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
+* [Essential Natural Language Processing](https://www.manning.com/books/essential-natural-language-processing)
 
 ## Libraries
 
