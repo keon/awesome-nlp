@@ -461,6 +461,15 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 ### Libraries
 - [Natural Language Processing library](https://github.com/urduhack/urduhack) for ( 🇵🇰)Urdu language
 
+
+## NLP in Bengali
+
+### NLP Tool
+- [BNLP](https://github.com/sagorbrur/bnlp) for tokenization, embedding tasks
+
+### Dataset
+
+
 ## Other Languages 
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
