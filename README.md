@@ -353,6 +353,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Spanish Word Embeddings Computed with Different Methods and from Different Corpora](https://github.com/dccuchile/spanish-word-embeddings)
 - [Spanish Word Embeddings Computed from Large Corpora and Different Sizes Using fastText](https://github.com/BotCenter/spanishWordEmbeddings)
 - [Spanish Sentence Embeddings Computed from Large Corpora Using sent2vec](https://github.com/BotCenter/spanishSent2Vec)
+- [Beto - BERT for Spanish](https://github.com/dccuchile/beto)
 
 
 ## NLP in Indic languages
