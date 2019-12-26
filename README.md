@@ -57,6 +57,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [Highlights of EMNLP 2017: Exciting Datasets, Return of the Clusters, and More!](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
 * [Deep Learning for Natural Language Processing (NLP): Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
 * [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
+* [Major Trends in NLP: A Review of 20 Years of ACL Research](https://www.linkedin.com/pulse/major-trends-nlp-review-20-years-acl-research-janna-lipenkova/) provides a statistical analysis and commentary of ACL proceedings of the last 20 years.
 
 ## Prominent NLP Research Labs
 [Back to Top](#contents)
