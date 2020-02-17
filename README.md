@@ -317,6 +317,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [jsastem](https://github.com/ejtaal/jsastem) - Javascript for Arabic stemming
 - [PyArabic](https://pypi.org/project/PyArabic/) - Python libraries for Arabic
 - [RFTokenizer](https://github.com/amir-zeldes/RFTokenizer) - trainable Python segmenter for Arabic, Hebrew and Coptic
+- [ARBML](https://github.com/zaidalyafeai/ARBML) - code examples with multiple NLP tasks in Arabic on standard datasets
 
 ### Datasets
 
