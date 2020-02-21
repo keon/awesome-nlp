@@ -334,6 +334,9 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [SnowNLP](https://github.com/isnowfy/snownlp) - Python package for Chinese NLP
 - [FudanNLP](https://github.com/FudanNLP/fnlp) - Java library for Chinese text processing
 
+### Anthology
+- [funNLP](https://github.com/fighting41love/funNLP) - Collection of NLP tools and resources mainly for Chinese
+
 ## NLP in German
 
 - [German-NLP](https://github.com/adbar/German-NLP) - Curated list of open-access/open-source/off-the-shelf resources and tools developed with a particular focus on German
