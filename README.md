@@ -115,6 +115,7 @@ Blogs and Newsletters
 * [Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class) - free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech 
 * [NLP with PyTorch](https://github.com/joosthub/PyTorchNLPBook) - Brian & Delip Rao 
 * [Text Mining in R](https://www.tidytextmining.com)
+* [Natural Language Processing Succinctly](https://www.syncfusion.com/ebooks/natural_language_processing_succinctly)
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
 
 ## Libraries
