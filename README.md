@@ -36,6 +36,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [NLP in Arabic](#nlp-in-arabic)
 * [NLP in Chinese](#nlp-in-chinese)
 * [NLP in German](#nlp-in-german)
+* [NLP in Polish](#nlp-in-polish)
 * [NLP in Spanish](#nlp-in-spanish)
 * [NLP in Indic Languages](#nlp-in-indic-languages)
 * [NLP in Thai](#nlp-in-thai)
@@ -344,7 +345,11 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 ## NLP in German
 
 - [German-NLP](https://github.com/adbar/German-NLP) - Curated list of open-access/open-source/off-the-shelf resources and tools developed with a particular focus on German
- 
+
+## NLP in Polish
+
+- [Polish-NLP](https://github.com/ksopyla/awesome-nlp-polish) - A curated list of resources dedicated to Natural Language Processing (NLP) in polish. Models, tools, datasets.
+
 ## NLP in Spanish
 
 [Back to Top](#contents)
