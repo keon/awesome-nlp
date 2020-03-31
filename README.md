@@ -217,6 +217,7 @@ Blogs and Newsletters
 - <a id="rust">**Rust**</a>
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
+  - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
 
 ### Services
 
