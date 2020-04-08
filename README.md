@@ -318,8 +318,8 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Chatbot_data_for_Korean v1.0](https://github.com/songys/Chatbot_data) - Chatbot_data_for_Korean v1.0
 - [Petitions_data](https://github.com/akngs/petitions) - Collect expired petition data from the Blue House National Petition Site.
 - [Korean Parallel corpora](https://github.com/j-min/korean-parallel-corpora) - Neural Machine Translation(NMT) Dataset for **Korean to Franch** & **Korean to English**
-- [KorQuAD v1.0](https://korquad.github.io/category/1.0_KOR.html) 
-- [KorQuAD v2.1](https://korquad.github.io/)
+- [KorQuAD v1.0](https://korquad.github.io/category/1.0_KOR.html) - Korean SQuAD dataset v1.0
+- [KorQuAD v2.1](https://korquad.github.io/) - Korean SQuAD dataset with Wiki HTML source
 
 ## NLP in Arabic
 
