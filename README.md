@@ -315,6 +315,11 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [KAIST Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) - A corpus from the Korea Advanced Institute of Science and Technology in Korean.
 - [Naver Sentiment Movie Corpus in Korean](https://github.com/e9t/nsmc/)
 - [Chosun Ilbo archive](http://srchdb1.chosun.com/pdf/i_archive/) - dataset in Korean from one of the major newspapers in South Korea, the Chosun Ilbo.
+- [Chatbot_data_for_Korean v1.0](https://github.com/songys/Chatbot_data) - Chatbot_data_for_Korean v1.0
+- [Petitions_data](https://github.com/akngs/petitions) - Collect expired petition data from the Blue House National Petition Site.
+- [Korean Parallel corpora](https://github.com/j-min/korean-parallel-corpora) - Neural Machine Translation(NMT) Dataset for **Korean to Franch** & **Korean to English**
+- [KorQuAD v1.0](https://korquad.github.io/category/1.0_KOR.html) 
+- [KorQuAD v2.1](https://korquad.github.io/)
 
 ## NLP in Arabic
 
