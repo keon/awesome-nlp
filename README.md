@@ -316,7 +316,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Naver Sentiment Movie Corpus in Korean](https://github.com/e9t/nsmc/)
 - [Chosun Ilbo archive](http://srchdb1.chosun.com/pdf/i_archive/) - dataset in Korean from one of the major newspapers in South Korea, the Chosun Ilbo.
 - [Chat data](https://github.com/songys/Chatbot_data) - Chatbot data in Korean
-- [Petitions_data](https://github.com/akngs/petitions) - Collect expired petition data from the Blue House National Petition Site.
+- [Petitions](https://github.com/akngs/petitions) - Collect expired petition data from the Blue House National Petition Site.
 - [Korean Parallel corpora](https://github.com/j-min/korean-parallel-corpora) - Neural Machine Translation(NMT) Dataset for **Korean to French** & **Korean to English**
 - [KorQuAD](https://korquad.github.io/) - Korean SQuAD dataset with Wiki HTML source. Mentions both v1.0 and v2.1 at the time of adding to Awesome NLP
 
