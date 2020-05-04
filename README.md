@@ -116,6 +116,7 @@ Blogs and Newsletters
 * [Text Mining in R](https://www.tidytextmining.com)
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
 * [Essential Natural Language Processing](https://www.manning.com/books/essential-natural-language-processing)
+* [Transfer Learning for Natural Language Processing](https://www.manning.com/books/transfer-learning-for-natural-language-processing)
 
 ## Libraries
 
