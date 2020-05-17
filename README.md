@@ -403,6 +403,11 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [IIT Bombay NLP Resources](http://www.cfilt.iitb.ac.in/Sentiment_Analysis_Resources.html) Sentiwordnet, Movie and Tourism parallel labelled corpora, polarity labelled sense annotated corpus, Marathi polarity labelled corpus.
 - [TDIL-IC aggregates a lot of useful resources and provides access to otherwise gated datasets](https://tdil-dc.in/index.php?option=com_catalogue&task=viewTools&id=83&lang=en)
 
+### Blogs and Tutorials
+
+- [Training ALBERT on Sanskrit from scratch](https://parmarsuraj99.github.io/suraj-parmar/jupyter/nlp/huggingface/2020/05/02/SanskritALBERT.html)🤗
+
+
 ### Language Models and Word Embeddings
 
 - [Hindi2Vec](https://nirantk.com/hindi2vec/) and [nlp-for-hindi](https://github.com/goru001/nlp-for-hindi) ULMFIT style languge model
@@ -410,6 +415,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Fasttext word embeddings in a whole bunch of languages, trained on Common Crawl](https://fasttext.cc/docs/en/crawl-vectors.html)
 - [Hindi and Bengali Word2Vec](https://github.com/Kyubyong/wordvectors)
 - [Hindi and Urdu Elmo Model](https://github.com/HIT-SCIR/ELMoForManyLangs)
+- [Sanskrit Albert](https://huggingface.co/surajp/albert-base-sanskrit) Trained on Sanskrit Wikipedia and OSCAR corpus
 
 ### Libraries and Tooling
 
