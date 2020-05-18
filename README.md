@@ -403,10 +403,6 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [IIT Bombay NLP Resources](http://www.cfilt.iitb.ac.in/Sentiment_Analysis_Resources.html) Sentiwordnet, Movie and Tourism parallel labelled corpora, polarity labelled sense annotated corpus, Marathi polarity labelled corpus.
 - [TDIL-IC aggregates a lot of useful resources and provides access to otherwise gated datasets](https://tdil-dc.in/index.php?option=com_catalogue&task=viewTools&id=83&lang=en)
 
-### Blogs and Tutorials
-
-- [Training ALBERT on Sanskrit from scratch](https://parmarsuraj99.github.io/suraj-parmar/jupyter/nlp/huggingface/2020/05/02/SanskritALBERT.html)🤗
-
 
 ### Language Models and Word Embeddings
 
