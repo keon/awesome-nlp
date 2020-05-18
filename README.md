@@ -410,6 +410,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Fasttext word embeddings in a whole bunch of languages, trained on Common Crawl](https://fasttext.cc/docs/en/crawl-vectors.html)
 - [Hindi and Bengali Word2Vec](https://github.com/Kyubyong/wordvectors)
 - [Hindi and Urdu Elmo Model](https://github.com/HIT-SCIR/ELMoForManyLangs)
+- [Sanskrit Albert](https://huggingface.co/surajp/albert-base-sanskrit) Trained on Sanskrit Wikipedia and OSCAR corpus
 
 ### Libraries and Tooling
 
