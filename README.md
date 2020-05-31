@@ -102,6 +102,9 @@ Blogs and Newsletters
 * [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 * [Machine Learning Mastery: Deep Learning for Natural Language Processing](https://machinelearningmastery.com/category/natural-language-processing)
 * [Visual Paper Summary: ALBERT (A Lite BERT)](https://amitness.com/2020/02/albert-visual-summary/)
+* [A Visual Survey of Data Augmentation in NLP](https://amitness.com/2020/05/data-augmentation-for-nlp/)
+* [Self Supervised Representation Learning in NLP](https://amitness.com/2020/05/self-supervised-learning-nlp/)
+* [Zero-Shot Learning for Text Classification](https://amitness.com/2020/05/zero-shot-text-classification/)
 
 ### Videos and Online Courses
 [Back to Top](#contents)
