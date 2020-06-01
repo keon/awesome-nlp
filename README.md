@@ -101,7 +101,7 @@ Blogs and Newsletters
 * [arXiv: Natural Language Processing (Almost) from Scratch](https://arxiv.org/pdf/1103.0398.pdf)
 * [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 * [Machine Learning Mastery: Deep Learning for Natural Language Processing](https://machinelearningmastery.com/category/natural-language-processing)
-* [Visual Paper Summary: ALBERT (A Lite BERT)](https://amitness.com/2020/02/albert-visual-summary/)
+* [Visual NLP Paper Summaries](https://amitness.com/categories/#nlp)
 
 ### Videos and Online Courses
 [Back to Top](#contents)
