@@ -290,6 +290,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 [Back to Top](#contents)
 
 - [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
+- [gensim-data](https://github.com/RaRe-Technologies/gensim-data) - Data repository for pretrained NLP models and NLP corpora.
 
 ## Multilingual NLP Frameworks
 
