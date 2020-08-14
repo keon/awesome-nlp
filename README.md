@@ -137,6 +137,7 @@ Blogs and Newsletters
 
 * <a id="python"> **Python** - Python NLP Libraries</a> | [Back to Top](#contents)
 
+  - [TextAttack](https://github.com/QData/TextAttack) - Adversarial attacks, adversarial training, and data augmentation in NLP
   - [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](https://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :+1:
   - [spaCy](https://github.com/explosion/spaCy) - Industrial strength NLP with Python and Cython :+1:
     - [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy
