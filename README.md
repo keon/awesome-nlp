@@ -468,6 +468,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [UD_Vietnamese](https://github.com/UniversalDependencies/UD_Vietnamese-VTB) - Vietnamese Universal Dependency Treebank
 - [VIVOS](https://ailab.hcmus.edu.vn/vivos/) - a free Vietnamese speech corpus consisting of 15 hours of recording speech by AILab
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75 million sentences in news
+- [EVB Corpus](https://github.com/qhungngo/EVBCorpus) - 20,000,000 words (20 million) from 15 bilingual books, 100 parallel English-Vietnamese / Vietnamese-English texts, 250 parallel law and ordinance texts, 5,000 news articles, and 2,000 film subtitles.
 
 ## NLP for Dutch
 
