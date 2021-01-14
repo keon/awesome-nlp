@@ -224,6 +224,12 @@ Blogs and Newsletters
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
   - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
+  
+- <a id="NLP++">**NLP++** - NLP++ Langauge</a> | [Back to Top](#contents)
+  - [VSCode Language Extension](https://marketplace.visualstudio.com/items?itemName=dehilster.nlp) - NLP++ Language Extension for VSCode
+  - [nlp-engine](https://github.com/VisualText/nlp-engine) - NLP++ engine to run NLP++ code on Linux including a full English parser
+  - [VisualText](http://visualtext.org) - Homepage for the NLP++ Language
+  - [NLP++ Wiki](http://wiki.naturalphilosophy.org/index.php?title=NLP%2B%2B) - Wiki entry for the NLP++ language
 
 ### Services
 
