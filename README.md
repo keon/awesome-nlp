@@ -165,7 +165,8 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Transformers](https://github.com/huggingface/transformers) - Natural Language Processing for TensorFlow 2.0 and PyTorch.
   - [Tokenizers](https://github.com/huggingface/tokenizers) - Tokenizers optimized for Research and Production.
   - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch. 
-  - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge  
+  - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
+  - [Kiri](https://github.com/kiri-ai/kiri) - A library that makes using state-of-the-art language models easy, accessible and scalable.
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
