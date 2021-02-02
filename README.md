@@ -82,6 +82,7 @@ General Machine Learning
 * [AI Playbook](https://aiplaybook.a16z.com/) - a16z AI playbook is a great link to forward to your managers or content for your presentations
 * [Ruder's Blog](http://ruder.io/#open) by [Sebastian Ruder](https://twitter.com/seb_ruder) for commentary on the best of NLP Research
 * [How To Label Data](https://www.lighttag.io/how-to-label-data/) guide to managing larger linguistic annotation projects
+* [Depends on the Definition](https://www.depends-on-the-definition.com/) collection of blog posts covering a wide array of NLP topics with detailed implementation
 
 Introductions and Guides to NLP
 
