@@ -1,4 +1,4 @@
-# awesome-nlp 
+# awesome-nlp
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -6,7 +6,7 @@ A curated list of resources dedicated to Natural Language Processing
 
 ![Awesome NLP Logo](/images/logo.jpg)
 
-Read this in [English](./README.md), [Traditional Chinese](./README-ZH-TW.md) 
+Read this in [English](./README.md), [Traditional Chinese](./README-ZH-TW.md)
 
 _Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls)_
 
@@ -49,7 +49,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Research Summaries and Trends
 
-* [NLP-Overview](https://nlpoverview.com/) is an up-to-date overview of deep learning techniques applied to NLP, including theory, implementations, applications, and state-of-the-art results. This is a great Deep NLP Introduction for researchers. 
+* [NLP-Overview](https://nlpoverview.com/) is an up-to-date overview of deep learning techniques applied to NLP, including theory, implementations, applications, and state-of-the-art results. This is a great Deep NLP Introduction for researchers.
 * [NLP-Progress](https://nlpprogress.com/) tracks the progress in Natural Language Processing, including the datasets and the current state-of-the-art for the most common NLP tasks
 * [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
 * [ACL 2018 Highlights: Understanding Representation and Evaluation in More Challenging Settings](http://ruder.io/acl-2018-highlights/)
@@ -66,7 +66,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [Language Technologies Institute, Carnegie Mellon University](http://www.cs.cmu.edu/~nasmith/nlp-cl.html) - Notable projects include [Avenue Project](http://www.cs.cmu.edu/~avenue/), a syntax driven machine translation system for endangered languages like Quechua and Aymara and previously, [Noah's Ark](http://www.cs.cmu.edu/~ark/) which created [AQMAR](http://www.cs.cmu.edu/~ark/AQMAR/) to improve NLP tools for Arabic.
 * [NLP research group, Columbia University](http://www1.cs.columbia.edu/nlp/index.cgi) - Responsible for creating BOLT ( interactive error handling for speech translation systems) and an un-named project to characterize laughter in dialogue.
 * [The Center or Language and Speech Processing, John Hopkins University](http://clsp.jhu.edu/) - Recently in the news for developing speech recognition software to create a diagnostic test or Parkinson's Disease, [here](https://www.clsp.jhu.edu/2019/03/27/speech-recognition-software-and-machine-learning-tools-are-being-used-to-create-diagnostic-test-for-parkinsons-disease/#.XNFqrIkzYdU).
-* [Computational Linguistics and Information Processing Group, University of Maryland](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) - Notable contributions include [Human-Computer Cooperation or Word-by-Word Question Answering](http://www.umiacs.umd.edu/~jbg/projects/IIS-1652666) and modeling development of phonetic representations. 
+* [Computational Linguistics and Information Processing Group, University of Maryland](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) - Notable contributions include [Human-Computer Cooperation or Word-by-Word Question Answering](http://www.umiacs.umd.edu/~jbg/projects/IIS-1652666) and modeling development of phonetic representations.
 * [Penn Natural Language Processing, University of Pennsylvania](http://nlp.cis.upenn.edu/index.php)- Famous for creating the [Penn Treebank](http://www.cis.upenn.edu/~treebank/).
 * [The Stanford Nautral Language Processing Group](https://nlp.stanford.edu/)- One of the top NLP research labs in the world, notable for creating [Stanford CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) and their [coreference resolution system](https://nlp.stanford.edu/software/dcoref.shtml)
 
@@ -86,10 +86,10 @@ General Machine Learning
 Introductions and Guides to NLP
 
 * [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
-* [NLP in Python](http://github.com/NirantK/nlp-python-deep-learning) - Collection of Github notebooks 
+* [NLP in Python](http://github.com/NirantK/nlp-python-deep-learning) - Collection of Github notebooks
 * [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - Oxford
 * [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
-* [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks 
+* [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks
 * [Train a new language model from scratch](https://huggingface.co/blog/how-to-train) - Hugging Face 🤗
 * [The Super Duper NLP Repo (SDNLPR)](https://notebooks.quantumstat.com/): Collection of Colab notebooks covering a wide array of NLP task implementations.
 
@@ -109,7 +109,7 @@ Blogs and Newsletters
 * [Deep Natural Language Processing](https://github.com/oxford-cs-deepnlp-2017/lectures) - Lectures series from Oxford
 * [Deep Learning for Natural Language Processing (cs224-n)](https://web.stanford.edu/class/cs224n/) - Richard Socher and Christopher Manning's Stanford Course
 * [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) - Carnegie Mellon Language Technology Institute there
-* [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on. 
+* [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on.
 * [fast.ai Code-First Intro to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) - This covers a blend of traditional NLP topics (including regex, SVD, naive bayes, tokenization) and recent neural network approaches (including RNNs, seq2seq, GRUs, and the Transformer), as well as addressing urgent ethical issues, such as bias and disinformation. Find the Jupyter Notebooks [here](https://github.com/fastai/course-nlp)
 * [Machine Learning University - Accelerated Natural Language Processing](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw) - Lectures go from introduction to NLP and text processing to Recurrent Neural Networks and Transformers.
 Material can be found [here](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp).
@@ -118,8 +118,8 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 ### Books
 
 * [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) - free, by Prof. Dan Jurafsy
-* [Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class) - free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech 
-* [NLP with PyTorch](https://github.com/joosthub/PyTorchNLPBook) - Brian & Delip Rao 
+* [Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class) - free, NLP notes by Dr. Jacob Eisenstein at GeorgiaTech
+* [NLP with PyTorch](https://github.com/joosthub/PyTorchNLPBook) - Brian & Delip Rao
 * [Text Mining in R](https://www.tidytextmining.com)
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
 
@@ -165,8 +165,8 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Rita DSL](https://github.com/zaibacu/rita-dsl) - a DSL, loosely based on [RUTA on Apache UIMA](https://uima.apache.org/ruta.html). Allows to define language patterns (rule-based NLP) which are then translated into [spaCy](https://spacy.io/), or if you prefer less features and lightweight - regex patterns.
   - [Transformers](https://github.com/huggingface/transformers) - Natural Language Processing for TensorFlow 2.0 and PyTorch.
   - [Tokenizers](https://github.com/huggingface/tokenizers) - Tokenizers optimized for Research and Production.
-  - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch. 
-  - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge  
+  - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch.
+  - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
@@ -192,11 +192,11 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - Core libraries developed in the U of Illinois' Cognitive Computation Group.
   - [MALLET](http://mallet.cs.umass.edu/) - MAchine Learning for LanguagE Toolkit - package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text.
   - [RDRPOSTagger](https://github.com/datquocnguyen/RDRPOSTagger) - A robust POS tagging toolkit available (in both Java & Python) together with pre-trained models for 40+ languages.
-  
+
 - <a id="kotlin">**Kotlin** - Kotlin NLP Libraries</a> | [Back to Top](#contents)
   - [Lingua](https://github.com/pemistahl/lingua/) A language detection library for Kotlin and Java, suitable for long and short text alike
   - [Kotidgy](https://github.com/meiblorn/kotidgy) — an index-based text data generator written in Kotlin
-  
+
 - <a id="scala">**Scala** - Scala NLP Libraries</a> | [Back to Top](#contents)
   - [Saul](https://github.com/CogComp/saul) - Library for developing NLP systems, including built in modules like SRL, POS, etc.
   - [ATR4S](https://github.com/ispras/atr4s) - Toolkit with state-of-the-art [automatic term recognition](https://en.wikipedia.org/wiki/Terminology_extraction) methods.
@@ -227,7 +227,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
   - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
-  
+
 - <a id="NLP++">**NLP++** - NLP++ Langauge</a> | [Back to Top](#contents)
   - [VSCode Language Extension](https://marketplace.visualstudio.com/items?itemName=dehilster.nlp) - NLP++ Language Extension for VSCode
   - [nlp-engine](https://github.com/VisualText/nlp-engine) - NLP++ engine to run NLP++ code on Linux including a full English parser
@@ -239,7 +239,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 NLP as API with higher level functionality such as NER, Topic tagging and so on | [Back to Top](#contents)
 
 - [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
-- [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API and Github demo 
+- [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API and Github demo
 - [Amazon Comprehend](https://aws.amazon.com/comprehend/) - NLP and ML suite covers most common tasks like NER, tagging, and sentiment analysis
 - [Google Cloud Natural Language API](https://cloud.google.com/natural-language/) - Syntax Analysis, NER, Sentiment Analysis, and Content tagging in atleast 9 languages include English and Chinese (Simplified and Traditional).
 - [ParallelDots](https://www.paralleldots.com/text-analysis-apis) - High level Text Analysis API Service ranging from Sentiment Analysis to Intent Analysis
@@ -261,6 +261,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [rstWeb](https://corpling.uis.georgetown.edu/rstweb/info/) - open source local or online tool for discourse tree annotations
 - [GitDox](https://corpling.uis.georgetown.edu/gitdox/) - open source server annotation tool with GitHub version control and validation for XML data and collaborative spreadsheet grids
 - [Label Studio](https://www.heartex.ai/) - Hosted and managed text annotation tool for teams, freemium based, costs $
+- [Datasaur](https://datasaur.ai/) support various NLP tasks for individual or teams, freemium based
 
 ## Techniques
 
@@ -450,13 +451,13 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm) - A text corpus with 5 million words with word segmentation
 - [Prime Minister 29](https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029) - Dataset containing speeches of the current Prime Minister of Thailand
 
-## NLP in Danish 
+## NLP in Danish
 
 - [Named Entity Recognition for Danish](https://github.com/ITUnlp/daner)
 - [DaNLP](https://github.com/alexandrainst/danlp) - NLP resources in Danish
 - [Awesome Danish](https://github.com/fnielsen/awesome-danish) - A curated list of awesome resources for Danish language technology
 
-## NLP in Vietnamese 
+## NLP in Vietnamese
 
 ### Libraries
 
@@ -480,7 +481,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 - [SimpleNLG_NL](https://github.com/rfdj/SimpleNLG-NL) - Dutch surface realiser used for Natural Language Generation in Dutch, based on the SimpleNLG implementation for English and French.
 
-## NLP in Indonesian 
+## NLP in Indonesian
 
 ### Datasets
 - Kompas and Tempo collections at [ILPS](http://ilps.science.uva.nl/resources/bahasa/)
@@ -489,11 +490,13 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Indonesian Treebank](https://github.com/famrashel/idn-treebank) and [Universal Dependencies-Indonesian](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
 - [IndoSum](https://github.com/kata-ai/indosum) for text summarization and classification both
 - [Wordnet-Bahasa](http://wn-msa.sourceforge.net/) - large, free, semantic dictionary
+- IndoBenchmark [IndoNLU](https://github.com/indobenchmark/indonlu) includes pre-trained language model (IndoBERT), FastText model, Indo4B corpus, and several NLU benchmark datasets
 
 ### Libraries & Embedding
 - Natural language toolkit [bahasa](https://github.com/kangfend/bahasa)
 - [Indonesian Word Embedding](https://github.com/galuhsahid/indonesian-word-embedding)
 - Pretrained [Indonesian fastText Text Embedding](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.id.zip) trained on Wikipedia
+- IndoBenchmark [IndoNLU](https://github.com/indobenchmark/indonlu) includes pretrained language model (IndoBERT), FastText model, Indo4B corpus, and several NLU benchmark datasets
 
 ## NLP in Urdu
 
@@ -503,7 +506,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 ### Libraries
 - [Natural Language Processing library](https://github.com/urduhack/urduhack) for ( 🇵🇰)Urdu language
 
-## Other Languages 
+## Other Languages
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
 - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
