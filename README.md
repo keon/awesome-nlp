@@ -389,6 +389,10 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 [Back to Top](#contents)
 
+### Libraries
+
+- [spanlp](https://github.com/jfreddypuentes/spanlp) - Python library to detect, censor and clean profanity, vulgarities, hateful words, racism, xenophobia and bullying in texts written in Spanish. It contains data of 21 Spanish-speaking countries.
+
 ### Data
 
 - [Columbian Political Speeches](https://github.com/dav009/LatinamericanTextResources)
