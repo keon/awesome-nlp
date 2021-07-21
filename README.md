@@ -319,6 +319,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 - [UDPipe](https://github.com/ufal/udpipe) is a trainable pipeline for tokenizing, tagging, lemmatizing and parsing Universal Treebanks and other CoNLL-U files. Primarily written in C++, offers a fast and reliable solution for multilingual NLP processing.
 - [NLP-Cube](https://github.com/adobe/NLP-Cube) : Natural Language Processing Pipeline - Sentence Splitting, Tokenization, Lemmatization, Part-of-speech Tagging and Dependency Parsing. New platform, written in Python with Dynet 2.0. Offers standalone (CLI/Python bindings) and server functionality (REST API).
+- [UralicNLP](https://github.com/mikahama/uralicNLP) is an NLP library mostly for many endangered Uralic languages such as Sami languages, Mordvin languages, Mari languages, Komi languages and so on. Also some non-endangered languages are supported such as Finnish together with non-Uralic languages such as Swedish and Arabic. UralicNLP can do morphological analysis, generation, lemmatization and disambiguation.
 
 ## NLP in Korean
 
