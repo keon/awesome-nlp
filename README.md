@@ -169,6 +169,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Tokenizers](https://github.com/huggingface/tokenizers) - Tokenizers optimized for Research and Production.
   - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch. 
   - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
+  - [Sockeye](https://github.com/awslabs/sockeye) - Neural Machine Translation (NMT) toolkit that powers Amazon Translate.
   - [DL Translate](https://github.com/xhlulu/dl-translate) - A deep learning-based translation library for 50 languages, built on `transformers` and Facebook's mBART Large.
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
