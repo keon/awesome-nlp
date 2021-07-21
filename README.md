@@ -122,6 +122,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 * [NLP with PyTorch](https://github.com/joosthub/PyTorchNLPBook) - Brian & Delip Rao 
 * [Text Mining in R](https://www.tidytextmining.com)
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
+* [Practical Natural Language Processing](https://www.oreilly.com/library/view/practical-natural-language/9781492054047/)
 
 ## Libraries
 
