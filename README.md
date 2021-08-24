@@ -173,6 +173,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
   - [Sockeye](https://github.com/awslabs/sockeye) - Neural Machine Translation (NMT) toolkit that powers Amazon Translate.
   - [DL Translate](https://github.com/xhlulu/dl-translate) - A deep learning-based translation library for 50 languages, built on `transformers` and Facebook's mBART Large.
+  - [Jury](https://github.com/obss/jury) - Evaluation of NLP model outputs, spesifically for NLG (Natural Language Generation), offering various automated metrics.
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
