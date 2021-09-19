@@ -126,6 +126,9 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 * [Natural Language Processing with Python](https://www.nltk.org/book/)
 * [Practical Natural Language Processing](https://www.oreilly.com/library/view/practical-natural-language/9781492054047/)
 * [Natural Language Processing with Spark NLP](https://www.oreilly.com/library/view/natural-language-processing/9781492047759/)
+* [Deep Learning for Natural Language Processing](https://www.manning.com/books/deep-learning-for-natural-language-processing) by Stephan Raaijmakers
+* [Real-World Natural Language Processing](https://www.manning.com/books/real-world-natural-language-processing) - by Masato Hagiwara
+* [Getting started with Natural Language Processing](https://www.manning.com/books/getting-started-with-natural-language-processing) - by Ekaterina Kochmar
 
 ## Libraries
 
