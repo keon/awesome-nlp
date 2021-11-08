@@ -37,7 +37,6 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [NLP in Chinese](#nlp-in-chinese)
 * [NLP in German](#nlp-in-german)
 * [NLP in Polish](#nlp-in-polish)
-* [NLP in Persian](#nlp-in-persian)
 * [NLP in Spanish](#nlp-in-spanish)
 * [NLP in Indic Languages](#nlp-in-indic-languages)
 * [NLP in Thai](#nlp-in-thai)
@@ -392,22 +391,6 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 ## NLP in Polish
 
 - [Polish-NLP](https://github.com/ksopyla/awesome-nlp-polish) - A curated list of resources dedicated to Natural Language Processing (NLP) in polish. Models, tools, datasets.
-
-## NLP in Persian
-
-[Back to Top](#contents)
-
-### Libraries
-
-- [HAZM](https://github.com/sobhe/hazm) - Python library for digesting Persian text.
-- [Parsivar](https://github.com/ICTRC/Parsivar) - A Language Processing Toolkit for Persian
-
-### Data
-
-- [Bijankhan Corpus](https://dbrg.ut.ac.ir/%D8%A8%DB%8C%DA%98%D9%86%E2%80%8C%D8%AE%D8%A7%D9%86/) - The Bijankhan collection contains about 2.6 millions manually tagged words with a tag set that contains 40 Persian POS tags.
-- [FarsBase](http://farsbase.net/about) - FarsBase is Persian multi-source knowledge graph, which isspecifically designed for semantic search engines to support Persian knowledge.
-- [FarsTail](https://github.com/dml-qom/FarsTail) - FarsTail is a dataset of textual entailment (also known as natural language inference, NLI) and it includes 10,367 samples in the Persian language.
-
 
 ## NLP in Spanish
 
