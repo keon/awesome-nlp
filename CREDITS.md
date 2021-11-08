@@ -8,3 +8,4 @@ Awesome NLP was seeded with curated content from the lot of repositories, some o
 - [jjangsangy's awesome-nlp](https://gist.github.com/jjangsangy/8759f163bc3558779c46)
 - [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning/blob/master/README.md)
 - [DL4NLP](https://github.com/andrewt3000/DL4NLP)
+- [awesome-persian-nlp-ir](https://github.com/mhbashari/awesome-persian-nlp-ir)
