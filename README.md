@@ -553,6 +553,11 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Uppsala Persian Dependency Treebank (UPDT)](http://stp.lingfil.uu.se/~mojgan/UPDT.html): Dependency-based syntactically annotated corpus.
 - [Hamshahri](https://dbrg.ut.ac.ir/hamshahri/): Hamshahri collection is a standard reliable Persian text collection that was used at Cross Language Evaluation Forum (CLEF) during years 2008 and 2009 for evaluation of Persian information retrieval systems.
 
+## NLP in Hungarian
+
+- [Hungarian-NLP](https://github.com/oroszgy/awesome-hungarian-nlp) - A curated list of free resources dedicated to Hungarian Natural Language Processing.
+
+
 ## Other Languages
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
