@@ -46,6 +46,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [NLP in Indonesian](#nlp-in-indonesian)
 * [NLP in Urdu](#nlp-in-urdu)
 * [NLP in Persian](#nlp-in-persian)
+* [NLP in Ukrainian](#nlp-in-ukrainian)
 * [Other Languages](#other-languages)
 * [Credits](#credits)
 
@@ -552,6 +553,15 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Persian Syntactic Dependency Treebank](http://dadegan.ir/catalog/perdt): This treebank is supplied for free noncommercial use. For commercial uses feel free to contact us. The number of annotated sentences is 29,982 sentences including samples from almost all verbs of the Persian valency lexicon.
 - [Uppsala Persian Dependency Treebank (UPDT)](http://stp.lingfil.uu.se/~mojgan/UPDT.html): Dependency-based syntactically annotated corpus.
 - [Hamshahri](https://dbrg.ut.ac.ir/hamshahri/): Hamshahri collection is a standard reliable Persian text collection that was used at Cross Language Evaluation Forum (CLEF) during years 2008 and 2009 for evaluation of Persian information retrieval systems.
+
+
+## NLP in Ukrainian
+
+[Back to Top](#contents)
+
+- [awesome-ukrainian-nlp](https://github.com/asivokon/awesome-ukrainian-nlp) - a curated list of Ukrainian NLP datasets, models, etc.
+- [UkrainianLT](https://github.com/Helsinki-NLP/UkrainianLT) - another curated list with a focus on machine translation and speech processing
+
 
 ## Other Languages
 
