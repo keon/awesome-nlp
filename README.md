@@ -278,6 +278,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Datasaur](https://datasaur.ai/) support various NLP tasks for individual or teams, freemium based
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
+- [Open Source Data Annotation & Labeling Tools](https://github.com/zenml-io/awesome-open-data-annotation) - List of open-source data annotation tools, sorted by domain (includes a section on NLP)
 
 ## Techniques
 
