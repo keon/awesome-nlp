@@ -563,6 +563,13 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [UkrainianLT](https://github.com/Helsinki-NLP/UkrainianLT) - another curated list with a focus on machine translation and speech processing
 
 
+## NLP in Japanese
+
+[Back to Top](#contents)
+
+- [awesome-japanese-nlp-resources](https://github.com/taishi-i/awesome-japanese-nlp-resources) - A curated list of resources dedicated to Python libraries of NLP for Japanese
+
+
 ## Other Languages
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
