@@ -19,16 +19,18 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
   * [Videos and Courses](#videos-and-online-courses)
   * [Books](#books)
 * [Libraries](#libraries)
-  * [Node.js](#user-content-node-js)
-  * [Python](#user-content-python)
-  * [C++](#user-content-c++)
-  * [Java](#user-content-java)
-  * [Kotlin](#user-content-kotlin)
-  * [Scala](#user-content-scala)
-  * [R](#user-content-r)
-  * [Clojure](#user-content-clojure)
-  * [Ruby](#user-content-ruby)
-  * [Rust](#user-content-rust)
+  * [Node.js](#node-js)
+  * [Python](#python)
+  * [C++](#c++)
+  * [Java](#java)
+  * [Kotlin](#kotlin)
+  * [Scala](#scala)
+  * [R](#R)
+  * [Clojure](#clojure)
+  * [Ruby](#ruby)
+  * [Rust](#rust)
+  * [NLP++](#NLP++)
+  * [Julia](#julia)
 * [Services](#services)
 * [Annotation Tools](#annotation-tools)
 * [Datasets](#datasets)
@@ -235,16 +237,24 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
   - [Practical Natural Language Processing done in Ruby](https://github.com/arbox/nlp-with-ruby)
 
-- <a id="rust">**Rust**</a>
+- <a id="rust">**Rust**</a> | [Back to Top](#contents)
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
   - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
 
-- <a id="NLP++">**NLP++** - NLP++ Langauge</a> | [Back to Top](#contents)
+- <a id="NLP++">**NLP++** - NLP++ Language</a> | [Back to Top](#contents)
   - [VSCode Language Extension](https://marketplace.visualstudio.com/items?itemName=dehilster.nlp) - NLP++ Language Extension for VSCode
   - [nlp-engine](https://github.com/VisualText/nlp-engine) - NLP++ engine to run NLP++ code on Linux including a full English parser
   - [VisualText](http://visualtext.org) - Homepage for the NLP++ Language
   - [NLP++ Wiki](http://wiki.naturalphilosophy.org/index.php?title=NLP%2B%2B) - Wiki entry for the NLP++ language
+
+- <a id="julia">**Julia**</a> | [Back to Top](#contents)
+  - [CorpusLoaders](https://github.com/JuliaText/CorpusLoaders.jl) - A variety of loaders for various NLP corpora
+  - [Languages](https://github.com/JuliaText/Languages.jl) - A package for working with human languages
+  - [TextAnalysis](https://github.com/JuliaText/TextAnalysis.jl) - Julia package for text analysis
+  - [TextModels](https://github.com/JuliaText/TextModels.jl) - Neural Network based models for Natural Language Processing
+  - [WordTokenizers](https://github.com/JuliaText/WordTokenizers.jl) - High performance tokenizers for natural language processing and other related tasks
+  - [Word2Vec](https://github.com/JuliaText/Word2Vec.jl) - Julia interface to word2vec
 
 ### Services
 
