@@ -12,43 +12,65 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Contents
 
-* [Research Summaries and Trends](#research-summaries-and-trends)
-* [Prominent NLP Research Labs](#prominent-nlp-research-labs)
-* [Tutorials](#tutorials)
-  * [Reading Content](#reading-content)
-  * [Videos and Courses](#videos-and-online-courses)
-  * [Books](#books)
-* [Libraries](#libraries)
-  * [Node.js](#user-content-node-js)
-  * [Python](#user-content-python)
-  * [C++](#user-content-c++)
-  * [Java](#user-content-java)
-  * [Kotlin](#user-content-kotlin)
-  * [Scala](#user-content-scala)
-  * [R](#user-content-r)
-  * [Clojure](#user-content-clojure)
-  * [Ruby](#user-content-ruby)
-  * [Rust](#user-content-rust)
-* [Services](#services)
-* [Annotation Tools](#annotation-tools)
-* [Datasets](#datasets)
-* [NLP in Korean](#nlp-in-korean)
-* [NLP in Arabic](#nlp-in-arabic)
-* [NLP in Chinese](#nlp-in-chinese)
-* [NLP in German](#nlp-in-german)
-* [NLP in Polish](#nlp-in-polish)
-* [NLP in Spanish](#nlp-in-spanish)
-* [NLP in Indic Languages](#nlp-in-indic-languages)
-* [NLP in Thai](#nlp-in-thai)
-* [NLP in Danish](#nlp-in-danish)
-* [NLP in Vietnamese](#nlp-in-vietnamese)
-* [NLP for Dutch](#nlp-for-dutch)
-* [NLP in Indonesian](#nlp-in-indonesian)
-* [NLP in Urdu](#nlp-in-urdu)
-* [NLP in Persian](#nlp-in-persian)
-* [NLP in Ukrainian](#nlp-in-ukrainian)
-* [Other Languages](#other-languages)
-* [Credits](#credits)
+- [awesome-nlp](#awesome-nlp)
+  - [Contents](#contents)
+  - [Research Summaries and Trends](#research-summaries-and-trends)
+  - [Prominent NLP Research Labs](#prominent-nlp-research-labs)
+  - [Tutorials](#tutorials)
+    - [Reading Content](#reading-content)
+    - [Videos and Online Courses](#videos-and-online-courses)
+    - [Books](#books)
+  - [Libraries](#libraries)
+    - [Services](#services)
+    - [Annotation Tools](#annotation-tools)
+  - [Techniques](#techniques)
+    - [Text Embeddings](#text-embeddings)
+      - [Word Embeddings](#word-embeddings)
+      - [Sentence and Language Model Based Word Embeddings](#sentence-and-language-model-based-word-embeddings)
+    - [Question Answering and Knowledge Extraction](#question-answering-and-knowledge-extraction)
+  - [Datasets](#datasets)
+  - [Multilingual NLP Frameworks](#multilingual-nlp-frameworks)
+  - [NLP in Korean](#nlp-in-korean)
+    - [Libraries](#libraries-1)
+    - [Blogs and Tutorials](#blogs-and-tutorials)
+    - [Datasets](#datasets-1)
+  - [NLP in Arabic](#nlp-in-arabic)
+    - [Libraries](#libraries-2)
+    - [Datasets](#datasets-2)
+  - [NLP in Chinese](#nlp-in-chinese)
+    - [Libraries](#libraries-3)
+    - [Anthology](#anthology)
+  - [NLP in German](#nlp-in-german)
+  - [NLP in Polish](#nlp-in-polish)
+  - [NLP in Spanish](#nlp-in-spanish)
+    - [Libraries](#libraries-4)
+    - [Data](#data)
+    - [Word and Sentence Embeddings](#word-and-sentence-embeddings)
+  - [NLP in Indic languages](#nlp-in-indic-languages)
+    - [Data, Corpora and Treebanks](#data-corpora-and-treebanks)
+      - [Corpora/Datasets that need a login/access can be gained via email](#corporadatasets-that-need-a-loginaccess-can-be-gained-via-email)
+    - [Language Models and Word Embeddings](#language-models-and-word-embeddings)
+    - [Libraries and Tooling](#libraries-and-tooling)
+  - [NLP in Thai](#nlp-in-thai)
+    - [Libraries](#libraries-5)
+    - [Data](#data-1)
+  - [NLP in Danish](#nlp-in-danish)
+  - [NLP in Vietnamese](#nlp-in-vietnamese)
+    - [Libraries](#libraries-6)
+    - [Data](#data-2)
+  - [NLP for Dutch](#nlp-for-dutch)
+  - [NLP in Indonesian](#nlp-in-indonesian)
+    - [Datasets](#datasets-3)
+    - [Libraries & Embedding](#libraries--embedding)
+  - [NLP in Urdu](#nlp-in-urdu)
+    - [Datasets](#datasets-4)
+    - [Libraries](#libraries-7)
+  - [NLP in Persian](#nlp-in-persian)
+    - [Libraries](#libraries-8)
+    - [Datasets](#datasets-5)
+  - [NLP in Ukrainian](#nlp-in-ukrainian)
+  - [Other Languages](#other-languages)
+  - [License](#license)
 
 ## Research Summaries and Trends
 
@@ -69,7 +91,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [Language Technologies Institute, Carnegie Mellon University](http://www.cs.cmu.edu/~nasmith/nlp-cl.html) - Notable projects include [Avenue Project](http://www.cs.cmu.edu/~avenue/), a syntax driven machine translation system for endangered languages like Quechua and Aymara and previously, [Noah's Ark](http://www.cs.cmu.edu/~ark/) which created [AQMAR](http://www.cs.cmu.edu/~ark/AQMAR/) to improve NLP tools for Arabic.
 * [NLP research group, Columbia University](http://www1.cs.columbia.edu/nlp/index.cgi) - Responsible for creating BOLT ( interactive error handling for speech translation systems) and an un-named project to characterize laughter in dialogue.
 * [The Center or Language and Speech Processing, John Hopkins University](http://clsp.jhu.edu/) - Recently in the news for developing speech recognition software to create a diagnostic test or Parkinson's Disease, [here](https://www.clsp.jhu.edu/2019/03/27/speech-recognition-software-and-machine-learning-tools-are-being-used-to-create-diagnostic-test-for-parkinsons-disease/#.XNFqrIkzYdU).
-* [Computational Linguistics and Information Processing Group, University of Maryland](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) - Notable contributions include [Human-Computer Cooperation or Word-by-Word Question Answering](http://www.umiacs.umd.edu/~jbg/projects/IIS-1652666) and modeling development of phonetic representations. 
+* [Computational Linguistics and Information Processing Group, University of Maryland](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) - Notable contributions include [Human-Computer Cooperation or Word-by-Word Question Answering](http://www.umiacs.umd.edu/~jbg/projects/IIS-1652666) and modeling development of phonetic representations.
 * [Penn Natural Language Processing, University of Pennsylvania](https://nlp.cis.upenn.edu/)- Famous for creating the [Penn Treebank](https://www.seas.upenn.edu/~pdtb/).
 * [The Stanford Nautral Language Processing Group](https://nlp.stanford.edu/)- One of the top NLP research labs in the world, notable for creating [Stanford CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) and their [coreference resolution system](https://nlp.stanford.edu/software/dcoref.shtml)
 
@@ -174,7 +196,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Rita DSL](https://github.com/zaibacu/rita-dsl) - a DSL, loosely based on [RUTA on Apache UIMA](https://uima.apache.org/ruta.html). Allows to define language patterns (rule-based NLP) which are then translated into [spaCy](https://spacy.io/), or if you prefer less features and lightweight - regex patterns.
   - [Transformers](https://github.com/huggingface/transformers) - Natural Language Processing for TensorFlow 2.0 and PyTorch.
   - [Tokenizers](https://github.com/huggingface/tokenizers) - Tokenizers optimized for Research and Production.
-  - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch. 
+  - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch.
   - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
   - [Sockeye](https://github.com/awslabs/sockeye) - Neural Machine Translation (NMT) toolkit that powers Amazon Translate.
   - [DL Translate](https://github.com/xhlulu/dl-translate) - A deep learning-based translation library for 50 languages, built on `transformers` and Facebook's mBART Large.
@@ -278,6 +300,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Datasaur](https://datasaur.ai/) support various NLP tasks for individual or teams, freemium based
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
+- [Haystack Annotation Tool](https://haystack.deepset.ai/components/annotation) - is free and open source, web-based annotation tool (or local docker container). Easily create questions and answer labels in SQuAD style or instead, use a series of predetermined questions and search the document for the answers (Natural Questions). Export labels in SQuAD format.
 
 ## Techniques
 
