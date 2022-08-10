@@ -246,6 +246,9 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [VisualText](http://visualtext.org) - Homepage for the NLP++ Language
   - [NLP++ Wiki](http://wiki.naturalphilosophy.org/index.php?title=NLP%2B%2B) - Wiki entry for the NLP++ language
 
+- <a id="Explore NLP Libraries"></a> | [Back to Top](#contents)
+   - [Top NLP Libraries](https://kandi.openweaver.com/search/libraries?q=nlp) - A search engine 🔎 tool to discover & find a curated list of popular & new NLP libraries across all languages, top authors, trending project kits, discussions, tutorials & learning resources. 
+
 ### Services
 
 NLP as API with higher level functionality such as NER, Topic tagging and so on | [Back to Top](#contents)
