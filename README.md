@@ -106,6 +106,7 @@ Blogs and Newsletters
 * [Karpathy's The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
 * [Machine Learning Mastery: Deep Learning for Natural Language Processing](https://machinelearningmastery.com/category/natural-language-processing)
 * [Visual NLP Paper Summaries](https://amitness.com/categories/#nlp)
+* [Language Technology Substack: Learn natural language processing, get an NLP job, and build NLP SaaS](https://languagetech.substack.com)
 
 ### Videos and Online Courses
 [Back to Top](#contents)
