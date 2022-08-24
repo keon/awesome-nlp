@@ -278,6 +278,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Datasaur](https://datasaur.ai/) support various NLP tasks for individual or teams, freemium based
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
+- [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
 
 ## Techniques
 
