@@ -200,6 +200,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
   - [Sockeye](https://github.com/awslabs/sockeye) - Neural Machine Translation (NMT) toolkit that powers Amazon Translate.
   - [DL Translate](https://github.com/xhlulu/dl-translate) - A deep learning-based translation library for 50 languages, built on `transformers` and Facebook's mBART Large.
+  - [Jury](https://github.com/obss/jury) - Evaluation of NLP model outputs offering various automated metrics.
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
@@ -301,6 +302,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
 - [Haystack Annotation Tool](https://haystack.deepset.ai/components/annotation) - is free and open source, web-based annotation tool (or local docker container). Easily create questions and answer labels in SQuAD style or instead, use a series of predetermined questions and search the document for the answers (Natural Questions). Export labels in SQuAD format.
+- [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
 
 ## Techniques
 
