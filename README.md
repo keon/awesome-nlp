@@ -579,7 +579,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 [Back to Top](#contents)
 
-- [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp) - A curated list of free resources dedicated to Hungarian Natural Language Processing.
+- [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp): A curated list of free resources dedicated to Hungarian Natural Language Processing.
 
 
 ## Other Languages
