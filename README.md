@@ -19,16 +19,18 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
   * [Videos and Courses](#videos-and-online-courses)
   * [Books](#books)
 * [Libraries](#libraries)
-  * [Node.js](#user-content-node-js)
-  * [Python](#user-content-python)
-  * [C++](#user-content-c++)
-  * [Java](#user-content-java)
-  * [Kotlin](#user-content-kotlin)
-  * [Scala](#user-content-scala)
-  * [R](#user-content-r)
-  * [Clojure](#user-content-clojure)
-  * [Ruby](#user-content-ruby)
-  * [Rust](#user-content-rust)
+  * [Node.js](#node-js)
+  * [Python](#python)
+  * [C++](#c++)
+  * [Java](#java)
+  * [Kotlin](#kotlin)
+  * [Scala](#scala)
+  * [R](#R)
+  * [Clojure](#clojure)
+  * [Ruby](#ruby)
+  * [Rust](#rust)
+  * [NLP++](#NLP++)
+  * [Julia](#julia)
 * [Services](#services)
 * [Annotation Tools](#annotation-tools)
 * [Datasets](#datasets)
@@ -46,6 +48,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [NLP in Indonesian](#nlp-in-indonesian)
 * [NLP in Urdu](#nlp-in-urdu)
 * [NLP in Persian](#nlp-in-persian)
+* [NLP in Ukrainian](#nlp-in-ukrainian)
 * [Other Languages](#other-languages)
 * [Credits](#credits)
 
@@ -177,6 +180,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
   - [Sockeye](https://github.com/awslabs/sockeye) - Neural Machine Translation (NMT) toolkit that powers Amazon Translate.
   - [DL Translate](https://github.com/xhlulu/dl-translate) - A deep learning-based translation library for 50 languages, built on `transformers` and Facebook's mBART Large.
+  - [Jury](https://github.com/obss/jury) - Evaluation of NLP model outputs offering various automated metrics.
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
@@ -234,16 +238,24 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
   - [Practical Natural Language Processing done in Ruby](https://github.com/arbox/nlp-with-ruby)
 
-- <a id="rust">**Rust**</a>
+- <a id="rust">**Rust**</a> | [Back to Top](#contents)
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
   - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
 
-- <a id="NLP++">**NLP++** - NLP++ Langauge</a> | [Back to Top](#contents)
+- <a id="NLP++">**NLP++** - NLP++ Language</a> | [Back to Top](#contents)
   - [VSCode Language Extension](https://marketplace.visualstudio.com/items?itemName=dehilster.nlp) - NLP++ Language Extension for VSCode
   - [nlp-engine](https://github.com/VisualText/nlp-engine) - NLP++ engine to run NLP++ code on Linux including a full English parser
   - [VisualText](http://visualtext.org) - Homepage for the NLP++ Language
   - [NLP++ Wiki](http://wiki.naturalphilosophy.org/index.php?title=NLP%2B%2B) - Wiki entry for the NLP++ language
+
+- <a id="julia">**Julia**</a> | [Back to Top](#contents)
+  - [CorpusLoaders](https://github.com/JuliaText/CorpusLoaders.jl) - A variety of loaders for various NLP corpora
+  - [Languages](https://github.com/JuliaText/Languages.jl) - A package for working with human languages
+  - [TextAnalysis](https://github.com/JuliaText/TextAnalysis.jl) - Julia package for text analysis
+  - [TextModels](https://github.com/JuliaText/TextModels.jl) - Neural Network based models for Natural Language Processing
+  - [WordTokenizers](https://github.com/JuliaText/WordTokenizers.jl) - High performance tokenizers for natural language processing and other related tasks
+  - [Word2Vec](https://github.com/JuliaText/Word2Vec.jl) - Julia interface to word2vec
 
 ### Services
 
@@ -277,6 +289,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Datasaur](https://datasaur.ai/) support various NLP tasks for individual or teams, freemium based
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
+- [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
 
 ## Techniques
 
@@ -553,9 +566,20 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Uppsala Persian Dependency Treebank (UPDT)](http://stp.lingfil.uu.se/~mojgan/UPDT.html): Dependency-based syntactically annotated corpus.
 - [Hamshahri](https://dbrg.ut.ac.ir/hamshahri/): Hamshahri collection is a standard reliable Persian text collection that was used at Cross Language Evaluation Forum (CLEF) during years 2008 and 2009 for evaluation of Persian information retrieval systems.
 
+
+## NLP in Ukrainian
+
+[Back to Top](#contents)
+
+- [awesome-ukrainian-nlp](https://github.com/asivokon/awesome-ukrainian-nlp) - a curated list of Ukrainian NLP datasets, models, etc.
+- [UkrainianLT](https://github.com/Helsinki-NLP/UkrainianLT) - another curated list with a focus on machine translation and speech processing
+
+
 ## NLP in Hungarian
 
-- [Hungarian-NLP](https://github.com/oroszgy/awesome-hungarian-nlp) - A curated list of free resources dedicated to Hungarian Natural Language Processing.
+[Back to Top](#contents)
+
+- [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp) - A curated list of free resources dedicated to Hungarian Natural Language Processing.
 
 
 ## Other Languages
