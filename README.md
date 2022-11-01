@@ -242,6 +242,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
   - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
+  - [analiticcl](https://github.com/proycon/analiticcl) - Low-level CLI tool and Rust library (Python binding available too) for lexicon-based spelling correction and post-OCR/HTR correction/normalisation.
 
 - <a id="NLP++">**NLP++** - NLP++ Language</a> | [Back to Top](#contents)
   - [VSCode Language Extension](https://marketplace.visualstudio.com/items?itemName=dehilster.nlp) - NLP++ Language Extension for VSCode
