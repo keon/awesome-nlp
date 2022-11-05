@@ -290,6 +290,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
 - [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
+- [OpenContracts](https://github.com/JSv4/OpenContracts) - OpenContracts is a free and open source (Apache2) PDF annotation platform that lets subject-matter experts label documents in their original format. The resulting annotation data contains both start and stop character indices as well as full position information for each token, so you can use the outputs to train computer-vision-augmented NLP models like LayoutLM. It comes with built-in OCRing, a model hosting backend to deploy trained models, and a frontend based on React and PAWLS. It can be easily deployed locally or on-prem. 
 
 ## Techniques
 
