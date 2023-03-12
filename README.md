@@ -96,6 +96,7 @@ Introductions and Guides to NLP
 * [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - Oxford
 * [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 * [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - NLTK Tutorials, Jupyter notebooks
+* [Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit](https://www.nltk.org/book/) - An online and print book introducing NLP concepts using NLTK. The book's authors also wrote the NLTK library.
 * [Train a new language model from scratch](https://huggingface.co/blog/how-to-train) - Hugging Face 🤗
 * [The Super Duper NLP Repo (SDNLPR)](https://notebooks.quantumstat.com/): Collection of Colab notebooks covering a wide array of NLP task implementations.
 
@@ -168,6 +169,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Chazutsu](https://github.com/chakki-works/chazutsu) - A library for downloading&parsing standard NLP research datasets
   - [Word Forms](https://github.com/gutfeeling/word_forms) - Word forms can accurately generate all possible forms of an English word
   - [Multilingual Latent Dirichlet Allocation (LDA)](https://github.com/ArtificiAI/Multilingual-Latent-Dirichlet-Allocation-LDA) - A multilingual and extensible document clustering pipeline
+  - [Natural Language Toolkit (NLTK)](https://www.nltk.org/) - A library containing a wide variety of NLP functionality, supporting over 50 corpora.
   - [NLP Architect](https://github.com/NervanaSystems/nlp-architect) - A library for exploring the state-of-the-art deep learning topologies and techniques for NLP and NLU
   - [Flair](https://github.com/zalandoresearch/flair) - A very simple framework for state-of-the-art multilingual NLP built on PyTorch. Includes BERT, ELMo and Flair embeddings.
   - [Kashgari](https://github.com/BrikerMan/Kashgari) - Simple, Keras-powered multilingual NLP framework, allows you to build your models in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.
