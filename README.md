@@ -154,6 +154,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [TextAttack](https://github.com/QData/TextAttack) - Adversarial attacks, adversarial training, and data augmentation in NLP
   - [TextBlob](http://textblob.readthedocs.org/) - Providing a consistent API for diving into common natural language processing (NLP) tasks. Stands on the giant shoulders of [Natural Language Toolkit (NLTK)](https://www.nltk.org/) and [Pattern](https://github.com/clips/pattern), and plays nicely with both :+1:
   - [spaCy](https://github.com/explosion/spaCy) - Industrial strength NLP with Python and Cython :+1:
+  - [Speedster](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster) - Automatically apply SOTA optimization techniques to achieve the maximum inference speed-up on your hardware
     - [textacy](https://github.com/chartbeat-labs/textacy) - Higher level NLP built on spaCy
   - [gensim](https://radimrehurek.com/gensim/index.html) - Python library to conduct unsupervised semantic modelling from plain text :+1:
   - [scattertext](https://github.com/JasonKessler/scattertext) - Python library to produce d3 visualizations of how language differs between corpora
