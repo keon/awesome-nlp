@@ -231,6 +231,10 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [dfrtopics](https://github.com/agoldst/dfrtopics) - R package for exploring topic models of text.
   - [sentiment_classifier](https://github.com/kevincobain2000/sentiment_classifier) - Sentiment Classification using Word Sense Disambiguation and WordNet Reader
   - [jProcessing](https://github.com/kevincobain2000/jProcessing) - Japanese Natural Langauge Processing Libraries, with Japanese sentiment classification
+  - [corporaexplorer](https://kgjerde.github.io/corporaexplorer/) - An R package for dynamic exploration of text collections
+  - [tidytext](https://github.com/juliasilge/tidytext) - Text mining using tidy tools
+  - [spacyr](https://github.com/quanteda/spacyr) - R wrapper to spaCy NLP
+  - [CRAN Task View: Natural Language Processing](https://github.com/cran-task-views/NaturalLanguageProcessing/)
 
 - <a id="clojure">**Clojure**</a> | [Back to Top](#contents)
   - [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
