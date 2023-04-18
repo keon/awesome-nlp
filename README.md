@@ -400,6 +400,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [jieba](https://github.com/fxsjy/jieba#jieba-1) - Python package for Words Segmentation Utilities in Chinese
 - [SnowNLP](https://github.com/isnowfy/snownlp) - Python package for Chinese NLP
 - [FudanNLP](https://github.com/FudanNLP/fnlp) - Java library for Chinese text processing
+- [HanLP](https://github.com/hankcs/HanLP) - The multilingual NLP library
 
 ### Anthology
 - [funNLP](https://github.com/fighting41love/funNLP) - Collection of NLP tools and resources mainly for Chinese
