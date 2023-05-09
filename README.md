@@ -593,6 +593,13 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [UkrainianLT](https://github.com/Helsinki-NLP/UkrainianLT) - another curated list with a focus on machine translation and speech processing
 
 
+## NLP in Hungarian
+
+[Back to Top](#contents)
+
+- [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp): A curated list of free resources dedicated to Hungarian Natural Language Processing.
+
+
 ## Other Languages
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
