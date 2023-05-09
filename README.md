@@ -299,7 +299,9 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
 - [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
+- [Annotation Lab](https://www.johnsnowlabs.com/annotation-lab/) - Free End-to-End No-Code platform for text annotation and DL model training/tuning. Out-of-the-box support for Named Entity Recognition, Classification, Relation extraction and Assertion Status Spark NLP models. Unlimited support for users, teams, projects, documents. Not FOSS. 
 - [FLAT](https://github.com/proycon/flat) - FLAT is a web-based linguistic annotation environment based around the [FoLiA format](http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. Free and open source.
+
 
 ## Techniques
 
