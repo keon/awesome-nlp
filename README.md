@@ -525,6 +525,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 - [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 - [SimpleNLG_NL](https://github.com/rfdj/SimpleNLG-NL) - Dutch surface realiser used for Natural Language Generation in Dutch, based on the SimpleNLG implementation for English and French.
+- [Alpino](https://github.com/rug-compling/alpino) - Dependency parser for Dutch (also does PoS tagging and Lemmatisation).
 - [Kaldi NL](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL) - Dutch Speech Recognition models based on [Kaldi](http://kaldi-asr.org/).
 - [spaCy](https://spacy.io/) - [Dutch model](https://spacy.io/models/nl) available. - Industrial strength NLP with Python and Cython. 
 
