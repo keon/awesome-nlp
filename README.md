@@ -506,6 +506,8 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 ## NLP in Vietnamese
 
+[Back to Top](#contents)
+
 ### Libraries
 
 - [underthesea](https://github.com/undertheseanlp/underthesea) - Vietnamese NLP Toolkit
@@ -538,6 +540,8 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 ## NLP in Indonesian
 
+[Back to Top](#contents)
+
 ### Datasets
 - Kompas and Tempo collections at [ILPS](http://ilps.science.uva.nl/resources/bahasa/)
 - [PANL10N for PoS tagging](http://www.panl10n.net/english/outputs/Indonesia/UI/0802/UI-1M-tagged.zip): 39K sentences and 900K word tokens
@@ -555,6 +559,8 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 ## NLP in Urdu
 
+[Back to Top](#contents)
+
 ### Datasets
 - [Collection of Urdu datasets](https://github.com/mirfan899/Urdu) for POS, NER and NLP tasks
 
@@ -566,23 +572,27 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 [Back to Top](#contents)
 
 ### Libraries
-- [Hazm](https://github.com/sobhe/hazm): Python library for digesting Persian text.
-- [Parsivar](https://github.com/ICTRC/Parsivar): A Language Processing Toolkit for Persian
-- [Perke](https://github.com/AlirezaTheH/perke): Perke is a Python keyphrase extraction package for Persian language. It provides an end-to-end keyphrase extraction pipeline in which each component can be easily modified or extended to develop new models.
-- [Perstem](https://github.com/jonsafari/perstem): Persian stemmer, morphological analyzer, transliterator, and partial part-of-speech tagger
-- [ParsiAnalyzer](https://github.com/NarimanN2/ParsiAnalyzer): Persian Analyzer For Elasticsearch
-- [virastar](https://github.com/aziz/virastar): Cleaning up Persian text!
+
+- [Hazm](https://github.com/sobhe/hazm) - Python library for digesting Persian text.
+- [Parsivar](https://github.com/ICTRC/Parsivar) - A Language Processing Toolkit for Persian
+- [Perke](https://github.com/AlirezaTheH/perke) - Perke is a Python keyphrase extraction package for Persian language. It provides an end-to-end keyphrase extraction pipeline in which each component can be easily modified or extended to develop new models.
+- [Perstem](https://github.com/jonsafari/perstem) - Persian stemmer, morphological analyzer, transliterator, and partial part-of-speech tagger
+- [ParsiAnalyzer](https://github.com/NarimanN2/ParsiAnalyzer) - Persian Analyzer For Elasticsearch
+- [virastar](https://github.com/aziz/virastar) - Cleaning up Persian text!
 
 ### Datasets
-- [Bijankhan Corpus](https://dbrg.ut.ac.ir/بیژن%E2%80%8Cخان/): Bijankhan corpus is a tagged corpus that is suitable for natural language processing research on the Persian (Farsi) language. This collection is gathered form daily news and common texts. In this collection all documents are categorized into different subjects such as political, cultural and so on. Totally, there are 4300 different subjects. The Bijankhan collection contains about 2.6 millions manually tagged words with a tag set that contains 40 Persian POS tags.
-- [Uppsala Persian Corpus (UPC)](https://sites.google.com/site/mojganserajicom/home/upc): Uppsala Persian Corpus (UPC) is a large, freely available Persian corpus. The corpus is a modified version of the Bijankhan corpus with additional sentence segmentation and consistent tokenization containing 2,704,028 tokens and annotated with 31 part-of-speech tags. The part-of-speech tags are listed with explanations in [this table](https://sites.google.com/site/mojganserajicom/home/upc/Table_tag.pdf).
-- [Large-Scale Colloquial Persian](http://hdl.handle.net/11234/1-3195): Large Scale Colloquial Persian Dataset (LSCP) is hierarchically organized in asemantic taxonomy that focuses on multi-task informal Persian language understanding as a comprehensive problem. LSCP includes 120M sentences from 27M casual Persian tweets with its dependency relations in syntactic annotation, Part-of-speech tags, sentiment polarity and automatic translation of original Persian sentences in English (EN), German (DE), Czech (CS), Italian (IT) and Hindi (HI) spoken languages. Learn more about this project at [LSCP webpage](https://iasbs.ac.ir/~ansari/lscp/).
-- [ArmanPersoNERCorpus](https://github.com/HaniehP/PersianNER): The dataset includes 250,015 tokens and 7,682 Persian sentences in total. It is available in 3 folds to be used in turn as training and test sets. Each file contains one token, along with its manually annotated named-entity tag, per line. Each sentence is separated with a newline. The NER tags are in IOB format.
-- [FarsiYar PersianNER](https://github.com/Text-Mining/Persian-NER): The dataset includes about 25,000,000 tokens and about 1,000,000 Persian sentences in total based on [Persian Wikipedia Corpus](https://github.com/Text-Mining/Persian-Wikipedia-Corpus). The NER tags are in IOB format. More than 1000 volunteers contributed tag improvements to this dataset via web panel or android app. They release updated tags every two weeks.
-- [PERLEX](http://farsbase.net/PERLEX.html): The first Persian dataset for relation extraction, which is an expert translated version of the “Semeval-2010-Task-8” dataset. Link to the relevant publication.
-- [Persian Syntactic Dependency Treebank](http://dadegan.ir/catalog/perdt): This treebank is supplied for free noncommercial use. For commercial uses feel free to contact us. The number of annotated sentences is 29,982 sentences including samples from almost all verbs of the Persian valency lexicon.
-- [Uppsala Persian Dependency Treebank (UPDT)](http://stp.lingfil.uu.se/~mojgan/UPDT.html): Dependency-based syntactically annotated corpus.
-- [Hamshahri](https://dbrg.ut.ac.ir/hamshahri/): Hamshahri collection is a standard reliable Persian text collection that was used at Cross Language Evaluation Forum (CLEF) during years 2008 and 2009 for evaluation of Persian information retrieval systems.
+
+- [Bijankhan Corpus](https://dbrg.ut.ac.ir/%D8%A8%DB%8C%DA%98%D9%86%E2%80%8C%D8%AE%D8%A7%D9%86/) - Bijankhan corpus is a tagged corpus that is suitable for natural language processing research on the Persian (Farsi) language. This collection is gathered form daily news and common texts. In this collection all documents are categorized into different subjects such as political, cultural and so on. Totally, there are 4300 different subjects. The Bijankhan collection contains about 2.6 millions manually tagged words with a tag set that contains 40 Persian POS tags.
+- [Uppsala Persian Corpus (UPC)](https://sites.google.com/site/mojganserajicom/home/upc) - Uppsala Persian Corpus (UPC) is a large, freely available Persian corpus. The corpus is a modified version of the Bijankhan corpus with additional sentence segmentation and consistent tokenization containing 2,704,028 tokens and annotated with 31 part-of-speech tags. The part-of-speech tags are listed with explanations in [this table](https://sites.google.com/site/mojganserajicom/home/upc/Table_tag.pdf).
+- [Large-Scale Colloquial Persian](http://hdl.handle.net/11234/1-3195) - Large Scale Colloquial Persian Dataset (LSCP) is hierarchically organized in asemantic taxonomy that focuses on multi-task informal Persian language understanding as a comprehensive problem. LSCP includes 120M sentences from 27M casual Persian tweets with its dependency relations in syntactic annotation, Part-of-speech tags, sentiment polarity and automatic translation of original Persian sentences in English (EN), German (DE), Czech (CS), Italian (IT) and Hindi (HI) spoken languages. Learn more about this project at [LSCP webpage](https://iasbs.ac.ir/~ansari/lscp/).
+- [ArmanPersoNERCorpus](https://github.com/HaniehP/PersianNER) - The dataset includes 250,015 tokens and 7,682 Persian sentences in total. It is available in 3 folds to be used in turn as training and test sets. Each file contains one token, along with its manually annotated named-entity tag, per line. Each sentence is separated with a newline. The NER tags are in IOB format.
+- [FarsiYar PersianNER](https://github.com/Text-Mining/Persian-NER) - The dataset includes about 25,000,000 tokens and about 1,000,000 Persian sentences in total based on [Persian Wikipedia Corpus](https://github.com/Text-Mining/Persian-Wikipedia-Corpus). The NER tags are in IOB format. More than 1000 volunteers contributed tag improvements to this dataset via web panel or android app. They release updated tags every two weeks.
+- [PERLEX](http://farsbase.net/PERLEX.html) - The first Persian dataset for relation extraction, which is an expert translated version of the “Semeval-2010-Task-8” dataset. Link to the relevant publication.
+- [Persian Syntactic Dependency Treebank](http://dadegan.ir/catalog/perdt) - This treebank is supplied for free noncommercial use. For commercial uses feel free to contact us. The number of annotated sentences is 29,982 sentences including samples from almost all verbs of the Persian valency lexicon.
+- [Uppsala Persian Dependency Treebank (UPDT)](http://stp.lingfil.uu.se/~mojgan/UPDT.html) - Dependency-based syntactically annotated corpus.
+- [Hamshahri](https://dbrg.ut.ac.ir/hamshahri/) - Hamshahri collection is a standard reliable Persian text collection that was used at Cross Language Evaluation Forum (CLEF) during years 2008 and 2009 for evaluation of Persian information retrieval systems.
+- [FarsBase](http://farsbase.net/about) - FarsBase is Persian multi-source knowledge graph, which isspecifically designed for semantic search engines to support Persian knowledge.
+- [FarsTail](https://github.com/dml-qom/FarsTail) - FarsTail is a dataset of textual entailment (also known as natural language inference, NLI) and it includes 10,367 samples in the Persian language.
 
 
 ## NLP in Ukrainian
