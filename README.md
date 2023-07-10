@@ -49,6 +49,8 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [NLP in Urdu](#nlp-in-urdu)
 * [NLP in Persian](#nlp-in-persian)
 * [NLP in Ukrainian](#nlp-in-ukrainian)
+* [NLP in Hungarian](#nlp-in-hungarian)
+* [NLP in Portuguese](#nlp-in-portuguese)
 * [Other Languages](#other-languages)
 * [Credits](#credits)
 
@@ -599,6 +601,11 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 
 - [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp): A curated list of free resources dedicated to Hungarian Natural Language Processing.
 
+## NLP in Portuguese
+
+[Back to Top](#contents)
+
+- [Portuguese-nlp](https://github.com/ajdavidl/Portuguese-NLP) - a List of resources and tools developed with focus on Portuguese.
 
 ## Other Languages
 
