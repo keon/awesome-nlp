@@ -568,7 +568,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 [Back to Top](#contents)
 
 ### Libraries
-- [Hazm](https://github.com/sobhe/hazm): Python library for digesting Persian text.
+- [Hazm](https://github.com/roshan-research/hazm) - Persian NLP Toolkit.
 - [Parsivar](https://github.com/ICTRC/Parsivar): A Language Processing Toolkit for Persian
 - [Perke](https://github.com/AlirezaTheH/perke): Perke is a Python keyphrase extraction package for Persian language. It provides an end-to-end keyphrase extraction pipeline in which each component can be easily modified or extended to develop new models.
 - [Perstem](https://github.com/jonsafari/perstem): Persian stemmer, morphological analyzer, transliterator, and partial part-of-speech tagger
