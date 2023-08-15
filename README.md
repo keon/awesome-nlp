@@ -56,6 +56,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Research Summaries and Trends
 
+* [Synthical](https://synthical.com) is AI-powered collaborative research environment. You can use it to find out what articles are trending, get recommendations of articles based on reading history, simplify papers, search articles by meaning (not just keywords), create and share folders of articles, see lists of articles from specific companies and universities, and so on.
 * [NLP-Overview](https://nlpoverview.com/) is an up-to-date overview of deep learning techniques applied to NLP, including theory, implementations, applications, and state-of-the-art results. This is a great Deep NLP Introduction for researchers.
 * [NLP-Progress](https://nlpprogress.com/) tracks the progress in Natural Language Processing, including the datasets and the current state-of-the-art for the most common NLP tasks
 * [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
