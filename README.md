@@ -606,6 +606,8 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 [Back to Top](#contents)
 
 - [Portuguese-nlp](https://github.com/ajdavidl/Portuguese-NLP) - a List of resources and tools developed with focus on Portuguese.
+- [NLPortuguês](https://nlportugues.ime.usp.br/) - NLP course in brazilian portuguese
+- [Brasileiras em PLN](https://brasileiraspln.com/livro-pln/1a-edicao/) - NLP book in brazilian portugues
 
 ## Other Languages
 
