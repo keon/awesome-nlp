@@ -251,6 +251,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Practical Natural Language Processing done in Ruby](https://github.com/arbox/nlp-with-ruby)
 
 - <a id="rust">**Rust**</a> | [Back to Top](#contents)
+  - [adk-rust](https://github.com/zavora-ai/adk-rust) - Production-ready AI agent development kit with model-agnostic design (Gemini, OpenAI, Anthropic), multiple agent types, and MCP support
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - A production ready library for intent parsing
   - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
