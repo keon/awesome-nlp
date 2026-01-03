@@ -275,6 +275,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 
 NLP as API with higher level functionality such as NER, Topic tagging and so on | [Back to Top](#contents)
 
+- [Vedika API](https://vedika.io) - AI-powered Vedic astrology API with multi-agent swarm intelligence
 - [Wit-ai](https://github.com/wit-ai/wit) - Natural Language Interface for apps and devices
 - [IBM Watson's Natural Language Understanding](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API and Github demo
 - [Amazon Comprehend](https://aws.amazon.com/comprehend/) - NLP and ML suite covers most common tasks like NER, tagging, and sentiment analysis
