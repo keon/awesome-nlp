@@ -52,6 +52,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [NLP in Hungarian](#nlp-in-hungarian)
 * [NLP in Portuguese](#nlp-in-portuguese)
 * [Other Languages](#other-languages)
+* [Citation](#citation)
 * [Credits](#credits)
 
 ## Research Summaries and Trends
@@ -621,6 +622,20 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - Hebrew: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - A collection of papers, corpora and linguistic resources for NLP in Hebrew
 
 [Back to Top](#contents)
+
+## Citation
+
+If you find this repository useful, please consider citing this list:
+
+```bibtex
+@misc{awesome-nlp,
+    title = {Awesome NLP},
+    author = {Keon Kim},
+    journal = {GitHub repository},
+    url = {https://github.com/keon/awesome-nlp} ,
+    year = {2018--},
+}
+```
 
 [Credits](./CREDITS.md) for initial curators and sources
 
