@@ -138,6 +138,8 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 * [Deep Learning for Natural Language Processing](https://www.manning.com/books/deep-learning-for-natural-language-processing) by Stephan Raaijmakers
 * [Real-World Natural Language Processing](https://www.manning.com/books/real-world-natural-language-processing) - by Masato Hagiwara
 * [Natural Language Processing in Action, Second Edition](https://www.manning.com/books/natural-language-processing-in-action-second-edition) - by Hobson Lane and Maria Dyshel
+* [Transformers in Action](https://www.manning.com/books/transformers-in-action) - by Nicole Koenigstein
+  
 ## Libraries
 
 [Back to Top](#contents)
