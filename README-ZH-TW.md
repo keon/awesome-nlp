@@ -1,452 +1,857 @@
-# 令人讚嘆的自然語言處理 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome NLP
 
-> 專門用於自然語言處理的精選資源列表
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+自然語言處理精選資源列表：從經典技術到大型語言模型。
 
 ![Awesome NLP Logo](/images/logo.jpg)
 
-> * 原文地址：[令人讚嘆的自然語言處理](https://github.com/keon/awesome-nlp)
-> * 原文作者：[Keon](https://github.com/keon), [Martin](https://github.com/outpark), [Nirant](https://github.com/NirantK), [Dhruv](https://github.com/the-ethan-hunt)
-> * 翻譯：[NeroCube](https://github.com/NeroCube)
+閱讀其他語言版本：[English](./README.md)、[繁體中文](./README-ZH-TW.md)
 
-_請在提交之前閱讀 [貢獻指南](contributing.md) 。請隨時創建 [拉取請求](https://github.com/keonkim/awesome-nlp/pulls)._
+---
 
-## 內容
+## 目錄
 
-* [研究摘要和趨勢](#研究摘要和趨勢)
-* [教學](#教學)
-  * [閱讀內容](#閱讀內容)
-  * [影片和課程](#影片和課程)
-  * [書籍](#書籍)
-* [函式庫](#函式庫)
-  * [Node.js](#user-content-node-js)
-  * [Python](#user-content-python)
-  * [C++](#user-content-c++)
-  * [Java](#user-content-java)
-  * [Kotlin](#user-content-kotlin)
-  * [Scala](#user-content-scala)
-  * [R](#user-content-r)
-  * [Clojure](#user-content-clojure)
-  * [Ruby](#user-content-ruby)
-  * [Rust](#user-content-rust)
-* [服務](#服務)
-* [註釋工具](#註釋工具)
-* [資料集](#資料集)
-* [自然語言處理-韓文](#自然語言處理-韓文)
-* [自然語言處理-阿拉伯語](#自然語言處理-阿拉伯語)
-* [自然語言處理-中文](#自然語言處理-中文)
-* [自然語言處理-德文](#自然語言處理-德文)
-* [自然語言處理-西班牙語](#自然語言處理-西班牙語)
-* [自然語言處理-印度語](#自然語言處理-印度語)
-* [自然語言處理-泰語](#自然語言處理-泰語)
-* [自然語言處理-丹麥語](#自然語言處理-丹麥語)
-* [自然語言處理-越南語](#自然語言處理-越南語)
-* [自然語言處理-印度尼西亞](#自然語言處理-印度尼西亞)
-* [其他語言](#其他語言)
-* [貢獻](#貢獻)
+- [研究摘要與趨勢](#研究摘要與趨勢)
+- [知名 NLP 研究實驗室](#知名-nlp-研究實驗室)
+- [教學](#教學)
+- [書籍](#書籍)
+- [函式庫](#函式庫)
+- [大型語言模型](#大型語言模型)
+- [文本嵌入](#文本嵌入)
+- [LLM 框架與工具](#llm-框架與工具)
+- [智能代理](#智能代理)
+- [RAG 檢索增強生成](#rag-檢索增強生成)
+- [訓練與微調](#訓練與微調)
+- [評估](#評估)
+- [部署與服務](#部署與服務)
+- [安全與防護](#安全與防護)
+- [服務](#服務)
+- [標註工具](#標註工具)
+- [資料集](#資料集)
+- [多語言 NLP](#多語言-nlp)
+- [領域專用 NLP](#領域專用-nlp)
+- [重要論文](#重要論文)
 
-## 研究摘要和趨勢
+---
 
-* [自然語言處理-概述](https://nlpoverview.com/) 是應用於自然語言深度學習技術的最新概述，包括理論，實現，應用和最先進的結果。對於研究人員來說，這是一個偉大的Deep NLP簡介。 
-* [自然語言處理-進展](https://nlpprogress.com/) 追隨自然語言處理的進展，包括資料集和常見自然語言處理任務的當前最新技術。
-* [自然語言處理的 ImageNet 時刻已經到來](https://thegradient.pub/nlp-imagenet/)
-* [ACL 2018 亮點: 在更具挑戰性的設置中理解表示和評估](http://ruder.io/acl-2018-highlights/)
-* [ACL 2017 的四個深度學習趨勢。第一部分：語言結構和詞語嵌入](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html)
-* [ACL 2017 的四個深度學習趨勢。第二部分：可解釋性和注意力](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
-* [2017 年 EMNLP 的亮點：激動人心的資料集，集群的回歸與其他更多！](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
-* [深度學習自然語言處理 (NLP): 進展與趨勢](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI)
-* [自然語言生成的現狀調查](https://arxiv.org/abs/1703.09902)
+## 研究摘要與趨勢
+
+* [NLP-Overview](https://nlpoverview.com/) - 深度學習技術應用於 NLP 的最新概述，包括理論、實作、應用和最先進的結果。
+* [NLP-Progress](https://nlpprogress.com/) - 追蹤自然語言處理的進展，包括資料集和常見 NLP 任務的最新技術。
+* [NLP's ImageNet moment has arrived](https://thegradient.pub/nlp-imagenet/)
+* [ACL 2018 Highlights](http://ruder.io/acl-2018-highlights/)
+* [Four deep learning trends from ACL 2017 - Part One](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-1.html)
+* [Four deep learning trends from ACL 2017 - Part Two](https://www.abigailsee.com/2017/08/30/four-deep-learning-trends-from-acl-2017-part-2.html)
+* [Highlights of EMNLP 2017](http://blog.aylien.com/highlights-emnlp-2017-exciting-datasets-return-clusters/)
+* [Deep Learning for NLP: Advancements & Trends](https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/)
+* [Survey of the State of the Art in Natural Language Generation](https://arxiv.org/abs/1703.09902)
+
+---
+
+## 知名 NLP 研究實驗室
+
+### 學術界
+
+* [Stanford NLP Group](https://nlp.stanford.edu/) - 頂尖 NLP 研究實驗室之一，[Stanford CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) 和 [Stanza](https://stanfordnlp.github.io/stanza/) 的創建者。
+* [Berkeley NLP Group](http://nlp.cs.berkeley.edu/) - 以重建亞太地區 637 種語言的古老語言而聞名。
+* [CMU Language Technologies Institute](https://www.lti.cs.cmu.edu/) - 知名專案包括瀕危語言的 [Avenue Project](http://www.cs.cmu.edu/~avenue/) 和 [Noah's Ark](http://www.cs.cmu.edu/~ark/)。
+* [Johns Hopkins CLSP](http://clsp.jhu.edu/) - 語言與語音處理中心。
+* [Columbia NLP Group](http://www1.cs.columbia.edu/nlp/index.cgi)
+* [UMD CLIP](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) - 計算語言學和資訊處理。
+* [Penn NLP](https://nlp.cis.upenn.edu/) - 以創建 [Penn Treebank](https://www.seas.upenn.edu/~pdtb/) 聞名。
+* [Allen Institute for AI (AI2)](https://allenai.org/) - AllenNLP、Semantic Scholar、OLMo。
+* [UW NLP](https://nlp.washington.edu/) - Noah Smith 的研究組。
+* [ETH Zurich NLP](https://nlp.ethz.ch/) - Ryan Cotterell 的研究組。
+
+### 產業界
+
+* [OpenAI](https://openai.com/research) - GPT 系列、RLHF、推理模型。
+* [Anthropic](https://www.anthropic.com/research) - Claude、Constitutional AI、可解釋性。
+* [Google DeepMind](https://deepmind.google/research/) - Gemini、PaLM、AlphaCode。
+* [Meta FAIR](https://ai.meta.com/research/) - Llama、NLLB、SeamlessM4T。
+* [Mistral AI](https://mistral.ai/) - Mistral、Mixtral 模型。
+* [Cohere](https://cohere.com/research) - 企業 NLP、Command R。
+
+---
 
 ## 教學
-[返回頂部](#內容)
 
-### 閱讀內容
+### 閱讀內容 - 通用機器學習
 
-通用機器學習
+* [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) - Google 高級創意工程師為工程師和管理階層解釋機器學習。
+* [AI Playbook](https://aiplaybook.a16z.com/) - a16z AI 劇本。
+* [Ruder's Blog](http://ruder.io/#open) - Sebastian Ruder 對 NLP 研究的評論。
+* [How To Label Data](https://www.lighttag.io/how-to-label-data/) - 管理語言標註專案的指南。
+* [Depends on the Definition](https://www.depends-on-the-definition.com/) - 涵蓋 NLP 主題的部落格文章集合。
 
-* 來自 Google 高級創意工程師 Jason 的[機器學習 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit?usp=sharing) ，為工程師和管理階層解釋機器學習。
-* a16z [AI 劇本](https://aiplaybook.a16z.com/) 是一個很好的鏈接，可以轉發給您的經理或演示內容。
-* [繼器學習部落格](https://bmcfee.github.io/#home) by Brian McFee
-* [Ruder's 部落格](http://ruder.io/#open) 由 [Sebastian Ruder](https://twitter.com/seb_ruder) 進行評論得最好的自然語言處理研究。
+### 閱讀內容 - NLP 介紹與指南
 
-自然語言處理介紹與指南
+* [Understand & Implement Natural Language Processing](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/)
+* [NLP in Python](http://github.com/NirantK/nlp-python-deep-learning) - Github 筆記本集合。
+* [Natural Language Processing: An Introduction](https://academic.oup.com/jamia/article/18/5/544/829676) - 牛津大學。
+* [Deep Learning for NLP with Pytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
+* [Hands-On NLTK Tutorial](https://github.com/hb20007/hands-on-nltk-tutorial) - Jupyter 筆記本。
+* [Natural Language Processing with Python](https://www.nltk.org/book/) - 使用 NLTK 介紹 NLP 的線上書籍。
+* [Train a new language model from scratch](https://huggingface.co/blog/how-to-train) - Hugging Face 🤗
+* [The Super Duper NLP Repo](https://notebooks.quantumstat.com/) - Colab 筆記本集合。
 
-* [理解和實施自然語言處理](https://www.analyticsvidhya.com/blog/2017/01/ultimate-guide-to-understand-implement-natural-language-processing-codes-in-python/) 的終極指南。
-* [Hackernoon 的自然語言處理簡介](https://hackernoon.com/learning-ai-if-you-suck-at-math-p7-the-magic-of-natural-language-processing-f3819a689386) 適用於那些賞味數學的人-用他們自己的話來說。
-* [Vik Paruchari 的自然語言處理教學](http://www.vikparuchuri.com/blog/natural-language-processing-tutorial/)
-* [自然語言處理: 一份簡介](https://academic.oup.com/jamia/article/18/5/544/829676) 來自牛津大學。
-* [使用 Pytorch 進行自然語言處理的深度學習](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
-* [動手做 NLTK 教學](https://github.com/hb20007/hands-on-nltk-tutorial) - 以  
- Jupyter 筆記本形式的實踐 NLTK 教學。
+### 部落格與電子報
 
-部落格與簡報
+* [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+* [The Illustrated BERT, ELMo, and co.](https://jalammar.github.io/illustrated-bert/) 和 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+* [Natural Language Processing](https://nlpers.blogspot.com/) - Hal Daumé III。
+* [arXiv: NLP (Almost) from Scratch](https://arxiv.org/pdf/1103.0398.pdf)
+* [The Unreasonable Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness) - Karpathy。
+* [Machine Learning Mastery: Deep Learning for NLP](https://machinelearningmastery.com/category/natural-language-processing)
+* [Visual NLP Paper Summaries](https://amitness.com/categories/#nlp)
+* [Ahead of AI](https://magazine.sebastianraschka.com/) - Sebastian Raschka。
+* [Lil'Log](https://lilianweng.github.io/) - Lilian Weng。
+* [The Gradient](https://thegradient.pub/)
+* [Simon Willison's Weblog](https://simonwillison.net/)
+* [Latent Space](https://www.latent.space/)
+* [Chip Huyen's Blog](https://huyenchip.com/blog/)
 
-* 部落格: [深度學習, 自然語言處理, 與呈現法](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
-* 部落格: [圖解 BERT, ELMo, 與 co. (自然語言處理是如何破解遷移學習的)](https://jalammar.github.io/illustrated-bert/) 與 [圖解轉換器](https://jalammar.github.io/illustrated-transformer/)
-* 部落格: Hal Daumé III 的[自然語言處理](https://nlpers.blogspot.com/)
-* [Radim Řehůřek 的教學](https://radimrehurek.com/gensim/tutorial.html) 使用 Python 與 [gensim](https://radimrehurek.com/gensim/index.html) 處理語言語料庫。
-* [arXiv: 自然語言處理 (大部分) 來自 Scratch](https://arxiv.org/pdf/1103.0398.pdf)
-* [Karpathy 的遞歸神經網絡的不合理有效性](https://karpathy.github.io/2015/05/21/rnn-effectiveness)
+### 影片與線上課程
 
-### 影片和課程
+* [Stanford CS224N: NLP with Deep Learning](https://web.stanford.edu/class/cs224n/) - Richard Socher 和 Christopher Manning。
+* [CMU CS 11-711: Advanced NLP](http://phontron.com/class/anlp2024/) - Graham Neubig。
+* [UMass CS685: Advanced NLP](https://people.cs.umass.edu/~miyyer/cs685/)
+* [Oxford Deep NLP](https://github.com/oxford-cs-deepnlp-2017/lectures)
+* [CMU Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/)
+* [Deep NLP Course by Yandex](https://github.com/yandexdataschool/nlp_course)
+* [fast.ai NLP Course](https://www.fast.ai/2019/07/08/fastai-nlp/) - [筆記本](https://github.com/fastai/course-nlp)
+* [AWS ML University - NLP](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw) - [教材](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp)
+* [Applied NLP - IIT Madras](https://www.youtube.com/playlist?list=PLH-xYrxjfO2WyR3pOAB006CYMhNt4wTqp) - [筆記本](https://github.com/Ramaseshanr/anlp)
+* [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course)
+* [DeepLearning.AI NLP Specialization](https://www.deeplearning.ai/courses/natural-language-processing-specialization/)
 
-#### 深度學習與自然語言處理
+---
 
-用於自然語言處理的詞嵌入, 遞歸神經網絡, 長短期記憶神經網絡與卷積神經網路 | [返回頂部](#內容)
+## 書籍
 
-* Udacity 的[人工智慧入門](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271) 課程涉及到自然語言處理。
-* Udacity 的[深度學習](https://udacity.com/course/deep-learning--ud730) 使用Tensorflow 使用深度學習的 NLP 任務的部分（包括 Word2Vec，RNN的 和 LSTMs）。
-* 牛津大學的[深度自然語言處理](https://github.com/oxford-cs-deepnlp-2017/lectures)有影片，演講投影片和閱讀素材。
-* 斯坦福大學的[自然語言處理深度學習 (cs224-n)](https://web.stanford.edu/class/cs224n/) 由 Richard Socher 和 Christopher Manning 完成。
-* Coursera 的[自然語言處理](https://www.coursera.org/learn/language-processing) 由國立研究大學高等經濟學院完成。
-* 卡內基梅隆大學的語言技術研究所[自然語言處理的神經網路](http://phontron.com/class/nn4nlp2017/)。
+### 免費線上
 
-#### 經典自然語言處理
+* [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) - Jurafsky & Martin。
+* [Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class) - Jacob Eisenstein。
+* [Text Mining in R](https://www.tidytextmining.com)
+* [Natural Language Processing with Python](https://www.nltk.org/book/)
 
-自然語言處理的貝葉斯，統計和語言學方法| | [返回頂部](#內容)
+### 神經網路/LLM 時代
 
-* [統計機器翻譯](http://mt-class.org) - 機器翻譯課程，具有很棒的作業和投影片。
-* [使用 Python 3 進行 NLTK 自然語言處理](https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL) 由 Harrison Kinsley(sentdex) 使用 NLTK 程式碼實現的好教學。
-* 由 Jordan Boyd-Graber 在馬里蘭大學的[計算語言學 I](https://www.youtube.com/playlist?list=PLegWUnz91WfuPebLI97-WueAP90JO-15i)講座。
-* 由 Yandex 數據學院的[深度自然語言處理課程](https://github.com/yandexdataschool/nlp_course)涵蓋從文本嵌入到機器翻譯的重要思想，包括序列建模，語言模型等。
+* [NLP with Transformers](https://www.oreilly.com/library/view/natural-language-processing/9781098136789/) - Hugging Face 團隊。
+* [NLP with PyTorch](https://github.com/joosthub/PyTorchNLPBook)
+* [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) - Sebastian Raschka。
+* [Practical Natural Language Processing](https://www.oreilly.com/library/view/practical-natural-language/9781492054047/)
+* [Natural Language Processing with Spark NLP](https://www.oreilly.com/library/view/natural-language-processing/9781492047759/)
+* [Deep Learning for Natural Language Processing](https://www.manning.com/books/deep-learning-for-natural-language-processing) - Stephan Raaijmakers。
+* [Real-World Natural Language Processing](https://www.manning.com/books/real-world-natural-language-processing) - Masato Hagiwara。
+* [Natural Language Processing in Action](https://www.manning.com/books/natural-language-processing-in-action-second-edition) - Hobson Lane。
+* [Transformers in Action](https://www.manning.com/books/transformers-in-action) - Nicole Koenigstein。
 
-### 書籍
-
-* Dan Jurafsy 教授的[語音和語言處理](https://web.stanford.edu/~jurafsky/slp3/)
-* [R 中的文字探勘](https://www.tidytextmining.com)
-* [Python 的自然語言處理](https://www.nltk.org/book/)
+---
 
 ## 函式庫
 
-[返回頂部](#內容)
+### Node.js 和 JavaScript
 
-* <a id="node-js">**Node.js and Javascript** - 用於自然語言的 Node.js 函式庫</a> | [返回頂部](#內容)
-  * [Twitter-text](https://github.com/twitter/twitter-text) - 使用 JavaScript 實現的 Twitter 文本處理庫。
-  * [Knwl.js](https://github.com/benhmoore/Knwl.js) - JS中的自然語言處理器。
-  * [Retext](https://github.com/retextjs/retext) - 用於分析和操縱自然語言的可​​擴展系統。
-  * [NLP Compromise](https://github.com/spencermountain/compromise) - 瀏覽器中的自然語言處理。
-  * [Natural](https://github.com/NaturalNode/natural) - 節點的一般自然語言設施。
-  - [Poplar](https://github.com/synyi/poplar) - 一種基於 Web 的自然語言處理註釋工具（NLP）。
+* [Twitter-text](https://github.com/twitter/twitter-text) - Twitter 的文本處理庫。
+* [Knwl.js](https://github.com/benhmoore/Knwl.js) - JS 中的自然語言處理器。
+* [Retext](https://github.com/retextjs/retext) - 可擴展的自然語言分析系統。
+* [NLP Compromise](https://github.com/spencermountain/compromise) - 瀏覽器中的 NLP。
+* [Natural](https://github.com/NaturalNode/natural) - Node 的通用 NLP 工具。
+* [Poplar](https://github.com/synyi/poplar) - 基於網頁的標註工具。
+* [NLP.js](https://github.com/axa-group/nlp.js) - 用於構建機器人的 NLP 庫。
+* [node-question-answering](https://github.com/huggingface/node-question-answering) - Node.js 中使用 DistilBERT 的問答。
 
-* <a id="python"> **Python** - 用於自然語言的 Python 函式庫</a> | [返回頂部](#內容)
+### Python
 
-  * [TextBlob](http://textblob.readthedocs.org/) - 為專研常見的自然語言處理（NLP）任務提供一致的 API。 站在[自然語言工具包 (NLTK)](https://www.nltk.org/) 和 [模式](https://github.com/clips/pattern)膀上，並與兩者很好地配合 :+1:
-  * [spaCy](https://github.com/explosion/spaCy) - 使用 Python 與 Cython 產業強度的自然語言處理  :+1:
-    * [textacy](https://github.com/chartbeat-labs/textacy) -  在spaCy上構建的更高級別的自然與儼處理。
-  * [gensim](https://radimrehurek.com/gensim/index.html) - 用於從純文本進行無監督語義建模的 函式庫 :+1:
-  * [scattertext](https://github.com/JasonKessler/scattertext) - 用於生成語料庫之間語言差異的 d3 可視化的 Python 函式庫。
-  * [AllenNLP](https://github.com/allenai/allennlp) - 一個架構在 PyTorch 上的自然語言處理函式庫，用於開發各種語言任務最先進的深度學習模型。
-  * [PyTorch-NLP](https://github.com/PetrochukM/PyTorch-NLP) - 自然語言處理研究工具包設計來支援快速建立更好的數據加載器，詞向量加載器，神經網路層表示，常見的自然語言處理指標（如BLEU）原型。
-  * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - 文本處理工具和包裝 (例如： Vowpal Wabbit)
-  * [PyNLPl](https://github.com/proycon/pynlpl) - Python 自然語言處理函式庫. 適用於 Python 的通用自然語言處理函式庫。 還包含一些用於解析常見自然語言處理格式的特定模塊, 最常見的是用於 [FoLiA](https://proycon.github.io/folia/)，還包括 ARPA 語言模型，Moses 短語表，GIZA ++對齊。
+* [spaCy](https://github.com/explosion/spaCy) - 工業級 NLP :+1:
+  * [textacy](https://github.com/chartbeat-labs/textacy) - 建立在 spaCy 上的高階 NLP。
+* [NLTK](https://www.nltk.org/) - 自然語言工具包，50+ 語料庫。
+* [Stanza](https://stanfordnlp.github.io/stanza/) - Stanford 的神經網路管線（70+ 語言）。
+* [Flair](https://github.com/zalandoresearch/flair) - 最先進的 NLP，包含 BERT、ELMo、Flair 嵌入。
+* [TextBlob](http://textblob.readthedocs.org/) - 常見 NLP 任務的簡單 API。
+* [gensim](https://radimrehurek.com/gensim/index.html) - 無監督語義建模 :+1:
+* [AllenNLP](https://github.com/allenai/allennlp) - 建立在 PyTorch 上的 NLP 研究庫。
+* [Transformers](https://github.com/huggingface/transformers) - TensorFlow 2.0 和 PyTorch 的 NLP :+1:
+* [Tokenizers](https://github.com/huggingface/tokenizers) - 用於研究和生產的快速分詞器。
+* [Haystack](https://github.com/deepset-ai/haystack) - 端到端 NLP 框架。
+* [PraisonAI](https://github.com/MervinPraison/PraisonAI) - 支援 100+ LLM 的多 AI 代理。
+* [scattertext](https://github.com/JasonKessler/scattertext) - 語言差異的 d3 視覺化。
+* [GluonNLP](https://github.com/dmlc/gluon-nlp) - MXNet 上的深度學習 NLP 工具包。
+* [PyTorch-NLP](https://github.com/PetrochukM/PyTorch-NLP) - NLP 研究工具包。
+* [TextAttack](https://github.com/QData/TextAttack) - 對抗性攻擊和資料增強。
+* [Kashgari](https://github.com/BrikerMan/Kashgari) - Keras 驅動的多語言 NLP。
+* [FARM](https://github.com/deepset-ai/FARM) - 快速 NLP 遷移學習。
+* [fairSeq](https://github.com/pytorch/fairseq) - Facebook AI seq2seq 模型。
+* [Snips NLU](https://github.com/snipsco/snips-nlu) - 生產就緒的意圖解析。
+* [NLP Architect](https://github.com/NervanaSystems/nlp-architect) - 最先進的 NLP 深度學習。
+* [BigARTM](https://github.com/bigartm/bigartm) - 快速主題建模。
+* [Sockeye](https://github.com/awslabs/sockeye) - 驅動 Amazon Translate 的神經機器翻譯。
+* [DL Translate](https://github.com/xhlulu/dl-translate) - 50 種語言的翻譯。
+* [Jury](https://github.com/obss/jury) - NLP 模型評估指標。
+* [Rita DSL](https://github.com/zaibacu/rita-dsl) - 基於規則的 NLP 模式。
+* [PyNLPl](https://github.com/proycon/pynlpl) - 通用 NLP 庫。
+* [PySS3](https://github.com/sergioburdisso/pyss3) - 文本分類的白盒機器學習。
+* [jPTDP](https://github.com/datquocnguyen/jPTDP) - 聯合詞性標註和依存解析（40+ 語言）。
+* [Word Forms](https://github.com/gutfeeling/word_forms) - 生成英文單詞的所有形式。
+* [Chazutsu](https://github.com/chakki-works/chazutsu) - 下載 NLP 研究資料集。
+* [corex_topic](https://github.com/gregversteeg/corex_topic) - 階層式主題建模。
 
-  * [jPTDP](https://github.com/datquocnguyen/jPTDP) - 用於聯合詞性（POS）標記和依賴性解析的工具包。jPTDP 提供40多種語言的預訓練模型。
-  * [BigARTM](https://github.com/bigartm/bigartm) - 一個用於主題建模的快速函式庫。
-  * [Snips NLU](https://github.com/snipsco/snips-nlu) - 用於意圖解析的產品就緒函式庫。
-  * [Chazutsu](https://github.com/chakki-works/chazutsu) - 用於下載和解析標準自然語言處理研究數據集的函式庫。
-  * [Word Forms](https://github.com/gutfeeling/word_forms) - Word forms 可以準確生成所有可能的英語單詞形式。
-  * [Multilingual Latent Dirichlet Allocation (LDA)](https://github.com/ArtificiAI/Multilingual-Latent-Dirichlet-Allocation-LDA) - 一種多語言和可擴展的文檔聚類管道。
-  * [NLP Architect](https://github.com/NervanaSystems/nlp-architect) - 用於探索 NLP 和 NLU 最先進的深度學習拓撲和技術的函式庫。
-  * [Flair](https://github.com/zalandoresearch/flair) - 一個非常簡單的框架，用於在 PyTorch 上構建最先進的多語言 NLP。包括 BERT，ELMo 和 Flair 嵌入。
-  * [Kashgari](https://github.com/BrikerMan/Kashgari) - 簡單的，基於 Keras 的多語言自然語言處理框架，允許您在5分鐘內構建模型，用於命名實體識別（NER），詞性標註（PoS）和文本分類任務。 包括 BERT 和 word2vec 嵌入。
+### C++
 
+* [MIT Information Extraction Toolkit (MITIE)](https://github.com/mit-nlp/MITIE) - NER 和關係提取。
+* [CRF++](https://taku910.github.io/crfpp/) - 條件隨機場實作。
+* [CRFsuite](http://www.chokkan.org/software/crfsuite/) - 序列資料的 CRF。
+* [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - Charniak-Johnson 解析器。
+* [colibri-core](https://github.com/proycon/colibri-core) - N-gram 和 skipgram。
+* [ucto](https://github.com/LanguageMachines/ucto) - Unicode 感知分詞器。
+* [frog](https://github.com/LanguageMachines/frog) - 荷蘭語的基於記憶的 NLP 套件。
+* [MeTA](https://github.com/meta-toolkit/meta) - C++ 文本資料科學工具包。
+* [Mecab](https://taku910.github.io/mecab/) - 日語形態分析器。
+* [Moses](http://statmt.org/moses/) - 統計機器翻譯。
+* [StarSpace](https://github.com/facebookresearch/StarSpace) - Facebook 嵌入庫。
+* [InsNet](https://github.com/chncwang/InsNet) - 實例依賴的 NLP 模型。
 
-* <a id="c++">**C++** - C++ 函式庫</a> | [返回頂部](#內容)
-  * [MIT 資訊提取工具包 ](https://github.com/mit-nlp/MITIE) - 用於命名實體識別和關係提取的 C，C++ 和Python 工具。
-  * [CRF++](https://taku910.github.io/crfpp/) - 條件隨機場（CRF）的開源專案，用於實現分割/標記順序數據和其他自然語言處理任務。
-  * [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite 實現用於標記順序數據的條件隨機字段（CRF）。
-  * [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP 自然語言解析器（也稱為 Charniak-Johnson 解析器）
-  * [colibri-core](https://github.com/proycon/colibri-core) - C++ 函式庫，命令行工具和 Python 綁定用於快速且內存有效的方式提取和使用基本語言結構，如 n-gram 和 skipgrams。
-  * [ucto](https://github.com/LanguageMachines/ucto) - 適用於各種語言的基於 Unicode 的常規表達式標記生成器。工具和 C++函式庫。支持 FoLiA 格式。
-  * [libfolia](https://github.com/LanguageMachines/libfolia) - 用於 [FoLiA 格式](https://proycon.github.io/folia/)的 C++ 函式庫。
-  * [frog](https://github.com/LanguageMachines/frog) - 為荷蘭語開發的基於內存的自然語言處理套件：PoS 標記器，lemmatiser，依賴解析器，NER，淺層解析器，形態分析器。
-  * [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) 是一個 C++ 數據科學工具包，可以幫助挖掘大文本數據。
-  * [Mecab (日文)](https://taku910.github.io/mecab/)
-  * [Moses](http://statmt.org/moses/)
-  * [StarSpace](https://github.com/facebookresearch/StarSpace) - 一個來自 Facebook 的函式庫用於創建單詞級，段級，文檔級和文本分類的嵌入
+### Java
 
-* <a id="java">**Java** - Java 自然語言處理函式庫</a> | [返回頂部](#內容)
-  * [斯坦福大學 NLP](https://nlp.stanford.edu/software/index.shtml)
-  * [OpenNLP](https://opennlp.apache.org/)
-  * [NLP4J](https://emorynlp.github.io/nlp4j/)
-  * [Java 中的 Word2vec](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec)
-  * [ReVerb](https://github.com/knowitall/reverb/) Web-Scale 開放信息提取。
-  * [OpenRegex](https://github.com/knowitall/openregex) 一種高效靈活的基於 token 的正則表達式語言和引擎。
-  * [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - 在伊利諾伊大學的認知計算組開發的核心函式庫。
-  * [MALLET](http://mallet.cs.umass.edu/) - 用於 LanguagE Toolkit 的機器學習 - 用於統計自然語言處理，文檔分類，聚類，主題建模，資訊提取和其他機器學習應用程序的文本包。
-  * [RDRPOSTagger](https://github.com/datquocnguyen/RDRPOSTagger) - 一個穩健的 POS 標記工具包（包括 Java 和 Python）以及40多種語言的預訓練模型。
-  
-* <a id="kotlin">**Kotlin** - Kotlin 自然語言處理函式庫</a> | [返回頂部](#內容)
-  * [Lingua](https://github.com/pemistahl/lingua/) 適用於 Kotlin 和 Java 的語言檢測函式庫，適用於長文本和短文本。
-  * [Kotidgy](https://github.com/meiblorn/kotidgy) — 一種用 Kotlin 編寫基於索引的文本數據生成器。
-  
-* <a id="scala">**Scala** - Scala 自然語言處理函式庫</a> | [返回頂部](#內容)
-  * [Saul](https://github.com/CogComp/saul) - 用於開發自然語言處理系統的函式庫，包括內置模塊，如 SRL，POS 等。
-  * [ATR4S](https://github.com/ispras/atr4s) - 具有最先進的[自動術語識別](https://en.wikipedia.org/wiki/Terminology_extraction)方法的工具包。
-  * [tm](https://github.com/ispras/tm) - 基於正則化多語言 [PLSA](https://en.wikipedia.org/wiki/Probabilistic_latent_semantic_analysis) 的主題建模實現。 
-  * [word2vec-scala](https://github.com/Refefer/word2vec-scala) - word2vec 模型的 Scala 接口; 包括對詞距離和詞類比等向量的操作。
-  * [Epic](https://github.com/dlwh/epic) - Epic 是一個用 Scala 編寫的高性能統計解析器，以及用於構建複雜結構化預測模型的框架。
+* [Stanford NLP](https://nlp.stanford.edu/software/index.shtml)
+* [OpenNLP](https://opennlp.apache.org/)
+* [NLP4J](https://emorynlp.github.io/nlp4j/)
+* [Word2vec in Java](https://deeplearning4j.org/docs/latest/deeplearning4j-nlp-word2vec)
+* [ReVerb](https://github.com/knowitall/reverb/) - 網路規模開放資訊提取。
+* [OpenRegex](https://github.com/knowitall/openregex) - 基於 token 的正規表達式引擎。
+* [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - 伊利諾大學 NLP 庫。
+* [MALLET](http://mallet.cs.umass.edu/) - 文本機器學習：分類、聚類、主題建模。
+* [RDRPOSTagger](https://github.com/datquocnguyen/RDRPOSTagger) - 40+ 語言的詞性標註。
 
-* <a id="R">**R** - R 自然語言處理函式庫</a> | [返回頂部](#內容)
-  * [text2vec](https://github.com/dselivanov/text2vec) -  R 中的快速矢量化，主題建模，距離和 GloVe 字嵌入。
-  * [wordVectors](https://github.com/bmschmidt/wordVectors) - 用於創建和探索 word2vec 和其他單詞嵌入模型的 R 包。
-  * [RMallet](https://github.com/mimno/RMallet) - 與 Java 機器學習工具 MALLET 接口的 R 包。
-  * [dfr-browser](https://github.com/agoldst/dfr-browser) -  創建用於在 Web 瀏覽器中瀏覽文本主題模型的 d3 可視化。
-  * [dfrtopics](https://github.com/agoldst/dfrtopics) - 用於探索文本主題模型的 R 包。
-  * [sentiment_classifier](https://github.com/kevincobain2000/sentiment_classifier) - 使用Word Sense Disambiguation 和 WordNet Reader 的情感分類。
-  * [jProcessing](https://github.com/kevincobain2000/jProcessing) - 日本自然語言處理庫，具有日語情感分類。
+### Kotlin
 
-* <a id="clojure">**Clojure**</a> | [返回頂部](#內容)
-  * [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Clojure 中的自然語言處理（opennlp）。
-  * [Infections-clj](https://github.com/r0man/inflections-clj) - 用於 Clojure 和 ClojureScript 的類似 Rails 的變形函式庫。
-  * [postagga](https://github.com/fekr/postagga) - 用於解析 Clojure 和 ClojureScript 中的自然語言的函式庫。
+* [Lingua](https://github.com/pemistahl/lingua/) - 長短文本的語言檢測。
+* [Kotidgy](https://github.com/meiblorn/kotidgy) - 基於索引的文本資料生成器。
 
-* <a id="ruby">**Ruby**</a> | [返回頂部](#內容)
-  * Kevin Dias 的 [自然語言處理（NLP）Ruby 函式庫，工具和軟件的集合](https://github.com/diasks2/ruby-nlp)
-  * [Ruby 中實用的自然語言處理](https://github.com/arbox/nlp-with-ruby)
+### Scala
 
-* <a id="rust">**Rust**</a> | [返回頂部](#內容)
-  * [whatlang](https://github.com/greyblake/whatlang-rs) — 基於三元組的自然語言識別函式庫。
-  - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - 用於意圖解析的生產就緒等級函示庫。
+* [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp) - Apache Spark ML 上的 NLP。
+* [Saul](https://github.com/CogComp/saul) - 包含 SRL、POS 模組的 NLP 系統。
+* [ATR4S](https://github.com/ispras/atr4s) - 自動術語識別。
+* [Epic](https://github.com/dlwh/epic) - 高性能統計解析器。
+* [word2vec-scala](https://github.com/Refefer/word2vec-scala) - word2vec 的 Scala 介面。
 
-### 服務
+### R
 
-自然語言處理作為具有更高級功能的 API，例如 NER，主題標記等 | [返回頂部](#內容)
+* [tidytext](https://github.com/juliasilge/tidytext) - 使用 tidy 工具的文本探勘。
+* [text2vec](https://github.com/dselivanov/text2vec) - 向量化、主題建模、GloVe。
+* [spacyr](https://github.com/quanteda/spacyr) - spaCy 的 R 包裝器。
+* [wordVectors](https://github.com/bmschmidt/wordVectors) - word2vec 和嵌入。
+* [RMallet](https://github.com/mimno/RMallet) - MALLET 的 R 介面。
+* [corporaexplorer](https://kgjerde.github.io/corporaexplorer/) - 動態探索文本。
+* [CRAN Task View: NLP](https://github.com/cran-task-views/NaturalLanguageProcessing/)
 
-- [Wit-ai](https://github.com/wit-ai/wit) - 應用程序和設備的自然語言界面。
-- [IBM Watson 的自然語意理解](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs) - API 和 Github 演示。
-- [Amazon 理解](https://aws.amazon.com/comprehend/) - NLP 和 ML 套件涵蓋了最常見的任務，如 NER，標記和情感分析。
-- [Google 雲端自然語言 API](https://cloud.google.com/natural-language/) - 至少9種語言的語法分析，NER，情感分析和內容標記包括英語和中文（簡體和繁體）。
-- [ParallelDots](https://www.paralleldots.com/text-analysis-apis) - 高層次文本分析 API 服務，從情感分析到意圖分析。
-- [Microsoft 認知服務](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)
+### Clojure
+
+* [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp)
+* [Infections-clj](https://github.com/r0man/inflections-clj) - Rails 風格的詞形變化。
+* [postagga](https://github.com/fekr/postagga) - 解析自然語言。
+
+### Ruby
+
+* [ruby-nlp](https://github.com/diasks2/ruby-nlp) - NLP Ruby 庫集合。
+* [nlp-with-ruby](https://github.com/arbox/nlp-with-ruby) - Ruby 實用 NLP。
+
+### Rust
+
+* [rust-bert](https://github.com/guillaume-be/rust-bert) - 基於 Transformer 的模型。
+* [whatlang](https://github.com/greyblake/whatlang-rs) - 語言識別。
+* [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) - 意圖解析。
+* [adk-rust](https://github.com/zavora-ai/adk-rust) - AI 代理開發套件。
+
+### NLP++
+
+* [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=dehilster.nlp)
+* [nlp-engine](https://github.com/VisualText/nlp-engine) - 包含英語解析器的 NLP++ 引擎。
+* [VisualText](http://visualtext.org)
+
+### Julia
+
+* [TextAnalysis.jl](https://github.com/JuliaText/TextAnalysis.jl)
+* [TextModels.jl](https://github.com/JuliaText/TextModels.jl) - 神經網路模型。
+* [WordTokenizers.jl](https://github.com/JuliaText/WordTokenizers.jl)
+* [Word2Vec.jl](https://github.com/JuliaText/Word2Vec.jl)
+* [Languages.jl](https://github.com/JuliaText/Languages.jl)
+* [CorpusLoaders.jl](https://github.com/JuliaText/CorpusLoaders.jl)
+
+---
+
+## 大型語言模型
+
+### 閉源模型
+
+| 模型 | 提供商 | 上下文長度 |
+|------|--------|------------|
+| GPT-4 / GPT-4o / o1 / o3 | OpenAI | 128K |
+| Claude 3.5 | Anthropic | 200K |
+| Gemini 1.5/2.0 | Google | 1M+ |
+
+### 開放權重模型
+
+| 模型 | 提供商 | 參數量 |
+|------|--------|--------|
+| [Llama 3.1/3.2/3.3](https://llama.meta.com/) | Meta | 8B-405B |
+| [Mistral/Mixtral](https://mistral.ai/) | Mistral AI | 7B-8x22B |
+| [Qwen 2.5](https://github.com/QwenLM/Qwen2.5) | 阿里巴巴 | 0.5B-72B |
+| [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) | DeepSeek | 671B MoE |
+| [Yi](https://github.com/01-ai/Yi) | 01.AI | 6B-34B |
+| [Falcon](https://huggingface.co/tiiuae) | TII | 7B-180B |
+| [OLMo](https://allenai.org/olmo) | AI2 | 7B-65B |
+| [Gemma 2](https://ai.google.dev/gemma) | Google | 2B-27B |
+
+### 程式碼模型
+
+- [Code Llama](https://github.com/meta-llama/codellama)
+- [StarCoder 2](https://github.com/bigcode-project/starcoder2)
+- [DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
+- [Codestral](https://mistral.ai/news/codestral/)
+
+### 架構變體
+
+- [Mamba](https://github.com/state-spaces/mamba) - 狀態空間模型
+
+### 神經網路 NLP 模型（LLM 之前）
+
+**編碼器:** [BERT](https://github.com/google-research/bert) · [RoBERTa](https://arxiv.org/abs/1907.11692) · [DeBERTa](https://github.com/microsoft/DeBERTa) · [ALBERT](https://arxiv.org/abs/1909.11942) · [ELECTRA](https://arxiv.org/abs/2003.10555)
+
+**多語言:** [mBERT](https://github.com/google-research/bert/blob/master/multilingual.md)（104 語言）· [XLM-R](https://arxiv.org/abs/1911.02116)（100 語言）
+
+**編碼器-解碼器:** [T5](https://arxiv.org/abs/1910.10683) · [BART](https://arxiv.org/abs/1910.13461) · [mT5](https://arxiv.org/abs/2010.11934)
+
+### 排行榜
+
+- [Hugging Face Hub](https://huggingface.co/models)
+- [LMSYS Chatbot Arena](https://arena.lmsys.org/)
+- [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
+- [Artificial Analysis](https://artificialanalysis.ai/)
+
+---
+
+## 文本嵌入
+
+### 詞嵌入
+
+**經驗法則:** fastText >> GloVe > word2vec
+
+- [word2vec](https://arxiv.org/abs/1301.3781) · [實作](https://code.google.com/archive/p/word2vec/) · [解說](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
+- [GloVe](https://nlp.stanford.edu/projects/glove/) · [論文](https://nlp.stanford.edu/pubs/glove.pdf) · [解說](https://blog.acolyer.org/2016/04/22/glove-global-vectors-for-word-representation/)
+- [fastText](https://fasttext.cc/) · [論文](https://arxiv.org/abs/1607.04606) · [解說](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)
+
+### 句子與上下文嵌入
+
+- [ELMo](https://arxiv.org/abs/1802.05365) · [PyTorch](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) · [TensorFlow](https://github.com/allenai/bilm-tf)
+- [ULMFiT](https://arxiv.org/abs/1801.06146) - Jeremy Howard 和 Sebastian Ruder。
+- [InferSent](https://arxiv.org/abs/1705.02364) - Facebook。
+- [CoVe](https://arxiv.org/abs/1708.00107) - 上下文詞向量。
+- [Paragraph Vectors](https://cs.stanford.edu/~quocle/paragraph_vector.pdf) · [doc2vec 教學](https://rare-technologies.com/doc2vec-tutorial/)
+- [sense2vec](https://arxiv.org/abs/1511.06388) - 詞義消歧。
+- [Skip Thought Vectors](https://arxiv.org/abs/1506.06726)
+
+### 現代嵌入模型
+
+| 模型 | 提供商 |
+|------|--------|
+| [E5](https://huggingface.co/intfloat) | Microsoft |
+| [BGE](https://huggingface.co/BAAI) | BAAI |
+| [GTE](https://huggingface.co/Alibaba-NLP) | 阿里巴巴 |
+| [Nomic Embed](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5) | Nomic AI |
+| [Jina Embeddings](https://huggingface.co/jinaai) | Jina AI |
+| [Sentence Transformers](https://sbert.net/) | UKP Lab |
+| [LaBSE](https://arxiv.org/abs/2007.01852) | Google（多語言）|
+| [ColBERT](https://github.com/stanford-futuredata/ColBERT) | Stanford |
+| [SPLADE](https://github.com/naver/splade) | Naver（稀疏）|
+
+### 基準測試
+
+- [MTEB](https://huggingface.co/spaces/mteb/leaderboard)
+- [BEIR](https://github.com/beir-cellar/beir)
+
+---
+
+## LLM 框架與工具
+
+### 應用框架
+
+- [LangChain](https://github.com/langchain-ai/langchain)
+- [LlamaIndex](https://github.com/run-llama/llama_index)
+- [DSPy](https://github.com/stanfordnlp/dspy)
+- [Haystack](https://github.com/deepset-ai/haystack)
+
+### 結構化生成
+
+- [Instructor](https://github.com/jxnl/instructor)
+- [Outlines](https://github.com/outlines-dev/outlines)
+- [Guidance](https://github.com/guidance-ai/guidance)
+- [LMQL](https://github.com/eth-sri/lmql)
+
+### Hugging Face 生態系統
+
+- [transformers](https://github.com/huggingface/transformers)
+- [tokenizers](https://github.com/huggingface/tokenizers)
+- [datasets](https://github.com/huggingface/datasets)
+- [accelerate](https://github.com/huggingface/accelerate)
+
+### JavaScript/TypeScript
+
+- [LangChain.js](https://github.com/langchain-ai/langchainjs)
+- [Vercel AI SDK](https://github.com/vercel/ai)
+- [Transformers.js](https://github.com/xenova/transformers.js)
+- [LlamaIndex.TS](https://github.com/run-llama/LlamaIndexTS)
+
+---
+
+## 智能代理
+
+### 框架
+
+- [LangGraph](https://github.com/langchain-ai/langgraph)
+- [AutoGen](https://github.com/microsoft/autogen)
+- [CrewAI](https://github.com/joaomdmoura/crewAI)
+- [Smolagents](https://github.com/huggingface/smolagents)
+- [PraisonAI](https://github.com/MervinPraison/PraisonAI)
+
+### 程式碼代理
+
+- [SWE-Agent](https://github.com/princeton-nlp/SWE-agent)
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands)
+- [Aider](https://github.com/paul-gauthier/aider)
+
+### 基準測試
+
+- [AgentBench](https://github.com/THUDM/AgentBench)
+- [WebArena](https://webarena.dev/)
+- [OSWorld](https://os-world.github.io/)
+
+---
+
+## RAG 檢索增強生成
+
+### 框架
+
+- [LlamaIndex](https://github.com/run-llama/llama_index)
+- [LangChain](https://github.com/langchain-ai/langchain)
+- [Haystack](https://github.com/deepset-ai/haystack)
+- [RAGFlow](https://github.com/infiniflow/ragflow)
+
+### 向量資料庫
+
+- [Pinecone](https://www.pinecone.io/)（託管）
+- [Weaviate](https://weaviate.io/)
+- [Qdrant](https://qdrant.tech/)
+- [Chroma](https://www.trychroma.com/)
+- [Milvus](https://milvus.io/)
+- [pgvector](https://github.com/pgvector/pgvector)
+- [Elasticsearch](https://www.elastic.co/elasticsearch/vector-database)
+
+### 重排序器
+
+- [Cross-encoders](https://sbert.net/examples/applications/cross-encoder/README.html)
+- [ColBERT](https://github.com/stanford-futuredata/ColBERT)
+- [Cohere Rerank](https://cohere.com/rerank)
+- [Jina Reranker](https://huggingface.co/jinaai/jina-reranker-v2-base-multilingual)
+
+### 評估
+
+- [Ragas](https://github.com/explodinggradients/ragas)
+- [ARES](https://github.com/stanford-futuredata/ARES)
+- [TruLens](https://github.com/truera/trulens)
+
+### 問答系統
+
+- [DrQA](https://github.com/facebookresearch/DrQA) - Facebook Research 的維基百科問答。
+- [Document-QA](https://github.com/allenai/document-qa) - AllenAI 的多段落閱讀理解。
+
+---
+
+## 訓練與微調
+
+### PEFT 方法
+
+- [LoRA](https://arxiv.org/abs/2106.09685)
+- [QLoRA](https://arxiv.org/abs/2305.14314)
+- [DoRA](https://arxiv.org/abs/2402.09353)
+
+### 工具
+
+- [PEFT](https://github.com/huggingface/peft)
+- [trl](https://github.com/huggingface/trl)
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)
+- [Unsloth](https://github.com/unslothai/unsloth)
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
+- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
+
+### 偏好優化
+
+- DPO · KTO · IPO · ORPO
+
+---
+
+## 評估
+
+### 框架
+
+- [lm-eval-harness](https://github.com/EleutherAI/lm-evaluation-harness)
+- [HELM](https://crfm.stanford.edu/helm/)
+- [OpenAI Evals](https://github.com/openai/evals)
+- [inspect-ai](https://github.com/UKGovernmentBEIS/inspect_ai)
+- [promptfoo](https://github.com/promptfoo/promptfoo)
+- [DeepEval](https://github.com/confident-ai/deepeval)
+
+### 基準測試
+
+**通用:** MMLU · MMLU-Pro · ARC · HellaSwag
+
+**推理:** GSM8K · MATH · BigBench-Hard · DROP
+
+**程式碼:** HumanEval · MBPP · SWE-Bench · LiveCodeBench
+
+**指令遵循:** MT-Bench · AlpacaEval · IFEval · Arena-Hard
+
+**長上下文:** RULER · L-Eval · LongBench
+
+**安全性:** TruthfulQA · HarmBench · JailbreakBench
+
+---
+
+## 部署與服務
+
+### 推理框架
+
+- [vLLM](https://github.com/vllm-project/vllm)
+- [TGI](https://github.com/huggingface/text-generation-inference)
+- [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [Ollama](https://ollama.ai/)
+- [LM Studio](https://lmstudio.ai/)
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
+- [SGLang](https://github.com/sgl-project/sglang)
+- [MLC LLM](https://github.com/mlc-ai/mlc-llm)
+- [ExecuTorch](https://github.com/pytorch/executorch)
+
+### 託管推理
+
+- [Together AI](https://together.ai/)
+- [Fireworks AI](https://fireworks.ai/)
+- [Replicate](https://replicate.com/)
+- [Groq](https://groq.com/)
+- [Modal](https://modal.com/)
+- [Baseten](https://www.baseten.co/)
+
+### 可觀測性
+
+- [LangSmith](https://smith.langchain.com/)
+- [LangFuse](https://langfuse.com/)
+- [Arize Phoenix](https://phoenix.arize.com/)
+- [Helicone](https://helicone.ai/)
+
+---
+
+## 安全與防護
+
+- [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails)
+- [LlamaGuard](https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/)
+- [Lakera Guard](https://www.lakera.ai/)
+- [Presidio](https://github.com/microsoft/presidio)（PII 檢測）
+- [scrubadub](https://github.com/LeapBeyond/scrubadub)（PII 移除）
+
+---
+
+## 服務
+
+NLP 作為具有更高級功能的 API：
+
+- [OpenAI](https://platform.openai.com/) · [Anthropic](https://www.anthropic.com/api) · [Google](https://ai.google.dev/) · [Cohere](https://cohere.com/) · [Mistral](https://mistral.ai/)
+- [AWS Bedrock](https://aws.amazon.com/bedrock/) · [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service) · [Google Vertex AI](https://cloud.google.com/vertex-ai)
+- [Google Cloud NLP](https://cloud.google.com/natural-language/) · [AWS Comprehend](https://aws.amazon.com/comprehend/) · [Azure Text Analytics](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)
+- [Wit-ai](https://github.com/wit-ai/wit) - 自然語言介面。
+- [IBM Watson NLU](https://github.com/watson-developer-cloud/natural-language-understanding-nodejs)
+- [ParallelDots](https://www.paralleldots.com/text-analysis-apis)
 - [TextRazor](https://www.textrazor.com/)
 - [Rosette](https://www.rosette.com/)
-- [Textalytic](https://www.textalytic.com) - 瀏覽器中的自然語言處理，包括情感分析，命名實體提取，POS標記，詞頻，主題建模，文字雲等。
+- [Textalytic](https://www.textalytic.com)
+- [NLP Cloud](https://nlpcloud.io)
+- [Cloudmersive](https://cloudmersive.com/nlp-api)
+- [Vedika API](https://vedika.io)
 
-### 註釋工具
+---
 
-- [GATE](https://gate.ac.uk/overview.html) - 通用架構和文本工程已有15年歷史，免費開源。
-- [Anafora](https://github.com/weitechen/anafora) 是免費的開源，基於 Web 的原始文本註釋工具。
-- [brat](https://brat.nlplab.org/) - brat 快速註解工具是一個用於協作文本註釋的在線環境。
-- [tagtog](https://www.tagtog.net/), 需花 $。
-- [prodigy](https://prodi.gy/) 是一個由主動學習驅動的註釋工具，需花 $。
-- [LightTag](https://lighttag.io) - 為團隊提供託管和管理的文本註釋工具，需花 $。
+## 標註工具
 
-## 技術
+### 開源
 
-### 文本嵌入
+- [Label Studio](https://labelstud.io/)
+- [Argilla](https://github.com/argilla-io/argilla)
+- [doccano](https://github.com/doccano/doccano)
+- [brat](https://brat.nlplab.org/)
+- [INCEpTION](https://inception-project.github.io/)
+- [FLAT](https://github.com/proycon/flat)
+- [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend)
+- [GATE](https://gate.ac.uk/overview.html)
+- [Anafora](https://github.com/weitechen/anafora)
+- [rstWeb](https://corpling.uis.georgetown.edu/rstweb/info/)
+- [GitDox](https://corpling.uis.georgetown.edu/gitdox/)
+- [Annotation Lab](https://www.johnsnowlabs.com/annotation-lab/)
 
-[返回頂部](#內容)
+### 商業
 
-文本嵌入允許深度學習在較小的數據集上有效。這些通常是深入學習的第一步輸入和自然語言處理中最流行的遷移學習方式。嵌入只是簡單的向量，比實際值的字符串表示更為通用的方式。Word嵌入被認為是大多數深度NLP任務的一個很好的起點。
+- [Prodigy](https://prodi.gy/) - 主動學習驅動。
+- [LightTag](https://lighttag.io/)
+- [Scale AI](https://scale.com/)
+- [UBIAI](https://ubiai.tools/)
+- [tagtog](https://www.tagtog.net/)
+- [Datasaur](https://datasaur.ai/)
+- [Konfuzio](https://konfuzio.com/en/)
 
-單詞嵌入中最流行的名字是 Google（Mikolov）的 word2vec 和史丹佛的 PenVe（Pennington，Socher 和Manning）。fastText 似乎是一種非常流行的多語言子詞嵌入。
-
-#### 詞嵌入
-
-[返回頂部](#內容)
-
-|嵌入 |論文| 組織| gensim - 培訓支援 |部落格|
-|---|---|---|---|---|
-|word2vec|[官方實作](https://code.google.com/archive/p/word2vec/), T.Mikolove et al. 2013. 分散式詞語表達及其組合性。[pdf](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) |Google|是 :heavy_check_mark:|  colah 在[深度學習，自然語言處理和陳述](http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)中的視覺會解釋; gensim 的[理解 word2vec](https://rare-technologies.com/making-sense-of-word2vec) |
-|GloVe|Jeffrey Pennington, Richard Socher 與 Christopher D. Manning. 2014. GloVe: 全局向量的字詞表示 [pdf](https://nlp.stanford.edu/pubs/glove.pdf)|史丹佛|否 :negative_squared_cross_mark:|acoyler 的 [GloVe 早報](https://blog.acolyer.org/2016/04/22/glove-global-vectors-for-word-representation/) |
-|fastText|[官方實作](https://github.com/facebookresearch/fastText), T. Mikolov et al. 2017. 使用子詞資訊豐富單詞向量。 [pdf](https://arxiv.org/abs/1607.04606)|Facebook|是 :heavy_check_mark:|[Fasttext: 深入解析](https://towardsdatascience.com/fasttext-under-the-hood-11efc57b2b3)|
-
-給初學者的筆記:
-
-- 經驗法則: **fastText >> GloVe > word2vec**
-- 你可以找到許多語言[預訓練 fasttext 向量](https://fasttext.cc/docs/en/pretrained-vectors.html)。
-- 如果你對 word2vec 和 GloVe 背後的邏輯和直覺感興趣: [詞向量的驚人力量](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/)並很好地介紹這些主題。
-- [arXiv: 高效文本分類的錦囊妙方](https://arxiv.org/abs/1607.01759), 與 [arXiv: FastText.zip: 壓縮文本分類模型](https://arxiv.org/abs/1612.03651) 作為 fasttext 的一部分發布。
-
-
-#### 基於句子和語言模型的詞嵌入
-
-[返回頂部](#內容)
-
-- _ElMo_ 從[深度情境詞表示](https://arxiv.org/abs/1802.05365) - [PyTorch 實作](https://github.com/allenai/allennlp/blob/master/tutorials/how_to/elmo.md) - [TF 實作](https://github.com/allenai/bilm-tf)
-- _ULimFit_ Jeremy Howard 與 Sebastian Ruder 的[通用語言模型進行文本分類微調](https://arxiv.org/abs/1801.06146)
-- _InferSent_ facebook 的 [自然語言推論資料的通用語句表示監督是學習](https://arxiv.org/abs/1705.02364)
-- _CoVe_ from [在翻譯中學習: 情境詞相量](https://arxiv.org/abs/1708.00107)
-- _來自[文件與句子的分散式表達](https://cs.stanford.edu/~quocle/paragraph_vector.pdf). 參閱 [gensim 的 doc2vec 教學](https://rare-technologies.com/doc2vec-tutorial/)
-- [sense2vec](https://arxiv.org/abs/1511.06388) - 關於詞義消歧。
-- [跳過思考象量](https://arxiv.org/abs/1506.06726) - 單詞表示方法。
-- [自適應 skip-gram](https://arxiv.org/abs/1502.07257) - 類似的方法，具有自適應屬性。
-- [序列到序列學習](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) - 機器翻譯的詞向量。
-
-### 回答問題與知識提取
-
-[返回頂部](#內容)
-
-- Facebook 透過維基百科 [DrQA: 打開領域為題解答](https://github.com/facebookresearch/DrQA) 
-- DocQA: AllenAI 的[簡單而有效的多段閱讀理解](https://github.com/allenai/document-qa)
-- [用於自然語言問答的馬爾可夫邏輯網絡](https://arxiv.org/pdf/1507.03045v1.pdf)
-- [基於模板的資訊提取沒有用到模板](https://www.usna.edu/Users/cs/nchamber/pubs/acl2011-chambers-templates.pdf)
-- [矩陣分解與通用模式的關係提取](https://www.anthology.aclweb.org/N/N13/N13-1008.pdf)
-- [Privee：自動分析Web隱私策略的體系結構](https://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf)
-- [教學機器閱讀和理解](https://arxiv.org/abs/1506.03340) - DeepMind paper
-- [走向形式分佈語義：用張量模擬邏輯演算](https://www.aclweb.org/anthology/S13-1001)
-- [MLN 教學的演示投影片](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/mln-summary-20150918.ppt)
-- [MLNs 的 QA 應用演示投影片](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/Markov%20Logic%20Networks%20for%20Natural%20Language%20Question%20Answering.pdf)
-- [演示投影片](https://github.com/clulab/nlp-reading-group/blob/master/fall-2015-resources/poon-paper.pdf)
+---
 
 ## 資料集
 
-[返回頂部](#內容)
+### 資料庫
 
-- [nlp-datasets](https://github.com/niderhoff/nlp-datasets) 很好的自然語言資料集集合
+- [Hugging Face Datasets](https://huggingface.co/datasets)
+- [Papers With Code Datasets](https://paperswithcode.com/datasets)
+- [nlp-datasets](https://github.com/niderhoff/nlp-datasets)
+- [gensim-data](https://github.com/RaRe-Technologies/gensim-data)
+- [tiny_qa_benchmark_pp](https://github.com/vincentkoc/tiny_qa_benchmark_pp/)
 
-## 多語言自然語言處理框架
+### 預訓練
 
-[返回頂部](#內容)
+- [Common Crawl](https://commoncrawl.org/) · [The Pile](https://pile.eleuther.ai/) · [RedPajama](https://github.com/togethercomputer/RedPajama-Data) · [Dolma](https://github.com/allenai/dolma) · [FineWeb](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
+- [The Stack](https://huggingface.co/datasets/bigcode/the-stack)（程式碼）
 
-- [UDPipe](https://github.com/ufal/udpipe) 是一個可訓練的管道，用於標記，標記，解釋和解析通用樹庫和其他 CoNLL-U 文件。主要用 C++ 編寫，為多語言NLP處理提供快速可靠的解決方案。
-- [NLP-Cube](https://github.com/adobe/NLP-Cube) : 自然語言處理流水線 - 句子分裂，標記化，詞形還原，詞性標註和依賴性分析。用 Dynet 2.0 用 Python 編寫的新平台。提供獨立（CLI / Python 綁定）和服務器功能（REST API）。
+### 指令微調
 
-## 自然語言處理-韓文
+- [FLAN Collection](https://github.com/google-research/FLAN) · [Natural Instructions](https://github.com/allenai/natural-instructions) · [P3](https://huggingface.co/datasets/bigscience/P3)
+- [ShareGPT](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered) · [OpenAssistant](https://huggingface.co/datasets/OpenAssistant/oasst1) · [Dolly](https://huggingface.co/datasets/databricks/databricks-dolly-15k)
+- [Alpaca](https://github.com/tatsu-lab/stanford_alpaca) · [WizardLM](https://github.com/nlpxucan/WizardLM) · [Orca](https://arxiv.org/abs/2306.02707)
 
-[返回頂部](#內容)
+### 任務專用
 
-### 函式庫
+- **問答:** [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) · [Natural Questions](https://ai.google.com/research/NaturalQuestions) · [TriviaQA](https://nlp.cs.washington.edu/triviaqa/) · [HotpotQA](https://hotpotqa.github.io/)
+- **摘要:** [CNN/DailyMail](https://huggingface.co/datasets/cnn_dailymail) · [XSum](https://huggingface.co/datasets/xsum)
+- **自然語言推理:** [SNLI](https://nlp.stanford.edu/projects/snli/) · [MultiNLI](https://cims.nyu.edu/~sbowman/multinli/) · [ANLI](https://github.com/facebookresearch/anli)
+- **命名實體識別:** [CoNLL-2003](https://huggingface.co/datasets/conll2003) · [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19) · [WikiANN](https://huggingface.co/datasets/wikiann)
+- **翻譯:** [WMT](https://www.statmt.org/wmt24/) · [OPUS](https://opus.nlpl.eu/) · [FLORES](https://github.com/facebookresearch/flores)
 
-- [KoNLPy](http://konlpy.org) - 用於韓語自然語言處理的Python包。
-- [Mecab (Korean)](https://eunjeon.blogspot.com/) - 韓文的自然語言處理 C++ 函式庫
-- [KoalaNLP](https://koalanlp.github.io/koalanlp/) - 韓國自然語言處理的 Scala 函式庫。
-- [KoNLP](https://cran.r-project.org/package=KoNLP) - 韓文的自然語言處理 R 包。
+### 偏好
 
-### 部落格與教學
+- [HH-RLHF](https://huggingface.co/datasets/Anthropic/hh-rlhf) · [SHP](https://huggingface.co/datasets/stanfordnlp/SHP) · [UltraFeedback](https://huggingface.co/datasets/openbmb/UltraFeedback)
 
-- [dsindex 的部落格](https://dsindex.github.io/)
-- [韓國江原大學的自然語言處理課程](http://cs.kangwon.ac.kr/~leeck/NLP/)
+---
 
-### 資料集
+## 多語言 NLP
 
-- [KAIST 語料庫](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) - 韓國高等科學技術研究所的語料庫。
-- [韓國 Naver 情感電影語料庫](https://github.com/e9t/nsmc/)
-- [朝鮮日報檔案館](http://srchdb1.chosun.com/pdf/i_archive/) - 來自韓國主要報紙之一的朝鮮日報的韓文數據集。
+### 多語言模型
 
-## 自然語言處理-阿拉伯語
+- [mBERT](https://github.com/google-research/bert/blob/master/multilingual.md)（104 語言）
+- [XLM-R](https://huggingface.co/xlm-roberta-base)（100 語言）
+- [mT5](https://huggingface.co/google/mt5-base)（101 語言）
+- [BLOOM](https://huggingface.co/bigscience/bloom)（46 語言）
+- [Aya](https://huggingface.co/CohereForAI/aya-101)（101 語言）
 
-[返回頂部](#內容)
+### 翻譯
 
-### 函式庫
+- [NLLB](https://github.com/facebookresearch/fairseq/tree/nllb)（200 語言）
+- [SeamlessM4T](https://github.com/facebookresearch/seamless_communication)
 
-- [goarabic](https://github.com/01walid/goarabic) - Go包用於阿拉伯語文本處理。
-- [jsastem](https://github.com/ejtaal/jsastem) - 用於阿拉伯詞幹的Javascript。
-- [PyArabic](https://pypi.org/project/PyArabic/) - 阿拉伯語的 Python 函式庫。
+### 多語言框架
 
-### 資料集
+- [UDPipe](https://github.com/ufal/udpipe) - Universal Treebanks 的可訓練管線。
+- [NLP-Cube](https://github.com/adobe/NLP-Cube) - 句子分割、分詞、詞性標註、解析。
+- [UralicNLP](https://github.com/mikahama/uralicNLP) - 烏拉爾語和其他語言。
+- [Stanza](https://stanfordnlp.github.io/stanza/)
 
-- [多域數據集](https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces) - 阿拉伯語情感分析的最大可用多域資源。
-- [LABR](https://github.com/mohamedadaly/labr) - LArge阿拉伯書籍評論數據集。
-- [Arabic 停用詞](https://github.com/mohataher/arabic-stop-words) - 來自各種資源的阿拉伯語停用詞列表。
+---
 
-## 自然語言處理-中文
+<details>
+<summary><strong>特定語言資源</strong></summary>
 
-[返回頂部](#內容)
+### 中文
+**函式庫:** [jieba](https://github.com/fxsjy/jieba)、[SnowNLP](https://github.com/isnowfy/snownlp)、[HanLP](https://github.com/hankcs/HanLP)、[FudanNLP](https://github.com/FudanNLP/fnlp)
+**模型:** [Qwen](https://github.com/QwenLM/Qwen)、[Yi](https://github.com/01-ai/Yi)、[ChatGLM](https://github.com/THUDM/ChatGLM-6B)、[Baichuan](https://github.com/baichuan-inc/Baichuan-7B)
+**資源:** [funNLP](https://github.com/fighting41love/funNLP)
 
-### 函式庫
+### 日文
+**函式庫:** [MeCab](https://taku910.github.io/mecab/)、[SudachiPy](https://github.com/WorksApplications/SudachiPy)、[fugashi](https://github.com/polm/fugashi)
+**資源:** [awesome-japanese-nlp](https://github.com/taishi-i/awesome-japanese-nlp-resources)
 
-- [jieba](https://github.com/fxsjy/jieba#jieba-1) - 中文詞彙分割實用程序的 Python 包。
-- [SnowNLP](https://github.com/isnowfy/snownlp) - 中文自然語言處理 Python 包。
-- [FudanNLP](https://github.com/FudanNLP/fnlp) - 用於中文文本處理的 Java 函式庫。
+### 韓文
+**函式庫:** [KoNLPy](http://konlpy.org)、[Mecab-ko](https://eunjeon.blogspot.com/)、[KoalaNLP](https://koalanlp.github.io/koalanlp/)、[KoNLP](https://cran.r-project.org/package=KoNLP)
+**模型:** [KoBERT](https://github.com/SKTBrain/KoBERT)、[KoGPT](https://github.com/kakaobrain/kogpt)、[KULLM](https://github.com/nlpai-lab/KULLM)
+**資料集:** [KAIST Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)、[NSMC](https://github.com/e9t/nsmc/)、[KorQuAD](https://korquad.github.io/)、[Korean Parallel Corpora](https://github.com/j-min/korean-parallel-corpora)
+**教學:** [dsindex's blog](https://dsindex.github.io/)、[Kangwon NLP course](http://cs.kangwon.ac.kr/~leeck/NLP/)
 
-## 自然語言處理-德文
+### 阿拉伯語
+**函式庫:** [goarabic](https://github.com/01walid/goarabic)、[jsastem](https://github.com/ejtaal/jsastem)、[PyArabic](https://pypi.org/project/PyArabic/)、[CAMeL Tools](https://github.com/CAMeL-Lab/camel_tools)、[RFTokenizer](https://github.com/amir-zeldes/RFTokenizer)
+**模型:** [AraBERT](https://github.com/aub-mind/arabert)、[Jais](https://huggingface.co/inception-mbzuai/jais-13b)
+**資料集:** [LABR](https://github.com/mohamedadaly/labr)、[Arabic Stopwords](https://github.com/mohataher/arabic-stop-words)、[Multidomain Sentiment](https://github.com/hadyelsahar/large-arabic-sentiment-analysis-resouces)
 
-[返回頂部](#內容)
+### 印度語系
+**函式庫:** [iNLTK](https://github.com/goru001/inltk)、[Indic NLP Library](https://github.com/anoopkunchukuttan/indic_nlp_library)、[Multi-Task DMA](https://github.com/Saurav0074/mt-dma)
+**模型:** [IndicBERT](https://huggingface.co/ai4bharat/indic-bert)、[MuRIL](https://huggingface.co/google/muril-base-cased)、[Hindi2Vec](https://nirantk.com/hindi2vec/)、[Sanskrit Albert](https://huggingface.co/surajp/albert-base-sanskrit)
+**資料集:** [Hindi Dependency Treebank](https://ltrc.iiit.ac.in/treebank_H2014/)、[BBC News Hindi](https://github.com/NirantK/hindi2vec/releases/tag/bbc-hindi-v0.1)、[IIT Patna ABSA](https://github.com/pnisarg/ABSA)
+**資源:** [AI4Bharat](https://ai4bharat.org/)
 
-- [德文-自然語言處理](https://github.com/adbar/German-NLP) - 開發的開放式訪問/開源/現成資源和工具列表，特別關注德語。
- 
-## 自然語言處理-西班牙語
+### 泰語
+**函式庫:** [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp)、[CutKum](https://github.com/pucktada/cutkum)、[SynThai](https://github.com/KenjiroAI/SynThai)、[JTCC](https://github.com/wittawatj/jtcc)
+**模型:** [WangchanBERTa](https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased)
+**資料:** [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm)
 
-[返回頂部](#內容)
+### 越南語
+**函式庫:** [Underthesea](https://github.com/undertheseanlp/underthesea)、[VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP)、[vn.vitk](https://github.com/phuonglh/vn.vitk)、[pyvi](https://github.com/trungtv/pyvi)
+**模型:** [PhoBERT](https://github.com/VinAIResearch/PhoBERT)
+**資料集:** [Vietnamese treebank](https://vlsp.hpda.vn/demo/?page=resources&lang=en)、[BKTreeBank](https://arxiv.org/pdf/1710.05519.pdf)、[VIVOS](https://ailab.hcmus.edu.vn/vivos/)、[ViText2SQL](https://github.com/VinAIResearch/ViText2SQL)、[EVB Corpus](https://github.com/qhungngo/EVBCorpus)
 
-### 資料
+### 波斯語
+**函式庫:** [Hazm](https://github.com/roshan-research/hazm)、[Parsivar](https://github.com/ICTRC/Parsivar)、[Perke](https://github.com/AlirezaTheH/perke)、[Perstem](https://github.com/jonsafari/perstem)、[virastar](https://github.com/aziz/virastar)
+**模型:** [ParsBERT](https://huggingface.co/HooshvareLab/bert-fa-base-uncased)
+**資料集:** [Bijankhan Corpus](https://dbrg.ut.ac.ir/بیژن%E2%80%8Cخان/)、[Uppsala Persian Corpus](https://sites.google.com/site/mojganserajicom/home/upc)、[LSCP](https://iasbs.ac.ir/~ansari/lscp/)、[ArmanPersoNERCorpus](https://github.com/HaniehP/PersianNER)、[PERLEX](http://farsbase.net/PERLEX.html)
 
-- [哥倫比亞政治演說](https://github.com/dav009/LatinamericanTextResources)
-- [哥本哈根樹庫](https://mbkromann.github.io/copenhagen-dependency-treebank/)
-- [西班牙語十億字語料庫與 Word2Vec 嵌入](https://github.com/crscardellino/sbwce)
+### 印尼語
+**函式庫:** [bahasa](https://github.com/kangfend/bahasa)、[Indonesian Word Embedding](https://github.com/galuhsahid/indonesian-word-embedding)
+**模型:** [IndoBERT](https://github.com/indobenchmark/indonlu)
+**資料集:** [IndoSum](https://github.com/kata-ai/indosum)、[Wordnet-Bahasa](http://wn-msa.sourceforge.net/)、[IndoNLU](https://github.com/indobenchmark/indonlu)
 
-## 自然語言處理-印度語
+### 荷蘭語
+**函式庫:** [python-frog](https://github.com/proycon/python-frog)、[Alpino](https://github.com/rug-compling/alpino)、[SimpleNLG_NL](https://github.com/rfdj/SimpleNLG-NL)、[Kaldi NL](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL)
+**模型:** [BERTje](https://github.com/wietsedv/bertje)、[RobBERT](https://github.com/iPieter/RobBERT)、[spaCy Dutch](https://spacy.io/models/nl)
 
-[返回頂部](#內容)
+### 西班牙語
+**函式庫:** [spanlp](https://github.com/jfreddypuentes/spanlp)
+**模型:** [BETO](https://github.com/dccuchile/beto)
+**嵌入:** [Spanish Word Embeddings](https://github.com/dccuchile/spanish-word-embeddings)、[Spanish fastText](https://github.com/BotCenter/spanishWordEmbeddings)、[Spanish sent2vec](https://github.com/BotCenter/spanishSent2Vec)
+**資料集:** [Columbian Political Speeches](https://github.com/dav009/LatinamericanTextResources)、[Copenhagen Treebank](https://mbkromann.github.io/copenhagen-dependency-treebank/)、[Spanish Billion Words](https://github.com/crscardellino/sbwce)
 
-### 印地語
+### 德語
+- [German-NLP](https://github.com/adbar/German-NLP)
 
-### 資料, 文集與樹庫
+### 俄語
+- [Natasha](https://github.com/natasha/natasha)、[pymorphy2](https://github.com/kmike/pymorphy2)、[DeepPavlov](https://github.com/deeppavlov/DeepPavlov)
 
-- [印地語依賴樹庫](https://ltrc.iiit.ac.in/treebank_H2014/) - 印地語和烏爾都語的多代表性多層樹庫。
-- [在印地語的普遍依賴性樹庫](https://universaldependencies.org/treebanks/hi_hdtb/index.html)
-  - [並行通用依賴樹庫印地語](http://universaldependencies.org/treebanks/hi_pud/index.html) - 上述樹庫的一小部分。
+### 波蘭語
+- [Polish-NLP](https://github.com/ksopyla/awesome-nlp-polish)
 
-## 自然語言處理-泰語
+### 葡萄牙語
+- [Portuguese-NLP](https://github.com/ajdavidl/Portuguese-NLP)
 
-[返回頂部](#內容)
+### 烏克蘭語
+- [awesome-ukrainian-nlp](https://github.com/asivokon/awesome-ukrainian-nlp)
+- [UkrainianLT](https://github.com/Helsinki-NLP/UkrainianLT)
 
-### 函式庫
+### 匈牙利語
+- [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp)
 
-- [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp) - Python 包中的泰語自然語言處理。
-- [JTCC](https://github.com/wittawatj/jtcc) - Java 中的字符集群庫。
-- [CutKum](https://github.com/pucktada/cutkum) - 在 TensorFlow 中使用深度學習進行分詞。
-- [泰語工具包](https://pypi.python.org/pypi/tltk/) - 基於 Wirote Aroonmanakun 於2002年撰寫的一篇論文，其中包括數據集。
-- [SynThai](https://github.com/KenjiroAI/SynThai) - 在 Python 中使用深度學習進行分詞和 POS 標記。
+### 丹麥語
+- [DaNLP](https://github.com/alexandrainst/danlp)、[daner](https://github.com/ITUnlp/daner)、[awesome-danish](https://github.com/fnielsen/awesome-danish)
 
-### 資料
+### 烏爾都語
+- [Urduhack](https://github.com/urduhack/urduhack)、[Urdu datasets](https://github.com/mirfan899/Urdu)
 
-- [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm) - 具有500萬個單詞分詞的文本語料庫。
-- [Prime Minister 29](https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029) - 數據集包含現任泰國總理的演講。
+### 希伯來語
+- [NLPH_Resources](https://github.com/NLPH/NLPH_Resources)
 
+### 古典語言
+- [CLTK](https://github.com/cltk/cltk) - 古典語言工具包。
 
-## 自然語言處理-丹麥語 
+### 亞洲語言（泰語、老撾語、中文、日文、韓文）
+- ElasticSearch 中的 [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html)。
 
-[返回頂部](#內容)
+</details>
 
-- [丹麥的命名實體識別](https://github.com/ITUnlp/daner)
+---
 
-## 自然語言處理-越南語
+## 領域專用 NLP
 
-[返回頂部](#內容)
+### 生物醫學
+- [PubMedBERT](https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract)、[BioBERT](https://github.com/dmis-lab/biobert)、[BioGPT](https://github.com/microsoft/BioGPT)、[ClinicalBERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT)
+- [scispaCy](https://allenai.github.io/scispacy/)、[MedCAT](https://github.com/CogStack/MedCAT)
 
-### 函式庫
+### 法律
+- [LegalBERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased)、[Saul-7B](https://huggingface.co/Equall/Saul-7B-Base)
 
-- [underthesea](https://github.com/undertheseanlp/underthesea) - 越南自然語言處理工具包。
-- [vn.vitk](https://github.com/phuonglh/vn.vitk) - 越南文本處理工具包。
-- [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) - 越南自然語言處理工具包。
+### 金融
+- [FinBERT](https://github.com/ProsusAI/finBERT)、[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
 
-### 資料
+### 科學
+- [SciBERT](https://github.com/allenai/scibert)、[Galactica](https://huggingface.co/facebook/galactica-6.7b)
+- [Semantic Scholar API](https://www.semanticscholar.org/product/api)
 
-- [越南樹庫](https://vlsp.hpda.vn/demo/?page=resources&lang=en) - 選區解析任務的10,000個句子。
-- [BKTreeBank](https://arxiv.org/pdf/1710.05519.pdf) -  越南依賴樹庫。
-- [UD_Vietnamese](https://github.com/UniversalDependencies/UD_Vietnamese-VTB) - 越南通用依賴樹庫。
-- [VIVOS](https://ailab.hcmus.edu.vn/vivos/) - 一個免費的越南語言語料庫，由 AILab 的15小時錄音講話組成。
-- [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 新聞中的175萬句話。
+### 程式碼
+- [CodeBERT](https://github.com/microsoft/CodeBERT)、[CodeT5](https://github.com/salesforce/CodeT5)、[StarCoder](https://github.com/bigcode-project/starcoder)
 
-## 自然語言處理-印度尼西亞
+---
 
-[返回頂部](#內容)
+## 重要論文
 
-### 資料集
-- [ILPS](http://ilps.science.uva.nl/resources/bahasa/) 的Kompas 和 Tempo 系列。
-- [用於PoS標記的PANL10N](http://www.panl10n.net/english/outputs/Indonesia/UI/0802/UI-1M-tagged.zip): 39K句子和900K字標記。
-- [用於PoS標記的IDN](https://github.com/famrashel/idn-tagged-corpus): 該語料庫包含10K個句子和250K個單詞標記。
-- [印度尼西亞樹庫](https://github.com/famrashel/idn-treebank)和 [普遍依賴 - 印度尼西亞語](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
-- [IndoSum](https://github.com/kata-ai/indosum) 用於文本摘要和分類。
-- [Wordnet-Bahasa](http://wn-msa.sourceforge.net/) - 大型，免費的語義詞典。
+**經典 NLP（1990s-2000s）**
+- [A Maximum Entropy Approach to NLP](https://aclanthology.org/J96-1002/)（1996）
+- [BLEU Score](https://aclanthology.org/P02-1040/)（2002）
+- [Conditional Random Fields](https://repository.upenn.edu/cis_papers/159/)（2001）
+- [Latent Dirichlet Allocation](https://www.jmlr.org/papers/v3/blei03a.html)（2003）
+- [A Unified Architecture for NLP](https://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf)（2008）
 
-### 函式庫與嵌入
-- 自然語言工具包 [bahasa](https://github.com/kangfend/bahasa)
-- [印尼語嵌入](https://github.com/galuhsahid/indonesian-word-embedding)
-- 預訓練的訓練 [印尼 fastText 文本嵌入](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.id.zip) 的維基百科。
+**神經網路 NLP（2013-2017）**
+- [word2vec](https://arxiv.org/abs/1301.3781)（2013）
+- [GloVe](https://aclanthology.org/D14-1162/)（2014）
+- [Seq2Seq](https://arxiv.org/abs/1409.3215)（2014）
+- [Attention](https://arxiv.org/abs/1409.0473)（2015）
+- [ELMo](https://arxiv.org/abs/1802.05365)（2018）
+- [ULMFiT](https://arxiv.org/abs/1801.06146)（2018）
 
-## 其他語言 
+**Transformer 時代（2017-2021）**
+- [Transformer](https://arxiv.org/abs/1706.03762)（2017）
+- [BERT](https://arxiv.org/abs/1810.04805)（2018）
+- [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)（2019）
+- [T5](https://arxiv.org/abs/1910.10683)（2019）
+- [GPT-3](https://arxiv.org/abs/2005.14165)（2020）
+- [Scaling Laws](https://arxiv.org/abs/2001.08361)（2020）
+- [LoRA](https://arxiv.org/abs/2106.09685)（2021）
 
-[返回頂部](#內容)
+**LLM 時代（2022-2023）**
+- [InstructGPT](https://arxiv.org/abs/2203.02155)（2022）
+- [Chain-of-Thought](https://arxiv.org/abs/2201.11903)（2022）
+- [LLaMA](https://arxiv.org/abs/2302.13971)（2023）
+- [DPO](https://arxiv.org/abs/2305.18290)（2023）
+- [QLoRA](https://arxiv.org/abs/2305.14314)（2023）
 
-- 俄語: [pymorphy2](https://github.com/kmike/pymorphy2) - - 俄語好的詞性標記。
-- 亞洲語言: ElasticSearch 中的泰語，老撾語，中文，日語和韓語 [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) 實現。
-- 古代語言: [CLTK](https://github.com/cltk/cltk): 古典語言工具包是一個 Python 函式庫和用於在古代語言中進行自然語言處理的文本集合。
-- Dutch: [python-frog](https://github.com/proycon/python-frog) - Python 綁定到 Frog，一個荷蘭語的自然語言處理套件。（pos 標記，詞形還原，依賴解析，NER
-- 希伯來語: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - 希伯來語自然語言處理的論文，語料庫和語言資源的集合。
+**2024**
+- [Mixtral of Experts](https://arxiv.org/abs/2401.04088)（2024）
+- [Mamba](https://arxiv.org/abs/2312.00752)（2024）
+- [Llama 3](https://arxiv.org/abs/2407.21783)（2024）
+- [Gemini 1.5](https://arxiv.org/abs/2403.05530)（2024）
+- [Self-RAG](https://arxiv.org/abs/2310.11511)（2024）
+- [Phi-3](https://arxiv.org/abs/2404.14219)（2024）
+
+**2025-2026**
+- [DeepSeek-V3](https://arxiv.org/abs/2412.19437)（2025）
+- [Qwen2.5](https://arxiv.org/abs/2412.15115)（2025）
+- [o1/o3 Reasoning](https://openai.com/index/learning-to-reason-with-llms/)（2025）
+- [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)（2026）
+
+---
+
+## 相關列表
+
+- [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
+- [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+- [awesome-llm](https://github.com/Hannibal046/Awesome-LLM)
+
+---
 
 ## 貢獻
 
-初始策展人和來源的[貢獻](./CREDITS.md)。
+歡迎提交 PR 來新增資源、修復失效連結和更新內容。
+
+---
+
+## 授權
+
+[CC0 1.0 Universal](./LICENSE)
