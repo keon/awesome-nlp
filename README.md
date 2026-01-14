@@ -208,6 +208,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Mecab (Japanese)](https://taku910.github.io/mecab/)
   - [Moses](http://statmt.org/moses/)
   - [StarSpace](https://github.com/facebookresearch/StarSpace) - a library from Facebook for creating embeddings of word-level, paragraph-level, document-level and for text classification
+  - [QSMM](http://qsmm.org) - adaptive probabilistic top-down and bottom-up parsers
 
 - <a id="java">**Java** - Java NLP Libraries</a> | [Back to Top](#contents)
   - [Stanford NLP](https://nlp.stanford.edu/software/index.shtml)
