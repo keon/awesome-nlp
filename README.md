@@ -523,6 +523,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) - A Vietnamese natural language processing toolkit
 - [PhoBERT](https://github.com/VinAIResearch/PhoBERT) - Pre-trained language models for Vietnamese
 - [pyvi](https://github.com/trungtv/pyvi) - Python Vietnamese Core NLP Toolkit
+- [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) - An Advanced On-Device Vietnamese Text-to-Speech System With Instant Voice Cloning.
 
 ### Data
 
