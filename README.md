@@ -102,6 +102,8 @@ Introductions and Guides to NLP
 * [Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit](https://www.nltk.org/book/) - An online and print book introducing NLP concepts using NLTK. The book's authors also wrote the NLTK library.
 * [Train a new language model from scratch](https://huggingface.co/blog/how-to-train) - Hugging Face 🤗
 * [The Super Duper NLP Repo (SDNLPR)](https://notebooks.quantumstat.com/): Collection of Colab notebooks covering a wide array of NLP task implementations.
+* [Advanced NLP with spaCy](https://course.spacy.io/en/) - Free online course covering text processing, large-scale data analysis, processing pipelines, and training neural network models for custom NLP tasks.
+* [Kaggle NLP Learning Guide](https://www.kaggle.com/learn-guide/natural-language-processing) - Beginner-friendly tutorials including getting started guides, deep learning for NLP, and visual explanations of techniques like BERT, GloVe, and TF-IDF.
 
 Blogs and Newsletters
 
@@ -125,6 +127,7 @@ Blogs and Newsletters
 * [Machine Learning University - Accelerated Natural Language Processing](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw) - Lectures go from introduction to NLP and text processing to Recurrent Neural Networks and Transformers.
 Material can be found [here](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp).
 * [Applied Natural Language Processing](https://www.youtube.com/playlist?list=PLH-xYrxjfO2WyR3pOAB006CYMhNt4wTqp)- Lecture series from IIT Madras taking from the basics all the way to autoencoders and everything. The github notebooks for this course are also available [here](https://github.com/Ramaseshanr/anlp)
+* [DeepLearning.AI Natural Language Processing Specialization](https://www.deeplearning.ai/courses/natural-language-processing-specialization/) - 4-course program covering sentiment analysis, word embeddings, RNNs, LSTMs, attention mechanisms, and Transformer models like BERT and T5 for tasks including machine translation and summarization.
 
 
 ### Books
@@ -633,12 +636,17 @@ If you find this repository useful, please consider citing this list:
 ```bibtex
 @misc{awesome-nlp,
     title = {Awesome NLP},
-    author = {Keon Kim},
+    author = {Keon Kim and Krish Chelikavada},
     journal = {GitHub repository},
     url = {https://github.com/keon/awesome-nlp} ,
     year = {2018--},
 }
 ```
+
+### Core Contributors and Maintainers
+
+- [Krish Chelikavada](https://linkedin.com/in/cskc1)
+- [Keon Kim](https://linkedin.com/in/keon)
 
 [Credits](./CREDITS.md) for initial curators and sources
 
