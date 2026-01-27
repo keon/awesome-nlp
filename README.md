@@ -635,11 +635,11 @@ If you find this repository useful, please consider citing this list:
 
 ```bibtex
 @misc{awesome-nlp,
-    title = {Awesome NLP},
-    author = {Keon Kim and Krish Chelikavada},
-    journal = {GitHub repository},
-    url = {https://github.com/keon/awesome-nlp} ,
-    year = {2018--},
+  title  = {Awesome NLP},
+  author = {Kim, Keon and Chelikavada, Krish},
+  year   = {2018},
+  url    = {https://github.com/keon/awesome-nlp},
+  note   = {GitHub repository}
 }
 ```
 
