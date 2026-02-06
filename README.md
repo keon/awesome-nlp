@@ -197,6 +197,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [DL Translate](https://github.com/xhlulu/dl-translate) - A deep learning-based translation library for 50 languages, built on `transformers` and Facebook's mBART Large.
   - [Jury](https://github.com/obss/jury) - Evaluation of NLP model outputs offering various automated metrics.
   - [python-ucto](https://github.com/proycon/python-ucto) - Unicode-aware regular-expression based tokenizer for various languages. Python binding to C++ library, supports [FoLiA format](https://proycon.github.io/folia).
+  - [Pearmut](https://github.com/zouharvi/pearmut) - Human annotation tool for multilingual NLP tasks
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
