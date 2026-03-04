@@ -158,6 +158,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   * [Poplar](https://github.com/synyi/poplar) - A web-based annotation tool for natural language processing (NLP)
   * [NLP.js](https://github.com/axa-group/nlp.js) - An NLP library for building bots
   * [node-question-answering](https://github.com/huggingface/node-question-answering) - Fast and production-ready question answering w/ DistilBERT in Node.js
+  * [TextLens](https://github.com/ckmtools/textlens) - Zero-dependency text analysis toolkit with 8 readability formulas, sentiment analysis, keyword extraction, and summarization
 
 * <a id="python"> **Python** - Python NLP Libraries</a> | [Back to Top](#contents)
   - [sentimental-onix](https://github.com/sloev/sentimental-onix) Sentiment models for spacy using onnx
