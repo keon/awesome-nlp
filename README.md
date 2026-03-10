@@ -360,6 +360,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
 - [gensim-data](https://github.com/RaRe-Technologies/gensim-data) - Data repository for pretrained NLP models and NLP corpora.
 - [tiny_qa_benchmark_pp](https://github.com/vincentkoc/tiny_qa_benchmark_pp/) - Repository of tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.
+- [AI Displacement Tracker](https://github.com/noahaust2/ai-displacement-tracker) - Structured dataset of 121 AI-attributed workforce displacement events across 15 countries (496,000+ workers). Firm-level data on how NLP/AI adoption affects employment.
 
 ## Multilingual NLP Frameworks
 
