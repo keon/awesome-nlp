@@ -356,6 +356,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [nlp-datasets](https://github.com/niderhoff/nlp-datasets) great collection of nlp datasets
 - [gensim-data](https://github.com/RaRe-Technologies/gensim-data) - Data repository for pretrained NLP models and NLP corpora.
 - [tiny_qa_benchmark_pp](https://github.com/vincentkoc/tiny_qa_benchmark_pp/) - Repository of tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.
+- [LLM Benchmark Costco](https://github.com/joe1chief/llm-benchmark-costco) - A searchable database of 378+ LLM evaluation benchmarks across 12 capability dimensions (Agent, Multimodal, Code, Reasoning, Safety, Medical, etc.), with inline PDF reading, Mermaid build flowcharts, and bilingual EN/ZH UI. [Live Demo](https://joe1chief.github.io/llm-benchmark-costco/)
 
 ## Multilingual NLP Frameworks
 
