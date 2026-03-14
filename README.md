@@ -316,6 +316,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
 - [Annotation Lab](https://www.johnsnowlabs.com/annotation-lab/) - Free End-to-End No-Code platform for text annotation and DL model training/tuning. Out-of-the-box support for Named Entity Recognition, Classification, Relation extraction and Assertion Status Spark NLP models. Unlimited support for users, teams, projects, documents. Not FOSS. 
 - [FLAT](https://github.com/proycon/flat) - FLAT is a web-based linguistic annotation environment based around the [FoLiA format](http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. Free and open source.
+- [Potato](https://github.com/davidjurgens/potato) - free, open-source annotation tool with 21+ annotation types (classification, span, coreference, entity linking, agent trace evaluation), built-in quality control (MACE, attention checks), AI-assisted labeling, and 300+ clonable example annotation tasks
 
 
 ## Techniques
