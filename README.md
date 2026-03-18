@@ -74,7 +74,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 * [Language Technologies Institute, Carnegie Mellon University](http://www.cs.cmu.edu/~nasmith/nlp-cl.html) - Notable projects include [Avenue Project](http://www.cs.cmu.edu/~avenue/), a syntax driven machine translation system for endangered languages like Quechua and Aymara and previously, [Noah's Ark](http://www.cs.cmu.edu/~ark/) which created [AQMAR](http://www.cs.cmu.edu/~ark/AQMAR/) to improve NLP tools for Arabic.
 * [NLP research group, Columbia University](http://www1.cs.columbia.edu/nlp/index.cgi) - Responsible for creating BOLT ( interactive error handling for speech translation systems) and an un-named project to characterize laughter in dialogue.
 * [The Center or Language and Speech Processing, John Hopkins University](http://clsp.jhu.edu/) - Recently in the news for developing speech recognition software to create a diagnostic test or Parkinson's Disease, [here](https://www.clsp.jhu.edu/2019/03/27/speech-recognition-software-and-machine-learning-tools-are-being-used-to-create-diagnostic-test-for-parkinsons-disease/#.XNFqrIkzYdU).
-* [Computational Linguistics and Information Processing Group, University of Maryland](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) - Notable contributions include [Human-Computer Cooperation or Word-by-Word Question Answering](http://www.umiacs.umd.edu/~jbg/projects/IIS-1652666) and modeling development of phonetic representations. 
+* [Computational Linguistics and Information Processing Group, University of Maryland](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) - Notable contributions include [Human-Computer Cooperation or Word-by-Word Question Answering](http://www.umiacs.umd.edu/~jbg/projects/IIS-1652666) and modeling development of phonetic representations.
 * [Penn Natural Language Processing, University of Pennsylvania](https://nlp.cis.upenn.edu/)- Famous for creating the [Penn Treebank](https://www.seas.upenn.edu/~pdtb/).
 * [The Stanford Nautral Language Processing Group](https://nlp.stanford.edu/)- One of the top NLP research labs in the world, notable for creating [Stanford CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) and their [coreference resolution system](https://nlp.stanford.edu/software/dcoref.shtml)
 
@@ -124,8 +124,7 @@ Blogs and Newsletters
 * [Neural Networks for NLP](http://phontron.com/class/nn4nlp2017/) - Carnegie Mellon Language Technology Institute there
 * [Deep NLP Course](https://github.com/yandexdataschool/nlp_course) by Yandex Data School, covering important ideas from text embedding to machine translation including sequence modeling, language models and so on.
 * [fast.ai Code-First Intro to Natural Language Processing](https://www.fast.ai/2019/07/08/fastai-nlp/) - This covers a blend of traditional NLP topics (including regex, SVD, naive bayes, tokenization) and recent neural network approaches (including RNNs, seq2seq, GRUs, and the Transformer), as well as addressing urgent ethical issues, such as bias and disinformation. Find the Jupyter Notebooks [here](https://github.com/fastai/course-nlp)
-* [Machine Learning University - Accelerated Natural Language Processing](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw) - Lectures go from introduction to NLP and text processing to Recurrent Neural Networks and Transformers.
-Material can be found [here](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp).
+* [Machine Learning University - Accelerated Natural Language Processing](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuWfAq8Pt6PBYlck4OprHXsw) - Lectures go from introduction to NLP and text processing to Recurrent Neural Networks and Transformers. Material can be found [here](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp).
 * [Applied Natural Language Processing](https://www.youtube.com/playlist?list=PLH-xYrxjfO2WyR3pOAB006CYMhNt4wTqp)- Lecture series from IIT Madras taking from the basics all the way to autoencoders and everything. The github notebooks for this course are also available [here](https://github.com/Ramaseshanr/anlp)
 * [DeepLearning.AI Natural Language Processing Specialization](https://www.deeplearning.ai/courses/natural-language-processing-specialization/) - 4-course program covering sentiment analysis, word embeddings, RNNs, LSTMs, attention mechanisms, and Transformer models like BERT and T5 for tasks including machine translation and summarization.
 
@@ -143,8 +142,8 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 * [Real-World Natural Language Processing](https://www.manning.com/books/real-world-natural-language-processing) - by Masato Hagiwara
 * [Natural Language Processing in Action, Second Edition](https://www.manning.com/books/natural-language-processing-in-action-second-edition) - by Hobson Lane and Maria Dyshel
 * [Transformers in Action](https://www.manning.com/books/transformers-in-action) - by Nicole Koenigstein
-* [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book) - bt Tiago MOnteiro | A free FreeCodeCamp book teaching the math behind AI in plain English from an engineering point of view. It covers linear algebra, calculus, probability & statistics, and optimization theory with analogies, real-life applications, and Python code examples.
-  
+* [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book) - by Tiago Monteiro | A free FreeCodeCamp book teaching the math behind AI in plain English from an engineering point of view. It covers linear algebra, calculus, probability & statistics, and optimization theory with analogies, real-life applications, and Python code examples.
+
 ## Libraries
 
 [Back to Top](#contents)
@@ -186,12 +185,12 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Flair](https://github.com/zalandoresearch/flair) - A very simple framework for state-of-the-art multilingual NLP built on PyTorch. Includes BERT, ELMo and Flair embeddings.
   - [Kashgari](https://github.com/BrikerMan/Kashgari) - Simple, Keras-powered multilingual NLP framework, allows you to build your models in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.
   - [FARM](https://github.com/deepset-ai/FARM) - Fast & easy transfer learning for NLP. Harvesting language models for the industry. Focus on Question Answering.
-  - [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data. Leverages Transformers and the State-of-the-Art of NLP. Supports DPR, Elasticsearch, HuggingFace’s Modelhub, and much more!
+  - [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data. Leverages Transformers and the State-of-the-Art of NLP. Supports DPR, Elasticsearch, HuggingFace's Modelhub, and much more!
   - [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Multi-AI Agents framework with 100+ LLM support via LiteLLM, MCP integration, agentic workflows, and built-in memory for NLP tasks.
   - [Rita DSL](https://github.com/zaibacu/rita-dsl) - a DSL, loosely based on [RUTA on Apache UIMA](https://uima.apache.org/ruta.html). Allows to define language patterns (rule-based NLP) which are then translated into [spaCy](https://spacy.io/), or if you prefer less features and lightweight - regex patterns.
   - [Transformers](https://github.com/huggingface/transformers) - Natural Language Processing for TensorFlow 2.0 and PyTorch.
   - [Tokenizers](https://github.com/huggingface/tokenizers) - Tokenizers optimized for Research and Production.
-  - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch. 
+  - [fairSeq](https://github.com/pytorch/fairseq) Facebook AI Research implementations of SOTA seq2seq models in Pytorch.
   - [corex_topic](https://github.com/gregversteeg/corex_topic) - Hierarchical Topic Modeling with Minimal Domain Knowledge
   - [Sockeye](https://github.com/awslabs/sockeye) - Neural Machine Translation (NMT) toolkit that powers Amazon Translate.
   - [DL Translate](https://github.com/xhlulu/dl-translate) - A deep learning-based translation library for 50 languages, built on `transformers` and Facebook's mBART Large.
@@ -293,6 +292,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Microsoft Cognitive Service](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)
 - [TextRazor](https://www.textrazor.com/)
 - [Rosette](https://www.rosette.com/)
+- [StackedCV](https://github.com/mvonombogho/stackedcv) - LLM-powered resume parser API — extracts structured information (experience, education, skills) from PDF/DOCX using Claude Haiku.
 - [Textalytic](https://www.textalytic.com) - Natural Language Processing in the Browser with sentiment analysis, named entity extraction, POS tagging, word frequencies, topic modeling, word clouds, and more
 - [NLP Cloud](https://nlpcloud.io) - SpaCy NLP models (custom and pre-trained ones) served through a RESTful API for named entity recognition (NER), POS tagging, and more.
 - [Cloudmersive](https://cloudmersive.com/nlp-api) - Unified and free NLP APIs that perform actions such as speech tagging, text rephrasing, language translation/detection, and sentence parsing
@@ -314,7 +314,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Konfuzio](https://konfuzio.com/en/) - team-first hosted and on-prem text, image and PDF annotation tool powered by active learning, freemium based, costs $
 - [UBIAI](https://ubiai.tools/) - Easy-to-use text annotation tool for teams with most comprehensive auto-annotation features. Supports NER, relations and document classification as well as OCR annotation for invoice labeling, costs $
 - [Shoonya](https://github.com/AI4Bharat/Shoonya-Backend) - Shoonya is free and open source data annotation platform with wide varities of organization and workspace level management system. Shoonya is data agnostic, can be used by teams to annotate data with various level of verification stages at scale.
-- [Annotation Lab](https://www.johnsnowlabs.com/annotation-lab/) - Free End-to-End No-Code platform for text annotation and DL model training/tuning. Out-of-the-box support for Named Entity Recognition, Classification, Relation extraction and Assertion Status Spark NLP models. Unlimited support for users, teams, projects, documents. Not FOSS. 
+- [Annotation Lab](https://www.johnsnowlabs.com/annotation-lab/) - Free End-to-End No-Code platform for text annotation and DL model training/tuning. Out-of-the-box support for Named Entity Recognition, Classification, Relation extraction and Assertion Status Spark NLP models. Unlimited support for users, teams, projects, documents. Not FOSS.
 - [FLAT](https://github.com/proycon/flat) - FLAT is a web-based linguistic annotation environment based around the [FoLiA format](http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. Free and open source.
 
 
@@ -549,7 +549,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [SimpleNLG_NL](https://github.com/rfdj/SimpleNLG-NL) - Dutch surface realiser used for Natural Language Generation in Dutch, based on the SimpleNLG implementation for English and French.
 - [Alpino](https://github.com/rug-compling/alpino) - Dependency parser for Dutch (also does PoS tagging and Lemmatisation).
 - [Kaldi NL](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL) - Dutch Speech Recognition models based on [Kaldi](http://kaldi-asr.org/).
-- [spaCy](https://spacy.io/) - [Dutch model](https://spacy.io/models/nl) available. - Industrial strength NLP with Python and Cython. 
+- [spaCy](https://spacy.io/) - [Dutch model](https://spacy.io/models/nl) available. - Industrial strength NLP with Python and Cython.
 
 
 ## NLP in Indonesian
@@ -595,7 +595,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Large-Scale Colloquial Persian](http://hdl.handle.net/11234/1-3195): Large Scale Colloquial Persian Dataset (LSCP) is hierarchically organized in asemantic taxonomy that focuses on multi-task informal Persian language understanding as a comprehensive problem. LSCP includes 120M sentences from 27M casual Persian tweets with its dependency relations in syntactic annotation, Part-of-speech tags, sentiment polarity and automatic translation of original Persian sentences in English (EN), German (DE), Czech (CS), Italian (IT) and Hindi (HI) spoken languages. Learn more about this project at [LSCP webpage](https://iasbs.ac.ir/~ansari/lscp/).
 - [ArmanPersoNERCorpus](https://github.com/HaniehP/PersianNER): The dataset includes 250,015 tokens and 7,682 Persian sentences in total. It is available in 3 folds to be used in turn as training and test sets. Each file contains one token, along with its manually annotated named-entity tag, per line. Each sentence is separated with a newline. The NER tags are in IOB format.
 - [FarsiYar PersianNER](https://github.com/Text-Mining/Persian-NER): The dataset includes about 25,000,000 tokens and about 1,000,000 Persian sentences in total based on [Persian Wikipedia Corpus](https://github.com/Text-Mining/Persian-Wikipedia-Corpus). The NER tags are in IOB format. More than 1000 volunteers contributed tag improvements to this dataset via web panel or android app. They release updated tags every two weeks.
-- [PERLEX](http://farsbase.net/PERLEX.html): The first Persian dataset for relation extraction, which is an expert translated version of the “Semeval-2010-Task-8” dataset. Link to the relevant publication.
+- [PERLEX](http://farsbase.net/PERLEX.html): The first Persian dataset for relation extraction, which is an expert translated version of the "Semeval-2010-Task-8" dataset. Link to the relevant publication.
 - [Persian Syntactic Dependency Treebank](http://dadegan.ir/catalog/perdt): This treebank is supplied for free noncommercial use. For commercial uses feel free to contact us. The number of annotated sentences is 29,982 sentences including samples from almost all verbs of the Persian valency lexicon.
 - [Uppsala Persian Dependency Treebank (UPDT)](http://stp.lingfil.uu.se/~mojgan/UPDT.html): Dependency-based syntactically annotated corpus.
 - [Hamshahri](https://dbrg.ut.ac.ir/hamshahri/): Hamshahri collection is a standard reliable Persian text collection that was used at Cross Language Evaluation Forum (CLEF) during years 2008 and 2009 for evaluation of Persian information retrieval systems.
@@ -643,13 +643,3 @@ If you find this repository useful, please consider citing this list:
   note   = {GitHub repository}
 }
 ```
-
-### Core Contributors and Maintainers
-
-- [Krish Chelikavada](https://linkedin.com/in/cskc1)
-- [Keon Kim](https://linkedin.com/in/keon)
-
-[Credits](./CREDITS.md) for initial curators and sources
-
-## License
-[License](./LICENSE) - CC0
