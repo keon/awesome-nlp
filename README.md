@@ -12,6 +12,7 @@ _Please read the [contribution guidelines](contributing.md) before contributing.
 
 ## Contents
 
+- [DailyVox](https://getdailyvox.com) - iOS app using on-device NLP (Apple NaturalLanguage framework) for sentiment analysis, NER, and text classification of voice journal entries. ([App Store](https://apps.apple.com/app/id6760454642))
 * [Research Summaries and Trends](#research-summaries-and-trends)
 * [Prominent NLP Research Labs](#prominent-nlp-research-labs)
 * [Tutorials](#tutorials)
