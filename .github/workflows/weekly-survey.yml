@@ -1,0 +1,124 @@
+name: Weekly NLP survey refresh
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: Survey topic to refresh
+        required: false
+        default: modern NLP
+        type: string
+      audience:
+        description: Target audience for the survey
+        required: false
+        default: ML engineers, research engineers, and graduate students who know basic deep learning and want a compact, current map of NLP
+        type: string
+      model:
+        description: OpenAI model override
+        required: false
+        default: gpt-5
+        type: string
+      force_pr:
+        description: Open or update a PR even when this run produces no file diff
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: '0 14 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-nlp-survey
+  cancel-in-progress: false
+
+jobs:
+  refresh-survey:
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ inputs.model || vars.OPENAI_MODEL || 'gpt-5' }}
+      SURVEY_TOPIC: ${{ inputs.topic || 'modern NLP' }}
+      SURVEY_AUDIENCE: ${{ inputs.audience || 'ML engineers, research engineers, and graduate students who know basic deep learning and want a compact, current map of NLP' }}
+      FORCE_PR: ${{ inputs.force_pr && 'true' || 'false' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate required secret
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::Missing OPENAI_API_KEY repository secret."
+            exit 1
+          fi
+
+      - name: Refresh survey with hybrid retrieval + revision loop
+        run: |
+          python survey-kit/generate_survey.py \
+            --topic "$SURVEY_TOPIC" \
+            --audience "$SURVEY_AUDIENCE"
+
+      - name: Create or update pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- survey-kit; then
+            if [ "$FORCE_PR" != "true" ]; then
+              echo "No survey changes detected."
+              exit 0
+            fi
+            echo "No survey changes detected, but force_pr=true so continuing with an empty commit."
+          fi
+
+          BRANCH="automation/weekly-nlp-survey"
+          TODAY="$(date -u +%F)"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add survey-kit .github/workflows/weekly-survey.yml
+          printf '%s\n' \
+            'Keep the NLP survey current with a weekly automated refresh' \
+            '' \
+            'Constraint: Weekly content updates should stay reviewable and dependency-light' \
+            'Rejected: Commit directly to main | automated content generation should go through review' \
+            'Confidence: medium' \
+            'Scope-risk: narrow' \
+            'Directive: Keep the generator dependency-free and source-grounded so the action remains easy to audit' \
+            'Tested: Local dry-run of survey generator; workflow YAML reviewed' \
+            'Not-tested: End-to-end GitHub Actions run with live repository secrets' \
+            | if git diff --quiet --cached -- survey-kit .github/workflows/weekly-survey.yml; then
+                git commit --allow-empty -F -
+              else
+                git commit -F -
+              fi
+          git push --force-with-lease origin "$BRANCH"
+
+          PR_NUMBER="$(gh pr list --head "$BRANCH" --base "$DEFAULT_BRANCH" --json number --jq '.[0].number')"
+          PR_TITLE="Weekly NLP survey refresh ($TODAY)"
+          PR_BODY="$(printf '%s\n' \
+            'Automated weekly survey refresh.' \
+            '' \
+            'This run uses a hybrid workflow:' \
+            '- AutoSurvey-style retrieval memo to find current sources and update targets' \
+            '- autoresearch-style small-diff revision of the single survey artifact' \
+            '' \
+            'Files updated when changes are found:' \
+            '- `survey-kit/survey.md`' \
+            '- `survey-kit/results.tsv`')"
+
+          if [ -n "$PR_NUMBER" ]; then
+            gh pr edit "$PR_NUMBER" --title "$PR_TITLE" --body "$PR_BODY"
+          else
+            gh pr create --base "$DEFAULT_BRANCH" --head "$BRANCH" --title "$PR_TITLE" --body "$PR_BODY"
+          fi

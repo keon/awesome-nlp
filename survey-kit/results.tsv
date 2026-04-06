@@ -1,0 +1,3 @@
+iteration	score	status	hypothesis	notes
+baseline	24/30	keep	Draft a compact NLP survey around transfer learning milestones	Baseline covers the main regime changes and cites canonical papers.
+r1	28/30	keep	Reorganize from loose chronology to decision-oriented taxonomy	Improved compression and reader utility by centering the survey on where generalization lives.
