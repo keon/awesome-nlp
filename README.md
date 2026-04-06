@@ -10,6 +10,7 @@ Read this in [English](./README.md), [Traditional Chinese](./README-ZH-TW.md)
 
 _Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls)_
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code multi-agent orchestration. MIT licensed.
 ## Contents
 
 * [Research Summaries and Trends](#research-summaries-and-trends)
