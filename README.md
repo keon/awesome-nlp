@@ -199,7 +199,9 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [python-ucto](https://github.com/proycon/python-ucto) - Unicode-aware regular-expression based tokenizer for various languages. Python binding to C++ library, supports [FoLiA format](https://proycon.github.io/folia).
   - [Pearmut](https://github.com/zouharvi/pearmut) - Human annotation tool for multilingual NLP tasks, such as machine translation.
 
-- <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
+-   - [S₀ Tuning](https://github.com/JackYoung27/s0-tuning) - PEFT for hybrid recurrent-attention LLMs. Optimizes initial recurrent states of GatedDeltaNet and Mamba-2 layers with zero inference overhead. `pip install s0-tuning`
+
+<a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
   - [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
   - [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) for segmenting/labeling sequential data & other Natural Language Processing tasks.
