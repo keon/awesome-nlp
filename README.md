@@ -318,6 +318,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [FLAT](https://github.com/proycon/flat) - FLAT is a web-based linguistic annotation environment based around the [FoLiA format](http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. Free and open source.
 
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=keon_awesome-nlp) - Free social feed for GitHub. Follow developers, discover trending repos, see what your stack is building.
 ## Techniques
 
 ### Text Embeddings
