@@ -296,6 +296,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Textalytic](https://www.textalytic.com) - Natural Language Processing in the Browser with sentiment analysis, named entity extraction, POS tagging, word frequencies, topic modeling, word clouds, and more
 - [NLP Cloud](https://nlpcloud.io) - SpaCy NLP models (custom and pre-trained ones) served through a RESTful API for named entity recognition (NER), POS tagging, and more.
 - [Cloudmersive](https://cloudmersive.com/nlp-api) - Unified and free NLP APIs that perform actions such as speech tagging, text rephrasing, language translation/detection, and sentence parsing
+- [Helium](https://heliumtrades.com/mcp-page/) - Real-time news intelligence with multi-dimensional bias scoring across 15+ dimensions, sentiment analysis across 5,000+ sources, balanced multi-perspective news synthesis, and trending topic detection. Available as [MCP server](https://github.com/connerlambden/helium-mcp) or REST API.
 
 ### Annotation Tools
 
