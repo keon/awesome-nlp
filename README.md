@@ -128,7 +128,7 @@ Blogs and Newsletters
 Material can be found [here](https://github.com/aws-samples/aws-machine-learning-university-accelerated-nlp).
 * [Applied Natural Language Processing](https://www.youtube.com/playlist?list=PLH-xYrxjfO2WyR3pOAB006CYMhNt4wTqp)- Lecture series from IIT Madras taking from the basics all the way to autoencoders and everything. The github notebooks for this course are also available [here](https://github.com/Ramaseshanr/anlp)
 * [DeepLearning.AI Natural Language Processing Specialization](https://www.deeplearning.ai/courses/natural-language-processing-specialization/) - 4-course program covering sentiment analysis, word embeddings, RNNs, LSTMs, attention mechanisms, and Transformer models like BERT and T5 for tasks including machine translation and summarization.
-
+* [NLP Demystified](https://www.nlpdemystified.org/) A beginner-friendly course that introduces basic NLP concepts. 
 
 ### Books
 
