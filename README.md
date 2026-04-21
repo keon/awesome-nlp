@@ -198,6 +198,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Jury](https://github.com/obss/jury) - Evaluation of NLP model outputs offering various automated metrics.
   - [python-ucto](https://github.com/proycon/python-ucto) - Unicode-aware regular-expression based tokenizer for various languages. Python binding to C++ library, supports [FoLiA format](https://proycon.github.io/folia).
   - [Pearmut](https://github.com/zouharvi/pearmut) - Human annotation tool for multilingual NLP tasks, such as machine translation.
+  - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - Semantic validation for LLM outputs using local NLI inference. Validates whether text entails a given intent (~15ms, no API key). Supports intent composition, negation, and self-healing retries.
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
