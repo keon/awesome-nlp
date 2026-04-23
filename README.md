@@ -653,3 +653,4 @@ If you find this repository useful, please consider citing this list:
 
 ## License
 [License](./LICENSE) - CC0
+- [BenchGecko](https://benchgecko.ai) - AI model benchmark tracking and cross-provider pricing comparison. Free API for model data and benchmark scores.
