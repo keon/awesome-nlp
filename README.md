@@ -37,24 +37,25 @@ This list covers natural language processing — linguistic analysis, multilingu
 * [Datasets](#datasets)
 * [Multilingual NLP Frameworks](#multilingual-nlp-frameworks)
 * [Language Models for NLP](#language-models-for-nlp)
-* [NLP in Arabic](#nlp-in-arabic)
-* [NLP in Chinese](#nlp-in-chinese)
-* [NLP in Danish](#nlp-in-danish)
-* [NLP in Dutch](#nlp-in-dutch)
-* [NLP in German](#nlp-in-german)
-* [NLP in Hungarian](#nlp-in-hungarian)
-* [NLP in Indic Languages](#nlp-in-indic-languages)
-* [NLP in Indonesian](#nlp-in-indonesian)
-* [NLP in Korean](#nlp-in-korean)
-* [NLP in Persian](#nlp-in-persian)
-* [NLP in Polish](#nlp-in-polish)
-* [NLP in Portuguese](#nlp-in-portuguese)
-* [NLP in Spanish](#nlp-in-spanish)
-* [NLP in Thai](#nlp-in-thai)
-* [NLP in Ukrainian](#nlp-in-ukrainian)
-* [NLP in Urdu](#nlp-in-urdu)
-* [NLP in Vietnamese](#nlp-in-vietnamese)
-* [Other Languages](#other-languages)
+* [NLP per Language](#nlp-per-language)
+  * [NLP in Arabic](#nlp-in-arabic)
+  * [NLP in Chinese](#nlp-in-chinese)
+  * [NLP in Danish](#nlp-in-danish)
+  * [NLP in Dutch](#nlp-in-dutch)
+  * [NLP in German](#nlp-in-german)
+  * [NLP in Hungarian](#nlp-in-hungarian)
+  * [NLP in Indic Languages](#nlp-in-indic-languages)
+  * [NLP in Indonesian](#nlp-in-indonesian)
+  * [NLP in Korean](#nlp-in-korean)
+  * [NLP in Persian](#nlp-in-persian)
+  * [NLP in Polish](#nlp-in-polish)
+  * [NLP in Portuguese](#nlp-in-portuguese)
+  * [NLP in Spanish](#nlp-in-spanish)
+  * [NLP in Thai](#nlp-in-thai)
+  * [NLP in Ukrainian](#nlp-in-ukrainian)
+  * [NLP in Urdu](#nlp-in-urdu)
+  * [NLP in Vietnamese](#nlp-in-vietnamese)
+  * [Other Languages](#other-languages)
 * [See Also](#see-also)
 * [Citation](#citation)
 
@@ -816,10 +817,16 @@ Parameter-efficient fine-tuning:
 - [IndicSafe](https://arxiv.org/abs/2603.17915) (2026) - multilingual safety benchmark across 12 Indic languages; reveals 12.8% cross-language agreement, with over-refusal in low-resource scripts.
 - [VLAF: Value-Conflict Alignment Faking](https://arxiv.org/abs/2604.20995) (2026) - alignment faking occurs in models as small as 7B in 37% of cases when policy conflicts with internalized values; steering-vector mitigation reduces it 94%.
 
+## NLP per Language
+
+[Back to Top](#contents)
+
+Resources organized by human language. Click a section to expand.
+
 <details>
 <summary>
 
-## NLP in Arabic
+### NLP in Arabic
 
 </summary>
 
@@ -854,7 +861,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Chinese
+### NLP in Chinese
 
 </summary>
 
@@ -887,7 +894,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Danish
+### NLP in Danish
 
 </summary>
 
@@ -902,7 +909,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Dutch
+### NLP in Dutch
 
 </summary>
 
@@ -919,7 +926,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in German
+### NLP in German
 
 </summary>
 
@@ -932,7 +939,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Hungarian
+### NLP in Hungarian
 
 </summary>
 
@@ -945,7 +952,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Indic Languages
+### NLP in Indic Languages
 
 </summary>
 
@@ -1002,7 +1009,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Indonesian
+### NLP in Indonesian
 
 </summary>
 
@@ -1036,7 +1043,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Korean
+### NLP in Korean
 
 </summary>
 
@@ -1079,7 +1086,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Persian
+### NLP in Persian
 
 </summary>
 
@@ -1117,7 +1124,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Polish
+### NLP in Polish
 
 </summary>
 
@@ -1130,7 +1137,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Portuguese
+### NLP in Portuguese
 
 </summary>
 
@@ -1149,7 +1156,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Spanish
+### NLP in Spanish
 
 </summary>
 
@@ -1182,7 +1189,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Thai
+### NLP in Thai
 
 </summary>
 
@@ -1213,7 +1220,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Ukrainian
+### NLP in Ukrainian
 
 </summary>
 
@@ -1227,7 +1234,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Urdu
+### NLP in Urdu
 
 </summary>
 
@@ -1246,7 +1253,7 @@ Parameter-efficient fine-tuning:
 <details>
 <summary>
 
-## NLP in Vietnamese
+### NLP in Vietnamese
 
 </summary>
 
@@ -1280,7 +1287,7 @@ Parameter-efficient fine-tuning:
 
 </details>
 
-## Other Languages
+### Other Languages
 
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
 - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
@@ -1306,16 +1313,12 @@ If you find this repository useful, please consider citing this list:
 ```bibtex
 @misc{awesome-nlp,
   title  = {Awesome NLP},
-  author = {Kim, Keon and Chelikavada, Krish},
+  author = {Kim, Keon},
   year   = {2018},
   url    = {https://github.com/keon/awesome-nlp},
   note   = {GitHub repository}
 }
 ```
-
-### Core Contributors and Maintainers
-
-- [Keon Kim](https://linkedin.com/in/keon)
 
 ## License
 [License](./LICENSE) - CC0
