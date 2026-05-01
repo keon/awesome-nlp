@@ -4,8 +4,6 @@
 
 A curated list of resources dedicated to Natural Language Processing
 
-![Awesome NLP Logo](/images/logo.jpg)
-
 _Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls)_
 
 ## Scope
@@ -59,7 +57,6 @@ This list covers natural language processing — linguistic analysis, multilingu
 * [Other Languages](#other-languages)
 * [See Also](#see-also)
 * [Citation](#citation)
-* [Credits](#credits)
 
 ## Research Summaries and Trends
 
@@ -1319,8 +1316,6 @@ If you find this repository useful, please consider citing this list:
 ### Core Contributors and Maintainers
 
 - [Keon Kim](https://linkedin.com/in/keon)
-
-[Credits](./CREDITS.md) for initial curators and sources
 
 ## License
 [License](./LICENSE) - CC0
