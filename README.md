@@ -819,7 +819,12 @@ Parameter-efficient fine-tuning:
 - [IndicSafe](https://arxiv.org/abs/2603.17915) (2026) - multilingual safety benchmark across 12 Indic languages; reveals 12.8% cross-language agreement, with over-refusal in low-resource scripts.
 - [VLAF: Value-Conflict Alignment Faking](https://arxiv.org/abs/2604.20995) (2026) - alignment faking occurs in models as small as 7B in 37% of cases when policy conflicts with internalized values; steering-vector mitigation reduces it 94%.
 
+<details>
+<summary>
+
 ## NLP in Arabic
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -847,7 +852,14 @@ Parameter-efficient fine-tuning:
 - [Arabic Stopwords](https://github.com/mohataher/arabic-stop-words) - aggregated Arabic stopwords.
 - [ArabicMMLU](https://huggingface.co/datasets/MBZUAI/ArabicMMLU) (2024) - Arabic MMLU benchmark.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Chinese
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -873,7 +885,14 @@ Parameter-efficient fine-tuning:
 
 - [funNLP](https://github.com/fighting41love/funNLP) - large collection of Chinese NLP tools and resources.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Danish
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -881,7 +900,14 @@ Parameter-efficient fine-tuning:
 - [DaNLP](https://github.com/alexandrainst/danlp) - NLP resources in Danish.
 - [Awesome Danish](https://github.com/fnielsen/awesome-danish) - curated list of resources for Danish language technology.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Dutch
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -891,19 +917,40 @@ Parameter-efficient fine-tuning:
 - [Kaldi NL](https://github.com/opensource-spraakherkenning-nl/Kaldi_NL) - Dutch speech-recognition models based on [Kaldi](http://kaldi-asr.org/).
 - [spaCy Dutch model](https://spacy.io/models/nl) - industrial-strength NLP with a Dutch pipeline.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in German
+
+</summary>
 
 [Back to Top](#contents)
 
 - [German-NLP](https://github.com/adbar/German-NLP) - curated list of open-access, open-source, and off-the-shelf resources and tools developed with a focus on German.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Hungarian
+
+</summary>
 
 [Back to Top](#contents)
 
 - [awesome-hungarian-nlp](https://github.com/oroszgy/awesome-hungarian-nlp) - curated list of free resources for Hungarian NLP.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Indic Languages
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -953,7 +1000,14 @@ Parameter-efficient fine-tuning:
 - [Sarvam-1](https://www.sarvam.ai/blogs/sarvam-1) (2024) - multilingual LM trained from scratch on 10 Indic languages.
 - [BharatGPT / Krutrim](https://www.olakrutrim.com/) (2024) - Indic-focused foundation models.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Indonesian
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -980,7 +1034,14 @@ Parameter-efficient fine-tuning:
 - [IndoSum](https://github.com/kata-ai/indosum) - text summarization and classification.
 - [Wordnet-Bahasa](http://wn-msa.sourceforge.net/) - large, free, semantic dictionary.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Korean
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -1016,7 +1077,14 @@ Parameter-efficient fine-tuning:
 - [Korean Parallel corpora](https://github.com/j-min/korean-parallel-corpora) - NMT dataset for Korean to French and Korean to English.
 - [KorQuAD](https://korquad.github.io/) - Korean SQuAD dataset (v1.0 and v2.1) with Wiki HTML source.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Persian
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -1047,13 +1115,27 @@ Parameter-efficient fine-tuning:
 - [Uppsala Persian Dependency Treebank (UPDT)](http://stp.lingfil.uu.se/~mojgan/UPDT.html) - dependency-based syntactically annotated corpus.
 - [Hamshahri](https://dbrg.ut.ac.ir/hamshahri/) - standard reliable Persian text collection used at CLEF 2008-2009.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Polish
+
+</summary>
 
 [Back to Top](#contents)
 
 - [Polish-NLP](https://github.com/ksopyla/awesome-nlp-polish) - curated list of resources dedicated to Polish NLP: models, tools, and datasets.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Portuguese
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -1065,7 +1147,14 @@ Parameter-efficient fine-tuning:
 - [Sabiá](https://huggingface.co/maritaca-ai) (Maritaca AI, 2023-2024) - Portuguese-focused open LMs.
 - [Albertina](https://huggingface.co/PORTULAN) (PORTULAN, 2023-2024) - encoder-only Portuguese LMs for both PT-PT and PT-BR.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Spanish
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -1091,7 +1180,14 @@ Parameter-efficient fine-tuning:
 - [Spanish fastText Embeddings](https://github.com/BotCenter/spanishWordEmbeddings)
 - [Spanish sent2vec Sentence Embeddings](https://github.com/BotCenter/spanishSent2Vec)
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Thai
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -1115,14 +1211,28 @@ Parameter-efficient fine-tuning:
 - [Inter-BEST](https://www.nectec.or.th/corpus/index.php?league=pm) - text corpus with 5M words and word segmentation.
 - [Prime Minister 29](https://github.com/PyThaiNLP/lexicon-thai/tree/master/thai-corpus/Prime%20Minister%2029) - dataset of speeches by the current Prime Minister of Thailand.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Ukrainian
+
+</summary>
 
 [Back to Top](#contents)
 
 - [awesome-ukrainian-nlp](https://github.com/asivokon/awesome-ukrainian-nlp) - curated list of Ukrainian NLP datasets, models, etc.
 - [UkrainianLT](https://github.com/Helsinki-NLP/UkrainianLT) - curated list focused on machine translation and speech processing.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Urdu
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -1134,7 +1244,14 @@ Parameter-efficient fine-tuning:
 
 - [Collection of Urdu datasets](https://github.com/mirfan899/Urdu) - POS, NER, and other NLP tasks.
 
+</details>
+
+<details>
+<summary>
+
 ## NLP in Vietnamese
+
+</summary>
 
 [Back to Top](#contents)
 
@@ -1163,6 +1280,8 @@ Parameter-efficient fine-tuning:
 - [VNTQcorpus(big).txt](http://viet.jnlp.org/download-du-lieu-tu-vung-corpus) - 1.75M news sentences.
 - [ViText2SQL](https://github.com/VinAIResearch/ViText2SQL) - Vietnamese Text-to-SQL semantic parsing dataset (EMNLP-2020 Findings).
 - [EVB Corpus](https://github.com/qhungngo/EVBCorpus) - 20M words across 15 bilingual books, 100 parallel English-Vietnamese texts, 250 parallel law texts, 5K news articles, and 2K film subtitles.
+
+</details>
 
 ## Other Languages
 
