@@ -1318,7 +1318,6 @@ If you find this repository useful, please consider citing this list:
 
 ### Core Contributors and Maintainers
 
-- [Krish Chelikavada](https://linkedin.com/in/cskc1)
 - [Keon Kim](https://linkedin.com/in/keon)
 
 [Credits](./CREDITS.md) for initial curators and sources
