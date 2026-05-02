@@ -33,10 +33,35 @@ This list covers natural language processing — linguistic analysis, multilingu
   * [Julia](#julia)
 * [Services](#services)
 * [Annotation Tools](#annotation-tools)
-* [Techniques](#techniques)
+* [Tasks and Methods](#tasks-and-methods)
+  * [Text Embeddings](#text-embeddings)
+  * [Tokenization, Morphology, and Segmentation](#tokenization-morphology-and-segmentation)
+  * [POS Tagging and Dependency Parsing](#pos-tagging-and-dependency-parsing)
+  * [Named Entity Recognition and Information Extraction](#named-entity-recognition-and-information-extraction)
+  * [Coreference Resolution](#coreference-resolution)
+  * [Text Classification and Sentiment Analysis](#text-classification-and-sentiment-analysis)
+  * [Topic Modeling](#topic-modeling)
+  * [Summarization](#summarization)
+  * [Machine Translation](#machine-translation)
+  * [Question Answering and Reading Comprehension](#question-answering-and-reading-comprehension)
+  * [Information Extraction Beyond NER](#information-extraction-beyond-ner)
+  * [Speech and Text](#speech-and-text)
 * [Datasets](#datasets)
 * [Multilingual NLP Frameworks](#multilingual-nlp-frameworks)
 * [Language Models for NLP](#language-models-for-nlp)
+  * [Pretraining and Adaptation](#pretraining-and-adaptation)
+  * [Multilingual and Cross-Lingual Models](#multilingual-and-cross-lingual-models)
+  * [Evaluation and Benchmarks](#evaluation-and-benchmarks)
+  * [Tokenization](#tokenization)
+  * [Reasoning and Test-Time Compute](#reasoning-and-test-time-compute)
+  * [Long Context and Alternative Architectures](#long-context-and-alternative-architectures)
+  * [Retrieval for NLP](#retrieval-for-nlp)
+  * [Factuality, Hallucination, Calibration](#factuality-hallucination-calibration)
+  * [Probing and Interpretability](#probing-and-interpretability)
+  * [Efficient and Small Language Models](#efficient-and-small-language-models)
+  * [Instruction Tuning and Preference Optimization](#instruction-tuning-and-preference-optimization)
+  * [LLMs Applied to Classical NLP Tasks](#llms-applied-to-classical-nlp-tasks)
+  * [Bias, Fairness, Safety in NLP](#bias-fairness-safety-in-nlp)
 * [NLP per Language](#nlp-per-language)
   * [NLP in Arabic](#nlp-in-arabic)
   * [NLP in Chinese](#nlp-in-chinese)
@@ -335,7 +360,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Label Studio](https://github.com/HumanSignal/label-studio) - open-core multi-modal labeling platform; widely used for NLP labeling.
 
 
-## Techniques
+## Tasks and Methods
 
 NLP tasks organized by linguistic problem. Each subsection lists foundational/classical work first, then neural approaches, then LLM-based methods where relevant. For modern LM-specific research (pretraining, evaluation, retrieval, reasoning, etc.) see [Language Models for NLP](#language-models-for-nlp).
 
@@ -499,7 +524,7 @@ LLM-era:
 - [REBEL](https://github.com/Babelscape/rebel) - end-to-end relation extraction.
 - [DocRED](https://github.com/thunlp/DocRED) - document-level relation extraction benchmark.
 
-### Speech ↔ Text
+### Speech and Text
 
 [Back to Top](#contents)
 
