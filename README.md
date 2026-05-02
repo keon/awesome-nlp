@@ -1313,7 +1313,7 @@ If you find this repository useful, please consider citing this list:
 ```bibtex
 @misc{awesome-nlp,
   title  = {Awesome NLP},
-  author = {Kim, Keon},
+  author = {Kim, Keon Woo},
   year   = {2018},
   url    = {https://github.com/keon/awesome-nlp},
   note   = {GitHub repository}
