@@ -45,6 +45,7 @@ This list covers natural language processing — linguistic analysis, multilingu
   * [Machine Translation](#machine-translation)
   * [Question Answering and Reading Comprehension](#question-answering-and-reading-comprehension)
   * [Information Extraction Beyond NER](#information-extraction-beyond-ner)
+  * [Retrieval and Embeddings](#retrieval-and-embeddings)
   * [Speech and Text](#speech-and-text)
 * [Datasets](#datasets)
 * [Multilingual NLP Frameworks](#multilingual-nlp-frameworks)
@@ -52,15 +53,12 @@ This list covers natural language processing — linguistic analysis, multilingu
   * [Pretraining and Adaptation](#pretraining-and-adaptation)
   * [Multilingual and Cross-Lingual Models](#multilingual-and-cross-lingual-models)
   * [Evaluation and Benchmarks](#evaluation-and-benchmarks)
-  * [Tokenization](#tokenization)
   * [Reasoning and Test-Time Compute](#reasoning-and-test-time-compute)
   * [Long Context and Alternative Architectures](#long-context-and-alternative-architectures)
-  * [Retrieval for NLP](#retrieval-for-nlp)
   * [Factuality, Hallucination, Calibration](#factuality-hallucination-calibration)
   * [Probing and Interpretability](#probing-and-interpretability)
   * [Efficient and Small Language Models](#efficient-and-small-language-models)
   * [Instruction Tuning and Preference Optimization](#instruction-tuning-and-preference-optimization)
-  * [LLMs Applied to Classical NLP Tasks](#llms-applied-to-classical-nlp-tasks)
   * [Bias, Fairness, Safety in NLP](#bias-fairness-safety-in-nlp)
 * [NLP per Language](#nlp-per-language)
   * [NLP in Arabic](#nlp-in-arabic)
@@ -394,7 +392,20 @@ Modern sentence and document embeddings: see [Retrieval for NLP](#retrieval-for-
 - [Stanza](https://github.com/stanfordnlp/stanza) - tokenization, lemma, and morphology for 70+ languages.
 - [UDPipe](https://github.com/ufal/udpipe) - tokenization, tagging, lemmatization, parsing for Universal Dependencies.
 - [Morfessor](https://github.com/aalto-speech/morfessor) - unsupervised morphological segmentation.
-- See also [Tokenization](#tokenization) under Language Models for NLP for byte-level (ByT5, CANINE, BLT) and tokenizer fairness research.
+Tokenizer research and architecture (also see [Language Models](#language-models-for-nlp)):
+
+- [Byte-Pair Encoding (Sennrich et al.)](https://arxiv.org/abs/1508.07909) - subword units for neural MT; foundation of modern tokenizers.
+- [SentencePiece](https://github.com/google/sentencepiece) - language-agnostic subword tokenization (BPE and Unigram).
+- [Tokenizers](https://github.com/huggingface/tokenizers) - fast Rust implementations of BPE, WordPiece, Unigram.
+- [ByT5](https://arxiv.org/abs/2105.13626) - tokenizer-free byte-level model.
+- [CANINE](https://arxiv.org/abs/2103.06874) - tokenization-free encoder operating on Unicode characters.
+- [How Good is Your Tokenizer?](https://arxiv.org/abs/2012.15613) - tokenizer fairness across languages.
+- [Byte Latent Transformer (BLT)](https://arxiv.org/abs/2412.09871) (Meta, 2024) - dynamic byte-level patching that matches BPE-tokenized models at scale; revives the tokenizer-free direction.
+- [SuperBPE](https://arxiv.org/abs/2503.13423) (2025) - superword tokenization that improves on BPE for downstream tasks.
+- [Over-Tokenized Transformer](https://arxiv.org/abs/2501.16975) (ICML 2025) - decouples input and output vocabularies; shows a log-linear relationship between input vocabulary size and training loss, scaling vocabulary independently of model size.
+- [Foundations of Tokenization](https://arxiv.org/abs/2407.11606) (ICLR 2025) - first formal unified framework for tokenizer models using stochastic-map category theory; establishes conditions for statistical consistency.
+- [The Token Tax: Systematic Bias in Multilingual Tokenization](https://arxiv.org/abs/2509.05486) (2025) - quantifies how tokenization fertility predicts model accuracy across languages, exposing structural cost penalties for morphologically complex and low-resource languages.
+- [Reducing Tokenization Premiums for Low-Resource Languages](https://arxiv.org/abs/2601.13328) (2026) - post-hoc vocabulary additions that coalesce multi-token character sequences for low-resource languages, reducing inference cost without retraining.
 
 ### POS Tagging and Dependency Parsing
 
@@ -424,6 +435,12 @@ Open and instruction-following IE:
 - [GoLLIE](https://arxiv.org/abs/2310.03668) - guideline-following information extraction with LMs.
 - [REBEL](https://github.com/Babelscape/rebel) - end-to-end relation extraction as seq2seq.
 
+LLM-based:
+
+- [GPT-NER](https://arxiv.org/abs/2304.10428) - LLMs for named entity recognition.
+- [Can LLMs Replace Sentence-Level NER?](https://arxiv.org/abs/2402.10573) (2024) - cost-quality tradeoffs.
+- [Generative NER in the Era of LLMs](https://arxiv.org/abs/2601.17898) (2026) - eight open LLMs across four NER benchmarks; PEFT with structured outputs matches encoder-based NER.
+
 ### Coreference Resolution
 
 [Back to Top](#contents)
@@ -433,7 +450,10 @@ Open and instruction-following IE:
 - [coref-hoi](https://github.com/lxucs/coref-hoi) - higher-order inference coreference.
 - [maverick-coref](https://github.com/SapienzaNLP/maverick-coref) (2024) - efficient coreference matching the best larger systems.
 - [LingMess](https://arxiv.org/abs/2205.12644) - linguistically-motivated category-based coreference scoring.
-- LLM-based: see [LLMs for Coreference](https://arxiv.org/abs/2310.05884).
+LLM-based:
+
+- [LLMs for Coreference Resolution](https://arxiv.org/abs/2310.05884) - prompting and fine-tuning for coreference.
+- [Multilingual Coreference Shared Task: Can LLMs Dethrone Traditional Approaches?](https://arxiv.org/abs/2509.17796) (2025) - 9 systems across 4 LLM-based and 5 traditional approaches; traditional methods still lead but LLMs are closing the gap.
 
 ### Text Classification and Sentiment Analysis
 
@@ -445,6 +465,7 @@ Open and instruction-following IE:
 - [FastFit](https://github.com/IBM/fastfit) - fast few-shot for many-class settings.
 - [SST / IMDB / AG News with DeBERTa-v3](https://arxiv.org/abs/2111.09543) - current encoder-fine-tuning baseline.
 - [PySS3](https://github.com/sergioburdisso/pyss3) - white-box, interpretable text classifier.
+- [LLMs as Annotators](https://arxiv.org/abs/2305.13734) - using LLMs for text classification labeling, with caveats.
 
 ### Topic Modeling
 
@@ -466,7 +487,11 @@ Open and instruction-following IE:
 - [PEGASUS](https://arxiv.org/abs/1912.08777) - gap-sentences pretraining for summarization.
 - [BART](https://arxiv.org/abs/1910.13461) - widely used denoising seq2seq baseline.
 - [BookSum](https://arxiv.org/abs/2105.08209) and [SCROLLS](https://arxiv.org/abs/2201.03533) - long-document summarization benchmarks.
-- LLM-era: [Benchmarking LLMs for News Summarization](https://arxiv.org/abs/2301.13848), [Element-Aware Summarization with LLMs](https://arxiv.org/abs/2305.13412).
+LLM-based:
+
+- [Benchmarking LLMs for News Summarization](https://arxiv.org/abs/2301.13848) - LLMs vs fine-tuned summarizers.
+- [Element-Aware Summarization with LLMs](https://arxiv.org/abs/2305.13412) - structured prompting for summarization.
+- [Understanding LLM Reasoning for Abstractive Summarization](https://arxiv.org/abs/2512.03503) (2025) - explicit reasoning improves fluency but hurts factual grounding; longer reasoning budgets can harm faithfulness.
 
 ### Machine Translation
 
@@ -485,9 +510,19 @@ Massively multilingual:
 - [MADLAD-400](https://arxiv.org/abs/2309.04662) - 400+ language MT.
 - [SeamlessM4T](https://arxiv.org/abs/2312.05187) - speech and text MT, 100+ languages.
 
-Evaluation: see [MT-specific metrics](#evaluation-and-benchmarks) (COMET, sacrebleu, BERTScore) and [FLORES-200](https://github.com/facebookresearch/flores).
+Evaluation:
 
-LLM-era: [Is ChatGPT a Good Translator?](https://arxiv.org/abs/2301.08745), [Adapting LLMs for Document-Level MT](https://arxiv.org/abs/2401.06468).
+- [COMET](https://github.com/Unbabel/COMET) - learned MT metric; current de-facto standard alongside chrF.
+- [sacrebleu](https://github.com/mjpost/sacrebleu) - reproducible BLEU/chrF/TER scoring.
+- [BERTScore](https://github.com/Tiiiger/bert_score) - similarity-based generation metric.
+
+LLM-based:
+
+- [Is ChatGPT a Good Translator?](https://arxiv.org/abs/2301.08745) - LLMs as machine translation systems.
+- [Adapting LLMs for Document-Level MT](https://arxiv.org/abs/2401.06468) (2024) - LLMs for context-aware translation.
+- [GPT-4 vs Human Translators](https://arxiv.org/abs/2308.03245) - quality comparison on professional MT.
+- [Multilingual MT with Open LLMs at Practical Scale](https://arxiv.org/abs/2502.02481) (2025) - benchmarks sub-10B open LLMs on 28-language MT; matches GPT-4-turbo and Google Translate.
+- [Bridging the Linguistic Divide: Survey on LLMs for MT](https://arxiv.org/abs/2504.01919) (2025) - survey of how instruction-following, in-context learning, and preference alignment have restructured MT methodology.
 
 ### Question Answering and Reading Comprehension
 
@@ -523,6 +558,31 @@ LLM-era:
 - [Privee: An Architecture for Automatically Analyzing Web Privacy Policies](https://www.sebastianzimmeck.de/zimmeckAndBellovin2014Privee.pdf)
 - [REBEL](https://github.com/Babelscape/rebel) - end-to-end relation extraction.
 - [DocRED](https://github.com/thunlp/DocRED) - document-level relation extraction benchmark.
+- [LLMs for Semantic Role Labeling](https://arxiv.org/abs/2506.05385) (2025) - generative LLMs with RAG and self-correction surpass encoder-decoder BERT-style models on SRL in English and Chinese.
+- [Adapting LLMs for Minimal-edit GEC](https://arxiv.org/abs/2506.13148) (2025) - decoder-only LLMs with a novel error-rate adaptation schedule set new SOTA on BEA-test grammatical error correction.
+
+### Retrieval and Embeddings
+
+[Back to Top](#contents)
+
+Dense and late-interaction retrieval, increasingly the substrate for QA and IR:
+
+- [DPR (Dense Passage Retrieval)](https://arxiv.org/abs/2004.04906) - dual-encoder retrieval baseline.
+- [ColBERT](https://arxiv.org/abs/2004.12832) and [ColBERTv2](https://arxiv.org/abs/2112.01488) - late-interaction retrieval; strong on out-of-domain.
+- [E5](https://arxiv.org/abs/2212.03533) and [E5-Mistral](https://arxiv.org/abs/2401.00368) - widely used dense embedding families.
+- [BGE](https://github.com/FlagOpen/FlagEmbedding) and [BGE-M3](https://arxiv.org/abs/2402.03216) (2024) - multilingual, multi-functionality embeddings; top of MTEB across languages.
+- [Nomic Embed](https://arxiv.org/abs/2402.01613) (2024) - fully open, reproducible embedding model.
+- [Matryoshka Representation Learning](https://arxiv.org/abs/2205.13147) - nested embeddings supporting variable dimensionality at inference.
+- [GritLM](https://arxiv.org/abs/2402.09906) (2024) - unified generation and embedding from one model.
+- [RAG (Retrieval-Augmented Generation)](https://arxiv.org/abs/2005.11401) - the original retrieval-augmented framework; foundation for modern QA pipelines.
+- [Gemini Embedding](https://arxiv.org/abs/2503.07891) (2025) - Gemini-derived dense embeddings; SOTA on MMTEB across 250+ languages and on cross-lingual retrieval (XOR-Retrieve, XTREME-UP).
+- [Qwen3-Embedding](https://arxiv.org/abs/2506.05176) (2025) - decoder-based embedding series (0.6B-8B) built on Qwen3; #1 on MTEB Multilingual and MTEB Code, surpassing prior proprietary models.
+- [Rank1](https://arxiv.org/abs/2502.18418) (2025) - first reranking model trained with test-time compute via DeepSeek-R1 reasoning-trace distillation; SOTA on instruction-following and OOD retrieval.
+- [ReasonEmbed](https://arxiv.org/abs/2510.08252) (2025) - embedding model for reasoning-intensive retrieval with ReMixer data synthesis and Redapter adaptive training; record nDCG@10 of 38.1 on BRIGHT.
+- [ColBERT-Att](https://arxiv.org/abs/2603.25248) (2026) - extends late-interaction retrieval by integrating query and document attention weights into ColBERT scoring; improves recall on MS-MARCO, BEIR, and LoTTE.
+Embedding and retrieval benchmarks:
+
+- [MMTEB](https://arxiv.org/abs/2502.13595) (2025) - community expansion of MTEB to 500+ tasks across 250+ languages.
 
 ### Speech and Text
 
@@ -641,7 +701,6 @@ Modern LM evaluation (2023-2026):
 - [LiveBench](https://livebench.ai/) (2024) - contamination-resistant benchmark with monthly refresh.
 - [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) - unified framework for LM benchmark evaluation.
 - [MMLU-ProX](https://arxiv.org/abs/2503.10497) (2025) - multilingual extension of MMLU-Pro to 29 typologically diverse languages; reveals up to 24.3% performance gap between high- and low-resource languages.
-- [MMTEB](https://arxiv.org/abs/2502.13595) (2025) - community expansion of MTEB to 500+ tasks across 250+ languages; the broadest multilingual standard for evaluating text embedding models.
 - [MultiChallenge](https://arxiv.org/abs/2501.17399) (2025) - multi-turn conversational benchmark exposing simultaneous instruction-following and in-context-reasoning failures; all tested frontier models score below 50%.
 - [FRAMES](https://arxiv.org/abs/2409.12941) (2025) - unified RAG evaluation: 824 multi-hop questions requiring factuality, retrieval accuracy, and cross-document reasoning together.
 
@@ -653,27 +712,6 @@ Long-context evaluation:
 - [LongBench v2](https://arxiv.org/abs/2412.15204) (2025) - 503 expert-crafted multiple-choice questions spanning 8K-2M-word contexts with deep multi-hop reasoning; humans score 53.7% under time pressure.
 - [U-NIAH](https://arxiv.org/abs/2503.00353) (2025) - extends needle-in-haystack with multi-needle and nested configurations; shows RAG mitigates lost-in-the-middle for smaller LLMs but degrades reasoning models.
 
-MT-specific metrics:
-
-- [COMET](https://github.com/Unbabel/COMET) - learned MT metric; current de-facto standard alongside chrF.
-- [sacrebleu](https://github.com/mjpost/sacrebleu) - reproducible BLEU/chrF/TER scoring.
-- [BERTScore](https://github.com/Tiiiger/bert_score) - similarity-based generation metric.
-
-### Tokenization
-
-- [Byte-Pair Encoding (Sennrich et al.)](https://arxiv.org/abs/1508.07909) - subword units for neural MT; foundation of modern tokenizers.
-- [SentencePiece](https://github.com/google/sentencepiece) - language-agnostic subword tokenization (BPE and Unigram).
-- [Tokenizers](https://github.com/huggingface/tokenizers) - fast Rust implementations of BPE, WordPiece, Unigram.
-- [ByT5](https://arxiv.org/abs/2105.13626) - tokenizer-free byte-level model.
-- [CANINE](https://arxiv.org/abs/2103.06874) - tokenization-free encoder operating on Unicode characters.
-- [How Good is Your Tokenizer?](https://arxiv.org/abs/2012.15613) - tokenizer fairness across languages.
-- [Byte Latent Transformer (BLT)](https://arxiv.org/abs/2412.09871) (Meta, 2024) - dynamic byte-level patching that matches BPE-tokenized models at scale; revives the tokenizer-free direction.
-- [SuperBPE](https://arxiv.org/abs/2503.13423) (2025) - superword tokenization that improves on BPE for downstream tasks.
-- [Over-Tokenized Transformer](https://arxiv.org/abs/2501.16975) (ICML 2025) - decouples input and output vocabularies; shows a log-linear relationship between input vocabulary size and training loss, scaling vocabulary independently of model size.
-- [Foundations of Tokenization](https://arxiv.org/abs/2407.11606) (ICLR 2025) - first formal unified framework for tokenizer models using stochastic-map category theory; establishes conditions for statistical consistency.
-- [The Token Tax: Systematic Bias in Multilingual Tokenization](https://arxiv.org/abs/2509.05486) (2025) - quantifies how tokenization fertility predicts model accuracy across languages, exposing structural cost penalties for morphologically complex and low-resource languages.
-- [Reducing Tokenization Premiums for Low-Resource Languages](https://arxiv.org/abs/2601.13328) (2026) - post-hoc vocabulary additions that coalesce multi-token character sequences for low-resource languages, reducing inference cost without retraining.
-
 ### Reasoning and Test-Time Compute
 
 A trend-defining direction in 2024-2026: models that produce explicit reasoning traces and benefit from extra inference compute.
@@ -682,6 +720,7 @@ A trend-defining direction in 2024-2026: models that produce explicit reasoning 
 - [Self-Consistency](https://arxiv.org/abs/2203.11171) - majority vote over sampled CoT chains.
 - [Tree of Thoughts](https://arxiv.org/abs/2305.10601) - search over reasoning trees.
 - [Self-Refine](https://arxiv.org/abs/2303.17651) and [Reflexion](https://arxiv.org/abs/2303.11366) - self-correction at inference time.
+- [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916) - chain-of-thought for NLP reasoning tasks.
 - [Let's Verify Step by Step](https://arxiv.org/abs/2305.20050) - process-supervised reward models for reasoning.
 - [DeepSeek-R1](https://arxiv.org/abs/2501.12948) (2025) - open reasoning model trained with pure RL; replicated o1-style behavior in the open.
 - [OpenAI o1 / o3](https://openai.com/index/learning-to-reason-with-llms/) (2024-2025) - test-time-compute reasoning systems.
@@ -708,24 +747,6 @@ A trend-defining direction in 2024-2026: models that produce explicit reasoning 
 - [Native Sparse Attention (NSA)](https://arxiv.org/abs/2502.11089) (2025) - trainable sparse attention combining coarse-grained compression with fine-grained selection; large speedups at 64K with no NLP-benchmark degradation.
 - [LongRoPE2](https://arxiv.org/abs/2502.20082) (2025) - identifies undertraining of high-frequency RoPE dimensions and applies evolutionary-search rescaling; extends LLaMA3-8B to 128K with 80x fewer training tokens than Meta's recipe.
 - [Characterizing SSM and Hybrid LM Long-Context Performance](https://arxiv.org/abs/2507.12442) (2025) - first comprehensive memory and speed analysis of transformer, SSM, and hybrid models up to 220K tokens; SSMs are up to 4x faster, hybrids balance recall and efficiency.
-
-### Retrieval for NLP
-
-Dense and late-interaction retrieval, increasingly the substrate for QA and IR:
-
-- [DPR (Dense Passage Retrieval)](https://arxiv.org/abs/2004.04906) - dual-encoder retrieval baseline.
-- [ColBERT](https://arxiv.org/abs/2004.12832) and [ColBERTv2](https://arxiv.org/abs/2112.01488) - late-interaction retrieval; strong on out-of-domain.
-- [E5](https://arxiv.org/abs/2212.03533) and [E5-Mistral](https://arxiv.org/abs/2401.00368) - widely used dense embedding families.
-- [BGE](https://github.com/FlagOpen/FlagEmbedding) and [BGE-M3](https://arxiv.org/abs/2402.03216) (2024) - multilingual, multi-functionality embeddings; top of MTEB across languages.
-- [Nomic Embed](https://arxiv.org/abs/2402.01613) (2024) - fully open, reproducible embedding model.
-- [Matryoshka Representation Learning](https://arxiv.org/abs/2205.13147) - nested embeddings supporting variable dimensionality at inference.
-- [GritLM](https://arxiv.org/abs/2402.09906) (2024) - unified generation and embedding from one model.
-- [RAG (Retrieval-Augmented Generation)](https://arxiv.org/abs/2005.11401) - the original retrieval-augmented framework; foundation for modern QA pipelines.
-- [Gemini Embedding](https://arxiv.org/abs/2503.07891) (2025) - Gemini-derived dense embeddings; SOTA on MMTEB across 250+ languages and on cross-lingual retrieval (XOR-Retrieve, XTREME-UP).
-- [Qwen3-Embedding](https://arxiv.org/abs/2506.05176) (2025) - decoder-based embedding series (0.6B-8B) built on Qwen3; #1 on MTEB Multilingual and MTEB Code, surpassing prior proprietary models.
-- [Rank1](https://arxiv.org/abs/2502.18418) (2025) - first reranking model trained with test-time compute via DeepSeek-R1 reasoning-trace distillation; SOTA on instruction-following and OOD retrieval.
-- [ReasonEmbed](https://arxiv.org/abs/2510.08252) (2025) - embedding model for reasoning-intensive retrieval with ReMixer data synthesis and Redapter adaptive training; record nDCG@10 of 38.1 on BRIGHT.
-- [ColBERT-Att](https://arxiv.org/abs/2603.25248) (2026) - extends late-interaction retrieval by integrating query and document attention weights into ColBERT scoring; improves recall on MS-MARCO, BEIR, and LoTTE.
 
 ### Factuality, Hallucination, Calibration
 
@@ -805,26 +826,6 @@ Parameter-efficient fine-tuning:
 - [LIMA](https://arxiv.org/abs/2305.11206) - "less is more for alignment"; small high-quality SFT data goes a long way.
 - [TRL](https://github.com/huggingface/trl) - reference library for SFT, DPO, GRPO, and RLHF.
 - [Magpie](https://arxiv.org/abs/2406.08464) (2024-2025) - synthesizes high-quality instruction-response pairs by prompting aligned LMs with nothing; SFT on the filtered subset matches official Llama-3-Instruct.
-
-### LLMs Applied to Classical NLP Tasks
-
-- [GPT-NER](https://arxiv.org/abs/2304.10428) - LLMs for named entity recognition.
-- [Is ChatGPT a Good Translator?](https://arxiv.org/abs/2301.08745) - LLMs as machine translation systems.
-- [Benchmarking LLMs for News Summarization](https://arxiv.org/abs/2301.13848) - LLMs vs fine-tuned summarizers.
-- [Large Language Models are Zero-Shot Reasoners](https://arxiv.org/abs/2205.11916) - chain-of-thought for NLP reasoning tasks.
-- [LLMs for Coreference Resolution](https://arxiv.org/abs/2310.05884) - prompting and fine-tuning for coreference.
-- [Adapting LLMs for Document-Level MT](https://arxiv.org/abs/2401.06468) (2024) - LLMs for context-aware translation.
-- [GPT-4 vs Human Translators](https://arxiv.org/abs/2308.03245) - quality comparison on professional MT.
-- [LLMs as Annotators](https://arxiv.org/abs/2305.13734) - using LLMs for text classification labeling, with caveats.
-- [Universal NER](https://arxiv.org/abs/2308.03279) (2023) - instruction-tuned LM for open-set NER across languages.
-- [Can LLMs Replace Sentence-Level NER?](https://arxiv.org/abs/2402.10573) (2024) - cost-quality tradeoffs.
-- [Multilingual MT with Open LLMs at Practical Scale](https://arxiv.org/abs/2502.02481) (2025) - benchmarks sub-10B open LLMs on 28-language MT and introduces a Parallel-First/Monolingual-Second data mix; matches GPT-4-turbo and Google Translate.
-- [Bridging the Linguistic Divide: Survey on LLMs for MT](https://arxiv.org/abs/2504.01919) (2025) - survey of how instruction-following, in-context learning, and preference alignment have restructured MT methodology.
-- [LLMs for Semantic Role Labeling](https://arxiv.org/abs/2506.05385) (2025) - first demonstration that generative LLMs with RAG and self-correction surpass encoder-decoder BERT-style models on SRL in English and Chinese.
-- [Adapting LLMs for Minimal-edit GEC](https://arxiv.org/abs/2506.13148) (2025) - decoder-only LLMs with a novel error-rate adaptation schedule set new SOTA on BEA-test grammatical error correction.
-- [Multilingual Coreference Shared Task: Can LLMs Dethrone Traditional Approaches?](https://arxiv.org/abs/2509.17796) (2025) - 9 systems across 4 LLM-based and 5 traditional approaches; traditional methods still lead but LLMs are closing the gap.
-- [Understanding LLM Reasoning for Abstractive Summarization](https://arxiv.org/abs/2512.03503) (2025) - explicit reasoning improves fluency but hurts factual grounding in abstractive summarization; longer reasoning budgets can harm faithfulness.
-- [Generative NER in the Era of LLMs](https://arxiv.org/abs/2601.17898) (2026) - eight open LLMs across four NER benchmarks; PEFT with structured outputs matches encoder-based NER, with gains driven by instruction-following.
 
 ### Bias, Fairness, Safety in NLP
 
