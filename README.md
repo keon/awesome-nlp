@@ -390,6 +390,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Petitions](https://github.com/akngs/petitions) - Collect expired petition data from the Blue House National Petition Site.
 - [Korean Parallel corpora](https://github.com/j-min/korean-parallel-corpora) - Neural Machine Translation(NMT) Dataset for **Korean to French** & **Korean to English**
 - [KorQuAD](https://korquad.github.io/) - Korean SQuAD dataset with Wiki HTML source. Mentions both v1.0 and v2.1 at the time of adding to Awesome NLP
+- [Korean RAG SSOT Golden 50](https://huggingface.co/datasets/neogenesislab/korean-rag-ssot-golden-50) - Bilingual ko/en RAG retrieval golden set of 50 tasks across 5 categories (rag design, quant, governance, security/PII, ops) with 5 evaluation metrics including credential-leak-rate and injection-quarantine-recall.
 
 ## NLP in Arabic
 
