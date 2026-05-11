@@ -4,6 +4,25 @@
 Pull requests with `Update readme.md` as title are not informative enough. 
 Write about what additions you've made and *why* do you think it is useful. 
 
+## Scope
+
+This is a list about **natural language processing**. Submissions are accepted when they advance or evaluate a core NLP task or capability — tokenization, morphology, parsing, NER, coreference, classification, sentiment, topic modeling, summarization, machine translation, question answering, retrieval, speech-text, embeddings, evaluation, multilinguality, factuality, probing, distillation, bias and fairness in NLP.
+
+Out of scope (please submit to a more specific list — see [See Also](README.md#see-also) in the README):
+
+- General-purpose chatbots, AI assistants, agent frameworks, MCP servers, tool-use libraries
+- Generic LLM API wrappers, orchestrators, or routing layers
+- Prompt-template repositories and prompt-engineering tip lists
+- RAG application starter kits (link to dedicated lists instead)
+- Code-generation models or coding assistants
+- Image, audio, or video generation tools
+
+When in doubt, finish this sentence in the PR description: "this matters because of \<NLP task or linguistic phenomenon\>." If the answer is "because LLMs are useful," it likely belongs elsewhere.
+
+## Library Quality Bar
+
+A library entry should have a commit in the last 24 months **or** a stable v1+ release that is still in production use. Archived or unmaintained projects of historical importance can be added under a clearly labelled `Archived / Historical` subsection rather than alongside actively maintained tools.
+
 ## Guidelines
 - Make an individual pull request for each suggestion
 - Use [title-casing](http://titlecapitalization.com) (AP style)
@@ -29,6 +48,3 @@ You'll need a [GitHub account](https://github.com/join)!
 Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-* list guidelines.
 
 [Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.
-
-**Credits**
-These contributing guidelines are taken from [awesome's contributing guidelines](https://github.com/sindresorhus/awesome/blob/master/contributing.md)
