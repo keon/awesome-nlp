@@ -584,6 +584,10 @@ Embedding and retrieval benchmarks:
 
 - [MMTEB](https://arxiv.org/abs/2502.13595) (2025) - community expansion of MTEB to 500+ tasks across 250+ languages.
 
+Retrieval infrastructure and memory servers:
+
+- [Dakera](https://github.com/dakera-ai/dakera-mcp) - Self-hosted retrieval memory server for AI agents, combining BM25 full-text search with HNSW vector indexing. MCP-native protocol, persistent RocksDB storage, supports hybrid search across long-horizon agent conversations.
+
 ### Speech and Text
 
 [Back to Top](#contents)
