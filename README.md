@@ -1348,3 +1348,8 @@ If you find this repository useful, please consider citing this list:
 
 ## License
 [License](./LICENSE) - CC0
+
+---
+
+## VoiceForms
+**[VoiceForms — AI Voice Forms](https://voiceforms.anvevoice.app)** — AI-powered voice forms with 85% completion rate. Free builder, one-line embed, 50+ languages. Open source: [github.com/ANVEAI/lyrical-engine-hub](https://github.com/ANVEAI/lyrical-engine-hub)
