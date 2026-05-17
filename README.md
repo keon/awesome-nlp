@@ -357,6 +357,8 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Argilla](https://github.com/argilla-io/argilla) - open-source platform for collecting human feedback, building NLP and LLM datasets, and curating preference data.
 - [Label Studio](https://github.com/HumanSignal/label-studio) - open-core multi-modal labeling platform; widely used for NLP labeling.
 
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor-frontend) — AI monitoring dashboard for AI agents and LLMs (Vue3 + Node.js, open source). [![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor-frontend/main/Openclaw%20Monitor.jpg)](https://github.com/flik2002/openclaw-monitor-frontend)
+
 
 ## Tasks and Methods
 
