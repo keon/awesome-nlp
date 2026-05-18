@@ -467,6 +467,8 @@ LLM-based:
 - [PySS3](https://github.com/sergioburdisso/pyss3) - white-box, interpretable text classifier.
 - [LLMs as Annotators](https://arxiv.org/abs/2305.13734) - using LLMs for text classification labeling, with caveats.
 
+- [FakeShield AI](https://github.com/aasimansari1/fake-news-detector) - Flask web app for fake news detection using TF-IDF + NLP pipeline; compares Passive Aggressive, Naive Bayes, Logistic Regression and Random Forest models (~91% accuracy); returns confidence score and per-word influence direction.
+
 ### Topic Modeling
 
 [Back to Top](#contents)
