@@ -356,6 +356,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [FLAT](https://github.com/proycon/flat) - FLAT is a web-based linguistic annotation environment based around the [FoLiA format](http://proycon.github.io/folia), a rich XML-based format for linguistic annotation. Free and open source.
 - [Argilla](https://github.com/argilla-io/argilla) - open-source platform for collecting human feedback, building NLP and LLM datasets, and curating preference data.
 - [Label Studio](https://github.com/HumanSignal/label-studio) - open-core multi-modal labeling platform; widely used for NLP labeling.
+- [Potato](https://github.com/davidjurgens/potato) - Free, open-source annotation tool covering 21+ task types (classification, span, coreference, entity linking, agent trace evaluation) with built-in MACE quality control, attention checks, AI-assisted labeling, and 300+ example tasks.
 
 
 ## Tasks and Methods
