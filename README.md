@@ -27,6 +27,7 @@ This list covers natural language processing — linguistic analysis, multilingu
   * [Scala](#scala)
   * [R](#R)
   * [Clojure](#clojure)
+  * [Go](#go)
   * [Ruby](#ruby)
   * [Rust](#rust)
   * [NLP++](#NLP++)
@@ -298,6 +299,12 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp)
   - [Infections-clj](https://github.com/r0man/inflections-clj) - Rails-like inflection library for Clojure and ClojureScript
   - [postagga](https://github.com/fekr/postagga) - A library to parse natural language in Clojure and ClojureScript
+
+- <a id="go">**Go**</a> | [Back to Top](#contents)
+  - [prose](https://github.com/jdkato/prose) - Text processing library supporting tokenization, part-of-speech tagging, and named-entity extraction.
+  - [gojieba](https://github.com/yanyiwu/gojieba) - Go implementation of the jieba Chinese word segmentation algorithm.
+  - [kagome](https://github.com/ikawaha/kagome) - Japanese morphological analyzer written in pure Go.
+  - [go-propisyu](https://github.com/rekurt/go-propisyu) - Converts numbers to Russian words with correct grammatical gender and noun declension.
 
 - <a id="ruby">**Ruby**</a> | [Back to Top](#contents)
   - Kevin Dias's [A collection of Natural Language Processing (NLP) Ruby libraries, tools and software](https://github.com/diasks2/ruby-nlp)
