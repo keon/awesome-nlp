@@ -164,6 +164,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 * [Stanford CS25: Transformers United](https://web.stanford.edu/class/cs25/) - seminar series with guest lectures from authors of recent transformer and NLP research.
 * [Cohere LLM University](https://cohere.com/llmu) - free course on LLMs, embeddings, semantic search, and NLP applications.
 * [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) - hands-on NLP with Transformers, Datasets, and Tokenizers libraries.
+* [NLP Demystified](https://www.nlpdemystified.org/) - Free beginner-friendly course covering NLP fundamentals through transformers, with Python/Jupyter notebooks.
 
 
 ### Books
