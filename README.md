@@ -2,6 +2,16 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+---
+
+> ### Sponsored by [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp)
+>
+> <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp"><img src="assets/atlas-cloud.png" alt="Atlas Cloud" width="220" /></a>
+>
+> **AI API aggregation platform with an OpenAI-compatible LLM endpoint** for NLP tasks such as translation, summarization, multilingual generation, and structured extraction.
+
+---
+
 A curated list of resources dedicated to Natural Language Processing
 
 _Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls)_
