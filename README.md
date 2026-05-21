@@ -4,9 +4,9 @@
 
 ---
 
-> ### Sponsored by [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp)
+> **Sponsored by [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp)**
 >
-> <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp"><img src="assets/atlas-cloud.png" alt="Atlas Cloud" width="220" /></a>
+> <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/atlas-cloud-dark.png"><img src="assets/atlas-cloud-light.png" alt="Atlas Cloud" width="220" /></picture></a>
 >
 > **AI API aggregation platform with an OpenAI-compatible LLM endpoint** for NLP tasks such as translation, summarization, multilingual generation, and structured extraction.
 
