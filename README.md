@@ -1333,7 +1333,7 @@ Resources organized by human language. Click a section to expand.
 </details>
 
 ### Other Languages
-
+- [Uzbek NLP](https://github.com/Abdusalom0v/awesome-uzbek-nlp)
 - Russian: [pymorphy2](https://github.com/kmike/pymorphy2) - a good pos-tagger for Russian
 - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
 - Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
