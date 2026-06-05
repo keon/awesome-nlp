@@ -716,6 +716,7 @@ Modern LM evaluation (2023-2026):
 - [MMLU](https://github.com/hendrycks/test) - multitask knowledge evaluation across 57 subjects.
 - [MMLU-Pro](https://arxiv.org/abs/2406.01574) (2024) - harder, more discriminative successor to MMLU.
 - [GPQA](https://arxiv.org/abs/2311.12022) - graduate-level Q&A, "Google-proof" reasoning evaluation.
+- [REFUTE](https://huggingface.co/datasets/BGPT-OFFICIAL/refute) (2026) - scientific reasoning benchmark for evidence-grounded critique, overclaim detection, missing-evidence refusal, and calibration.
 - [IFEval](https://arxiv.org/abs/2311.07911) - verifiable instruction-following evaluation.
 - [Chatbot Arena (LMSYS)](https://lmarena.ai/) - human-preference ELO leaderboard for chat models.
 - [LiveBench](https://livebench.ai/) (2024) - contamination-resistant benchmark with monthly refresh.
