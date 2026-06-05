@@ -1084,6 +1084,7 @@ Resources organized by human language. Click a section to expand.
 - [Indonesian Treebank](https://github.com/famrashel/idn-treebank) and [Universal Dependencies-Indonesian](https://github.com/UniversalDependencies/UD_Indonesian-GSD)
 - [IndoSum](https://github.com/kata-ai/indosum) - text summarization and classification.
 - [Wordnet-Bahasa](http://wn-msa.sourceforge.net/) - large, free, semantic dictionary.
+- [SEACrowd](https://github.com/SEACrowd/seacrowd-datahub) - A multilingual and multimodal data hub providing standardized datasets and benchmarks for Southeast Asian NLP (EMNLP 2024).
 
 </details>
 
