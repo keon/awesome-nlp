@@ -1067,6 +1067,7 @@ Resources organized by human language. Click a section to expand.
 - [bahasa](https://github.com/kangfend/bahasa) - natural language toolkit for Indonesian.
 - [Indonesian Word Embedding](https://github.com/galuhsahid/indonesian-word-embedding)
 - [Indonesian fastText](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki.id.zip) trained on Wikipedia.
+- [PySastrawi](https://github.com/har07/PySastrawi) - Python stemmer for Bahasa Indonesia based on the Sastrawi stemming algorithm.
 
 ### Models
 
