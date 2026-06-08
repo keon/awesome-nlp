@@ -354,6 +354,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Textalytic](https://www.textalytic.com) - Natural Language Processing in the Browser with sentiment analysis, named entity extraction, POS tagging, word frequencies, topic modeling, word clouds, and more
 - [NLP Cloud](https://nlpcloud.io) - SpaCy NLP models (custom and pre-trained ones) served through a RESTful API for named entity recognition (NER), POS tagging, and more.
 - [Cloudmersive](https://cloudmersive.com/nlp-api) - Unified and free NLP APIs that perform actions such as speech tagging, text rephrasing, language translation/detection, and sentence parsing
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust scoring API for AI agent wallets. Verify agent identity before autonomous payments. MCP endpoint for AI integration. MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 ### Annotation Tools
 
