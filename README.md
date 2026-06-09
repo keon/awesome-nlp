@@ -147,6 +147,7 @@ Introductions and Guides to NLP
 * [Train a new language model from scratch](https://huggingface.co/blog/how-to-train) - Hugging Face 🤗
 * [Advanced NLP with spaCy](https://course.spacy.io/en/) - Free online course covering text processing, large-scale data analysis, processing pipelines, and training neural network models for custom NLP tasks.
 * [Kaggle NLP Learning Guide](https://www.kaggle.com/learn-guide/natural-language-processing) - Beginner-friendly tutorials including getting started guides, deep learning for NLP, and visual explanations of techniques like BERT, GloVe, and TF-IDF.
+* [LLM Flashcards](https://github.com/llmsresearch/llm-flashcards) - Visual flashcards explaining how large language models work, one concept per card, covering attention, tokenization, embeddings, RAG, agents, and inference. Free sample cards in the repo.
 
 Blogs and Newsletters
 
