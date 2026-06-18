@@ -498,6 +498,7 @@ LLM-based:
 - [CorEx Topic](https://github.com/gregversteeg/corex_topic) - hierarchical topic modeling with anchor words.
 
 ### Summarization
+- [url-summarizer](https://github.com/oc-mm/mm-tools) — Fetch and summarize any public URL using multiple AI providers (Mistral, Groq, Cerebras, Gemini) with CLI interface.
 
 [Back to Top](#contents)
 
