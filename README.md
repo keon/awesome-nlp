@@ -354,6 +354,7 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [Textalytic](https://www.textalytic.com) - Natural Language Processing in the Browser with sentiment analysis, named entity extraction, POS tagging, word frequencies, topic modeling, word clouds, and more
 - [NLP Cloud](https://nlpcloud.io) - SpaCy NLP models (custom and pre-trained ones) served through a RESTful API for named entity recognition (NER), POS tagging, and more.
 - [Cloudmersive](https://cloudmersive.com/nlp-api) - Unified and free NLP APIs that perform actions such as speech tagging, text rephrasing, language translation/detection, and sentence parsing
+- [Text Generator](https://text-generator.io) - Unified API for text generation, vision and speech with a free tier, costs $
 
 ### Annotation Tools
 
