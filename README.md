@@ -864,7 +864,10 @@ Parameter-efficient fine-tuning:
 - [IndicSafe](https://arxiv.org/abs/2603.17915) (2026) - multilingual safety benchmark across 12 Indic languages; reveals 12.8% cross-language agreement, with over-refusal in low-resource scripts.
 - [VLAF: Value-Conflict Alignment Faking](https://arxiv.org/abs/2604.20995) (2026) - alignment faking occurs in models as small as 7B in 37% of cases when policy conflicts with internalized values; steering-vector mitigation reduces it 94%.
 
-## NLP per Language
+## NLP
+
+- [SuperCompress](https://github.com/arjunkshah/supercompress) - Open-source learned prompt compression for LLMs. Cuts ~65% of tokens before inference using a ~5K parameter CPU policy with 100% oracle recall. Check the live demo at https://supercompress.dev. pip install supercompress.
+ per Language
 
 [Back to Top](#contents)
 
