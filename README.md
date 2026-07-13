@@ -888,6 +888,7 @@ Resources organized by human language. Click a section to expand.
 - [PyArabic](https://pypi.org/project/PyArabic/) - Python library for Arabic.
 - [RFTokenizer](https://github.com/amir-zeldes/RFTokenizer) - trainable segmenter for Arabic, Hebrew, and Coptic.
 - [Farasa](https://farasa.qcri.org/) - QCRI segmentation, POS tagging, and NER for Arabic.
+- [darija-tools](https://github.com/Samielakkad/darija-tools) - Python toolkit for Moroccan Darija normalization and Arabizi-to-Arabic transliteration.
 
 ### Models and Embeddings
 
