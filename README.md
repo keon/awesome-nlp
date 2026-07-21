@@ -512,6 +512,7 @@ LLM-based:
 - [Benchmarking LLMs for News Summarization](https://arxiv.org/abs/2301.13848) - LLMs vs fine-tuned summarizers.
 - [Element-Aware Summarization with LLMs](https://arxiv.org/abs/2305.13412) - structured prompting for summarization.
 - [Understanding LLM Reasoning for Abstractive Summarization](https://arxiv.org/abs/2512.03503) (2025) - explicit reasoning improves fluency but hurts factual grounding; longer reasoning budgets can harm faithfulness.
+- [Saaram](https://github.com/HariN999/Saaram-telugu-summarizer) - Resource-aware Telugu news summarization combining morphology-aware character n-gram extraction and mT5 abstractive routing.
 
 ### Machine Translation
 
