@@ -726,6 +726,7 @@ Modern LM evaluation (2023-2026):
 - [MMLU-ProX](https://arxiv.org/abs/2503.10497) (2025) - multilingual extension of MMLU-Pro to 29 typologically diverse languages; reveals up to 24.3% performance gap between high- and low-resource languages.
 - [MultiChallenge](https://arxiv.org/abs/2501.17399) (2025) - multi-turn conversational benchmark exposing simultaneous instruction-following and in-context-reasoning failures; all tested frontier models score below 50%.
 - [FRAMES](https://arxiv.org/abs/2409.12941) (2025) - unified RAG evaluation: 824 multi-hop questions requiring factuality, retrieval accuracy, and cross-document reasoning together.
+- [StructEval](https://github.com/TIGER-AI-Lab/StructEval) ([TMLR 2025](https://openreview.net/forum?id=buDwV7LUA7)) - evaluates LLM generation and conversion of text-only JSON, XML, YAML, CSV, and TOML outputs with syntax, structural, and keyword checks.
 
 Long-context evaluation:
 
