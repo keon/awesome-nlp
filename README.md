@@ -394,6 +394,7 @@ Static word embeddings (foundational):
 - [fastText](https://arxiv.org/abs/1607.04606) - [implementation](https://github.com/facebookresearch/fastText); subword n-grams handle OOV well, still useful for low-resource languages.
 - [sense2vec](https://arxiv.org/abs/1511.06388) - word sense disambiguation.
 - [Paragraph Vectors / doc2vec](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
+- [me_fasttext](https://github.com/initial-d/me_fasttext) - memory-efficient FastText-derived C++ prototype with exact trie-based subword ids and compact mmap serving.
 
 Contextual embeddings:
 
