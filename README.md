@@ -498,6 +498,7 @@ LLM-based:
 - [BERTopic](https://github.com/MaartenGr/BERTopic) - clustering-based topic modeling on top of contextual embeddings; common modern default.
 - [Top2Vec](https://github.com/ddangelov/Top2Vec) - jointly learns topic and document vectors.
 - [CorEx Topic](https://github.com/gregversteeg/corex_topic) - hierarchical topic modeling with anchor words.
+- [semantic_clusterer](https://github.com/Baishnab1708/semantic_clusterer) - scale-adaptive semantic text clustering, exact-K partitioning, and c-TF-IDF topic modeling.
 
 ### Summarization
 
