@@ -711,6 +711,11 @@ NLU and cross-lingual:
 - [MTEB](https://github.com/embeddings-benchmark/mteb) - Massive Text Embedding Benchmark; standard for sentence/document encoders.
 - [BEIR](https://github.com/beir-cellar/beir) - heterogeneous IR benchmark for retrieval models.
 
+AI-generated text detection:
+
+- [RAID](https://github.com/liamdugan/raid) - large adversarial benchmark for AI-generated text detectors across generators, domains, and attacks.
+- [AI2Human Detection Benchmark](https://github.com/chajahmed/ai2human-detection-benchmark) - labeled corpus of raw-AI, human, and humanized (paraphrase-tool and LLM-humanizer) text samples, with a script to score against a live detector API.
+
 Modern LM evaluation (2023-2026):
 
 - [HELM](https://crfm.stanford.edu/helm/) - holistic evaluation across NLP tasks, accuracy and beyond.
