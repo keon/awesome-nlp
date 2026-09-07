@@ -617,6 +617,7 @@ A short pointer set, since this borders adjacent fields:
 - [FunASR](https://github.com/modelscope/FunASR) - industrial-grade ASR toolkit; 170× realtime on GPU, 50+ languages, built-in VAD, punctuation, speaker diarization, and emotion detection. Includes non-autoregressive SenseVoice and LLM-based Fun-ASR-Nano models.
 - [Wav2Vec 2.0](https://arxiv.org/abs/2006.11477) - foundational self-supervised speech pretraining.
 - [Coqui TTS](https://github.com/coqui-ai/TTS) and [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) - open TTS.
+- [VoxRT](https://github.com/VoxRT) - on-device speech AI runtime in Rust; native streaming ASR (NeMo FastConformer with 80 ms cache-aware lookahead), Silero VAD, wake-word, and 14-command KWS. Ready SPM (iOS) and Gradle (Android) packages, plus Linux aarch64/x86_64 and browser (WASM).
 
 ## Datasets
 
