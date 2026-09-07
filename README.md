@@ -357,6 +357,8 @@ NLP as API with higher level functionality such as NER, Topic tagging and so on 
 - [NLP Cloud](https://nlpcloud.io) - SpaCy NLP models (custom and pre-trained ones) served through a RESTful API for named entity recognition (NER), POS tagging, and more.
 - [Cloudmersive](https://cloudmersive.com/nlp-api) - Unified and free NLP APIs that perform actions such as speech tagging, text rephrasing, language translation/detection, and sentence parsing
 
+- [Palatine Speech](https://speech.palatine.ru/) - AI speech-processing APIs for transcription, speaker diarization, subtitles, translation, sentiment analysis, and summarization; also offers Palatine Murmur 0.4.0 for macOS, Windows, and Linux.
+
 ### Annotation Tools
 
 - [GATE](https://gate.ac.uk/overview.html) - General Architecture and Text Engineering is 15+ years old, free and open source
