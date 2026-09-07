@@ -661,7 +661,7 @@ Pretrained language models and the research around them, scoped to NLP tasks and
 
 Encoders (still the workhorse for classical NLP tasks):
 
-- [BERT](https://arxiv.org/abs/1810.04805) - bidirectional transformer pretraining; foundation for most encoder-based NLP work since 2018.
+- [BERT](https://arxiv.org/abs/1810.04805) - bidirectional transformer pretraining; foundation for most encoder-based NLP work since 2018. [Read online](https://webeditions.page/works/bert-pre-training/) with section navigation and the ACL source attached.
 - [RoBERTa](https://arxiv.org/abs/1907.11692) - robustly optimized BERT pretraining; common encoder baseline.
 - [DeBERTa / DeBERTa-v3](https://arxiv.org/abs/2111.09543) - disentangled attention; strong on classification, NER, NLI.
 - [ELECTRA](https://arxiv.org/abs/2003.10555) - replaced-token-detection pretraining, sample-efficient.
