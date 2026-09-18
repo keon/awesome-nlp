@@ -136,6 +136,7 @@ General Machine Learning
 * [Sebastian Ruder's Newsletter](https://newsletter.ruder.io/) for commentary on the best of NLP research.
 * [How To Label Data](https://www.lighttag.io/how-to-label-data/) guide to managing larger linguistic annotation projects
 * [Depends on the Definition](https://www.depends-on-the-definition.com/) collection of blog posts covering a wide array of NLP topics with detailed implementation
+* [nanobrain — train your own LLM from scratch](https://github.com/Agarwalrishu13/nanobrain) - a hands-on, learn-by-building pipeline: hand-written Llama-2 transformer in raw PyTorch, a self-trained BPE tokenizer, and an exporter that produces models for a dependency-free C inference engine; includes a full public training log
 
 Introductions and Guides to NLP
 
