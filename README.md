@@ -498,6 +498,7 @@ LLM-based:
 - [BERTopic](https://github.com/MaartenGr/BERTopic) - clustering-based topic modeling on top of contextual embeddings; common modern default.
 - [Top2Vec](https://github.com/ddangelov/Top2Vec) - jointly learns topic and document vectors.
 - [CorEx Topic](https://github.com/gregversteeg/corex_topic) - hierarchical topic modeling with anchor words.
+- [TopicSplit](https://github.com/andrwspt/topicsplit) - free offline semantic text grouper. Splits pasted text into topic segments by meaning (lexical cohesion), not word count. 100% browser-based, MIT licensed.
 
 ### Summarization
 
