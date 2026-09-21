@@ -177,6 +177,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 * [Cohere LLM University](https://cohere.com/llmu) - free course on LLMs, embeddings, semantic search, and NLP applications.
 * [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course) - hands-on NLP with Transformers, Datasets, and Tokenizers libraries.
 * [NLP Demystified](https://www.nlpdemystified.org/) - Free beginner-friendly course covering NLP fundamentals through transformers, with Python/Jupyter notebooks.
+* [QuiddityML](https://quiddityml.com/?utm_source=github&utm_medium=awesome&utm_campaign=awesome-nlp) - An app that teaches NLP through short lessons, hands-on PyTorch exercises, and spaced repetition, covering text data and tokenization, word embeddings, language modeling with RNNs and LSTMs, attention, building a GPT, transformer families, and post-training with SFT, RLHF, and DPO
 
 
 ### Books
