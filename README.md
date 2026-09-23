@@ -254,6 +254,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [COMET](https://github.com/Unbabel/COMET) - learned MT metrics, current de-facto standard.
   - [LangTest](https://github.com/JohnSnowLabs/langtest) - 60+ test types for NLP model robustness, bias, and fairness.
    - [yasbd-lib](https://github.com/speedyk-005/yasbd-lib) - High-accuracy, rule-based sentence boundary detector (SBD). Drop-in pysbd adapter, streaming APIs, CLI, and a spaCy component across 39+ languages.
+  - [OpenLanguageModel](https://github.com/openlanguagemodel/openlanguagemodel) - PyTorch-native library for pretraining small transformer language models from scratch; readable reference implementations from GPT-2 through Llama 4, Qwen 3.5 and Gemma 3, BPE tokenizer training, and CPU, single-GPU and single-node multi-GPU (DDP/FSDP) training loops.
 
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
