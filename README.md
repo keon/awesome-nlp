@@ -487,6 +487,7 @@ LLM-based:
 - [SST / IMDB / AG News with DeBERTa-v3](https://arxiv.org/abs/2111.09543) - current encoder-fine-tuning baseline.
 - [PySS3](https://github.com/sergioburdisso/pyss3) - white-box, interpretable text classifier.
 - [LLMs as Annotators](https://arxiv.org/abs/2305.13734) - using LLMs for text classification labeling, with caveats.
+- [jul](https://github.com/usejul/jul) - zero-shot text classification that reads a local LLM's hidden states instead of generating text, with calibrated probabilities.
 
 ### Topic Modeling
 
