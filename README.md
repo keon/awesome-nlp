@@ -645,7 +645,7 @@ Task and instruction datasets:
 
 Lexical resources:
 
-- [Vocab Bloom Hub English dictionary](https://huggingface.co/datasets/Fristail27/vocab-bloom-hub-en) - 300k English entries with sense-level definitions, examples, CEFR levels, inflected forms, synonyms/antonyms and translations into seven languages; LLM-generated, CC BY 4.0, with an open-source self-hosted API and SDKs.
+- [Vocab Bloom Hub English dictionary](https://huggingface.co/datasets/Fristail27/vocab-bloom-hub-en) - 115k English headwords with 161k senses (definitions, examples, CEFR levels), inflected forms, synonym/antonym links and translations into seven languages; LLM-generated, CC BY 4.0, with an open-source self-hosted API and SDKs.
 
 ## Multilingual NLP Frameworks
 
