@@ -643,6 +643,10 @@ Task and instruction datasets:
 - [Tülu 3 SFT Mixture](https://huggingface.co/datasets/allenai/tulu-3-sft-mixture) (2024) - open instruction-tuning data behind Tülu 3.
 - [tiny_qa_benchmark_pp](https://github.com/vincentkoc/tiny_qa_benchmark_pp/) - tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.
 
+Lexical resources:
+
+- [Vocab Bloom Hub English dictionary](https://huggingface.co/datasets/Fristail27/vocab-bloom-hub-en) - 115k English headwords with 161k senses (definitions, examples, CEFR levels), inflected forms, synonym/antonym links and translations into seven languages; LLM-generated, CC BY 4.0, with an open-source self-hosted API and SDKs.
+
 ## Multilingual NLP Frameworks
 
 [Back to Top](#contents)
