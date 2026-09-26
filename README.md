@@ -642,6 +642,7 @@ Task and instruction datasets:
 - [Universal Dependencies](https://universaldependencies.org/) - cross-linguistically consistent treebank annotation, 100+ languages.
 - [Tülu 3 SFT Mixture](https://huggingface.co/datasets/allenai/tulu-3-sft-mixture) (2024) - open instruction-tuning data behind Tülu 3.
 - [tiny_qa_benchmark_pp](https://github.com/vincentkoc/tiny_qa_benchmark_pp/) - tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - Corpus of system prompts and tool schemas from shipping AI products, recorded off the wire and dated, with every file marked as recorded or as model-reported.
 
 ## Multilingual NLP Frameworks
 
