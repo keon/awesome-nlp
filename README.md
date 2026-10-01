@@ -742,7 +742,7 @@ Machine-generated text detection:
 - [HC3](https://arxiv.org/abs/2301.07597) (2023) - Human/ChatGPT Comparison Corpus; paired human and model answers across five domains, widely used as a detection benchmark.
 - [GPT detectors are biased against non-native English writers](https://arxiv.org/abs/2304.02819) (2023) - detectors misclassified a majority of TOEFL essays by non-native writers; the standard caution for this task.
 - [Can AI-Generated Text be Reliably Detected?](https://arxiv.org/abs/2303.11156) (2023) - theoretical limits on detection as model output approaches the human text distribution.
-- [ai-text-verifier](https://github.com/andrescas168/ai-text-verifier) - CPU-only reproduction of perplexity, GLTR rank, burstiness and Binoculars scoring on HC3, reporting true positive rate at a 1% false-positive budget rather than AUROC alone; publishes per-document scores.
+- [ai-text-verifier](https://github.com/andrescas168/ai-text-verifier) - CPU-only reproduction of perplexity, top-10 share, burstiness and Binoculars scoring on HC3, reporting true positive rate at a 1% false-positive budget rather than AUROC alone; publishes per-document scores.
 
 ### Reasoning and Test-Time Compute
 
