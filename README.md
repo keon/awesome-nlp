@@ -735,6 +735,15 @@ Long-context evaluation:
 - [LongBench v2](https://arxiv.org/abs/2412.15204) (2025) - 503 expert-crafted multiple-choice questions spanning 8K-2M-word contexts with deep multi-hop reasoning; humans score 53.7% under time pressure.
 - [U-NIAH](https://arxiv.org/abs/2503.00353) (2025) - extends needle-in-haystack with multi-needle and nested configurations; shows RAG mitigates lost-in-the-middle for smaller LLMs but degrades reasoning models.
 
+Machine-generated text detection:
+
+- [DetectGPT](https://arxiv.org/abs/2301.11305) (2023) - zero-shot detection using probability curvature; model-generated text sits near a local maximum of the model's log-probability.
+- [Binoculars](https://arxiv.org/abs/2401.12070) (2024) - zero-shot detection scoring perplexity against cross-perplexity over a base/instruct model pair, which reduces false positives on unusual writing.
+- [HC3](https://arxiv.org/abs/2301.07597) (2023) - Human/ChatGPT Comparison Corpus; paired human and model answers across five domains, widely used as a detection benchmark.
+- [GPT detectors are biased against non-native English writers](https://arxiv.org/abs/2304.02819) (2023) - detectors misclassified a majority of TOEFL essays by non-native writers; the standard caution for this task.
+- [Can AI-Generated Text be Reliably Detected?](https://arxiv.org/abs/2303.11156) (2023) - theoretical limits on detection as model output approaches the human text distribution.
+- [ai-text-verifier](https://github.com/andrescas168/ai-text-verifier) - CPU-only reproduction of perplexity, GLTR rank, burstiness and Binoculars scoring on HC3, reporting true positive rate at a 1% false-positive budget rather than AUROC alone; publishes per-document scores.
+
 ### Reasoning and Test-Time Compute
 
 A trend-defining direction in 2024-2026: models that produce explicit reasoning traces and benefit from extra inference compute.
