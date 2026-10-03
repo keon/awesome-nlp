@@ -326,6 +326,7 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [whatlang](https://github.com/greyblake/whatlang-rs) — Natural language recognition library based on trigrams
   - [rust-bert](https://github.com/guillaume-be/rust-bert) - Ready-to-use NLP pipelines and Transformer-based models
   - [snips-nlu-rs](https://github.com/snipsco/snips-nlu-rs) *(archived — Snips was discontinued)* - A production ready library for intent parsing
+  - [Chislo](https://github.com/rekurt/chislo): Converts numbers to Russian words with grammatical gender, noun declension, ordinals, and currency formatting.
 
 - <a id="NLP++">**NLP++** - NLP++ Language</a> | [Back to Top](#contents)
   - [VSCode Language Extension](https://marketplace.visualstudio.com/items?itemName=dehilster.nlp) - NLP++ Language Extension for VSCode
