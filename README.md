@@ -254,7 +254,8 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
   - [COMET](https://github.com/Unbabel/COMET) - learned MT metrics, current de-facto standard.
   - [LangTest](https://github.com/JohnSnowLabs/langtest) - 60+ test types for NLP model robustness, bias, and fairness.
    - [yasbd-lib](https://github.com/speedyk-005/yasbd-lib) - High-accuracy, rule-based sentence boundary detector (SBD). Drop-in pysbd adapter, streaming APIs, CLI, and a spaCy component across 39+ languages.
-
+   - [Languages of the World](https://github.com/jnehring/languages-of-the-world) - Metadata for 7,900+ languages (ISO 639-3, Glottolog families, endangerment, scripts, speaker counts, official status) as a navigable Python object graph.
+     
 - <a id="c++">**C++** - C++ Libraries</a> | [Back to Top](#contents)
   - [InsNet](https://github.com/chncwang/InsNet) - A neural network library for building instance-dependent NLP models with padding-free dynamic batching.
   - [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
