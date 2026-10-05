@@ -487,6 +487,7 @@ LLM-based:
 - [SST / IMDB / AG News with DeBERTa-v3](https://arxiv.org/abs/2111.09543) - current encoder-fine-tuning baseline.
 - [PySS3](https://github.com/sergioburdisso/pyss3) - white-box, interpretable text classifier.
 - [LLMs as Annotators](https://arxiv.org/abs/2305.13734) - using LLMs for text classification labeling, with caveats.
+- [DecisionTune](https://github.com/decision-tune/decision-tune) - 395M encoder that scores the options of a classification question in one pass, with a probability for each.
 
 ### Topic Modeling
 
