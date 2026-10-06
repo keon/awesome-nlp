@@ -1360,6 +1360,7 @@ Resources organized by human language. Click a section to expand.
 - Asian Languages: Thai, Lao, Chinese, Japanese, and Korean [ICU Tokenizer](https://www.elastic.co/guide/en/elasticsearch/plugins/current/analysis-icu-tokenizer.html) implementation in ElasticSearch
 - Ancient Languages: [CLTK](https://github.com/cltk/cltk): The Classical Language Toolkit is a Python library and collection of texts for doing NLP in ancient languages
 - Hebrew: [NLPH_Resources](https://github.com/NLPH/NLPH_Resources) - A collection of papers, corpora and linguistic resources for NLP in Hebrew
+- Rohingya: [Rohingya Tools](https://github.com/abahziz0/rohingya-tools) - Beta, rule-based transliteration between Hanifi Rohingya and Latin Rohingyalish, with an offline TypeScript library and browser reader; maintained by AB Aziz at [RohingyaLanguage.org](https://rohingyalanguage.org/tools/script-converter/).
 
 [Back to Top](#contents)
 
