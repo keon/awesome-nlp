@@ -2,16 +2,6 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
----
-
-> **Sponsored by [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp)**
->
-> <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-nlp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/atlas-cloud-dark.png"><img src="assets/atlas-cloud-light.png" alt="Atlas Cloud" width="220" /></picture></a>
->
-> **AI API aggregation platform with an OpenAI-compatible LLM endpoint** for NLP tasks such as translation, summarization, multilingual generation, and structured extraction.
-
----
-
 A curated list of resources dedicated to Natural Language Processing
 
 _Please read the [contribution guidelines](contributing.md) before contributing. Please add your favourite NLP resource by raising a [pull request](https://github.com/keonkim/awesome-nlp/pulls)_
@@ -402,7 +392,7 @@ Contextual embeddings:
 - [ULMFiT](https://arxiv.org/abs/1801.06146) - language-model fine-tuning for text classification.
 - [InferSent](https://arxiv.org/abs/1705.02364) - sentence representations from NLI.
 
-Modern sentence and document embeddings: see [Retrieval for NLP](#retrieval-for-nlp) (Sentence-Transformers, E5, BGE-M3, Nomic, GritLM) and [MTEB](https://github.com/embeddings-benchmark/mteb) for current leaderboards.
+Modern sentence and document embeddings: see [Retrieval and Embeddings](#retrieval-and-embeddings) (Sentence-Transformers, E5, BGE-M3, Nomic, GritLM) and [MTEB](https://github.com/embeddings-benchmark/mteb) for current leaderboards.
 
 ### Tokenization, Morphology, and Segmentation
 
@@ -562,13 +552,14 @@ Modern open-domain QA:
 
 - [DPR](https://arxiv.org/abs/2004.04906) and [FiD](https://arxiv.org/abs/2007.01282) - retrieve-then-read; the standard pre-LLM open-domain QA pipeline.
 - [Atlas](https://arxiv.org/abs/2208.03299) - retrieval-augmented LM for few-shot QA.
-- See also [Retrieval for NLP](#retrieval-for-nlp).
+- See also [Retrieval and Embeddings](#retrieval-and-embeddings).
 
 LLM-era:
 
 - [GPT-4 with retrieval on TriviaQA / NQ](https://arxiv.org/abs/2305.06983)
 - [Self-RAG](https://arxiv.org/abs/2310.11511) (2023) - retrieval, generation, and self-critique.
 - [GAIA](https://arxiv.org/abs/2311.12983) - general AI assistant benchmark including multi-step QA.
+- [OpenScholar](https://arxiv.org/abs/2411.14199) (2024; Nature, 2026) - retrieval-augmented scientific question answering with citation-backed literature synthesis and the ScholarQABench evaluation dataset; [code and models](https://github.com/AkariAsai/OpenScholar).
 
 ### Information Extraction Beyond NER
 
@@ -581,6 +572,7 @@ LLM-era:
 - [DocRED](https://github.com/thunlp/DocRED) - document-level relation extraction benchmark.
 - [LLMs for Semantic Role Labeling](https://arxiv.org/abs/2506.05385) (2025) - generative LLMs with RAG and self-correction surpass encoder-decoder BERT-style models on SRL in English and Chinese.
 - [Adapting LLMs for Minimal-edit GEC](https://arxiv.org/abs/2506.13148) (2025) - decoder-only LLMs with a novel error-rate adaptation schedule set new SOTA on BEA-test grammatical error correction.
+- [GLiNER2](https://aclanthology.org/2025.emnlp-demos.10/) (2025) - schema-driven encoder model for named entity recognition, text classification, and structured information extraction with CPU-efficient inference; [code and models](https://github.com/fastino-ai/GLiNER2).
 
 ### Retrieval and Embeddings
 
@@ -636,6 +628,7 @@ Pretraining-scale corpora (open):
 - [FineWeb / FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb) (2024) - 15T-token cleaned web corpus; FineWeb-Edu filters for educational quality.
 - [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) - 6.3T tokens across 167 languages.
 - [Common Corpus](https://huggingface.co/datasets/PleIAs/common_corpus) (2024) - 2T-token open-license multilingual corpus.
+- [FineWeb2](https://arxiv.org/abs/2506.20920) (2025) - multilingual web corpus covering 1,000+ languages, with language-adaptive filtering, deduplication, and data balancing; [dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) and [code](https://github.com/huggingface/fineweb-2).
 
 Task and instruction datasets:
 
@@ -699,6 +692,7 @@ Open decoder-only LMs (used as substrate for NLP tasks):
 - [AfriqueLLM](https://arxiv.org/abs/2601.06395) (McGill, 2026) - suite of open LLMs (4B-14B) continued-pretrained on 26B tokens across 20 African languages with a comprehensive empirical study of data mixing.
 - [TranslateGemma](https://arxiv.org/abs/2601.09012) (Google, 2026) - open translation-specialized models built on Gemma 3, covering 55 language pairs via SFT and RL with quality-reward models.
 - [MiLMMT-46](https://arxiv.org/abs/2602.11961) (Xiaomi, 2026) - open multilingual MT scaled across 46 languages, matching commercial systems like Google Translate and Gemini 3 Pro.
+- [mmBERT](https://arxiv.org/abs/2509.06888) (2025) - multilingual encoder pretrained on 3T tokens across 1,800+ languages, with annealed language learning for low-resource classification and retrieval; [code and models](https://github.com/jhu-clsp/mmBERT).
 
 ### Evaluation and Benchmarks
 
