@@ -451,6 +451,7 @@ LLM-based:
 - [GPT-NER](https://arxiv.org/abs/2304.10428) - LLMs for named entity recognition.
 - [Can LLMs Replace Sentence-Level NER?](https://arxiv.org/abs/2402.10573) (2024) - cost-quality tradeoffs.
 - [Generative NER in the Era of LLMs](https://arxiv.org/abs/2601.17898) (2026) - eight open LLMs across four NER benchmarks; PEFT with structured outputs matches encoder-based NER.
+- [Just Pass Twice (JPT)](https://aclanthology.org/2026.acl-long.526/) (ACL 2026) - efficient zero-shot NER using decoder-only LLMs as bidirectional token classifiers through input repetition and natural-language entity definitions; [code](https://github.com/a-3wais/Just-Pass-Twice-NER).
 
 ### Coreference Resolution
 
