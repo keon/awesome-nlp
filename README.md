@@ -609,6 +609,7 @@ A short pointer set, since this borders adjacent fields:
 - [FunASR](https://github.com/modelscope/FunASR) - industrial-grade ASR toolkit; 170× realtime on GPU, 50+ languages, built-in VAD, punctuation, speaker diarization, and emotion detection. Includes non-autoregressive SenseVoice and LLM-based Fun-ASR-Nano models.
 - [Wav2Vec 2.0](https://arxiv.org/abs/2006.11477) - foundational self-supervised speech pretraining.
 - [Coqui TTS](https://github.com/coqui-ai/TTS) and [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) - open TTS.
+- [Saymore](https://github.com/frankzch/Saymore) - Windows-only open-source Chinese speech input and dictation organizer with local ASR and text cleanup.
 
 ## Datasets
 
