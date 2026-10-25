@@ -635,6 +635,7 @@ Task and instruction datasets:
 - [Universal Dependencies](https://universaldependencies.org/) - cross-linguistically consistent treebank annotation, 100+ languages.
 - [Tülu 3 SFT Mixture](https://huggingface.co/datasets/allenai/tulu-3-sft-mixture) (2024) - open instruction-tuning data behind Tülu 3.
 - [tiny_qa_benchmark_pp](https://github.com/vincentkoc/tiny_qa_benchmark_pp/) - tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.
+- [MeloLingua CEFR-Graded Multilingual Stories](https://github.com/MeloLingua/melolingua-language-stories-dataset) - 118 A1-B2 graded stories in six languages (de, es, fr, it, ko, ru) with sentence-aligned English translations, vocabulary and comprehension questions; CC BY-NC 4.0, [DOI](https://doi.org/10.5281/zenodo.22142993).
 
 ## Multilingual NLP Frameworks
 
