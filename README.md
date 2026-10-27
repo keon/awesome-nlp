@@ -477,6 +477,7 @@ LLM-based:
 - [SST / IMDB / AG News with DeBERTa-v3](https://arxiv.org/abs/2111.09543) - current encoder-fine-tuning baseline.
 - [PySS3](https://github.com/sergioburdisso/pyss3) - white-box, interpretable text classifier.
 - [LLMs as Annotators](https://arxiv.org/abs/2305.13734) - using LLMs for text classification labeling, with caveats.
+- [SlopTotal](https://github.com/pablocaeg/sloptotal) - machine-generated text detection that combines 23 classifiers, statistical tests and heuristics, evaluated on an open benchmark of 3,252 human and AI texts.
 
 ### Topic Modeling
 
