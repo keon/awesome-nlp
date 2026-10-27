@@ -891,6 +891,7 @@ Resources organized by human language. Click a section to expand.
 - [AraELECTRA](https://aclanthology.org/2021.wanlp-1.20/) - efficient Arabic pretraining (released alongside [AraBERT](https://github.com/aub-mind/arabert)).
 - [Jais](https://huggingface.co/inceptionai/jais-13b) (2023-2024) - bilingual Arabic-English open LM family.
 - [ALLaM](https://arxiv.org/abs/2407.15390) (SDAIA, 2024) - Arabic-first foundation models.
+- [decima-pii](https://huggingface.co/amyrmahdy/decima-pii) (2026) - 140M model that tags personal data (names, phones, IDs, IBANs, cards, addresses) in Arabic text across MSA, Gulf, Egyptian, Levantine and Maghrebi writing, Arabizi and Arabic-Indic digits.
 
 ### Datasets
 
