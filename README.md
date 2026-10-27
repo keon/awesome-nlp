@@ -1152,6 +1152,7 @@ Resources organized by human language. Click a section to expand.
 - [ParsBERT](https://github.com/hooshvare/parsbert) - Persian BERT.
 - [PersianMind](https://huggingface.co/universitytehran/PersianMind-v1.0) (2023-2024) - Persian instruction-tuned LM.
 - [Dorna](https://huggingface.co/PartAI/Dorna-Llama3-8B-Instruct) (Part AI, 2024) - Llama-3-based Persian instruction model.
+- [decima-pii](https://huggingface.co/amyrmahdy/decima-pii) (2026) - 140M model that tags personal data (names, phones, national IDs, IBANs, cards, addresses) in Persian text, including Persian digits and Finglish.
 
 ### Datasets
 
