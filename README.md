@@ -183,7 +183,8 @@ Material can be found [here](https://github.com/aws-samples/aws-machine-learning
 * [Natural Language Processing in Action, Second Edition](https://www.manning.com/books/natural-language-processing-in-action-second-edition) - by Hobson Lane and Maria Dyshel
 * [Transformers in Action](https://www.manning.com/books/transformers-in-action) - by Nicole Koenigstein
 * [The Math Behind Artificial Intelligence](https://www.freecodecamp.org/news/the-math-behind-artificial-intelligence-book) - bt Tiago MOnteiro | A free FreeCodeCamp book teaching the math behind AI in plain English from an engineering point of view. It covers linear algebra, calculus, probability & statistics, and optimization theory with analogies, real-life applications, and Python code examples.
-  
+  - [Inside the Next-Token Machine: A Software Engineer's Guide to How LLMs Really Work](https://tailoredread.com/book/inside-next-token-machine-software-engineer-guide-d807525cec26) - Free complete book on how large language models work, for software engineers, written with AI. Read online or download the PDF or EPUB.
+    
 ## Libraries
 
 [Back to Top](#contents)
