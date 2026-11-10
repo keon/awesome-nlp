@@ -609,6 +609,7 @@ A short pointer set, since this borders adjacent fields:
 - [FunASR](https://github.com/modelscope/FunASR) - industrial-grade ASR toolkit; 170× realtime on GPU, 50+ languages, built-in VAD, punctuation, speaker diarization, and emotion detection. Includes non-autoregressive SenseVoice and LLM-based Fun-ASR-Nano models.
 - [Wav2Vec 2.0](https://arxiv.org/abs/2006.11477) - foundational self-supervised speech pretraining.
 - [Coqui TTS](https://github.com/coqui-ai/TTS) and [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) - open TTS.
+- [OneMira C1](https://onemira.com/products/c1) - Standalone voice recorder whose companion OneMira Desktop app (macOS/Windows) performs local ASR transcription, 99-language speaker diarization, and AI summaries offline by default ($0/month subscription; optional user-supplied cloud LLM API keys send prompts to the chosen provider), with OKF Markdown Wiki and MCP/CLI integration ([GitHub](https://github.com/onemira-space/onemira-mcp)).
 
 ## Datasets
 
