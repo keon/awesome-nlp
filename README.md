@@ -593,6 +593,7 @@ Dense and late-interaction retrieval, increasingly the substrate for QA and IR:
 - [Rank1](https://arxiv.org/abs/2502.18418) (2025) - first reranking model trained with test-time compute via DeepSeek-R1 reasoning-trace distillation; SOTA on instruction-following and OOD retrieval.
 - [ReasonEmbed](https://arxiv.org/abs/2510.08252) (2025) - embedding model for reasoning-intensive retrieval with ReMixer data synthesis and Redapter adaptive training; record nDCG@10 of 38.1 on BRIGHT.
 - [ColBERT-Att](https://arxiv.org/abs/2603.25248) (2026) - extends late-interaction retrieval by integrating query and document attention weights into ColBERT scoring; improves recall on MS-MARCO, BEIR, and LoTTE.
+- [ExpandR](https://github.com/NEUIR/ExpandR) (EMNLP 2025 Oral) - Jointly optimizes LLM-generated query expansions and a dense retriever to align query generation with ranking.
 Embedding and retrieval benchmarks:
 
 - [MMTEB](https://arxiv.org/abs/2502.13595) (2025) - community expansion of MTEB to 500+ tasks across 250+ languages.
