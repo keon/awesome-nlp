@@ -764,6 +764,7 @@ A trend-defining direction in 2024-2026: models that produce explicit reasoning 
 - [Native Sparse Attention (NSA)](https://arxiv.org/abs/2502.11089) (2025) - trainable sparse attention combining coarse-grained compression with fine-grained selection; large speedups at 64K with no NLP-benchmark degradation.
 - [LongRoPE2](https://arxiv.org/abs/2502.20082) (2025) - identifies undertraining of high-frequency RoPE dimensions and applies evolutionary-search rescaling; extends LLaMA3-8B to 128K with 80x fewer training tokens than Meta's recipe.
 - [Characterizing SSM and Hybrid LM Long-Context Performance](https://arxiv.org/abs/2507.12442) (2025) - first comprehensive memory and speed analysis of transformer, SSM, and hybrid models up to 220K tokens; SSMs are up to 4x faster, hybrids balance recall and efficiency.
+- [Chunks as Arms (LongMab-PO)](https://github.com/NEUIR/LongMab-PO) (ACL 2026 Oral) - Uses bandit-guided context-chunk sampling to construct preference pairs for long-context language-model optimization.
 
 ### Factuality, Hallucination, Calibration
 
