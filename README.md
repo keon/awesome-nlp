@@ -781,6 +781,7 @@ A trend-defining direction in 2024-2026: models that produce explicit reasoning 
 - [MUCH](https://arxiv.org/abs/2511.17081) (2025) - multilingual claim-hallucination benchmark across English, French, Spanish, German with token-level logits released for principled UQ evaluation.
 - [HalluHard](https://arxiv.org/abs/2602.01031) (2026) - hard multi-turn hallucination benchmark for citation-required responses; ~30% hallucination rates persist even with web search.
 - [CURE: Think Through Uncertainty](https://arxiv.org/abs/2604.12046) (2026) - trains models to reason about claim-level uncertainty before generating; large gains on biography factuality and FactBench AUROC.
+- [SPARK](https://github.com/OpenBMB/SPARK) (2026) - Uses a lightweight policy to scale FFN contributions during decoding and mitigate conflicts between parametric knowledge and retrieved context.
 
 ### Probing and Interpretability
 
