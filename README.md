@@ -573,6 +573,7 @@ LLM-era:
 - [LLMs for Semantic Role Labeling](https://arxiv.org/abs/2506.05385) (2025) - generative LLMs with RAG and self-correction surpass encoder-decoder BERT-style models on SRL in English and Chinese.
 - [Adapting LLMs for Minimal-edit GEC](https://arxiv.org/abs/2506.13148) (2025) - decoder-only LLMs with a novel error-rate adaptation schedule set new SOTA on BEA-test grammatical error correction.
 - [GLiNER2](https://aclanthology.org/2025.emnlp-demos.10/) (2025) - schema-driven encoder model for named entity recognition, text classification, and structured information extraction with CPU-efficient inference; [code and models](https://github.com/fastino-ai/GLiNER2).
+- [citeparse](https://github.com/un-seen/citeparse) - token-classification models (32M/150M) that label the fields of bibliographic reference strings and output CSL-JSON or BibTeX; runs on CPU or in the browser via transformers.js.
 
 ### Retrieval and Embeddings
 
