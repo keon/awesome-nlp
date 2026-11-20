@@ -534,6 +534,7 @@ LLM-based:
 - [GPT-4 vs Human Translators](https://arxiv.org/abs/2308.03245) - quality comparison on professional MT.
 - [Multilingual MT with Open LLMs at Practical Scale](https://arxiv.org/abs/2502.02481) (2025) - benchmarks sub-10B open LLMs on 28-language MT; matches GPT-4-turbo and Google Translate.
 - [Bridging the Linguistic Divide: Survey on LLMs for MT](https://arxiv.org/abs/2504.01919) (2025) - survey of how instruction-following, in-context learning, and preference alignment have restructured MT methodology.
+- [Translate-and-Revise: Boosting Large Language Models for Constrained Translation](https://aclanthology.org/2024.ccl-1.82/) (CCL 2024) - Checks translations for unmet lexical or structural constraints and prompts an LLM to revise them.
 
 ### Question Answering and Reading Comprehension
 
