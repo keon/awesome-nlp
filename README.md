@@ -629,6 +629,7 @@ Pretraining-scale corpora (open):
 - [CulturaX](https://huggingface.co/datasets/uonlp/CulturaX) - 6.3T tokens across 167 languages.
 - [Common Corpus](https://huggingface.co/datasets/PleIAs/common_corpus) (2024) - 2T-token open-license multilingual corpus.
 - [FineWeb2](https://arxiv.org/abs/2506.20920) (2025) - multilingual web corpus covering 1,000+ languages, with language-adaptive filtering, deduplication, and data balancing; [dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) and [code](https://github.com/huggingface/fineweb-2).
+- [Global Law](https://github.com/lexifina/global-law) - legislation of 208 jurisdictions (714 corpora) in their original languages, each act a folder with one file per provision and every version a git commit dated the day it took effect; index and tools CC0.
 
 Task and instruction datasets:
 
