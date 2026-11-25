@@ -445,6 +445,7 @@ Open and instruction-following IE:
 - [GLiNER](https://arxiv.org/abs/2311.08526) (2023) - small, generalist NER model that handles arbitrary entity types at inference.
 - [GoLLIE](https://arxiv.org/abs/2310.03668) - guideline-following information extraction with LMs.
 - [REBEL](https://github.com/Babelscape/rebel) - end-to-end relation extraction as seq2seq.
+- [ReDefiNER](https://github.com/jungroo-ai/redefiner) - 0.8B non-generative NER model that follows written entity guidelines and runs on a CPU.
 
 LLM-based:
 
