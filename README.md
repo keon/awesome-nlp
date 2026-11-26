@@ -637,7 +637,7 @@ Task and instruction datasets:
 - [Universal Dependencies](https://universaldependencies.org/) - cross-linguistically consistent treebank annotation, 100+ languages.
 - [Tülu 3 SFT Mixture](https://huggingface.co/datasets/allenai/tulu-3-sft-mixture) (2024) - open instruction-tuning data behind Tülu 3.
 - [tiny_qa_benchmark_pp](https://github.com/vincentkoc/tiny_qa_benchmark_pp/) - tiny NLP multi-lingual QA datasets and library to generate your own synthetic copies.
-- [AI Story Apps Benchmark 2026](https://github.com/ouba-studio/ai-story-apps-benchmark-2026) - Open CC-BY-4.0 dataset (doi:10.7910/DVN/YEBHQR) comparing 10 consumer AI story apps on time-to-first-story, free-tier walls, ads, and 15-turn verbatim memory recall, with a five-mode silent state-drift taxonomy and a Python/JS scorer.
+- [AI Story Apps Benchmark 2026](https://github.com/ouba-studio/ai-story-apps-benchmark-2026) - Open CC-BY-4.0 dataset (doi:10.7910/DVN/YEBHQR) comparing 10 consumer AI interactive fiction and story apps on time-to-first-story, free-tier walls, ads, and 15-turn verbatim memory recall, with a reproducible Jupyter/Colab analysis notebook (companion Python/JS transcript drift scorer in [branching-story-mcp](https://github.com/ouba-studio/branching-story-mcp)).
 
 ## Multilingual NLP Frameworks
 
